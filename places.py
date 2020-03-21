@@ -20,6 +20,7 @@ PLACE_SEARCHES = [
     'park',
     'mall',
     'supermarket',
+    'street market',
     'hardware store'
 ]
 
@@ -77,15 +78,6 @@ for city_i, cityrow in cities.iterrows():
         query_id = cityrow.city + cityrow.country + place_query
         if query_id in queried_cities:
             print('>> skipping (already queried this city for this kind of places)')
-
-            # don't forget to re-add to results
-            existing_rows = existing_pois.loc[(existing_pois.city == cityrow.city) &
-                                              (existing_pois.country == cityrow.country) &
-                                              (existing_pois['query'] == place_query), :]
-
-            if len(existing_rows) > 0:
-                resultrows.extend([row.to_list() for _, row in existing_rows.iterrows()])
-
             continue
 
         places = gmaps.places(query=full_query, location=(cityrow.lat, cityrow.lng), radius=PLACE_SEARCH_RADIUS)
@@ -112,8 +104,6 @@ for city_i, cityrow in cities.iterrows():
 
             if place['place_id'] in existing_place_ids:
                 print('>> skipping (already queried place with ID %s)' % place['place_id'])
-                # don't forget to re-add to results
-                resultrows.append(existing_pois.loc[existing_pois.place_id == place['place_id'], :].iloc[0].to_list())
                 continue
 
             poptimes = populartimes.get_id(api_key=API_KEY, place_id=place['place_id'])
@@ -146,7 +136,16 @@ for city_i, cityrow in cities.iterrows():
         'query', 'place_id', 'name', 'addr', 'place_lat', 'place_lng'
     ])
 
+    places_of_interest = pd.concat((existing_pois, places_of_interest), ignore_index=True)\
+        .drop_duplicates(['city', 'country', 'iso2', 'query', 'place_id'])\
+        .sort_values(by=['country', 'city', 'query', 'name'])\
+        .reset_index(drop=True)
+
     places_of_interest.to_csv(RESULT_FILE, index=False)
 
     with open(QUERIED_FILE, mode='wb') as f:
         pickle.dump(queried_cities, f)
+
+    print('\n\n')
+
+print('done.')

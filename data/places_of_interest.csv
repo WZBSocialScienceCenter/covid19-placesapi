@@ -1,74 +1,207 @@
 city,country,iso2,lat,lng,query,place_id,name,addr,place_lat,place_lng
 Kabul,Afghanistan,AF,34.5167,69.1833,park,ChIJbWAhh7hu0TgRaDRVJl_nI_w,پارک شهر نو,"Shahre Now Park، Kabul, Afghanistan",34.5339042,69.1689984
 Buenos Aires,Argentina,AR,-34.6025,-58.3975,bar,ChIJ2Uj7kcDKvJURzFx4ATwvHMw,Dellepiane Bar,"Luis Dellepiane 685, C1019 CABA, Argentina",-34.6009435,-58.3909198
-Buenos Aires,Argentina,AR,-34.6025,-58.3975,train station,ChIJiY6tebPKvJURwmyqs_itvhc,Rail Line Belgrano Norte - Retiro Station,"Buenos Aires, Argentina",-34.5898961,-58.3743491
-Buenos Aires,Argentina,AR,-34.6025,-58.3975,train station,ChIJacCoa_LKvJURkiz-1eM4WB4,Estación Once,"C1198 Buenos Aires, Argentina",-34.6083758,-58.4070088
-Buenos Aires,Argentina,AR,-34.6025,-58.3975,train station,ChIJt1yo9Za1vJURUl08aXKN_sc,Mtro. Carranza,"Buenos Aires, Argentina",-34.5756947,-58.4351655
-Buenos Aires,Argentina,AR,-34.6025,-58.3975,sights,ChIJl9_7lx81o5URTyXCnVNNCgw,Reserva Ecológica Costanera Sur,"Buenos Aires, Buenos Aires Province, Argentina",-34.6081059,-58.3509217
-Buenos Aires,Argentina,AR,-34.6025,-58.3975,sights,ChIJifSktCzLvJURsTMaMFXLu3E,Plaza Dorrego,"Humberto 1º 400, C1103 CABA, Argentina",-34.6205105,-58.371756
-Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJlfwm7sw0o5URYMQbNmnr3i4,Parque Lezama,"Av. Brasil, C1143 CABA, Argentina",-34.6265523,-58.369556
-Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJY7v2kSg1o5URwfnHzj56_6M,Mujeres Argentinas Park,"Juana Manso, Buenos Aires, Argentina",-34.6073529,-58.361796
-Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJAZygNsPKvJUR05SnBb3jAsc,Congressional Plaza,"C1033 Buenos Aires, Argentina",-34.6097082,-58.3903334
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJP9FLhYzKvJURoUraVMD1DPw,Abasto de Buenos Aires,"Av. Corrientes 3247, C1193 CABA, Argentina",-34.6038897,-58.41099820000001
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJlXOtb2W1vJURpg0p1aOr42Q,Alcorta Mall,"Jerónimo Salguero 3172, C1425 CABA, Argentina",-34.574466799999996,-58.403802899999995
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJIRWq0oPKvJURoBsCDf5Bqcc,Alto Palermo,"Av. Santa Fe 3253, C1091 CABA, Argentina",-34.5878627,-58.41016060000001
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJr_waC8vKvJURnJ45T8-lU40,Galerías Pacífico,"Av. Córdoba 550, C1054 CABA, Argentina",-34.5992344,-58.374781799999994
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJ5SwBkKLKvJURKJZdVKCCu9U,Recoleta Mall,"Vicente López 2050, C1126 CABA, Argentina",-34.589138399999996,-58.3939348
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJAZygNsPKvJUR05SnBb3jAsc,Congressional Plaza,"C1033 Buenos Aires, Argentina",-34.60970820000001,-58.3903334
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJewp303e1vJURrDtuJI_Wdq4,Mayor Seeber Square,"Av. Sarmiento, Buenos Aires, Argentina",-34.575394700000004,-58.417100399999995
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJY7v2kSg1o5URwfnHzj56_6M,Mujeres Argentinas Park,"Juana Manso, Buenos Aires, Argentina",-34.607352899999995,-58.361796
 Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJzUXgvH21vJURmgmG5hpUBCc,Parque Las Heras,"French, C1425 CABA, Argentina",-34.5841026,-58.4080162
-Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJ3_VmO6TKvJUReBNAK9tnIfk,Parque Thays,"Barrio, Buenos Aires, Argentina",-34.5847947,-58.3871222
-Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJewp303e1vJURrDtuJI_Wdq4,Mayor Seeber Square,"Av. Sarmiento, Buenos Aires, Argentina",-34.5753947,-58.4171004
-Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJpSAB-cXKvJURj2P83WlerSQ,Plaza Lavalle,"Lavalle 1200, C1043 AAL, Buenos Aires, Argentina",-34.6020577,-58.384511
-Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJ5SwBkKLKvJURKJZdVKCCu9U,Recoleta Mall,"Vicente López 2050, C1126 CABA, Argentina",-34.5891384,-58.3939348
-Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJr_waC8vKvJURnJ45T8-lU40,Galerías Pacífico,"Av. Córdoba 550, C1054 CABA, Argentina",-34.5992344,-58.3747818
-Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJlXOtb2W1vJURpg0p1aOr42Q,Alcorta Mall,"Jerónimo Salguero 3172, C1425 CABA, Argentina",-34.5744668,-58.4038029
-Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJIRWq0oPKvJURoBsCDf5Bqcc,Alto Palermo,"Av. Santa Fe 3253, C1091 CABA, Argentina",-34.5878627,-58.4101606
-Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJP9FLhYzKvJURoUraVMD1DPw,Abasto de Buenos Aires,"Av. Corrientes 3247, C1193 CABA, Argentina",-34.6038897,-58.4109982
-Buenos Aires,Argentina,AR,-34.6025,-58.3975,supermarket,ChIJ-RipWM_KvJURLksgUfbE0a8,Carrefour Market,"Av. Corrientes 1160, 1043 CABA, Argentina",-34.6038206,-58.3830228
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJlfwm7sw0o5URYMQbNmnr3i4,Parque Lezama,"Av. Brasil, C1143 CABA, Argentina",-34.6265523,-58.369556
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJ3_VmO6TKvJUReBNAK9tnIfk,Parque Thays,"Barrio, Buenos Aires, Argentina",-34.5847947,-58.38712220000001
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJpSAB-cXKvJURj2P83WlerSQ,Plaza Lavalle,"Lavalle 1200, C1043 AAL, Buenos Aires, Argentina",-34.6020577,-58.384510999999996
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,sights,ChIJifSktCzLvJURsTMaMFXLu3E,Plaza Dorrego,"Humberto 1º 400, C1103 CABA, Argentina",-34.620510499999995,-58.37175600000001
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,sights,ChIJl9_7lx81o5URTyXCnVNNCgw,Reserva Ecológica Costanera Sur,"Buenos Aires, Buenos Aires Province, Argentina",-34.6081059,-58.35092170000001
 Buenos Aires,Argentina,AR,-34.6025,-58.3975,supermarket,ChIJh5h_ncTKvJURB0UlqsDZFMo,COTO,"Bartolomé Mitre 1560, C1037 ABD, Buenos Aires, Argentina",-34.6078863,-58.3888302
-Canberra,Australia,AU,-35.283,149.129,sights,ChIJB3tFOEtNFmsR4C1Xi2_qAA8,Australian National Botanic Gardens,"Clunies Ross St, Acton ACT 2601, Australia",-35.278878,149.108918
-Canberra,Australia,AU,-35.283,149.129,sights,ChIJeb_-XhdNFmsR5ZuDF8x3UFw,Questacon - National Science and Technology Centre,"King Edward Terrace, Parkes ACT 2600, Australia",-35.2985069,149.1315243
-Canberra,Australia,AU,-35.283,149.129,sights,ChIJCUsl4BhNFmsRhaBxEayyx04,Old Parliament House,"18 King George Terrace, Parkes ACT 2600, Australia",-35.3022644,149.1297341
-Canberra,Australia,AU,-35.283,149.129,sights,ChIJyVCSt3tSFmsRuisG4DhEWuo,Mount Ainslie Lookout,"20 Mount Ainslie Dr, Australian Capital Territory 2609, Australia",-35.2703529,149.1580644
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,supermarket,ChIJ-RipWM_KvJURLksgUfbE0a8,Carrefour Market,"Av. Corrientes 1160, 1043 CABA, Argentina",-34.6038206,-58.3830228
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,train station,ChIJacCoa_LKvJURkiz-1eM4WB4,Estación Once,"C1198 Buenos Aires, Argentina",-34.6083758,-58.4070088
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,train station,ChIJt1yo9Za1vJURUl08aXKN_sc,Mtro. Carranza,"Buenos Aires, Argentina",-34.57569470000001,-58.435165500000004
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,train station,ChIJiY6tebPKvJURwmyqs_itvhc,Rail Line Belgrano Norte - Retiro Station,"Buenos Aires, Argentina",-34.589896100000004,-58.3743491
+Canberra,Australia,AU,-35.283,149.129,hardware store,ChIJs8XJwKtNFmsR6wigjLsr51I,Bunnings Canberra Airport,"Canberra Airport, 971 Majura Rd, Majura Park ACT 2609, Australia",-35.29312210000001,149.1912836
+Canberra,Australia,AU,-35.283,149.129,mall,ChIJ__9RT-9MFmsRpdIDmtDvgSs,Manuka Shopping Precinct,"Franklin St, Griffith ACT 2603, Australia",-35.320116999999996,149.13355280000005
+Canberra,Australia,AU,-35.283,149.129,mall,ChIJccVwoEJNFmsRpk7Kh1IUoYk,No Name Lane,"40 Marcus Clarke St, Canberra ACT 2601, Australia",-35.2785395,149.12701950000005
 Canberra,Australia,AU,-35.283,149.129,park,ChIJoTvEfyRNFmsRgCEEETuvBdE,Canberra Nara Peace Park,"Yarralumla ACT 2600, Australia",-35.2984088,149.1212779
-Canberra,Australia,AU,-35.283,149.129,mall,ChIJccVwoEJNFmsRpk7Kh1IUoYk,No Name Lane,"40 Marcus Clarke St, Canberra ACT 2601, Australia",-35.2785395,149.1270195
-Canberra,Australia,AU,-35.283,149.129,mall,ChIJ__9RT-9MFmsRpdIDmtDvgSs,Manuka Shopping Precinct,"Franklin St, Griffith ACT 2603, Australia",-35.320117,149.1335528
-Canberra,Australia,AU,-35.283,149.129,supermarket,ChIJsc9euohSFmsRVHJ1pIvs4Ag,IGA Ainslie,"9/11 Edgar St, Ainslie ACT 2602, Australia",-35.261979,149.144987
+Canberra,Australia,AU,-35.283,149.129,sights,ChIJB3tFOEtNFmsR4C1Xi2_qAA8,Australian National Botanic Gardens,"Clunies Ross St, Acton ACT 2601, Australia",-35.27887800000001,149.108918
+Canberra,Australia,AU,-35.283,149.129,sights,ChIJyVCSt3tSFmsRuisG4DhEWuo,Mount Ainslie Lookout,"20 Mount Ainslie Dr, Australian Capital Territory 2609, Australia",-35.2703529,149.1580644
+Canberra,Australia,AU,-35.283,149.129,sights,ChIJCUsl4BhNFmsRhaBxEayyx04,Old Parliament House,"18 King George Terrace, Parkes ACT 2600, Australia",-35.3022644,149.1297341
+Canberra,Australia,AU,-35.283,149.129,sights,ChIJeb_-XhdNFmsR5ZuDF8x3UFw,Questacon - National Science and Technology Centre,"King Edward Terrace, Parkes ACT 2600, Australia",-35.29850689999999,149.1315243
+Canberra,Australia,AU,-35.283,149.129,street market,ChIJDb9QbFdMFmsRK_MX194_ApQ,Fyshwick Fresh Food Markets,"36 Mildura St, Fyshwick ACT 2609, Australia",-35.3241608,149.1547409
+Canberra,Australia,AU,-35.283,149.129,supermarket,ChIJXdzI8mVNFmsRipJn2mLYdmc,ALDI Canberra CBD,"AG09 Bunda St, Canberra ACT 2600, Australia",-35.27914579999999,149.13429059999999
 Canberra,Australia,AU,-35.283,149.129,supermarket,ChIJjVRG6GVNFmsR1sDCsXw-w3Q,Coles Canberra Civic,"Bunda St & Petrie St Canberra, Civic ACT 2601, Australia",-35.2784496,149.133613
-Canberra,Australia,AU,-35.283,149.129,supermarket,ChIJXdzI8mVNFmsRipJn2mLYdmc,ALDI Canberra CBD,"AG09 Bunda St, Canberra ACT 2600, Australia",-35.2791458,149.1342906
-Canberra,Australia,AU,-35.283,149.129,hardware store,ChIJs8XJwKtNFmsR6wigjLsr51I,Bunnings Canberra Airport,"Canberra Airport, 971 Majura Rd, Majura Park ACT 2609, Australia",-35.2931221,149.1912836
-Vienna,Austria,AT,48.2,16.3666,club,ChIJawX91haobUcRBeezzsNbQOM,U4 Vienna,"Schönbrunner Str. 222/228, 1120 Wien, Austria",48.183394,16.3283448
-Vienna,Austria,AT,48.2,16.3666,train station,ChIJgYIk6uepbUcRk0DlTW-Jcec,Wien Hbf (Autoreisezuganlage),"1100 Vienna, Austria",48.177792,16.391293
-Vienna,Austria,AT,48.2,16.3666,train station,ChIJcw5fA7YHbUcR9uqSCCBND2k,Wien Franz-Josefs-Bahnhof,"1090 Vienna, Austria",48.2268763,16.3609483
-Vienna,Austria,AT,48.2,16.3666,park,ChIJA65nM34IbUcRToCv4--54vw,Türkenschanzpark,"Hasenauerstraße Türkenschanzpark, 1180 Wien, Austria",48.2348279,16.3338496
-Vienna,Austria,AT,48.2,16.3666,park,ChIJNZQq7COobUcRGE3svmY7gTg,Bruno-Kreisky Park,"Sankt-Johann-Park, K, 1050 Wien, Austria",48.1880715,16.3438542
-Dhaka,Bangladesh,BD,23.7231,90.4086,train station,ChIJN46LTri5VTcRCyFDrLogSoY,Gandaria Rail Station,"Satish Sarkar Rd, Dhaka 1204, Bangladesh",23.7014878,90.4289931
-Dhaka,Bangladesh,BD,23.7231,90.4086,sights,ChIJOcC-nOi4VTcRFtAHmzv5A-Q,Central Shaheed Minar,"Near Dhaka Medical College Gate, Secretariat Road, Secretariate Road, Dhaka 1000, Bangladesh",23.7271353,90.3969188
-Minsk,Belarus,BY,53.9,27.5666,bar,ChIJUZI6xevP20YRqkPSr8YIiCM,TNT Rock Club,"vulica Revaliucyjnaja 9, Minsk 220030, Belarus",53.9024008,27.5515866
-Minsk,Belarus,BY,53.9,27.5666,club,ChIJeYl052TQ20YR_gue7kJa0W0,Rich Cat Club,"vulica Viery Charužaj 29, Minsk, Belarus",53.9220889,27.5618947
-Minsk,Belarus,BY,53.9,27.5666,park,ChIJ36aDuInP20YRxtaEQB9m0d8,Victory Park,"Minsk, Belarus",53.9163741,27.5406688
-Minsk,Belarus,BY,53.9,27.5666,park,ChIJL-GMrL_P20YR7mDutPnTaDw,Janki Kupaly Park,"vulica Janki Kupaly, Minsk, Belarus",53.9061027,27.5661029
-Minsk,Belarus,BY,53.9,27.5666,park,ChIJRVj1dgPP20YRBWB4A_sUx_Q,Čaliuskincaŭ Park,"praspiekt Niezaliežnasci, Minsk, Belarus",53.9219152,27.6168743
-Minsk,Belarus,BY,53.9,27.5666,park,ChIJxQ1zQd3P20YRjzoVPoAhTUs,Michajlaŭski Garden Square,"Vulitsa Svyardlova, Minsk, Belarus",53.8944444,27.5516667
-Minsk,Belarus,BY,53.9,27.5666,mall,ChIJFdAMym_F20YRJJvzezNcGds,Zamok Shopping Mall,"Prospekte Pobeditelei 65, Minsk, Belarus",53.9261803,27.5176505
-Minsk,Belarus,BY,53.9,27.5666,supermarket,ChIJnRHoIIvP20YRMvvLntOmoGI,BIGZZ,"praspiekt Mašerava 76а, Minsk, Belarus",53.9130046,27.534251
-Brussels,Belgium,BE,50.8333,4.3333,sights,ChIJX1tyKaTEw0cRWjLH8frzAq8,Parc du Cinquantenaire,"1000 Brussels, Belgium",50.841393,4.3904833
-Brussels,Belgium,BE,50.8333,4.3333,park,ChIJG7TZikPEw0cReLqY0TgNGGs,Forest Park,"1190 Forest, Belgium",50.8230491,4.3383381
-Berlin,Germany,DE,52.5218,13.4015,gastro pub,ChIJU-UjNsJRqEcRU-VkZMYOGOk,Berliner Republik,"Schiffbauerdamm 8, 10117 Berlin, Germany",52.5213714,13.3858237
-Berlin,Germany,DE,52.5218,13.4015,main station,ChIJe-ff-71RqEcRqvy8lRR4PHo,Berlin Central Station,"Hauptbahnhof, Europaplatz 1, 10557 Berlin, Germany",52.525083900000006,13.369402
-Berlin,Germany,DE,52.5218,13.4015,main station,ChIJ62hndh9OqEcRydXjBjh91ps,Berlin Alexanderplatz Bahnhof,"Dircksenstr. 2, 10179 Berlin, Germany",52.52155630000001,13.411157699999999
-Berlin,Germany,DE,52.5218,13.4015,main station,ChIJcy1JA8NRqEcRBNy2MNzQTmw,Berlin Friedrichstraße station,"Georgenstraße 14/17, 10117 Berlin, Germany",52.5202894,13.3869776
-Berlin,Germany,DE,52.5218,13.4015,main station,ChIJaS75A0dOqEcRK8tLe3-tu3A,Berlin Ostbahnhof,"Koppenstraße 3, 10243 Berlin, Germany",52.510534,13.4349799
-Berlin,Germany,DE,52.5218,13.4015,main station,ChIJ05q01-1RqEcRGDTqjYS5BBs,Berlin Nordbahnhof,"Invalidenstraße 131, 10115 Berlin, Germany",52.5318835,13.3883826
-Berlin,Germany,DE,52.5218,13.4015,main station,ChIJXdFtSjxIqEcRjoozhtQ1iDo,Berlin Hirschgarten railway station,"12587 Berlin, Germany",52.4579367,13.6026053
-Berlin,Germany,DE,52.5218,13.4015,sights,ChIJZ0KxF_JRqEcRrLHB-4r-U-o,Berlin Wall Memorial,"Bernauer Str. 111, 13355 Berlin, Germany",52.53505209999999,13.390189800000002
-Berlin,Germany,DE,52.5218,13.4015,sights,ChIJw_HTKK9RqEcRyeWAo9t_YlU,Victory Column,"Großer Stern, 10557 Berlin, Germany",52.5145434,13.350118900000002
-Berlin,Germany,DE,52.5218,13.4015,park,ChIJ4dHdSq5RqEcReqvQ3PGSw4M,Großer Tiergarten,"Str. des 17. Juni, 10785 Berlin, Germany",52.514151600000005,13.3591634
-Berlin,Germany,DE,52.5218,13.4015,park,ChIJ_S5uaxJOqEcRdg-gu1fEgcI,Volkspark Friedrichshain,"10249 Berlin, Germany",52.5280353,13.4363934
-Berlin,Germany,DE,52.5218,13.4015,park,ChIJCfROcedRqEcRjFRvdEEGvYY,Monbijou Park,"Oranienburger Str., 10178 Berlin, Germany",52.5232481,13.396476000000002
-Berlin,Germany,DE,52.5218,13.4015,park,ChIJZ7MZiExPqEcRG1LUMlDEr-0,Görlitzer Park,"Görlitzer Str. 3, 10997 Berlin, Germany",52.498124,13.434576999999999
-Berlin,Germany,DE,52.5218,13.4015,park,ChIJd-d5Rx1SqEcRgCz33OsCSZQ,Mauer park,"Gleimstraße 55, 10437 Berlin, Germany",52.5424,13.403351999999998
-Berlin,Germany,DE,52.5218,13.4015,park,ChIJe8FmEzBQqEcRth79TMVowwU,Park at Gleisdreieck,"Möckernstraße 26, 10963 Berlin, Germany",52.49402689999999,13.3759081
-Berlin,Germany,DE,52.5218,13.4015,park,ChIJraCYwolRqEcRxVtJLuV3IDc,Humboldthain park,"Brunnenstraße, 13357 Berlin, Germany",52.54527789999999,13.3848881
-Berlin,Germany,DE,52.5218,13.4015,mall,ChIJ4dic-71RqEcRj6sdBp0wvr0,Einkaufsbahnhof Berlin Hbf,"Europaplatz 1, 10557 Berlin, Germany",52.524911100000004,13.369492000000001
-Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJmQtpiOBRqEcRqBjTGY_LvHI,REWE,"Litfaß-Platz 4, 10178 Berlin, Germany",52.522141,13.4034651
-Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJnUuaO9NPqEcR7lz9oHr3v40,Netto Filiale,"Gitschiner Str. 73, 10969 Berlin, Germany",52.4987005,13.405827100000002
-Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJozX6XTNOqEcRt6tYet0AmsY,REWE,"Skalitzer Str. 134, 10999 Berlin, Germany",52.49937250000001,13.418791899999999
-Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJBUEJietRqEcRM-_HFj_aQig,REWE,"Chausseestraße 118-120, 10115 Berlin, Germany",52.529530099999995,13.384134099999999
-Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJszR0qEdOqEcR-wk88Z89zM8,REWE,"Am Ostbahnhof 9, 10243 Berlin, Germany",52.5100054,13.4347244
+Canberra,Australia,AU,-35.283,149.129,supermarket,ChIJsc9euohSFmsRVHJ1pIvs4Ag,IGA Ainslie,"9/11 Edgar St, Ainslie ACT 2602, Australia",-35.261979,149.14498700000001
+Sydney,Australia,AU,-33.865,151.209444,club,ChIJX4oqSz6uEmsRrf33asrgvPg,City Tattersalls Club,"198 Pitt St, Sydney NSW 2000, Australia",-33.8711059,151.2083592
+Sydney,Australia,AU,-33.865,151.209444,mall,ChIJS-17vD-uEmsRTETZZzs9F6g,Pitt Street Mall,"182 Pitt St, Sydney NSW 2000, Australia",-33.869754,151.208405
+Sydney,Australia,AU,-33.865,151.209444,park,ChIJTxfjQUGuEmsRgCDx-Wh9AQ8,Lang Park,"Lang St, Sydney NSW 2000, Australia",-33.863694,151.2058971
+Sydney,Australia,AU,-33.865,151.209444,park,ChIJj-xvqSCuEmsRmNDLZn9rr0c,Prince Alfred Park,"Chalmers St, Surry Hills NSW 2010, Australia",-33.8885941,151.2044423
+Sydney,Australia,AU,-33.865,151.209444,park,ChIJaZrLHzuuEmsRYPzx-Wh9AQ8,Tumbalong Park,"11 Harbour St, Sydney NSW 2000, Australia",-33.875688399999994,151.20172659999997
+Sydney,Australia,AU,-33.865,151.209444,park,ChIJizNbddaxEmsRUC-ABnVhAjA,Victoria Park,"Parramatta Rd, Broadway NSW 2008, Australia",-33.8863859,151.1928046
+Sydney,Australia,AU,-33.865,151.209444,sights,ChIJDflB7BWuEmsRYPbx-Wh9AQ8,Hyde Park,"Elizabeth St, Sydney NSW 2000, Australia",-33.873138299999994,151.2112757
+Sydney,Australia,AU,-33.865,151.209444,sights,ChIJQ9b_zXquEmsRY6cF2rm2v0M,Mrs Macquarie's Chair,"1d Mrs Macquaries Rd, Sydney NSW 2000, Australia",-33.8596569,151.2225335
+Sydney,Australia,AU,-33.865,151.209444,sights,ChIJWaTdYGuuEmsRoOfx-Wh9AQ8,Royal Botanic Gardens,"Mrs Macquaries Rd, Sydney NSW 2000, Australia",-33.8641859,151.2165708
+Sydney,Australia,AU,-33.865,151.209444,sights,ChIJq6qqWiSsEmsRJuIpepyEua4,Taronga Zoo Sydney,"Bradleys Head Rd, Mosman NSW 2088, Australia",-33.8435473,151.24134180000001
+Sydney,Australia,AU,-33.865,151.209444,supermarket,ChIJ1wXrv_KuEmsRWlwSg5DpReg,Coles North Sydney,"99 Walker St, North Sydney NSW 2055, Australia",-33.839336200000005,151.2090148
+Sydney,Australia,AU,-33.865,151.209444,supermarket,ChIJ0xyH_kCuEmsR-yW2usxv5qc,Coles Wynyard Express,"Wynyard Railway Concourse Wynyard St &, Carrington St, Sydney NSW 2000, Australia",-33.8657301,151.2061456
+Sydney,Australia,AU,-33.865,151.209444,supermarket,ChIJOWK0OmavEmsRgIbjtIAXsNg,Woolworths Metro,"185 Pitt St, Sydney NSW 2000, Australia",-33.8692381,151.2081688
+Sydney,Australia,AU,-33.865,151.209444,supermarket,ChIJo8ZIgT6uEmsRYhbUtXBWzhg,Woolworths Town Hall,"Park St and Sydney, NSW 2000, Australia",-33.873115500000004,151.2071765
+Sydney,Australia,AU,-33.865,151.209444,train station,ChIJpcfaaCGuEmsRcTRNZkqb51U,Central,"Eddy Ave, Haymarket NSW 2000, Australia",-33.8826209,151.2065819
+Sydney,Australia,AU,-33.865,151.209444,train station,ChIJOWBULGiuEmsRoSJ5WA2U2hY,Circular Quay,"Circular Quay Railway Station, Alfred St, Sydney NSW 2000, Australia",-33.86118010000001,151.21069369999995
+Sydney,Australia,AU,-33.865,151.209444,train station,ChIJo2ODlmquEmsRnMfTFeHQcvs,Martin Place Station,"Sydney NSW 2000, Australia",-33.867924,151.211807
+Sydney,Australia,AU,-33.865,151.209444,train station,ChIJcexqOBWuEmsRK1a72WYib80,St James Station,"Sydney NSW 2000, Australia",-33.8706943,151.2104294
+Graz,Austria,AT,47.07103,15.43811,park,ChIJ0Ywoy3w1bkcR-6bqoxU0bGY,Augarten,"Wielandgasse 43, 8010 Graz, Austria",47.0613889,15.4358333
+Graz,Austria,AT,47.07103,15.43811,park,ChIJdUUH-Z01bkcRjWK3oUNKQik,"Volksgarten, Graz","Mühlgasse 25, 8020 Graz, Austria",47.0734737,15.4272805
+Graz,Austria,AT,47.07103,15.43811,sights,ChIJCaYTWoI1bkcRiRtBdigmrRI,Clock Tower,"Am Schlossberg, 8010 Graz, Austria",47.07363729999999,15.437717499999998
+Graz,Austria,AT,47.07103,15.43811,train station,ChIJqUyVUGk1bkcRkcudwFYUL8s,Graz Don Bosco,"8020 Graz, Austria",47.058020299999995,15.419051999999999
+La Paz,Bolivia,BO,-16.498,-68.15,mall,ChIJg_3LonMgX5ERqtuYwDZ7RAg,Centro Comercial Plaza Real,"Calle Comercio, La Paz, Bolivia",-16.4944054,-68.13637349999999
+La Paz,Bolivia,BO,-16.498,-68.15,mall,ChIJO_2_wWQgX5ERibJpmAwWiY8,V Centenario,"Av.6 de Agosto, La Paz, Bolivia",-16.5057529,-68.12969629999999
+La Paz,Bolivia,BO,-16.498,-68.15,park,ChIJ3TowuGUgX5ERsLxcnhTvGMU,Parque Urbano Central,"La Paz, Bolivia",-16.5032519,-68.1256282
+La Paz,Bolivia,BO,-16.498,-68.15,park,ChIJbzouC2QgX5ERiG1m_FZP808,Plaza Bolivia,"Capitán Ravelo 2180, La Paz, Bolivia",-16.5070064,-68.1265597
+La Paz,Bolivia,BO,-16.498,-68.15,park,ChIJ62yeN3IgX5ERXf4TZscOdhE,Plaza Murillo,"Socabaya, La Paz, Bolivia",-16.4957409,-68.1334839
+La Paz,Bolivia,BO,-16.498,-68.15,park,ChIJlSQ02okgX5ER8hylCe72RaY,Plaza del Monticulo,"Presbítero Medina 2421, La Paz, Bolivia",-16.513309099999994,-68.12693229999999
+La Paz,Bolivia,BO,-16.498,-68.15,sights,ChIJzcIaSGIgX5ERMUcw-b-RQoI,Plaza Abaroa,"Belisario Salinas, La Paz, Bolivia",-16.510657199999994,-68.12662990000001
+La Paz,Bolivia,BO,-16.498,-68.15,supermarket,ChIJh_dsUWIgX5ERXlO-C_o_Wac,Fidalga,"Sanchez Lima, La Paz, Bolivia",-16.5104783,-68.12795340000001
+La Paz,Bolivia,BO,-16.498,-68.15,supermarket,ChIJEavHqGMgX5ERq8UoZny6fi4,Hipermaxi,"Rosendo Gutierrez 469, La Paz, Bolivia",-16.5094435,-68.12798690000001
+La Paz,Bolivia,BO,-16.498,-68.15,supermarket,ChIJCfZCv2cgX5ERgd_hyZbXMEo,Ketal,"Calle Villalobos, Esq, Av Busch 1302, La Paz, Bolivia",-16.502614,-68.1211203
+La Paz,Bolivia,BO,-16.498,-68.15,supermarket,ChIJS7l3tIkgX5ERw3nU8XFNWFY,Ketal,"Mendez Arcos, La Paz, Bolivia",-16.514500899999998,-68.1289364
+La Paz,Bolivia,BO,-16.498,-68.15,supermarket,ChIJW_FgvHAgX5EREzG6Yu8CmXY,Ketal Supermarkets (San Pedro Branch),"Almirante Grau, La Paz, Bolivia",-16.5017457,-68.1359844
+La Paz,Bolivia,BO,-16.498,-68.15,supermarket,ChIJFURxu2EgX5ERJb58gbxY4uI,Supermercados Ketal,"Av Arce N° 2588, esq. Macario Pinilla, Av. Arce, La Paz, Bolivia",-16.510393099999998,-68.12325290000001
+La Paz,Bolivia,BO,-16.498,-68.15,tourist information,ChIJNxdzOXQgX5ERDVH7WnykB68,The Witches' Market,"Melchor Jimenez, La Paz, Bolivia",-16.4964962,-68.13902359999999
+Brasília,Brazil,BR,-15.7833,-47.9161,bar,ChIJqzvwUGwwWpMRHsihW4Em6Mk,Abençoado Bar,"St. Sudoeste SQSW 105 Bloco C Loja 82/86 - Cruzeiro / Sudoeste / Octogonal, Brasília - DF, 70670-433, Brazil",-15.8082161,-47.9348555
+Brasília,Brazil,BR,-15.7833,-47.9161,bar,ChIJY_2pfk86WpMRSvvW1TQcFPo,Delta Bar,"SCRN 706, Via W 4 Norte, 6 - 707 Bl. E Lj - Asa Norte, Brasília - DF, 70740-650, Brazil",-15.7700033,-47.891865
+Brasília,Brazil,BR,-15.7833,-47.9161,bar,ChIJQ0r-0tw6WpMRMyWKgO7bQ6I,Dudu Bar,"SCLS 303, Bloco A, SHCS, Brasília - DF, Brazil",-15.803619400000002,-47.89227750000001
+Brasília,Brazil,BR,-15.7833,-47.9161,bar,ChIJj5RDcRQyWpMRQJRWBCezsSo,Piratas Bar,"SIG, Q. 06 Rua L, 1515, Brasília - DF, 70610-460, Brazil",-15.793655599999996,-47.9162021
+Brasília,Brazil,BR,-15.7833,-47.9161,bar,ChIJ254Kg9o6WpMRxWWRK0F-Va8,Versão Brasileira,"CLS, SHCS 204, SHIGS 713 Bl. A, Lj 02 - Asa Sul, Brasília - DF, 70234-510, Brazil",-15.8096866,-47.89012779999999
+Brasília,Brazil,BR,-15.7833,-47.9161,mall,ChIJsR5Fzvs6WpMRhzecGGvE35I,Brasília Shopping,"BL A - SCN Q5, Via W3 Norte - Asa Norte, Brasília - DF, 70715-900, Brazil",-15.7867536,-47.88896399999999
+Brasília,Brazil,BR,-15.7833,-47.9161,mall,ChIJDaoVfjE6WpMRi_Z68OkER5c,Plaza Norte Mall,"EQN 110/111 LOTE A - Asa Norte, Brasília - DF, 70297-400, Brazil",-15.755540599999998,-47.88780269999999
+Brasília,Brazil,BR,-15.7833,-47.9161,mall,ChIJNb0nLfo6WpMRchvI5m9PLOo,Shopping ID,"Setor Comercial Norte, Quadra 06 Edificio Venancio, Conjunto A, Via N2, Brasília - DF, 70297-400, Brazil",-15.7867745,-47.8904102
+Brasília,Brazil,BR,-15.7833,-47.9161,mall,ChIJqaoPWmgwWpMRVAGi4hes9xg,Terraço Shopping,"SHC aos entrequadras 2/8 lote 5, Octogonal - Sul, Brasília - DF, 70660-090, Brazil",-15.8036728,-47.94048309999999
+Brasília,Brazil,BR,-15.7833,-47.9161,restaurant,ChIJ977n0vs6WpMRwN2Jwelf9RA,Coco Bambu Brasília Shopping,"Lojas 2w, 3w, 4w, SCN Q 5 Brasìlia shopping, BLOCO A - Asa Norte, Brasília - DF, 70715-900, Brazil",-15.7863339,-47.8891253
+Brasília,Brazil,BR,-15.7833,-47.9161,restaurant,ChIJ43TpJvo6WpMRybviSjnPJu0,Mangai Shopping ID,"Q SCN QUADRA 6 Bloco A,b,c, Via N2 - Asa Norte, Brasília - DF, 70716-900, Brazil",-15.786753,-47.890309
+Brasília,Brazil,BR,-15.7833,-47.9161,restaurant,ChIJD4luWuQ6WpMRLCqoIuJ42Fk,Páprica Burger,"St. Hoteleiro Sul Q. 3 - Brasília, DF, 70297-400, Brazil",-15.7936346,-47.8891626
+Brasília,Brazil,BR,-15.7833,-47.9161,supermarket,ChIJ__WQerg6WpMRdUWZ6CRDZ3Q,Comper Asa Sul - Loja 137,"SHCS EQS 506/507 - Asa Sul, Brasilia - Federal District, 70350-515, Brazil",-15.810672,-47.90254470000001
+Brasília,Brazil,BR,-15.7833,-47.9161,supermarket,ChIJx5oBCnEwWpMROhss7EdSPeU,Dona de Casa Supermercados,"C CLSW 104 - Cruzeiro / Sudoeste / Octogonal, Brasília - DF, 70670-532, Brazil",-15.8034882,-47.929156
+Brasília,Brazil,BR,-15.7833,-47.9161,supermarket,ChIJsShULc8xWpMR0KAvM0E3Z2Y,Pão de Açúcar,"CCSW 06 Ljs 4/5, CCSW 6, Brasília - DF, 71505-000, Brazil",-15.7956842,-47.9303201
+Brasília,Brazil,BR,-15.7833,-47.9161,supermarket,ChIJ_QX-IoowWpMRs9hbXO3yQTY,Super Veneza,"SHCES Qd 811 - Cruzeiro / Sudoeste / Octogonal, Brasilia - Federal District, 70655-690, Brazil",-15.791572199999996,-47.9371989
+Brasília,Brazil,BR,-15.7833,-47.9161,train station,ChIJg2MztrU6WpMRR6WY8EPXIlo,Estação 108 Sul,"SHCS - Asa Sul, Brasilia - Federal District, 70390-100, Brazil",-15.8189551,-47.90402419999999
+Brasília,Brazil,BR,-15.7833,-47.9161,train station,ChIJ46-qHFMlWpMRsnCqTngK-tY,Estação 112 Sul,"SHCS - Asa Sul, Brasilia - Federal District, 70297-400, Brazil",-15.8267631,-47.9147127
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,bar,ChIJBXc-52R_mQARxN4O1zHaQv4,Bar da Lapa - Lapa,"Av. Mem de Sá, 69 - Centro, Rio de Janeiro - RJ, 20230-150, Brazil",-22.9133275,-43.181499
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,mall,ChIJlY-mX9uBmQARQ6nnQHkBhE0,Bossa Nova Mall,"Av. Alm. Silvio de Noronha, 365 - Centro, Rio de Janeiro - RJ, 20021-010, Brazil",-22.914003,-43.1670093
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,park,ChIJr02tNYV_mQARYiP3ZAzKpZ8,Parque Eduardo Guinle,"R. Paulo César de Andrade, s/n - Laranjeiras, Rio de Janeiro - RJ, 22221-090, Brazil",-22.9308457,-43.18445010000001
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,park,ChIJffdYUGJ_mQARin3Mf7OOb_E,Praça Passeio Público,"Rua do Passeio - Centro, Rio de Janeiro - RJ, 20021-280, Brazil",-22.9132376,-43.1768489
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,restaurant,ChIJ5aAkrId_mQARFCcjAGPWsJY,Majórica Steakhouse,"Rua Senador Vergueiro, 11/15 - Flamengo, Rio de Janeiro - RJ, 22230-000, Brazil",-22.9336779,-43.1763622
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,supermarket,ChIJbd5IL4B_mQARDBxDEZLWy3Y,Rede Ultra Mercado,"R. do Catete, 154 - Catete, Rio de Janeiro - RJ, 22220-001, Brazil",-22.9259954,-43.176761000000006
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,supermarket,ChIJ72cOm39_mQARuS1opQKxQLY,Supermarkets Princess - Catete,"R. do Catete, 120 - Catete, Rio de Janeiro - RJ, 22220-001, Brazil",-22.9249997,-43.1768378
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,tourist information,ChIJXWj-VXt_mQARNSwlewQeAXY,Escadaria Selarón,"R. Joaquim Silva, S/N - Centro, Rio de Janeiro - RJ, 20241-110, Brazil",-22.9153106,-43.1792038
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,train station,ChIJY6P392p_mQAR5AcsyGwm8MY,Brazil Central Station,"Praça Cristiano Ottoni, S/N - Centro, Rio de Janeiro - RJ, 20080-102, Brazil",-22.9034484,-43.191604
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,train station,ChIJt5dOA_h-mQARNWYFcH_7_S4,Estação De São Cristóvão,"s/n, R. Bartolomeu de Gusmão - São Cristóvão, Rio de Janeiro - RJ, 20941-160, Brazil",-22.9095609,-43.2227946
+Sao Paulo,Brazil,BR,-23.55,-46.633333,bar,ChIJK76a5E5YzpQRCoY7nm1M3-k,A Casa do Porco Bar,"R. Araújo, 124 - República, São Paulo - SP, 01220-020, Brazil",-23.5448704,-46.6446609
+Sao Paulo,Brazil,BR,-23.55,-46.633333,bar,ChIJwWmPS3NKzJQRMdZYpziZiBE,Bar Brahma,"Av. São João, 677 - Centro Histórico de São Paulo, São Paulo - SP, 01036-000, Brazil",-23.5423616,-46.6407075
+Sao Paulo,Brazil,BR,-23.55,-46.633333,bar,ChIJEyOtjU5YzpQRJi-Cf-QbjYU,Bar da Dona Onça,"Edifício Copan - Av. Ipiranga, 200 - 27 e 29 - Centro Histórico de São Paulo, São Paulo - SP, 01046-925, Brazil",-23.5465084,-46.64453169999999
+Sao Paulo,Brazil,BR,-23.55,-46.633333,club,ChIJF0ib4FJYzpQRJsVX-3_fDRw,Club Hotel Cambridge,"R. Álvaro de Carvalho, 35 - Centro Histórico de São Paulo, São Paulo - SP, 01050-070, Brazil",-23.5485728,-46.6407491
+Sao Paulo,Brazil,BR,-23.55,-46.633333,mall,ChIJ8TdMTLVZzpQRjvierSN-1AA,Frei Caneca Mall,"R. Frei Caneca, 569 - Consolação, São Paulo - SP, 01307-001, Brazil",-23.5545639,-46.6529657
+Sao Paulo,Brazil,BR,-23.55,-46.633333,mall,ChIJzfLoNdtZzpQRUNricu9WAuc,Jardim Pamplona Shopping,"R. Pamplona, 1704 - Jardim Paulista, São Paulo - SP, 01405-002, Brazil",-23.5703707,-46.6613187
+Sao Paulo,Brazil,BR,-23.55,-46.633333,mall,ChIJVcOhFM1ZzpQRhMEvu5q_I9U,Shopping Center 3,"Av. Paulista, 2064 - Cerqueira César, São Paulo - SP, 01310-928, Brazil",-23.5578425,-46.6589782
+Sao Paulo,Brazil,BR,-23.55,-46.633333,mall,ChIJbf1JiMhZzpQRarPl5lKGKmw,Shopping Cidade São Paulo,"Av. Paulista, 1230 - Bela Vista, São Paulo - SP, 01310-100, Brazil",-23.563489800000006,-46.652658
+Sao Paulo,Brazil,BR,-23.55,-46.633333,park,ChIJ438zJnhZzpQRuVL8SUjklLY,Parque da Aclimação,"Rua Muniz de Sousa, 1119 - Aclimação, São Paulo - SP, 01534-001, Brazil",-23.5746857,-46.6285513
+Sao Paulo,Brazil,BR,-23.55,-46.633333,sights,ChIJ0RGdBvFZzpQRQeWcrwlhk8s,Ibirapuera Park,"Av. Pedro Álvares Cabral - Vila Mariana, São Paulo - SP, 04094-050, Brazil",-23.5874162,-46.6576336
+Sao Paulo,Brazil,BR,-23.55,-46.633333,supermarket,ChIJJyeZPDVYzpQRk7jskJSqNu0,Master Supermercados,"R. Frei Caneca, 569 - 01 - Consolação, São Paulo - SP, 01307-001, Brazil",-23.5539132,-46.65273879999999
+Sao Paulo,Brazil,BR,-23.55,-46.633333,supermarket,ChIJSZSlH8ZZzpQRZxZAju-eqKw,Pão de Açúcar,"R. Pamplona, 816 - Bela Vista, São Paulo - SP, 01405-001, Brazil",-23.5649236,-46.6550985
+Sao Paulo,Brazil,BR,-23.55,-46.633333,supermarket,ChIJx8ZuvjtYzpQR8WkXA_nnZ_U,St. Marche,"Av. Higienópolis, 618 - Higienópolis, São Paulo - SP, 01238-000, Brazil",-23.5418309,-46.6582097
+Sao Paulo,Brazil,BR,-23.55,-46.633333,train station,ChIJ2zKw7R5ZzpQR40TmawyQa0k,Estação Brás,"Brás, São Paulo - State of São Paulo, 03216-050, Brazil",-23.545065,-46.6163372
+Sao Paulo,Brazil,BR,-23.55,-46.633333,train station,ChIJxfMp5lxYzpQRKJiuSIfTqrA,Julio Prestes Station,"R. Marquês de Itu - Vila Buarque, São Paulo - SP, 01223-001, Brazil",-23.5340884,-46.6398786
+Sao Paulo,Brazil,BR,-23.55,-46.633333,train station,ChIJGylGOVlYzpQRSZWmk5VgHoM,Luz Station,"Praça da Luz, 1, Luz, São Paulo - SP, Brazil",-23.5350794,-46.6353093
+Sofia,Bulgaria,BG,42.6833,23.3167,park,ChIJk3DtmIKFqkARgIWzWSv_8YY,"Park ""Zaimov""","1527 Zaimov, Sofia, Bulgaria",42.6975039,23.3424427
+Sofia,Bulgaria,BG,42.6833,23.3167,sights,ChIJcWowTPmEqkARHFXD1_28fHk,South Park,"Sofia, Bulgaria",42.6693279,23.3082311
+Ottawa,Canada,CA,45.4167,-75.7,bar,ChIJG2H3hwEFzkwRxYfbqZ1u4oQ,The Highlander Pub,"115 Rideau St, Ottawa, ON K1N 5X1, Canada",45.42656590000001,-75.69134079999998
+Ottawa,Canada,CA,45.4167,-75.7,mall,ChIJs0dNj4YPzkwRlaYD0MmAsfM,St. Laurent Shopping Centre,"1200 St Laurent Blvd, Ottawa, ON K1K 3B8, Canada",45.4218665,-75.63877269999998
+Ottawa,Canada,CA,45.4167,-75.7,park,ChIJtSDsHt4FzkwRR9qYeLfahHE,Brewer Park,"100 Brewer Way, Ottawa, ON K1S 5T1, Canada",45.3872833,-75.68894929999998
+Ottawa,Canada,CA,45.4167,-75.7,restaurant,ChIJq6o261QEzkwR52oI8wOND20,Sansotei Ramen,"153 Bank St, Ottawa, ON K1P 5N7, Canada",45.41896200000001,-75.69918259999999
+Ottawa,Canada,CA,45.4167,-75.7,sights,ChIJ_b9fVIsFzkwRCyEoZg1OxK4,Major's Hill Park,"Ottawa, ON, Canada",45.4272947,-75.6970333
+Ottawa,Canada,CA,45.4167,-75.7,supermarket,ChIJq10xGEwEzkwRXMo3LKrj-Vk,Kowloon Market,"712 Somerset St W, Ottawa, ON K1R 6P8, Canada",45.4105194,-75.7076417
+Ottawa,Canada,CA,45.4167,-75.7,supermarket,ChIJ_RuamSIFzkwRyEEcyeP1uAI,Metro,"50 Beechwood Ave, Ottawa, ON K1L 8B3, Canada",45.43949560000001,-75.67564420000002
+Ottawa,Canada,CA,45.4167,-75.7,supermarket,ChIJ9bSv4MAFzkwRO57SA96UsQQ,Whole Foods Market,"951 Bank St, Ottawa, ON K1S 3W7, Canada",45.39934849999999,-75.68549959999999
+Ottawa,Canada,CA,45.4167,-75.7,train station,ChIJLRqsLEEEzkwRl2wqyv6rd2Y,Bayview,"Ottawa, ON K1R 7V9, Canada",45.4094834,-75.7218314
+Ottawa,Canada,CA,45.4167,-75.7,train station,ChIJ8d0extgFzkwRo6tX_qmSylY,Carleton,"Campus Ave, Ottawa, ON, Canada",45.3856798,-75.69601709999998
+Ottawa,Canada,CA,45.4167,-75.7,train station,ChIJwdIyYH8FzkwRtL7gV3fxxrI,Ottawa,"200 Tremblay Rd, Ottawa, ON K1G 3H5, Canada",45.4164349,-75.6516858
+Toronto,Canada,CA,43.741667,-79.373333,bar,ChIJV8SvIKLS1IkRevaBnd2jyHY,The Goose,"1875 Leslie St, North York, ON M3B 2M5, Canada",43.7561997,-79.36000940000002
+Toronto,Canada,CA,43.741667,-79.373333,mall,ChIJA_TebvDS1IkRBs9yz5jDotM,CF Fairview Mall,"1800 Sheppard Ave E, Toronto, ON M2J 5A7, Canada",43.7780055,-79.3441593
+Toronto,Canada,CA,43.741667,-79.373333,mall,ChIJQ7nEMKwyK4gRRS9mX6_C7oQ,York Mills Shopping Centre,"291 York Mills Rd, North York, ON M2L 1L3, Canada",43.747065,-79.38516209999997
+Toronto,Canada,CA,43.741667,-79.373333,park,ChIJGXyiWUDN1IkR50ZWv092iYU,Edwards Gardens,"755 Lawrence Ave E, North York, ON M3C 1P2, Canada",43.7335274,-79.3598728
+Toronto,Canada,CA,43.741667,-79.373333,park,ChIJ6VTP1EHN1IkRJ_ivXl_DSSM,Toronto Botanical Garden,"777 Lawrence Ave E, North York, ON M3C 1P2, Canada",43.7333015,-79.3602052
+Toronto,Canada,CA,43.741667,-79.373333,supermarket,ChIJf3j-oQ7N1IkR6qmTgQ8Upxw,C&C Supermarket,"888 Don Mills Rd, North York, ON M3C 1V6, Canada",43.7258133,-79.3418648
+Toronto,Canada,CA,43.741667,-79.373333,supermarket,ChIJDes2ZZzS1IkREOR3zhBBNos,Galleria Supermarket,"865 York Mills Rd, North York, ON M3B 1Y6, Canada",43.75370729999999,-79.3493277
+Toronto,Canada,CA,43.741667,-79.373333,supermarket,ChIJEwRgVd0yK4gRQw0kdW0JlbY,Metro,"3142 Yonge St, Toronto, ON M4N 2K6, Canada",43.72681220000001,-79.40311159999997
+Toronto,Canada,CA,43.741667,-79.373333,supermarket,ChIJH2xtY9TM1IkRRX3PsTdOPtE,Metro,"656 Eglinton Ave E, Toronto, ON M4P 1P1, Canada",43.71117460000001,-79.3786135
+Toronto,Canada,CA,43.741667,-79.373333,supermarket,ChIJG9EZzzwzK4gRzCschHb_z4g,Metro,"2300 Yonge St, Toronto, ON M4P 1E4, Canada",43.7072763,-79.39956219999998
+Vancouver,Canada,CA,49.25,-123.1,hardware store,ChIJdQ1jud1zhlQRrzO3fVYUkyg,The Home Depot,"2388 Cambie St, Vancouver, BC V5Z 2T8, Canada",49.2641544,-123.114317
+Vancouver,Canada,CA,49.25,-123.1,mall,ChIJP2oYRX9xhlQRUGL0tr-uzSY,CF Pacific Centre,"701 W Georgia St, Vancouver, BC V7Y 1G5, Canada",49.28333189999999,-123.1183909
+Vancouver,Canada,CA,49.25,-123.1,mall,ChIJBwLQ4edzhlQRN3E3qS-g9tg,City Square Shopping Centre,"555 W 12th Ave, Vancouver, BC V5Z 3X7, Canada",49.2609498,-123.1171617
+Vancouver,Canada,CA,49.25,-123.1,mall,ChIJUW_fXEdxhlQRDQXSCeBYs3Y,Il Mercato,"1641 Commercial Dr, Vancouver, BC V5L 3Y3, Canada",49.2697677,-123.070152
+Vancouver,Canada,CA,49.25,-123.1,mall,ChIJ36zlvedzhlQRtVdcjZQtC6E,International Village Mall,"88 W Pender St, Vancouver, BC V6B 6N9, Canada",49.28055560000001,-123.1061111
+Vancouver,Canada,CA,49.25,-123.1,mall,ChIJact9Tl9xhlQREvIeUL-22kw,Kingsgate Mall,"370 E Broadway, Vancouver, BC V5T 4G5, Canada",49.2623495,-123.0971212
+Vancouver,Canada,CA,49.25,-123.1,mall,ChIJ9WssD3p0hlQRr6Wo7Wb9KOI,Oakridge Centre,"650 W 41st Ave, Vancouver, BC V5Z 2M9, Canada",49.2320488,-123.1186817
+Vancouver,Canada,CA,49.25,-123.1,mall,ChIJhbhUooFxhlQR3jo-CmYB-4s,Royal Centre,"1055 W Georgia St, Vancouver, BC V6E 3P3, Canada",49.28538940000001,-123.1218372
+Vancouver,Canada,CA,49.25,-123.1,park,ChIJdT38dmRxhlQRq93GlaDNzn4,Creekside Park,"1455 Quebec St, Vancouver, BC V6A 3Z7, Canada",49.27462420000001,-123.1030693
+Vancouver,Canada,CA,49.25,-123.1,park,ChIJxe0X69BzhlQRN8arE-4IpMY,David Lam Park,"1300 Pacific Blvd, Vancouver, BC V6Z 2Y1, Canada",49.27214710000001,-123.1249916
+Vancouver,Canada,CA,49.25,-123.1,park,ChIJNTdgR7N2hlQRsGx3wkOQ0sk,John Hendry Park (Trout Lake Park),"3300 Victoria Dr, Vancouver, BC V5N 4M4, Canada",49.257806,-123.0593603
+Vancouver,Canada,CA,49.25,-123.1,park,ChIJAWo0tC1yhlQRAL6Iz7Cs6G4,Sunset Beach Park,"1204 Beach Ave, Vancouver, BC V6E 1V3, Canada",49.2799528,-123.1387417
+Vancouver,Canada,CA,49.25,-123.1,park,ChIJcUir1MxzhlQRBUXcDCRBgoI,Vanier Park,"1000 Chestnut St, Vancouver, BC V6J 3J9, Canada",49.27728800000001,-123.1435496
+Vancouver,Canada,CA,49.25,-123.1,restaurant,ChIJZ0UuanRuhlQRab4hMds18Uo,Seasons in the Park,"W 33rd Ave, Vancouver, BC V5Y 2M4, Canada",49.24200560000001,-123.1118562
+Vancouver,Canada,CA,49.25,-123.1,restaurant,ChIJj6Jmb85zhlQR8ho06uTUy6U,The Sandbar Seafood Restaurant,"1535 Johnston Street, Creekhouse #102, Vancouver, BC V6H 3R9, Canada",49.2715164,-123.134276
+Vancouver,Canada,CA,49.25,-123.1,sights,ChIJnwmhxIpzhlQRr3heOBl69fg,Bloedel Conservatory,"4600 Cambie St, Vancouver, BC V5Y 2M4, Canada",49.2420477,-123.1137986
+Vancouver,Canada,CA,49.25,-123.1,sights,ChIJ86zkaC9yhlQR4GhBA8iTiy4,English Bay Beach,"Beach Ave, Vancouver, BC V6C 3C1, Canada",49.2863114,-123.1434865
+Vancouver,Canada,CA,49.25,-123.1,sights,ChIJIcZrTvVzhlQRiKTnD03vt7Q,Queen Elizabeth Park,"4600 Cambie St, Vancouver, BC V5Z 2Z1, Canada",49.241757,-123.1126193
+Vancouver,Canada,CA,49.25,-123.1,sights,ChIJwW3HeIZzhlQRVxJgWI8VjAg,VanDusen Botanical Garden,"5251 Oak St, Vancouver, BC V6M 4H1, Canada",49.2394052,-123.1288986
+Vancouver,Canada,CA,49.25,-123.1,supermarket,ChIJC1A8_qZ2hlQRH31ofyTnTgE,88 Supermarket,"4801 Victoria Dr, Vancouver, BC V5P 4P3, Canada",49.24129989999999,-123.0654925
+Vancouver,Canada,CA,49.25,-123.1,supermarket,ChIJs1K1vNZzhlQRDXHHseKJrJY,Choices Markets,"1202 Richards St, Vancouver, BC V6B 3G2, Canada",49.27573579999999,-123.1242484
+Vancouver,Canada,CA,49.25,-123.1,supermarket,ChIJHWnp5at2hlQRXfHZoYXeZbM,Famous Foods,"1595 Kingsway, Vancouver, BC V5N 2R8, Canada",49.2483,-123.0715472
+Vancouver,Canada,CA,49.25,-123.1,supermarket,ChIJWeRNAIBxhlQRfFA7HjhBNjg,IGA,"909 Burrard St, Vancouver, BC V6Z 2N2, Canada",49.282204,-123.12495590000002
+Vancouver,Canada,CA,49.25,-123.1,supermarket,ChIJx3zUbnFxhlQRkFx1t73k5VU,Sunrise Market,"300 Powell St, Vancouver, BC V6A 2Z2, Canada",49.2829793,-123.0974837
+Vancouver,Canada,CA,49.25,-123.1,supermarket,ChIJvWVSod1zhlQRBZNsygH88rU,Whole Foods Market,"510 W 8th Ave, Vancouver, BC V5Z 1C5, Canada",49.264022,-123.1152825
+Vancouver,Canada,CA,49.25,-123.1,tourist information,ChIJ36zlvedzhlQRAFUUd93cPgg,Gastown Steam Clock,"305 Water St, Vancouver, BC V6B 1B9, Canada",49.284481,-123.1090011
+Vancouver,Canada,CA,49.25,-123.1,train station,ChIJ5URWK2RxhlQRrHLKR2r9N6M,Pacific Central Station,"1150 Station St, Vancouver, BC V6A 4C7, Canada",49.2736975,-123.0978918
+Santiago,Chile,CL,-33.45,-70.667,bar,ChIJJ6n5yJ7FYpYRJg3thKg2G5I,Bar La Junta,"Local 5, José Victorino Lastarria 70, Santiago, Región Metropolitana, Chile",-33.4394444,-70.64138890000002
+Santiago,Chile,CL,-33.45,-70.667,bar,ChIJTxx61ZbFYpYRwuqykuDJN0o,Bar La Virgen,"Erasmo Escala 2395, Santiago, Región Metropolitana, Chile",-33.4453148,-70.6694105
+Santiago,Chile,CL,-33.45,-70.667,bar,ChIJSar4ZbvFYpYRgMGJGeV2tDk,La Piojera,"Aillavilú 1030, Santiago, Región Metropolitana, Chile",-33.433593800000004,-70.65213779999998
+Santiago,Chile,CL,-33.45,-70.667,park,ChIJabUIzg7FYpYRTIltmOeisC8,Almagro Park,"Santiago, Santiago Metropolitan Region, Chile",-33.4521121,-70.65359980000002
+Santiago,Chile,CL,-33.45,-70.667,park,ChIJDamlBKfFYpYRRLVglGmcM0c,Constitution Plaza,"Moneda, Santiago, Región Metropolitana, Chile",-33.4416402,-70.65410250000002
+Santiago,Chile,CL,-33.45,-70.667,park,ChIJzQz1pLXFYpYRzXDv9a6Plec,Reyes Park,"Pdte Balmaceda, Santiago, Región Metropolitana, Chile",-33.429199,-70.6665218
+Santiago,Chile,CL,-33.45,-70.667,restaurant,ChIJu6iGdbvFYpYRUSQyeWGGwAM,Castillo Forestal,"Cardenal José María Caro 390, Santiago, Región Metropolitana, Chile",-33.4351091,-70.6427297
+Santiago,Chile,CL,-33.45,-70.667,sights,ChIJM2dCopnFYpYRsOHcy8INt7s,Parque Forestal,"Santiago, Santiago Metropolitan Region, Chile",-33.4356565,-70.64126920000002
+Santiago,Chile,CL,-33.45,-70.667,supermarket,ChIJ6yrFl5jFYpYRHwRv17s0og8,Express de Lider Merced,"Merced 560, Santiago, Región Metropolitana, Chile",-33.4379715,-70.64476429999998
+Santiago,Chile,CL,-33.45,-70.667,supermarket,ChIJWYT850zEYpYRLv8wXQNqrEk,Express de Lider San Pablo,"San Pablo 2362, Santiago, Región Metropolitana, Chile",-33.4350945,-70.67076279999998
+Santiago,Chile,CL,-33.45,-70.667,supermarket,ChIJg0ngpKTFYpYR54TbGPxK3RY,Express de Lider Santo Domingo,"Santo Domingo 1031, Santiago, Región Metropolitana, Chile",-33.43624399999999,-70.6519921
+Santiago,Chile,CL,-33.45,-70.667,supermarket,ChIJjbNHop7FYpYRspy1h7VW6RI,Santa Isabel,"Av. Portugal 112, Santiago, Región Metropolitana, Chile",-33.4431255,-70.63758179999998
+Santiago,Chile,CL,-33.45,-70.667,supermarket,ChIJk_evw7zFYpYR6AqGgApAy-M,Santa Isabel,"Ismael Valdés Vergara 838, Santiago, Región Metropolitana, Chile",-33.4338471,-70.64983559999997
+Santiago,Chile,CL,-33.45,-70.667,supermarket,ChIJjQQlL63FYpYRcSrOys6EmbA,Santa Isabel,"Compañía de Jesús 2305, Santiago, Región Metropolitana, Chile",-33.4400028,-70.6687271
+Santiago,Chile,CL,-33.45,-70.667,supermarket,ChIJO1nLDHXFYpYRO1DlOZLLzgs,Supermercado Ekono,"Curicó 517, Santiago, Región Metropolitana, Chile",-33.4460661,-70.64322729999998
+Santiago,Chile,CL,-33.45,-70.667,tourist information,ChIJh6jlbpvFYpYRkpWNqb9Gp0M,Centre Gabriela Mistral,"Av Libertador Bernardo O'Higgins 227, Santiago, Región Metropolitana, Chile",-33.4392484,-70.6397805
+Santiago,Chile,CL,-33.45,-70.667,train station,ChIJd1lK26DFYpYR2LW16VB1Wgs,Estacion Universidad de Chile,"Santiago, Santiago Metropolitan Region, Chile",-33.443809,-70.650391
+Santiago,Chile,CL,-33.45,-70.667,train station,ChIJ1xmCWs3EYpYRHAsmwU5SMko,Pedro Aguirre Cerda station,"Pintor de La Fuente 5174, Pedro Aguirre Cerda, Región Metropolitana, Chile",-33.493362899999994,-70.68174499999998
+Santiago,Chile,CL,-33.45,-70.667,train station,ChIJrZ0DzfXEYpYRc0070y3im3s,Terminal Alameda Santiago,"Av Libertador Bernardo O'Higgins 3850, Santiago, Estación Central, Región Metropolitana, Chile",-33.45437220000001,-70.6881262
+Berlin,Germany,DE,52.5218,13.4015,gastro pub,ChIJU-UjNsJRqEcRU-VkZMYOGOk,Berliner Republik,"Schiffbauerdamm 8, 10117 Berlin, Germany",52.52137140000001,13.3858237
 Berlin,Germany,DE,52.5218,13.4015,hardware store,ChIJS2r47UZOqEcRbCQd5Y_XAjc,HELLWEG - Die Profi-Baumärkte Berlin-Friedrichshain,"An der Ostbahn 3, 10243 Berlin, Germany",52.5100179,13.439851999999998
 Berlin,Germany,DE,52.5218,13.4015,hardware store,ChIJf9XwqzBQqEcRiyRlXKZeoRI,HELLWEG - The Professional DIY Stores GmbH & Co. KG,"Yorckstraße 38-39, 10965 Berlin, Germany",52.49351729999999,13.3700086
+Berlin,Germany,DE,52.5218,13.4015,main station,ChIJ62hndh9OqEcRydXjBjh91ps,Berlin Alexanderplatz Bahnhof,"Dircksenstr. 2, 10179 Berlin, Germany",52.52155630000001,13.4111577
+Berlin,Germany,DE,52.5218,13.4015,main station,ChIJe-ff-71RqEcRqvy8lRR4PHo,Berlin Central Station,"Hauptbahnhof, Europaplatz 1, 10557 Berlin, Germany",52.52508390000001,13.369402
+Berlin,Germany,DE,52.5218,13.4015,main station,ChIJcy1JA8NRqEcRBNy2MNzQTmw,Berlin Friedrichstraße station,"Georgenstraße 14/17, 10117 Berlin, Germany",52.520289399999996,13.386977599999998
+Berlin,Germany,DE,52.5218,13.4015,main station,ChIJXdFtSjxIqEcRjoozhtQ1iDo,Berlin Hirschgarten railway station,"12587 Berlin, Germany",52.45793670000001,13.602605300000002
+Berlin,Germany,DE,52.5218,13.4015,main station,ChIJ05q01-1RqEcRGDTqjYS5BBs,Berlin Nordbahnhof,"Invalidenstraße 131, 10115 Berlin, Germany",52.5318835,13.3883826
+Berlin,Germany,DE,52.5218,13.4015,main station,ChIJaS75A0dOqEcRK8tLe3-tu3A,Berlin Ostbahnhof,"Koppenstraße 3, 10243 Berlin, Germany",52.510534,13.4349799
+Berlin,Germany,DE,52.5218,13.4015,mall,ChIJ4dic-71RqEcRj6sdBp0wvr0,Einkaufsbahnhof Berlin Hbf,"Europaplatz 1, 10557 Berlin, Germany",52.5249111,13.369492
+Berlin,Germany,DE,52.5218,13.4015,park,ChIJ4dHdSq5RqEcReqvQ3PGSw4M,Großer Tiergarten,"Str. des 17. Juni, 10785 Berlin, Germany",52.51415160000001,13.3591634
+Berlin,Germany,DE,52.5218,13.4015,park,ChIJZ7MZiExPqEcRG1LUMlDEr-0,Görlitzer Park,"Görlitzer Str. 3, 10997 Berlin, Germany",52.498124,13.434577
+Berlin,Germany,DE,52.5218,13.4015,park,ChIJraCYwolRqEcRxVtJLuV3IDc,Humboldthain park,"Brunnenstraße, 13357 Berlin, Germany",52.54527789999999,13.3848881
+Berlin,Germany,DE,52.5218,13.4015,park,ChIJd-d5Rx1SqEcRgCz33OsCSZQ,Mauer park,"Gleimstraße 55, 10437 Berlin, Germany",52.5424,13.403351999999998
+Berlin,Germany,DE,52.5218,13.4015,park,ChIJCfROcedRqEcRjFRvdEEGvYY,Monbijou Park,"Oranienburger Str., 10178 Berlin, Germany",52.5232481,13.396476000000002
+Berlin,Germany,DE,52.5218,13.4015,park,ChIJe8FmEzBQqEcRth79TMVowwU,Park at Gleisdreieck,"Möckernstraße 26, 10963 Berlin, Germany",52.49402689999999,13.3759081
+Berlin,Germany,DE,52.5218,13.4015,park,ChIJ_S5uaxJOqEcRdg-gu1fEgcI,Volkspark Friedrichshain,"10249 Berlin, Germany",52.5280353,13.4363934
+Berlin,Germany,DE,52.5218,13.4015,sights,ChIJZ0KxF_JRqEcRrLHB-4r-U-o,Berlin Wall Memorial,"Bernauer Str. 111, 13355 Berlin, Germany",52.53505209999999,13.390189800000002
+Berlin,Germany,DE,52.5218,13.4015,sights,ChIJw_HTKK9RqEcRyeWAo9t_YlU,Victory Column,"Großer Stern, 10557 Berlin, Germany",52.5145434,13.350118900000002
+Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJnUuaO9NPqEcR7lz9oHr3v40,Netto Filiale,"Gitschiner Str. 73, 10969 Berlin, Germany",52.4987005,13.405827100000002
+Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJmQtpiOBRqEcRqBjTGY_LvHI,REWE,"Litfaß-Platz 4, 10178 Berlin, Germany",52.522141000000005,13.403465099999998
+Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJozX6XTNOqEcRt6tYet0AmsY,REWE,"Skalitzer Str. 134, 10999 Berlin, Germany",52.49937250000001,13.4187919
+Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJBUEJietRqEcRM-_HFj_aQig,REWE,"Chausseestraße 118-120, 10115 Berlin, Germany",52.5295301,13.3841341
+Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJszR0qEdOqEcR-wk88Z89zM8,REWE,"Am Ostbahnhof 9, 10243 Berlin, Germany",52.5100054,13.4347244
