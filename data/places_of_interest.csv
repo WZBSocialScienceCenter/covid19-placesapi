@@ -1,4 +1,53 @@
 city,country,iso2,lat,lng,query,place_id,name,addr,place_lat,place_lng
+Kabul,Afghanistan,AF,34.5167,69.1833,park,ChIJbWAhh7hu0TgRaDRVJl_nI_w,پارک شهر نو,"Shahre Now Park، Kabul, Afghanistan",34.5339042,69.1689984
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,bar,ChIJ2Uj7kcDKvJURzFx4ATwvHMw,Dellepiane Bar,"Luis Dellepiane 685, C1019 CABA, Argentina",-34.6009435,-58.3909198
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,train station,ChIJiY6tebPKvJURwmyqs_itvhc,Rail Line Belgrano Norte - Retiro Station,"Buenos Aires, Argentina",-34.5898961,-58.3743491
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,train station,ChIJacCoa_LKvJURkiz-1eM4WB4,Estación Once,"C1198 Buenos Aires, Argentina",-34.6083758,-58.4070088
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,train station,ChIJt1yo9Za1vJURUl08aXKN_sc,Mtro. Carranza,"Buenos Aires, Argentina",-34.5756947,-58.4351655
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,sights,ChIJl9_7lx81o5URTyXCnVNNCgw,Reserva Ecológica Costanera Sur,"Buenos Aires, Buenos Aires Province, Argentina",-34.6081059,-58.3509217
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,sights,ChIJifSktCzLvJURsTMaMFXLu3E,Plaza Dorrego,"Humberto 1º 400, C1103 CABA, Argentina",-34.6205105,-58.371756
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJlfwm7sw0o5URYMQbNmnr3i4,Parque Lezama,"Av. Brasil, C1143 CABA, Argentina",-34.6265523,-58.369556
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJY7v2kSg1o5URwfnHzj56_6M,Mujeres Argentinas Park,"Juana Manso, Buenos Aires, Argentina",-34.6073529,-58.361796
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJAZygNsPKvJUR05SnBb3jAsc,Congressional Plaza,"C1033 Buenos Aires, Argentina",-34.6097082,-58.3903334
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJzUXgvH21vJURmgmG5hpUBCc,Parque Las Heras,"French, C1425 CABA, Argentina",-34.5841026,-58.4080162
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJ3_VmO6TKvJUReBNAK9tnIfk,Parque Thays,"Barrio, Buenos Aires, Argentina",-34.5847947,-58.3871222
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJewp303e1vJURrDtuJI_Wdq4,Mayor Seeber Square,"Av. Sarmiento, Buenos Aires, Argentina",-34.5753947,-58.4171004
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,park,ChIJpSAB-cXKvJURj2P83WlerSQ,Plaza Lavalle,"Lavalle 1200, C1043 AAL, Buenos Aires, Argentina",-34.6020577,-58.384511
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJ5SwBkKLKvJURKJZdVKCCu9U,Recoleta Mall,"Vicente López 2050, C1126 CABA, Argentina",-34.5891384,-58.3939348
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJr_waC8vKvJURnJ45T8-lU40,Galerías Pacífico,"Av. Córdoba 550, C1054 CABA, Argentina",-34.5992344,-58.3747818
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJlXOtb2W1vJURpg0p1aOr42Q,Alcorta Mall,"Jerónimo Salguero 3172, C1425 CABA, Argentina",-34.5744668,-58.4038029
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJIRWq0oPKvJURoBsCDf5Bqcc,Alto Palermo,"Av. Santa Fe 3253, C1091 CABA, Argentina",-34.5878627,-58.4101606
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJP9FLhYzKvJURoUraVMD1DPw,Abasto de Buenos Aires,"Av. Corrientes 3247, C1193 CABA, Argentina",-34.6038897,-58.4109982
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,supermarket,ChIJ-RipWM_KvJURLksgUfbE0a8,Carrefour Market,"Av. Corrientes 1160, 1043 CABA, Argentina",-34.6038206,-58.3830228
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,supermarket,ChIJh5h_ncTKvJURB0UlqsDZFMo,COTO,"Bartolomé Mitre 1560, C1037 ABD, Buenos Aires, Argentina",-34.6078863,-58.3888302
+Canberra,Australia,AU,-35.283,149.129,sights,ChIJB3tFOEtNFmsR4C1Xi2_qAA8,Australian National Botanic Gardens,"Clunies Ross St, Acton ACT 2601, Australia",-35.278878,149.108918
+Canberra,Australia,AU,-35.283,149.129,sights,ChIJeb_-XhdNFmsR5ZuDF8x3UFw,Questacon - National Science and Technology Centre,"King Edward Terrace, Parkes ACT 2600, Australia",-35.2985069,149.1315243
+Canberra,Australia,AU,-35.283,149.129,sights,ChIJCUsl4BhNFmsRhaBxEayyx04,Old Parliament House,"18 King George Terrace, Parkes ACT 2600, Australia",-35.3022644,149.1297341
+Canberra,Australia,AU,-35.283,149.129,sights,ChIJyVCSt3tSFmsRuisG4DhEWuo,Mount Ainslie Lookout,"20 Mount Ainslie Dr, Australian Capital Territory 2609, Australia",-35.2703529,149.1580644
+Canberra,Australia,AU,-35.283,149.129,park,ChIJoTvEfyRNFmsRgCEEETuvBdE,Canberra Nara Peace Park,"Yarralumla ACT 2600, Australia",-35.2984088,149.1212779
+Canberra,Australia,AU,-35.283,149.129,mall,ChIJccVwoEJNFmsRpk7Kh1IUoYk,No Name Lane,"40 Marcus Clarke St, Canberra ACT 2601, Australia",-35.2785395,149.1270195
+Canberra,Australia,AU,-35.283,149.129,mall,ChIJ__9RT-9MFmsRpdIDmtDvgSs,Manuka Shopping Precinct,"Franklin St, Griffith ACT 2603, Australia",-35.320117,149.1335528
+Canberra,Australia,AU,-35.283,149.129,supermarket,ChIJsc9euohSFmsRVHJ1pIvs4Ag,IGA Ainslie,"9/11 Edgar St, Ainslie ACT 2602, Australia",-35.261979,149.144987
+Canberra,Australia,AU,-35.283,149.129,supermarket,ChIJjVRG6GVNFmsR1sDCsXw-w3Q,Coles Canberra Civic,"Bunda St & Petrie St Canberra, Civic ACT 2601, Australia",-35.2784496,149.133613
+Canberra,Australia,AU,-35.283,149.129,supermarket,ChIJXdzI8mVNFmsRipJn2mLYdmc,ALDI Canberra CBD,"AG09 Bunda St, Canberra ACT 2600, Australia",-35.2791458,149.1342906
+Canberra,Australia,AU,-35.283,149.129,hardware store,ChIJs8XJwKtNFmsR6wigjLsr51I,Bunnings Canberra Airport,"Canberra Airport, 971 Majura Rd, Majura Park ACT 2609, Australia",-35.2931221,149.1912836
+Vienna,Austria,AT,48.2,16.3666,club,ChIJawX91haobUcRBeezzsNbQOM,U4 Vienna,"Schönbrunner Str. 222/228, 1120 Wien, Austria",48.183394,16.3283448
+Vienna,Austria,AT,48.2,16.3666,train station,ChIJgYIk6uepbUcRk0DlTW-Jcec,Wien Hbf (Autoreisezuganlage),"1100 Vienna, Austria",48.177792,16.391293
+Vienna,Austria,AT,48.2,16.3666,train station,ChIJcw5fA7YHbUcR9uqSCCBND2k,Wien Franz-Josefs-Bahnhof,"1090 Vienna, Austria",48.2268763,16.3609483
+Vienna,Austria,AT,48.2,16.3666,park,ChIJA65nM34IbUcRToCv4--54vw,Türkenschanzpark,"Hasenauerstraße Türkenschanzpark, 1180 Wien, Austria",48.2348279,16.3338496
+Vienna,Austria,AT,48.2,16.3666,park,ChIJNZQq7COobUcRGE3svmY7gTg,Bruno-Kreisky Park,"Sankt-Johann-Park, K, 1050 Wien, Austria",48.1880715,16.3438542
+Dhaka,Bangladesh,BD,23.7231,90.4086,train station,ChIJN46LTri5VTcRCyFDrLogSoY,Gandaria Rail Station,"Satish Sarkar Rd, Dhaka 1204, Bangladesh",23.7014878,90.4289931
+Dhaka,Bangladesh,BD,23.7231,90.4086,sights,ChIJOcC-nOi4VTcRFtAHmzv5A-Q,Central Shaheed Minar,"Near Dhaka Medical College Gate, Secretariat Road, Secretariate Road, Dhaka 1000, Bangladesh",23.7271353,90.3969188
+Minsk,Belarus,BY,53.9,27.5666,bar,ChIJUZI6xevP20YRqkPSr8YIiCM,TNT Rock Club,"vulica Revaliucyjnaja 9, Minsk 220030, Belarus",53.9024008,27.5515866
+Minsk,Belarus,BY,53.9,27.5666,club,ChIJeYl052TQ20YR_gue7kJa0W0,Rich Cat Club,"vulica Viery Charužaj 29, Minsk, Belarus",53.9220889,27.5618947
+Minsk,Belarus,BY,53.9,27.5666,park,ChIJ36aDuInP20YRxtaEQB9m0d8,Victory Park,"Minsk, Belarus",53.9163741,27.5406688
+Minsk,Belarus,BY,53.9,27.5666,park,ChIJL-GMrL_P20YR7mDutPnTaDw,Janki Kupaly Park,"vulica Janki Kupaly, Minsk, Belarus",53.9061027,27.5661029
+Minsk,Belarus,BY,53.9,27.5666,park,ChIJRVj1dgPP20YRBWB4A_sUx_Q,Čaliuskincaŭ Park,"praspiekt Niezaliežnasci, Minsk, Belarus",53.9219152,27.6168743
+Minsk,Belarus,BY,53.9,27.5666,park,ChIJxQ1zQd3P20YRjzoVPoAhTUs,Michajlaŭski Garden Square,"Vulitsa Svyardlova, Minsk, Belarus",53.8944444,27.5516667
+Minsk,Belarus,BY,53.9,27.5666,mall,ChIJFdAMym_F20YRJJvzezNcGds,Zamok Shopping Mall,"Prospekte Pobeditelei 65, Minsk, Belarus",53.9261803,27.5176505
+Minsk,Belarus,BY,53.9,27.5666,supermarket,ChIJnRHoIIvP20YRMvvLntOmoGI,BIGZZ,"praspiekt Mašerava 76а, Minsk, Belarus",53.9130046,27.534251
+Brussels,Belgium,BE,50.8333,4.3333,sights,ChIJX1tyKaTEw0cRWjLH8frzAq8,Parc du Cinquantenaire,"1000 Brussels, Belgium",50.841393,4.3904833
+Brussels,Belgium,BE,50.8333,4.3333,park,ChIJG7TZikPEw0cReLqY0TgNGGs,Forest Park,"1190 Forest, Belgium",50.8230491,4.3383381
 Berlin,Germany,DE,52.5218,13.4015,gastro pub,ChIJU-UjNsJRqEcRU-VkZMYOGOk,Berliner Republik,"Schiffbauerdamm 8, 10117 Berlin, Germany",52.5213714,13.3858237
 Berlin,Germany,DE,52.5218,13.4015,main station,ChIJe-ff-71RqEcRqvy8lRR4PHo,Berlin Central Station,"Hauptbahnhof, Europaplatz 1, 10557 Berlin, Germany",52.525083900000006,13.369402
 Berlin,Germany,DE,52.5218,13.4015,main station,ChIJ62hndh9OqEcRydXjBjh91ps,Berlin Alexanderplatz Bahnhof,"Dircksenstr. 2, 10179 Berlin, Germany",52.52155630000001,13.411157699999999
