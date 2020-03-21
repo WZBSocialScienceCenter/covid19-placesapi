@@ -1,0 +1,21 @@
+city,country,iso2,lat,lng,query,place_id,name,addr,place_lat,place_lng
+Berlin,Germany,DE,52.5218,13.4015,main station,ChIJe-ff-71RqEcRqvy8lRR4PHo,Berlin Central Station,"Hauptbahnhof, Europaplatz 1, 10557 Berlin, Germany",52.5250839,13.369402
+Berlin,Germany,DE,52.5218,13.4015,main station,ChIJ62hndh9OqEcRydXjBjh91ps,Berlin Alexanderplatz Bahnhof,"Dircksenstr. 2, 10179 Berlin, Germany",52.52155630000001,13.4111577
+Berlin,Germany,DE,52.5218,13.4015,main station,ChIJaS75A0dOqEcRK8tLe3-tu3A,Berlin Ostbahnhof,"Koppenstraße 3, 10243 Berlin, Germany",52.510534,13.4349799
+Berlin,Germany,DE,52.5218,13.4015,main station,ChIJ05q01-1RqEcRGDTqjYS5BBs,Berlin Nordbahnhof,"Invalidenstraße 131, 10115 Berlin, Germany",52.5318835,13.3883826
+Berlin,Germany,DE,52.5218,13.4015,sights,ChIJZ0KxF_JRqEcRrLHB-4r-U-o,Berlin Wall Memorial,"Bernauer Str. 111, 13355 Berlin, Germany",52.53505209999999,13.3901898
+Berlin,Germany,DE,52.5218,13.4015,sights,ChIJw_HTKK9RqEcRyeWAo9t_YlU,Victory Column,"Großer Stern, 10557 Berlin, Germany",52.5145434,13.3501189
+Berlin,Germany,DE,52.5218,13.4015,park,ChIJ4dHdSq5RqEcReqvQ3PGSw4M,Großer Tiergarten,"Str. des 17. Juni, 10785 Berlin, Germany",52.5141516,13.3591634
+Berlin,Germany,DE,52.5218,13.4015,park,ChIJ_S5uaxJOqEcRdg-gu1fEgcI,Volkspark Friedrichshain,"10249 Berlin, Germany",52.5280353,13.4363934
+Berlin,Germany,DE,52.5218,13.4015,park,ChIJCfROcedRqEcRjFRvdEEGvYY,Monbijou Park,"Oranienburger Str., 10178 Berlin, Germany",52.5232481,13.396476
+Berlin,Germany,DE,52.5218,13.4015,park,ChIJZ7MZiExPqEcRG1LUMlDEr-0,Görlitzer Park,"Görlitzer Str. 3, 10997 Berlin, Germany",52.498124,13.434577
+Berlin,Germany,DE,52.5218,13.4015,park,ChIJd-d5Rx1SqEcRgCz33OsCSZQ,Mauer park,"Gleimstraße 55, 10437 Berlin, Germany",52.5424,13.403352
+Berlin,Germany,DE,52.5218,13.4015,park,ChIJe8FmEzBQqEcRth79TMVowwU,Park at Gleisdreieck,"Möckernstraße 26, 10963 Berlin, Germany",52.49402689999999,13.3759081
+Berlin,Germany,DE,52.5218,13.4015,park,ChIJraCYwolRqEcRxVtJLuV3IDc,Humboldthain park,"Brunnenstraße, 13357 Berlin, Germany",52.54527789999999,13.3848881
+Berlin,Germany,DE,52.5218,13.4015,mall,ChIJ4dic-71RqEcRj6sdBp0wvr0,Einkaufsbahnhof Berlin Hbf,"Europaplatz 1, 10557 Berlin, Germany",52.5249111,13.369492
+Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJnUuaO9NPqEcR7lz9oHr3v40,Netto Filiale,"Gitschiner Str. 73, 10969 Berlin, Germany",52.4987005,13.4058271
+Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJozX6XTNOqEcRt6tYet0AmsY,REWE,"Skalitzer Str. 134, 10999 Berlin, Germany",52.49937250000001,13.4187919
+Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJBUEJietRqEcRM-_HFj_aQig,REWE,"Chausseestraße 118-120, 10115 Berlin, Germany",52.5295301,13.3841341
+Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJszR0qEdOqEcR-wk88Z89zM8,REWE,"Am Ostbahnhof 9, 10243 Berlin, Germany",52.5100054,13.4347244
+Berlin,Germany,DE,52.5218,13.4015,hardware store,ChIJS2r47UZOqEcRbCQd5Y_XAjc,HELLWEG - Die Profi-Baumärkte Berlin-Friedrichshain,"An der Ostbahn 3, 10243 Berlin, Germany",52.5100179,13.439852
+Berlin,Germany,DE,52.5218,13.4015,hardware store,ChIJf9XwqzBQqEcRiyRlXKZeoRI,HELLWEG - The Professional DIY Stores GmbH & Co. KG,"Yorckstraße 38-39, 10965 Berlin, Germany",52.4935173,13.3700086
