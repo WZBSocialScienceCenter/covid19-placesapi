@@ -50,14 +50,14 @@ logger.info('> city: %s' % cityrow.city)
 for place_query in PLACE_SEARCHES:
     logger.info('>> query: %s' % place_query)
 
-    existing_places_mask = ((existing_pois.city == cityrow.city) &
-                            (existing_pois.country == cityrow.country) &
-                            (existing_pois['query'] == place_query))
-
-    if sum(existing_places_mask) > 0:
-        logger.info('>> skipping (already fetched %d places for this city and query)' % sum(existing_places_mask))
-        # TODO
-        continue
+    # existing_places_mask = ((existing_pois.city == cityrow.city) &
+    #                         (existing_pois.country == cityrow.country) &
+    #                         (existing_pois['query'] == place_query))
+    #
+    # if sum(existing_places_mask) > 0:
+    #     logger.info('>> skipping (already fetched %d places for this city and query)' % sum(existing_places_mask))
+    #     # TODO
+    #     continue
 
     places = gmaps.places(query=place_query, location=(cityrow.lat, cityrow.lng), radius=PLACE_SEARCH_RADIUS)
 
@@ -72,6 +72,8 @@ for place_query in PLACE_SEARCHES:
 
         if place['place_id'] in existing_place_ids:
             logger.info('>> skipping (already queried place with ID %s)' % place['place_id'])
+            # don't forget to re-add to results
+            resultrows.append(existing_pois.loc[existing_pois.place_id == place['place_id'], :].iloc[0].to_list())
             continue
 
         poptimes = populartimes.get_id(api_key=API_KEY, place_id=place['place_id'])
