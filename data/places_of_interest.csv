@@ -28,7 +28,7 @@ Canberra,Australia,AU,-35.283,149.129,sights,ChIJB3tFOEtNFmsR4C1Xi2_qAA8,Austral
 Canberra,Australia,AU,-35.283,149.129,sights,ChIJyVCSt3tSFmsRuisG4DhEWuo,Mount Ainslie Lookout,"20 Mount Ainslie Dr, Australian Capital Territory 2609, Australia",-35.2703529,149.1580644
 Canberra,Australia,AU,-35.283,149.129,sights,ChIJCUsl4BhNFmsRhaBxEayyx04,Old Parliament House,"18 King George Terrace, Parkes ACT 2600, Australia",-35.3022644,149.1297341
 Canberra,Australia,AU,-35.283,149.129,sights,ChIJeb_-XhdNFmsR5ZuDF8x3UFw,Questacon - National Science and Technology Centre,"King Edward Terrace, Parkes ACT 2600, Australia",-35.29850689999999,149.1315243
-Canberra,Australia,AU,-35.283,149.129,street market,ChIJDb9QbFdMFmsRK_MX194_ApQ,Fyshwick Fresh Food Markets,"36 Mildura St, Fyshwick ACT 2609, Australia",-35.3241608,149.1547409
+Canberra,Australia,AU,-35.283,149.129,street market,ChIJDb9QbFdMFmsRK_MX194_ApQ,Fyshwick Fresh Food Markets,"36 Mildura St, Fyshwick ACT 2609, Australia",-35.32416079999999,149.1547409
 Canberra,Australia,AU,-35.283,149.129,supermarket,ChIJXdzI8mVNFmsRipJn2mLYdmc,ALDI Canberra CBD,"AG09 Bunda St, Canberra ACT 2600, Australia",-35.27914579999999,149.13429059999999
 Canberra,Australia,AU,-35.283,149.129,supermarket,ChIJjVRG6GVNFmsR1sDCsXw-w3Q,Coles Canberra Civic,"Bunda St & Petrie St Canberra, Civic ACT 2601, Australia",-35.2784496,149.133613
 Canberra,Australia,AU,-35.283,149.129,supermarket,ChIJsc9euohSFmsRVHJ1pIvs4Ag,IGA Ainslie,"9/11 Edgar St, Ainslie ACT 2602, Australia",-35.261979,149.14498700000001
@@ -107,7 +107,7 @@ Sao Paulo,Brazil,BR,-23.55,-46.633333,club,ChIJF0ib4FJYzpQRJsVX-3_fDRw,Club Hote
 Sao Paulo,Brazil,BR,-23.55,-46.633333,mall,ChIJ8TdMTLVZzpQRjvierSN-1AA,Frei Caneca Mall,"R. Frei Caneca, 569 - Consolação, São Paulo - SP, 01307-001, Brazil",-23.5545639,-46.6529657
 Sao Paulo,Brazil,BR,-23.55,-46.633333,mall,ChIJzfLoNdtZzpQRUNricu9WAuc,Jardim Pamplona Shopping,"R. Pamplona, 1704 - Jardim Paulista, São Paulo - SP, 01405-002, Brazil",-23.5703707,-46.6613187
 Sao Paulo,Brazil,BR,-23.55,-46.633333,mall,ChIJVcOhFM1ZzpQRhMEvu5q_I9U,Shopping Center 3,"Av. Paulista, 2064 - Cerqueira César, São Paulo - SP, 01310-928, Brazil",-23.5578425,-46.6589782
-Sao Paulo,Brazil,BR,-23.55,-46.633333,mall,ChIJbf1JiMhZzpQRarPl5lKGKmw,Shopping Cidade São Paulo,"Av. Paulista, 1230 - Bela Vista, São Paulo - SP, 01310-100, Brazil",-23.563489800000006,-46.652658
+Sao Paulo,Brazil,BR,-23.55,-46.633333,mall,ChIJbf1JiMhZzpQRarPl5lKGKmw,Shopping Cidade São Paulo,"Av. Paulista, 1230 - Bela Vista, São Paulo - SP, 01310-100, Brazil",-23.56348980000001,-46.652658
 Sao Paulo,Brazil,BR,-23.55,-46.633333,park,ChIJ438zJnhZzpQRuVL8SUjklLY,Parque da Aclimação,"Rua Muniz de Sousa, 1119 - Aclimação, São Paulo - SP, 01534-001, Brazil",-23.5746857,-46.6285513
 Sao Paulo,Brazil,BR,-23.55,-46.633333,sights,ChIJ0RGdBvFZzpQRQeWcrwlhk8s,Ibirapuera Park,"Av. Pedro Álvares Cabral - Vila Mariana, São Paulo - SP, 04094-050, Brazil",-23.5874162,-46.6576336
 Sao Paulo,Brazil,BR,-23.55,-46.633333,street market,ChIJ06WidRxYzpQRU3-eTZzik9c,Sacolão Perdizes,"Rua Turiassú, 273 - Perdizes, São Paulo - SP, 05005-001, Brazil",-23.5338889,-46.6658333
@@ -159,7 +159,7 @@ Vancouver,Canada,CA,49.25,-123.1,sights,ChIJnwmhxIpzhlQRr3heOBl69fg,Bloedel Cons
 Vancouver,Canada,CA,49.25,-123.1,sights,ChIJ86zkaC9yhlQR4GhBA8iTiy4,English Bay Beach,"Beach Ave, Vancouver, BC V6C 3C1, Canada",49.2863114,-123.1434865
 Vancouver,Canada,CA,49.25,-123.1,sights,ChIJIcZrTvVzhlQRiKTnD03vt7Q,Queen Elizabeth Park,"4600 Cambie St, Vancouver, BC V5Z 2Z1, Canada",49.241757,-123.1126193
 Vancouver,Canada,CA,49.25,-123.1,sights,ChIJwW3HeIZzhlQRVxJgWI8VjAg,VanDusen Botanical Garden,"5251 Oak St, Vancouver, BC V6M 4H1, Canada",49.2394052,-123.1288986
-Vancouver,Canada,CA,49.25,-123.1,street market,ChIJI9TRuUhxhlQRg3jOCkpiWaA,City Avenue Market,"2279 Commercial Dr, Vancouver, BC V5N 4B6, Canada",49.2641607,-123.0699528
+Vancouver,Canada,CA,49.25,-123.1,street market,ChIJI9TRuUhxhlQRg3jOCkpiWaA,City Avenue Market,"2279 Commercial Dr, Vancouver, BC V5N 4B6, Canada",49.26416070000001,-123.0699528
 Vancouver,Canada,CA,49.25,-123.1,street market,ChIJG3q8d85zhlQRIH1pyAsVpEc,Granville Island Public Market,"1669 Johnston St, Vancouver, BC V6H 3R9, Canada",49.2722249,-123.1347822
 Vancouver,Canada,CA,49.25,-123.1,supermarket,ChIJC1A8_qZ2hlQRH31ofyTnTgE,88 Supermarket,"4801 Victoria Dr, Vancouver, BC V5P 4P3, Canada",49.24129989999999,-123.0654925
 Vancouver,Canada,CA,49.25,-123.1,supermarket,ChIJs1K1vNZzhlQRDXHHseKJrJY,Choices Markets,"1202 Richards St, Vancouver, BC V6B 3G2, Canada",49.27573579999999,-123.1242484
@@ -177,7 +177,7 @@ Santiago,Chile,CL,-33.45,-70.667,park,ChIJDamlBKfFYpYRRLVglGmcM0c,Constitution P
 Santiago,Chile,CL,-33.45,-70.667,park,ChIJzQz1pLXFYpYRzXDv9a6Plec,Reyes Park,"Pdte Balmaceda, Santiago, Región Metropolitana, Chile",-33.429199,-70.6665218
 Santiago,Chile,CL,-33.45,-70.667,restaurant,ChIJu6iGdbvFYpYRUSQyeWGGwAM,Castillo Forestal,"Cardenal José María Caro 390, Santiago, Región Metropolitana, Chile",-33.4351091,-70.6427297
 Santiago,Chile,CL,-33.45,-70.667,sights,ChIJM2dCopnFYpYRsOHcy8INt7s,Parque Forestal,"Santiago, Santiago Metropolitan Region, Chile",-33.4356565,-70.64126920000002
-Santiago,Chile,CL,-33.45,-70.667,street market,ChIJseiyZbzFYpYRNhFCJrYOnYA,Mercado Tirso de Molina,"Av. Sta. María 409, Recoleta, Región Metropolitana, Chile",-33.4318469,-70.65045529999999
+Santiago,Chile,CL,-33.45,-70.667,street market,ChIJseiyZbzFYpYRNhFCJrYOnYA,Mercado Tirso de Molina,"Av. Sta. María 409, Recoleta, Región Metropolitana, Chile",-33.4318469,-70.65045529999998
 Santiago,Chile,CL,-33.45,-70.667,supermarket,ChIJ6yrFl5jFYpYRHwRv17s0og8,Express de Lider Merced,"Merced 560, Santiago, Región Metropolitana, Chile",-33.4379715,-70.64476429999998
 Santiago,Chile,CL,-33.45,-70.667,supermarket,ChIJWYT850zEYpYRLv8wXQNqrEk,Express de Lider San Pablo,"San Pablo 2362, Santiago, Región Metropolitana, Chile",-33.4350945,-70.67076279999998
 Santiago,Chile,CL,-33.45,-70.667,supermarket,ChIJg0ngpKTFYpYR54TbGPxK3RY,Express de Lider Santo Domingo,"Santo Domingo 1031, Santiago, Región Metropolitana, Chile",-33.43624399999999,-70.6519921
@@ -189,35 +189,35 @@ Santiago,Chile,CL,-33.45,-70.667,tourist information,ChIJh6jlbpvFYpYRkpWNqb9Gp0M
 Santiago,Chile,CL,-33.45,-70.667,train station,ChIJd1lK26DFYpYR2LW16VB1Wgs,Estacion Universidad de Chile,"Santiago, Santiago Metropolitan Region, Chile",-33.443809,-70.650391
 Santiago,Chile,CL,-33.45,-70.667,train station,ChIJ1xmCWs3EYpYRHAsmwU5SMko,Pedro Aguirre Cerda station,"Pintor de La Fuente 5174, Pedro Aguirre Cerda, Región Metropolitana, Chile",-33.493362899999994,-70.68174499999998
 Santiago,Chile,CL,-33.45,-70.667,train station,ChIJrZ0DzfXEYpYRc0070y3im3s,Terminal Alameda Santiago,"Av Libertador Bernardo O'Higgins 3850, Santiago, Estación Central, Región Metropolitana, Chile",-33.45437220000001,-70.6881262
-Bogotá,Colombia,CO,4.5964,-74.0833,club,ChIJp_3j2p2ZP44RNEwSRwFYgEM,Pool Night Club,"Cra. 15 #23 - 64, Bogotá, Colombia",4.6121247,-74.0747481
-Bogotá,Colombia,CO,4.5964,-74.0833,mall,ChIJBfpB73qZP44RMcl9pJoMCsM,Calima Shopping Mall,"Avenida Carrera 30 #19, Los Mártires, Bogotá, Colombia",4.618114800000001,-74.0857784
+Bogotá,Colombia,CO,4.5964,-74.0833,club,ChIJp_3j2p2ZP44RNEwSRwFYgEM,Pool Night Club,"Cra. 15 #23 - 64, Bogotá, Colombia",4.612124700000002,-74.0747481
+Bogotá,Colombia,CO,4.5964,-74.0833,mall,ChIJBfpB73qZP44RMcl9pJoMCsM,Calima Shopping Mall,"Avenida Carrera 30 #19, Los Mártires, Bogotá, Colombia",4.618114800000002,-74.08577840000002
 Bogotá,Colombia,CO,4.5964,-74.0833,mall,ChIJK7onqIWZP44RR35rulKrKfE,San Martín Mall,"Bogota, Bogotá, Bogotá D.C., Colombia",4.6191505,-74.0677594
 Bogotá,Colombia,CO,4.5964,-74.0833,park,ChIJp1ACQJmZP44RKs7bmCWuiBg,Bicentenario Park,"Cl. 26 #6A-79, Bogotá, Colombia",4.610842799999999,-74.0693931
 Bogotá,Colombia,CO,4.5964,-74.0833,park,ChIJT3j00IeZP44RpQpxWMx8yx0,Enrique Olaya Herrera National Park,"Cl. 35 #3-50, Bogotá, Colombia",4.6243944,-74.0656288
 Bogotá,Colombia,CO,4.5964,-74.0833,park,ChIJjbTdX5mZP44RdiuxIBI52zw,Independencia Park,"Esq. Calle 26, Entrada A La KR7, Bogotá, Colombia",4.6113084,-74.0683032
 Bogotá,Colombia,CO,4.5964,-74.0833,park,ChIJl2VYcqSZP44RWnsvPO9uglk,Journalists' Park Gabriel García Márquez,"Bogota, Colombia",4.6012192,-74.06948090000002
-Bogotá,Colombia,CO,4.5964,-74.0833,park,ChIJASNySqGZP44RZrHrBRaWDQU,Santander Park,"Cra. 7 #15, Bogotá, Colombia",4.6019381,-74.0725862
-Bogotá,Colombia,CO,4.5964,-74.0833,supermarket,ChIJtxBUuqeZP44RGL-IJPSAoVc,Éxito Plaza Bolívar,"Cra. 7 ## 11 - 30, Bogotá, Cundinamarca, Colombia",4.5985585,-74.0750837
-Bogotá,Colombia,CO,4.5964,-74.0833,tourist information,ChIJj-XP7KeZP44RdhQ1NSu3nAk,Bolivar Square,"Cra. 7 #11-10, Bogotá, Colombia",4.5981206,-74.0760435
+Bogotá,Colombia,CO,4.5964,-74.0833,park,ChIJASNySqGZP44RZrHrBRaWDQU,Santander Park,"Cra. 7 #15, Bogotá, Colombia",4.601938099999999,-74.0725862
+Bogotá,Colombia,CO,4.5964,-74.0833,supermarket,ChIJtxBUuqeZP44RGL-IJPSAoVc,Éxito Plaza Bolívar,"Cra. 7 ## 11 - 30, Bogotá, Cundinamarca, Colombia",4.5985585,-74.07508370000002
+Bogotá,Colombia,CO,4.5964,-74.0833,tourist information,ChIJj-XP7KeZP44RdhQ1NSu3nAk,Bolivar Square,"Cra. 7 #11-10, Bogotá, Colombia",4.5981206,-74.07604350000003
 Prague,Czechia,CZ,50.0833,14.466,club,ChIJPSo6Ju2UC0cR-acVTYnoGe4,"DupleX, The Rooftop Venue","Václavské nám. 831/21, 110 00 Nové Město, Czechia",50.0823865,14.4266461
 Prague,Czechia,CZ,50.0833,14.466,park,ChIJ-53TmZqUC0cRiqnBgT93RXQ,Rieger Gardens,"Vinohrady, 120 00 Prague 2, Czechia",50.0802844,14.4415606
 Prague,Czechia,CZ,50.0833,14.466,park,ChIJ2QFPvc-UC0cR-yep7ub8N78,Stromovka,"Bubenečská 170 00, 160 00 Praha 7-Holešovice, Czechia",50.1063295,14.4191289
 Copenhagen,Denmark,DK,55.6786,12.5635,park,ChIJzxFDPJxTUkYRCxKhK5Ui0Ls,Enghaveparken,"Enghaveparken, 1761 København, Denmark",55.6670127,12.5422732
 Copenhagen,Denmark,DK,55.6786,12.5635,park,ChIJq6qqavhSUkYRdho_GP77Q0A,Fælledparken,"Edel Sauntes Allé, 2100 København, Denmark",55.7017699,12.5677583
-Copenhagen,Denmark,DK,55.6786,12.5635,park,ChIJzRCsrE1SUkYRxGJPTwVjwO0,Superkilen Park,"Nørrebrogade 210, 2200 København, Denmark",55.6993533,12.5423634
+Copenhagen,Denmark,DK,55.6786,12.5635,park,ChIJzRCsrE1SUkYRxGJPTwVjwO0,Superkilen Park,"Nørrebrogade 210, 2200 København, Denmark",55.69935329999999,12.5423634
 Copenhagen,Denmark,DK,55.6786,12.5635,park,ChIJXYrcM3BUUkYRAJLuvO5bV1Q,Valby Park,"Hammelstrupvej 100, 2450 København, Denmark",55.6406812,12.5207815
 Copenhagen,Denmark,DK,55.6786,12.5635,park,ChIJM7xLCw9TUkYRnaZMXsLL6v8,Ørsteds Park,"Nørre Voldgade 1, 1358 København K, Denmark",55.6810135,12.5669485
 Copenhagen,Denmark,DK,55.6786,12.5635,train station,ChIJYdldbI1TUkYRlveDBf1vpco,Ny Ellebjerg,"2500 Valby, Denmark",55.65239,12.5160179
-Copenhagen,Denmark,DK,55.6786,12.5635,train station,ChIJj1eNkktSUkYRymaS4ok2Ghg,Nørrebro Station,"2200 Copenhagen, Denmark",55.700719,12.5378173
+Copenhagen,Denmark,DK,55.6786,12.5635,train station,ChIJj1eNkktSUkYRymaS4ok2Ghg,Nørrebro Station,"2200 Copenhagen, Denmark",55.70071899999999,12.5378173
 Copenhagen,Denmark,DK,55.6786,12.5635,train station,ChIJP26dA4FTUkYRslTllW_Xkdw,Sydhavn,"Ernst Kapers Vej 1, 2450 København SV, Denmark",55.6547272,12.5374094
 Cairo,Egypt,EG,30.05,31.25,mall,ChIJnQUHZCdHWBQRDaAJ6j1aog0,The First Mall,"35 Giza Street - Inside Four Seasons Hotel, Giza District, 11432, Egypt",30.0242101,31.2171964
 Cairo,Egypt,EG,30.05,31.25,train station,ChIJzVhOF45AWBQRmxS8Dzkl1UI,Ramses Station,"Al Fagalah, Al Azbakeya, Cairo Governorate, Egypt",30.0623791,31.24656999999999
 Tallinn,Estonia,EE,59.4339,24.728,sights,ChIJyRI_xlGTkkYRASfRHNMc0es,Kadriorg Park,"A. Weizenbergi 26, 10127 Tallinn, Estonia",59.437682,24.7900499
 Tallinn,Estonia,EE,59.4339,24.728,sights,ChIJXbA-v2GTkkYRZ1pM2ArPKIs,Viru Gate,"Viru tänav, 10140 Tallinn, Estonia",59.4365823,24.7502102
-Helsinki,Finland,FI,60.1756,24.9341,bar,ChIJibjA4soLkkYR9aZ0v6ey3kA,Bar Loose,"Annankatu 21, 00100 Helsinki, Finland",60.1666707,24.9374269
+Helsinki,Finland,FI,60.1756,24.9341,bar,ChIJibjA4soLkkYR9aZ0v6ey3kA,Bar Loose,"Annankatu 21, 00100 Helsinki, Finland",60.16667070000001,24.9374269
 Helsinki,Finland,FI,60.1756,24.9341,bar,ChIJdTS2xM0LkkYRIS1EWxT_p7E,Molly Malone's Irish Bar,"Kaisaniemenkatu 1, 00100 Helsinki, Finland",60.1709001,24.946298
 Helsinki,Finland,FI,60.1756,24.9341,bar,ChIJVfgjoMkLkkYRRnH4e3Yxbi0,The Riff,"Iso Roobertinkatu 3, 00120 Helsinki, Finland",60.1640681,24.9434067
-Helsinki,Finland,FI,60.1756,24.9341,club,ChIJ7R1d8MwLkkYRUunkP0dyKAo,Milliklubi Bar & Disco,"Kaivokatu 12, 00100 Helsinki, Finland",60.17013350000001,24.9401248
+Helsinki,Finland,FI,60.1756,24.9341,club,ChIJ7R1d8MwLkkYRUunkP0dyKAo,Milliklubi Bar & Disco,"Kaivokatu 12, 00100 Helsinki, Finland",60.17013350000001,24.940124800000003
 Helsinki,Finland,FI,60.1756,24.9341,mall,ChIJEYDxGkkKkkYRUTQzc7g44x0,Kauppakeskus Ruoholahti,"Itämerenkatu 21, 00180 Helsinki, Finland",60.1636111,24.9111111
 Helsinki,Finland,FI,60.1756,24.9341,park,ChIJp-X19tILkkYRFmKyep6-zKY,Kaisaniemi Park,"Kaisaniemen puistokuja, 00100 Helsinki, Finland",60.1750425,24.9432986
 Helsinki,Finland,FI,60.1756,24.9341,park,ChIJHWZ9v8sLkkYRQLoVPFK1AA8,Old Church Park,"Bulevardi, 00120 Helsinki, Finland",60.1659875,24.9398191
@@ -227,13 +227,13 @@ Helsinki,Finland,FI,60.1756,24.9341,supermarket,ChIJFX-3w8wLkkYRuE22KmBYoRk,S-ma
 Helsinki,Finland,FI,60.1756,24.9341,train station,ChIJ25LjEc0LkkYRmSG_4N6eC1Y,Helsingin päärautatieasema,"Kaivokatu 1, 00100 Helsinki, Finland",60.1718729,24.9414217
 Helsinki,Finland,FI,60.1756,24.9341,train station,ChIJP-2wAc0LkkYRA8TEHsUTgt0,Helsinki Central Station,"Kaivokatu 1, 00100 Helsinki, Finland",60.1711619,24.9414792
 Helsinki,Finland,FI,60.1756,24.9341,train station,ChIJF6hEJuAJkkYRZyggu7OfW_U,Huopalahti Train Station,"00320 Helsinki, Finland",60.2181879,24.8929656
-Lyon,France,FR,45.76,4.84,train station,ChIJU-LazG7r9EcRHupPkWDtdbU,Gare de Vaise,"2 Place de Paris, 69009 Lyon, France",45.780153,4.804104
-Marseille,France,FR,43.2964,5.37,train station,ChIJS_1Y_EK_yRIRJA9k1_LeKzo,Gare de Marseille Blancarde,"Place de la Gare du S, 13005 Marseille, France",43.296203,5.406552
+Lyon,France,FR,45.76,4.84,train station,ChIJU-LazG7r9EcRHupPkWDtdbU,Gare de Vaise,"2 Place de Paris, 69009 Lyon, France",45.78015300000001,4.804104
+Marseille,France,FR,43.2964,5.37,train station,ChIJS_1Y_EK_yRIRJA9k1_LeKzo,Gare de Marseille Blancarde,"Place de la Gare du S, 13005 Marseille, France",43.29620300000001,5.406552
 Tbilisi,Georgia,GE,41.725,44.7908,park,ChIJFYS3M0ZzREARo6Ssxws52Jw,Vake Park,"76 Ilia Chavchavadze Avenue, Tbilisi, Georgia",41.7104289,44.7517884
 Tbilisi,Georgia,GE,41.725,44.7908,park,ChIJkx251RhzREARnyGCcAufQYM,Vaso Godziashvili's Red Garden,"67 Sairme St, Tbilisi, Georgia",41.7243553,44.7547763
-Tbilisi,Georgia,GE,41.725,44.7908,park,ChIJ37TnINcMREARoZL_1LBlzMo,Vera Park,"37a Merab Kostava St, Tbilisi, Georgia",41.7086757,44.7879537
+Tbilisi,Georgia,GE,41.725,44.7908,park,ChIJ37TnINcMREARoZL_1LBlzMo,Vera Park,"37a Merab Kostava St, Tbilisi, Georgia",41.70867570000001,44.7879537
 Tbilisi,Georgia,GE,41.725,44.7908,supermarket,ChIJfRs72zJzREARUP-A2F1MuKE,Goodwill,"Ilia Chavchavadze Avenue, Tbilisi, Georgia",41.7090515,44.7701307
-Berlin,Germany,DE,52.5218,13.4015,bar,ChIJ_UJvWfpRqEcRhuYK986O46c,Das Hotel Bar,"Mariannenstraße 26A, 10999 Berlin, Germany",52.49662360000001,13.4204083
+Berlin,Germany,DE,52.5218,13.4015,bar,ChIJ_UJvWfpRqEcRhuYK986O46c,Das Hotel Bar,"Mariannenstraße 26A, 10999 Berlin, Germany",52.49662360000001,13.420408300000002
 Berlin,Germany,DE,52.5218,13.4015,club,ChIJxw-fVB5OqEcRtWYAqTCfqrs,Salon - Zur wilden Renate,"Alt-Stralau 70, 10245 Berlin, Germany",52.4974459,13.465185
 Berlin,Germany,DE,52.5218,13.4015,gastro pub,ChIJU-UjNsJRqEcRU-VkZMYOGOk,Berliner Republik,"Schiffbauerdamm 8, 10117 Berlin, Germany",52.52137140000001,13.3858237
 Berlin,Germany,DE,52.5218,13.4015,hardware store,ChIJS2r47UZOqEcRbCQd5Y_XAjc,HELLWEG - Die Profi-Baumärkte Berlin-Friedrichshain,"An der Ostbahn 3, 10243 Berlin, Germany",52.5100179,13.439851999999998
@@ -256,91 +256,91 @@ Berlin,Germany,DE,52.5218,13.4015,sights,ChIJZ0KxF_JRqEcRrLHB-4r-U-o,Berlin Wall
 Berlin,Germany,DE,52.5218,13.4015,sights,ChIJw_HTKK9RqEcRyeWAo9t_YlU,Victory Column,"Großer Stern, 10557 Berlin, Germany",52.5145434,13.350118900000002
 Berlin,Germany,DE,52.5218,13.4015,street market,ChIJOZG7315OqEcRVs8ZP5sx0mQ,Boxhagener Platz,"Grünberger Str. 75, 10245 Berlin, Germany",52.5109507,13.4597037
 Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJnUuaO9NPqEcR7lz9oHr3v40,Netto Filiale,"Gitschiner Str. 73, 10969 Berlin, Germany",52.4987005,13.405827100000002
-Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJmQtpiOBRqEcRqBjTGY_LvHI,REWE,"Litfaß-Platz 4, 10178 Berlin, Germany",52.522141000000005,13.403465099999998
+Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJmQtpiOBRqEcRqBjTGY_LvHI,REWE,"Litfaß-Platz 4, 10178 Berlin, Germany",52.52214100000001,13.403465099999998
 Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJozX6XTNOqEcRt6tYet0AmsY,REWE,"Skalitzer Str. 134, 10999 Berlin, Germany",52.49937250000001,13.4187919
 Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJBUEJietRqEcRM-_HFj_aQig,REWE,"Chausseestraße 118-120, 10115 Berlin, Germany",52.5295301,13.3841341
 Berlin,Germany,DE,52.5218,13.4015,supermarket,ChIJszR0qEdOqEcR-wk88Z89zM8,REWE,"Am Ostbahnhof 9, 10243 Berlin, Germany",52.5100054,13.4347244
-Berlin,Germany,DE,52.5218,13.4015,train station,ChIJz4ha4AFPqEcRYVFjG8IRfH8,Treptower Park,"12435 Berlin, Germany",52.493945,13.4614338
+Berlin,Germany,DE,52.5218,13.4015,train station,ChIJz4ha4AFPqEcRYVFjG8IRfH8,Treptower Park,"12435 Berlin, Germany",52.493945,13.461433800000002
 Cologne,Germany,DE,50.936389,6.9527779999999995,club,ChIJIXcsd3Mlv0cR4KBW1oRrH8E,Pascha,"Hornstraße 2, 50823 Köln, Germany",50.9553744,6.940246699999999
-Cologne,Germany,DE,50.936389,6.9527779999999995,park,ChIJC-AHcr8kv0cRuYmBYBVvdM0,Beethoven Park,"Neuenhöfer Allee 10, 50937 Köln, Germany",50.9110149,6.9124707
-Cologne,Germany,DE,50.936389,6.9527779999999995,park,ChIJBcGRxmclv0cRLKDQZKRbg9U,Blücher Park,"Parkgürtel, 50823 Köln, Germany",50.9623048,6.9273748
-Cologne,Germany,DE,50.936389,6.9527779999999995,park,ChIJi2IuPx0lv0cRAla2rNMDWpU,Hiroshima-Nagasaki Park,"Universitätsstraße 22a, 50923 Köln, Germany",50.9329523,6.928602
+Cologne,Germany,DE,50.936389,6.9527779999999995,park,ChIJC-AHcr8kv0cRuYmBYBVvdM0,Beethoven Park,"Neuenhöfer Allee 10, 50937 Köln, Germany",50.9110149,6.912470699999999
+Cologne,Germany,DE,50.936389,6.9527779999999995,park,ChIJBcGRxmclv0cRLKDQZKRbg9U,Blücher Park,"Parkgürtel, 50823 Köln, Germany",50.9623048,6.927374799999999
+Cologne,Germany,DE,50.936389,6.9527779999999995,park,ChIJi2IuPx0lv0cRAla2rNMDWpU,Hiroshima-Nagasaki Park,"Universitätsstraße 22a, 50923 Köln, Germany",50.9329523,6.9286020000000015
 Cologne,Germany,DE,50.936389,6.9527779999999995,park,ChIJycChxVAkv0cReWekbd6YLUI,"Volksgarten, Cologne","Eifelstraße, 50677 Köln, Germany",50.92004379999999,6.9476217
-Cologne,Germany,DE,50.936389,6.9527779999999995,train station,ChIJcUReRXElv0cRKjszkliclRI,"Köln, Nippes S-Bahn","50739 Cologne, Germany",50.958428,6.941491
-Hamburg,Germany,DE,53.565278,10.001389,park,ChIJmR63yaaOsUcR_v3zZ7UUhrc,Hammer Park,"Hammerpark, 20535 Hamburg, Germany",53.5588062,10.0576894
+Cologne,Germany,DE,50.936389,6.9527779999999995,train station,ChIJcUReRXElv0cRKjszkliclRI,"Köln, Nippes S-Bahn","50739 Cologne, Germany",50.95842800000001,6.941491
+Hamburg,Germany,DE,53.565278,10.001389,park,ChIJmR63yaaOsUcR_v3zZ7UUhrc,Hammer Park,"Hammerpark, 20535 Hamburg, Germany",53.55880620000001,10.0576894
 Munich,Germany,DE,48.133333,11.566667,park,ChIJb-P-HdR1nkcRWHOx1Q3VXdk,Luitpold Park,"Brunnerstraße 2, 80804 München, Germany",48.171114,11.5699668
 Munich,Germany,DE,48.133333,11.566667,park,ChIJYXjjz_N1nkcRciyDilNW7tw,Maximilian Square,"Maximilianspl. 17, 80333 München, Germany",48.1418419,11.5712736
 Munich,Germany,DE,48.133333,11.566667,tourist information,ChIJayv4lZd1nkcR0e_vfGLfm8k,English Garden,"Munich, Germany",48.16423229999999,11.6055522
-Accra,Ghana,GH,5.55,-0.2167,club,ChIJdXLyC3iQ3w8RI7PBlNmf79A,Hotgossip Night Club,"Adzoatse St, Accra, Ghana",5.561522999999999,-0.178397
+Accra,Ghana,GH,5.55,-0.2167,club,ChIJdXLyC3iQ3w8RI7PBlNmf79A,Hotgossip Night Club,"Adzoatse St, Accra, Ghana",5.5615229999999976,-0.178397
 Athens,Greece,GR,37.9833,23.7333,park,ChIJgfxwACK9oRQR4Q-3guLucaY,Filopappou Hill,"Φυλής 215, Athina 117 41, Greece",37.9687553,23.7198693
-Athens,Greece,GR,37.9833,23.7333,park,ChIJZaciVjK9oRQRNm3nnVFEC1Y,Victoria Square,"Skaramagka 7, Athina 104 33, Greece",37.9931791,23.7294582
+Athens,Greece,GR,37.9833,23.7333,park,ChIJZaciVjK9oRQRNm3nnVFEC1Y,Victoria Square,"Skaramagka 7, Athina 104 33, Greece",37.993179100000006,23.7294582
 Port-au-Prince,Haiti,HT,18.541,-72.336,restaurant,ChIJnVSW4r_nuY4R6SbuNe8ph6g,Kokoye Bar & Grill,"Delmas 31, Port-au-Prince, Haiti",18.5497035,-72.3070003
-Port-au-Prince,Haiti,HT,18.541,-72.336,supermarket,ChIJh8L8RZXnuY4RYVEMLe3xPns,Star 2000 Supermarket,"Port-au-Prince, Haiti",18.5494549,-72.30876359999999
+Port-au-Prince,Haiti,HT,18.541,-72.336,supermarket,ChIJh8L8RZXnuY4RYVEMLe3xPns,Star 2000 Supermarket,"Port-au-Prince, Haiti",18.5494549,-72.30876359999998
 Port-au-Prince,Haiti,HT,18.541,-72.336,train station,ChIJzbYNqQXnuY4RJVAHxQGp4jo,Aéroport International Toussaint Louverture,"Port-au-Prince Boulevard Toussaint Louverture, 1792, Haiti",18.5759244,-72.2946381
 Budapest,Hungary,HU,47.5,19.0833,bar,ChIJ3RbjiB3cQUcRMR6GqCXvzzk,Instant Club,"Budapest, Akácfa u. 51, 1073 Hungary",47.5005187,19.0652834
-Budapest,Hungary,HU,47.5,19.0833,club,ChIJ4-4EKkDcQUcRPGkz1ExWaWg,Akvárium Klub,"Budapest, Erzsébet tér 12, 1051 Hungary",47.4983697,19.0542918
-Budapest,Hungary,HU,47.5,19.0833,club,ChIJbxDkwWfcQUcRoaZDJzYZqyE,Doboz,"Budapest, Klauzál u. 10, 1072 Hungary",47.4977208,19.0667571
+Budapest,Hungary,HU,47.5,19.0833,club,ChIJ4-4EKkDcQUcRPGkz1ExWaWg,Akvárium Klub,"Budapest, Erzsébet tér 12, 1051 Hungary",47.49836970000001,19.0542918
+Budapest,Hungary,HU,47.5,19.0833,club,ChIJbxDkwWfcQUcRoaZDJzYZqyE,Doboz,"Budapest, Klauzál u. 10, 1072 Hungary",47.4977208,19.066757100000004
 Budapest,Hungary,HU,47.5,19.0833,club,ChIJwxtK9w7cQUcRxjobpvkpE_o,Morrison's 2.,"Budapest, Szent István krt. 11, 1055 Hungary",47.512051,19.0503199
 Budapest,Hungary,HU,47.5,19.0833,sights,ChIJ32QtdBbcQUcR1mrLvmwZjvY,Shoes on the Danube Bank,"Budapest, Id. Antall József rkp., 1054 Hungary",47.5038792,19.044779
 Budapest,Hungary,HU,47.5,19.0833,train station,ChIJ6-7K7iDcQUcRHWbwGDRr6WY,Budapest-Déli,"Budapest, 1012 Hungary",47.5002831,19.0247399
 Reykjavík,Iceland,IS,64.15,-21.95,bar,ChIJ_-6IE8101kgREzHjBs_vC8g,Lebowski Bar,"Laugavegur 20a, 101 Reykjavík, Iceland",64.1457027,-21.9295988
-New Delhi,India,IN,28.6,77.2,park,ChIJJV5HdkwdDTkRcNsRVg4C398,Buddha Jayanti Park,"Vandemataram Marg, Central Ridge Reserve Forest, New Delhi, Delhi 110021, India",28.6155686,77.1785544
-New Delhi,India,IN,28.6,77.2,park,ChIJN7aS5NriDDkR48D4OPCDucQ,Children's Park,"India Gate, New Delhi, Delhi 110001, India",28.6115511,77.2311187
-New Delhi,India,IN,28.6,77.2,park,ChIJGWguR2IdDTkRYZ8qEf_LUMQ,"Nehru Park, Delhi","Ashoka Hotel in the Chanakyapuri diplomatic area, New Delhi, Delhi 110023, India",28.590602,77.19328469999999
-New Delhi,India,IN,28.6,77.2,sights,ChIJNS7J7OziDDkR6ksNHEt2wIY,Lodhi Garden,"Lodhi Rd, Lodhi Gardens, Lodhi Estate, New Delhi, Delhi 110003, India",28.5930959,77.21967939999999
-New Delhi,India,IN,28.6,77.2,train station,ChIJc1a-8LPiDDkRpJhUa1lv3Ek,"Central Secretariat Metro Station, Gate No.1","Red Cross Road, Sansad Marg Area, New Delhi, Delhi 110001, India",28.617848,77.21133499999999
+New Delhi,India,IN,28.6,77.2,park,ChIJJV5HdkwdDTkRcNsRVg4C398,Buddha Jayanti Park,"Vandemataram Marg, Central Ridge Reserve Forest, New Delhi, Delhi 110021, India",28.6155686,77.17855440000002
+New Delhi,India,IN,28.6,77.2,park,ChIJN7aS5NriDDkR48D4OPCDucQ,Children's Park,"India Gate, New Delhi, Delhi 110001, India",28.6115511,77.23111870000002
+New Delhi,India,IN,28.6,77.2,park,ChIJGWguR2IdDTkRYZ8qEf_LUMQ,"Nehru Park, Delhi","Ashoka Hotel in the Chanakyapuri diplomatic area, New Delhi, Delhi 110023, India",28.590602,77.19328469999998
+New Delhi,India,IN,28.6,77.2,sights,ChIJNS7J7OziDDkR6ksNHEt2wIY,Lodhi Garden,"Lodhi Rd, Lodhi Gardens, Lodhi Estate, New Delhi, Delhi 110003, India",28.5930959,77.21967939999998
+New Delhi,India,IN,28.6,77.2,train station,ChIJc1a-8LPiDDkRpJhUa1lv3Ek,"Central Secretariat Metro Station, Gate No.1","Red Cross Road, Sansad Marg Area, New Delhi, Delhi 110001, India",28.617848,77.21133499999998
 New Delhi,India,IN,28.6,77.2,train station,ChIJcR5Ko3sdDTkRHPPD64QaNVU,Delhi Safdarjung,"New Moti Bagh, New Delhi, Delhi 110021, India",28.5822929,77.1862647
 New Delhi,India,IN,28.6,77.2,train station,ChIJrx6Tv3sdDTkRefstHBaF4xg,Delhi Safdarjung Railway Station,"CSC Suvidha Market, Safdarjung Enclave, New Delhi, Delhi 110021, India",28.5822294,77.1863618
-New Delhi,India,IN,28.6,77.2,train station,ChIJlxEKDw_jDDkREk3nwomkhSU,Hazrat Nizamuddin Delhi,"Nizamuddin, Nizamuddin East, New Delhi, Delhi 110013, India",28.5888951,77.2534096
-New Delhi,India,IN,28.6,77.2,train station,ChIJBXs6ETz9DDkRFllm4f46kfg,New Delhi,"Bhavbhuti Marg, Ratan Lal Market, Kamla Market, Ajmeri Gate, New Delhi, Delhi 110006, India",28.6428915,77.2190894
+New Delhi,India,IN,28.6,77.2,train station,ChIJlxEKDw_jDDkREk3nwomkhSU,Hazrat Nizamuddin Delhi,"Nizamuddin, Nizamuddin East, New Delhi, Delhi 110013, India",28.5888951,77.25340959999998
+New Delhi,India,IN,28.6,77.2,train station,ChIJBXs6ETz9DDkRFllm4f46kfg,New Delhi,"Bhavbhuti Marg, Ratan Lal Market, Kamla Market, Ajmeri Gate, New Delhi, Delhi 110006, India",28.6428915,77.21908940000002
 Jakarta,Indonesia,ID,-6.1744,106.8294,park,ChIJa5LTMdL1aS4RL3717sOR2YA,National Monument Park,"5, Jl. Medan Merdeka Utara No.2, Gambir, Kecamatan Gambir, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10110, Indonesia",-6.1718907,106.8272242
 Jakarta,Indonesia,ID,-6.1744,106.8294,park,ChIJV-0W9xf0aS4RlAmTRCifLdQ,Taman Kodok Menteng,"Taman kodok, RT.3/RW.5, Menteng, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10310, Indonesia",-6.1974418,106.8298288
 Jakarta,Indonesia,ID,-6.1744,106.8294,park,ChIJA88y_8v1aS4RbfwYWObt98A,Taman Lapangan Banteng,"Pasar Baru, Sawah Besar, Central Jakarta City, Jakarta 10710, Indonesia",-6.1671806,106.8340622
-Jakarta,Indonesia,ID,-6.1744,106.8294,park,ChIJ_8haFRr0aS4RheQJPimssiA,Taman Lawang,"Jl. HOS. Cokroaminoto No.20, RT.11/RW.4, Menteng, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10310, Indonesia",-6.201108199999999,106.8270089
+Jakarta,Indonesia,ID,-6.1744,106.8294,park,ChIJ_8haFRr0aS4RheQJPimssiA,Taman Lawang,"Jl. HOS. Cokroaminoto No.20, RT.11/RW.4, Menteng, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10310, Indonesia",-6.2011081999999975,106.8270089
 Jakarta,Indonesia,ID,-6.1744,106.8294,park,ChIJKeQOsCL0aS4RLuH7DlpcjaI,Taman Menteng,"Jl. HOS. Cokroaminoto, RT.3/RW.5, Menteng, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10310, Indonesia",-6.1964087,106.8293106
-Jakarta,Indonesia,ID,-6.1744,106.8294,park,ChIJdXBB9n4QFAURQs2buyfwl98,Taman Situ Lembang,"Jl. Lembang Terusan No.D-59, Menteng, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 12910, Indonesia",-6.1978861,106.8346708
-Jakarta,Indonesia,ID,-6.1744,106.8294,sights,ChIJ7V-PP_8dai4RMqvOj2luU_I,Fatahillah Square,"Jl. Lada Dalam No.7, Pinangsia, Kec. Taman Sari, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11110, Indonesia",-6.134669,106.8132041
-Jakarta,Indonesia,ID,-6.1744,106.8294,sights,ChIJ-S4F5Bb0aS4RgVq6v81ZM4s,Taman Suropati,"Jl. Taman Suropati No.5, Menteng, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10310, Indonesia",-6.1994034,106.8326228
+Jakarta,Indonesia,ID,-6.1744,106.8294,park,ChIJdXBB9n4QFAURQs2buyfwl98,Taman Situ Lembang,"Jl. Lembang Terusan No.D-59, Menteng, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 12910, Indonesia",-6.1978861,106.83467079999998
+Jakarta,Indonesia,ID,-6.1744,106.8294,sights,ChIJ7V-PP_8dai4RMqvOj2luU_I,Fatahillah Square,"Jl. Lada Dalam No.7, Pinangsia, Kec. Taman Sari, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11110, Indonesia",-6.1346690000000015,106.8132041
+Jakarta,Indonesia,ID,-6.1744,106.8294,sights,ChIJ-S4F5Bb0aS4RgVq6v81ZM4s,Taman Suropati,"Jl. Taman Suropati No.5, Menteng, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10310, Indonesia",-6.1994034000000005,106.83262279999998
 Jakarta,Indonesia,ID,-6.1744,106.8294,street market,ChIJBcYQYgb2aS4RuqLfkhIYKII,Petak Sembilan Market,"Jl. Kemenangan Raya No.40, Glodok, Kec. Taman Sari, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11120, Indonesia",-6.1436763,106.8129912
 Jakarta,Indonesia,ID,-6.1744,106.8294,street market,ChIJI3s7XLT1aS4R8L3EvUAHqnA,Poncol Market,"Jl. Kalibaru Barat No.1, Bungur, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10460, Indonesia",-6.174917,106.8454126
 Jakarta,Indonesia,ID,-6.1744,106.8294,train station,ChIJ_yd6laD2aS4RKztllgcJZ2s,Karet Station,"Kebon Melati, Tanahabang, Central Jakarta City, Jakarta, Indonesia",-6.200835,106.8158467
-Jakarta,Indonesia,ID,-6.1744,106.8294,train station,ChIJc16W8M_1aS4Ro9gwKlXJjSE,Stasiun Juanda,"Raya, 10710, Jl. Ir H. Juanda I B No.4, Kb. Klp., Kecamatan Gambir, Kota Jakarta Pusat, 10120, Indonesia",-6.1667216,106.830473
+Jakarta,Indonesia,ID,-6.1744,106.8294,train station,ChIJc16W8M_1aS4Ro9gwKlXJjSE,Stasiun Juanda,"Raya, 10710, Jl. Ir H. Juanda I B No.4, Kb. Klp., Kecamatan Gambir, Kota Jakarta Pusat, 10120, Indonesia",-6.166721599999999,106.830473
 Jakarta,Indonesia,ID,-6.1744,106.8294,train station,ChIJ0RVwvYT2aS4RAlUv_UtqCnk,Stasiun Tanahabang,"Jalan Jati Baru Raya, Jl. Cideng Timur, Kecamatan Tanah Abang, 10250, Indonesia",-6.185702099999999,106.8108536
-Jakarta,Indonesia,ID,-6.1744,106.8294,train station,ChIJ663qAxz0aS4R3x6eEyQE-RM,Sudirman Station,"10, Jl. Kendal No.24, RW.6, Menteng, 10310, Indonesia",-6.202416700000001,106.8234654
-Dublin,Ireland,IE,53.3331,-6.2489,sights,ChIJe1F08akNZ0gRa1ndmi3YJqE,Phoenix Park,"Northside, Dublin 8, Ireland",53.3558823,-6.3298133
-Dublin,Ireland,IE,53.3331,-6.2489,sights,ChIJo5EyLpkOZ0gRfIOtBfARzQU,St Stephen's Green,"St Stephen's Green, Saint Peter's, Dublin 2, Ireland",53.3381736,-6.259119
-Dublin,Ireland,IE,53.3331,-6.2489,supermarket,ChIJx0pfIJ0OZ0gR758AjwNTuEA,SPAR,"19-20 Dame St, Dublin, D02 E267, Ireland",53.3440697,-6.264634399999999
+Jakarta,Indonesia,ID,-6.1744,106.8294,train station,ChIJ663qAxz0aS4R3x6eEyQE-RM,Sudirman Station,"10, Jl. Kendal No.24, RW.6, Menteng, 10310, Indonesia",-6.2024167000000014,106.8234654
+Dublin,Ireland,IE,53.3331,-6.2489,sights,ChIJe1F08akNZ0gRa1ndmi3YJqE,Phoenix Park,"Northside, Dublin 8, Ireland",53.3558823,-6.3298133000000005
+Dublin,Ireland,IE,53.3331,-6.2489,sights,ChIJo5EyLpkOZ0gRfIOtBfARzQU,St Stephen's Green,"St Stephen's Green, Saint Peter's, Dublin 2, Ireland",53.33817360000001,-6.259119
+Dublin,Ireland,IE,53.3331,-6.2489,supermarket,ChIJx0pfIJ0OZ0gR758AjwNTuEA,SPAR,"19-20 Dame St, Dublin, D02 E267, Ireland",53.34406970000001,-6.264634399999999
 Dublin,Ireland,IE,53.3331,-6.2489,train station,ChIJBfHLsjcMZ0gR6tv-NUFv8bQ,Heuston,"Heuston Station, St John's Rd W, Dublin, Ireland",53.3461854,-6.2934917
 Jerusalem,Israel,IL,31.7784,35.2066,park,ChIJw87pUM0pAxURBawYyS3y6JA,Mitchell Park,"Jerusalem, Israel",31.772101,35.226187
 Jerusalem,Israel,IL,31.7784,35.2066,park,ChIJS6q-QSzWAhURcrX_nTKj40c,Sacher Park,"יצחק 1, Sderot Ben Tsvi, Jerusalem, Israel",31.7806,35.2077
 Jerusalem,Israel,IL,31.7784,35.2066,park,ChIJRRg6oDLWAhURjFQwKBgFpyQ,Wohl Rose Garden,"Jerusalem, Israel",31.779164,35.203693
-Jerusalem,Israel,IL,31.7784,35.2066,sights,ChIJj6vOOckpAxUReXF30f5erYM,Western Wall,Jerusalem,31.7767189,35.2345085
+Jerusalem,Israel,IL,31.7784,35.2066,sights,ChIJj6vOOckpAxUReXF30f5erYM,Western Wall,Jerusalem,31.7767189,35.23450850000001
 Naples,Italy,IT,40.845,14.258332999999999,train station,ChIJReH5bPanOxMRu1k5WT2A4Sk,Naples Gianturco Station,"80142 Naples, Metropolitan City of Naples, Italy",40.8537433,14.2878111
-Naples,Italy,IT,40.845,14.258332999999999,train station,ChIJU0TH3T0IOxMRtkeV5ocNDBI,Napoli Porta Nolana,"80142 Naples, Metropolitan City of Naples, Italy",40.849194,14.2692759
+Naples,Italy,IT,40.845,14.258332999999999,train station,ChIJU0TH3T0IOxMRtkeV5ocNDBI,Napoli Porta Nolana,"80142 Naples, Metropolitan City of Naples, Italy",40.849194,14.269275899999998
 Palermo,Italy,IT,38.116667,13.366667000000001,train station,ChIJv2MgYI7lGRMR-VYesXfT_9M,Palermo Centrale,"P.za Giulio Cesare, 90123 Palermo PA, Italy",38.10971190000001,13.3671945
-Palermo,Italy,IT,38.116667,13.366667000000001,train station,ChIJh7rGZ47lGRMR4K5lyYlWWEE,Stazione Centrale,"90123 Palermo, Province of Palermo, Italy",38.1102041,13.3680971
-Rome,Italy,IT,41.896,12.4833,park,ChIJCajXkAiKJRMREV4n39850EU,Parco della Caffarella,"Rome, Metropolitan City of Rome, Italy",41.8672317,12.5240656
+Palermo,Italy,IT,38.116667,13.366667000000001,train station,ChIJh7rGZ47lGRMR4K5lyYlWWEE,Stazione Centrale,"90123 Palermo, Province of Palermo, Italy",38.1102041,13.368097099999998
+Rome,Italy,IT,41.896,12.4833,park,ChIJCajXkAiKJRMREV4n39850EU,Parco della Caffarella,"Rome, Metropolitan City of Rome, Italy",41.86723170000001,12.5240656
 Rome,Italy,IT,41.896,12.4833,train station,ChIJlRxa-_NhLxMRkX7xjTtVBJU,Roma Tuscolana,"00182 Rome, Metropolitan City of Rome, Italy",41.87947279999999,12.5233541
 Tokyo,Japan,JP,35.685,139.7514,park,ChIJx6xXOPKLGGARtPr6qZZ2nHA,Hibiya Park,"1 Hibiyakoen, Chiyoda City, Tokyo 100-0012, Japan",35.6736115,139.7558769
 Tokyo,Japan,JP,35.685,139.7514,park,ChIJqcU4DIKLGGARBxWj4fGnB_k,Hinokicho Park,"9 Chome-7-7 Akasaka, Minato City, Tokyo 107-0052, Japan",35.6672056,139.7313222
-Tokyo,Japan,JP,35.685,139.7514,park,ChIJo8VKlCCMGGARarjlIsaLY1g,Shinobazu Pond,"5-20 Uenokoen, Taito City, Tokyo 110-0007, Japan",35.7108521,139.7711191
+Tokyo,Japan,JP,35.685,139.7514,park,ChIJo8VKlCCMGGARarjlIsaLY1g,Shinobazu Pond,"5-20 Uenokoen, Taito City, Tokyo 110-0007, Japan",35.71085210000001,139.7711191
 Tokyo,Japan,JP,35.685,139.7514,park,ChIJw2qQRZuOGGARWmROEiM2y7E,Ueno Onshi Park,"Japan, 〒110-0007 Tokyo, Taito City, Uenokoen, 8−・ 池之端三丁目",35.7154769,139.7740551
-Tokyo,Japan,JP,35.685,139.7514,sights,ChIJ2y91MQGLGGARQKyRvVnpKRM,Happo-en,"1 Chome-1-1 Shirokanedai, Minato City, Tokyo 108-0071, Japan",35.6375999,139.7296873
-Tokyo,Japan,JP,35.685,139.7514,sights,ChIJ5SZMmreMGGARcz8QSTiJyo8,Meiji Jingu,"1-1 Yoyogikamizonocho, Shibuya City, Tokyo 151-8557, Japan",35.6763976,139.6993259
-Tokyo,Japan,JP,35.685,139.7514,sights,ChIJGSgSNruLGGARcEY8dKHq1LI,Shibuya Crossing,"2 Chome-2-1 Dogenzaka, Shibuya City, Tokyo 150-0043, Japan",35.6594666,139.7005536
+Tokyo,Japan,JP,35.685,139.7514,sights,ChIJ2y91MQGLGGARQKyRvVnpKRM,Happo-en,"1 Chome-1-1 Shirokanedai, Minato City, Tokyo 108-0071, Japan",35.6375999,139.72968730000002
+Tokyo,Japan,JP,35.685,139.7514,sights,ChIJ5SZMmreMGGARcz8QSTiJyo8,Meiji Jingu,"1-1 Yoyogikamizonocho, Shibuya City, Tokyo 151-8557, Japan",35.6763976,139.69932590000002
+Tokyo,Japan,JP,35.685,139.7514,sights,ChIJGSgSNruLGGARcEY8dKHq1LI,Shibuya Crossing,"2 Chome-2-1 Dogenzaka, Shibuya City, Tokyo 150-0043, Japan",35.6594666,139.70055359999998
 Tokyo,Japan,JP,35.685,139.7514,sights,ChIJPyOTG8KMGGARh_IXobWxHmo,Shinjuku Gyoen National Garden,"11 Naitomachi, Shinjuku City, Tokyo 160-0014, Japan",35.68517629999999,139.7100517
-Tokyo,Japan,JP,35.685,139.7514,sights,ChIJCewJkL2LGGAR3Qmk0vCTGkg,Tokyo Tower,"4 Chome-2-8 Shibakoen, Minato City, Tokyo 105-0011, Japan",35.6585805,139.7454329
-Tokyo,Japan,JP,35.685,139.7514,sights,ChIJMwpiebSMGGARPr_454zHvDQ,Yoyogi Park,"2-1 Yoyogikamizonocho, Shibuya City, Tokyo 151-0052, Japan",35.6715869,139.6967028
+Tokyo,Japan,JP,35.685,139.7514,sights,ChIJCewJkL2LGGAR3Qmk0vCTGkg,Tokyo Tower,"4 Chome-2-8 Shibakoen, Minato City, Tokyo 105-0011, Japan",35.6585805,139.74543290000003
+Tokyo,Japan,JP,35.685,139.7514,sights,ChIJMwpiebSMGGARPr_454zHvDQ,Yoyogi Park,"2-1 Yoyogikamizonocho, Shibuya City, Tokyo 151-0052, Japan",35.6715869,139.69670280000003
 Tokyo,Japan,JP,35.685,139.7514,supermarket,ChIJS7K2bLKOGGARGySfwejBx4o,Hanamasa,"Japan, 〒111-0053 Tokyo, Taito City, Asakusabashi, 1 Chome−3−15 リバーサイド浅草橋ビル",35.6966743,139.7839883
 Tokyo,Japan,JP,35.685,139.7514,supermarket,ChIJLcQt9l-LGGARS9syRUPgriQ,KINOKUNIYA INTERNATIONAL,"Japan, 〒107-0061 Tokyo, Minato City, Kitaaoyama, 3 Chome−11−7 AOビル B1F‎",35.6637672,139.7108143
 Tokyo,Japan,JP,35.685,139.7514,supermarket,ChIJkY2Wc6-OGGARAMDq7SV5Zao,Life Supermarket Kanda Izumi-cho Store,"2-13 Kanda Izumicho, Chiyoda City, Tokyo 101-0024, Japan",35.6998584,139.7801628
 Tokyo,Japan,JP,35.685,139.7514,supermarket,ChIJydWK3XiLGGAR333Pv6zADIg,Precce Premium Tokyo Midtown,"Japan, 〒107-0052 Tokyo, Minato City, Akasaka, 9 Chome−7−4 東京ミッドタウン ガーデンサイド地下",35.6657189,139.7298174
-Tokyo,Japan,JP,35.685,139.7514,train station,ChIJ1XqfRK2OGGARskk4jgTbxtI,Bakurochō Station,"Japan, 〒103-0002 東京都中央区日本橋馬喰町１丁目７−3",35.6938839,139.7831098
+Tokyo,Japan,JP,35.685,139.7514,train station,ChIJ1XqfRK2OGGARskk4jgTbxtI,Bakurochō Station,"Japan, 〒103-0002 東京都中央区日本橋馬喰町１丁目７−3",35.6938839,139.78310980000003
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJ_yy1ybqMGGAR0tPR4qiHDVY,Harajuku Station,"1 Chome Jingumae, Shibuya City, Tokyo 150-0001, Japan",35.6702285,139.7026976
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJc-deL6COGGARRENyB-YX2eI,Okachimachi Station,"5 Chome-27 Ueno, Taito City, Tokyo 110-0005, Japan",35.7075185,139.7748564
-Tokyo,Japan,JP,35.685,139.7514,train station,ChIJ4RGu0emLGGARuUX8XtPxUVg,Shimbashi Station,"2 Chome-17 Shinbashi, Minato City, Tokyo 105-0004, Japan",35.666379,139.7583398
+Tokyo,Japan,JP,35.685,139.7514,train station,ChIJ4RGu0emLGGARuUX8XtPxUVg,Shimbashi Station,"2 Chome-17 Shinbashi, Minato City, Tokyo 105-0004, Japan",35.666379,139.75833980000002
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJkw7wvpGMGGAR5W5hbRuPKl0,Shinanomachi Station,"34 Shinanomachi, Shinjuku City, Tokyo 160-0016, Japan",35.6800602,139.7203199
-Tokyo,Japan,JP,35.685,139.7514,train station,ChIJH7qx1tCMGGAR1f2s7PGhMhw,Shinjuku Station,"3 Chome-38-1 Shinjuku, Shinjuku City, Tokyo 160-0022, Japan",35.6896067,139.7005713
+Tokyo,Japan,JP,35.685,139.7514,train station,ChIJH7qx1tCMGGAR1f2s7PGhMhw,Shinjuku Station,"3 Chome-38-1 Shinjuku, Shinjuku City, Tokyo 160-0022, Japan",35.68960670000001,139.70057130000004
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJC3Cf2PuLGGAROO00ukl8JwA,Tokyo Station,"1 Chome Marunouchi, Chiyoda City, Tokyo 100-0005, Japan",35.68123620000001,139.7671248
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJCwbTk56OGGARRJJPe22ziWw,Ueno Station,"7 Chome Ueno, Taito City, Tokyo 110-0005, Japan",35.7141672,139.7774091
 Amman,Jordan,JO,31.95,35.9333,restaurant,ChIJ8zmPpJlfGxUR4kW5qIS42uc,Hashem Restaurant Down Town,"King Faisal Street Amman, ʿAmman, Jordan",31.9522917,35.9319405
@@ -350,42 +350,42 @@ Nairobi,Kenya,KE,-1.2833,36.8167,bar,ChIJr1BwBxQXLxgRTe46eDlWIq8,Brew Bistro For
 Nairobi,Kenya,KE,-1.2833,36.8167,bar,ChIJE1lLMCkXLxgRtqGpoNkb9UQ,Hacienda Sports Bar & Grill,"Ngara Rd, Nairobi, Kenya",-1.2744035,36.8201523
 Nairobi,Kenya,KE,-1.2833,36.8167,bar,ChIJtwxHgDwXLxgRCrs2wYO4n7c,K1 Klub House,"39005, Kenya",-1.2682405,36.81195659999999
 Nairobi,Kenya,KE,-1.2833,36.8167,club,ChIJFSWzvT8XLxgRAroyba4k1bY,40Forty Lounge,"Westlands Rd, Nairobi, Kenya",-1.2652997,36.8053613
-Nairobi,Kenya,KE,-1.2833,36.8167,club,ChIJxxqfOdYQLxgRmj7bUcb5xP4,Sixtyfour Restaurant & Lounge,"Nairobi, Kenya",-1.2848333,36.8239422
-Nairobi,Kenya,KE,-1.2833,36.8167,train station,ChIJCS8lOyERLxgRzVY5GhnOh7Q,Nairobi Railway Station,"Nairobi, Kenya",-1.2920408,36.8278871
-Seoul,"Korea, South",KR,37.5663,126.9997,mall,ChIJXz2vx_GifDURImd3aTJZ1VA,Myeong-Dong Walking Street,"83-9 Myeong-dong, Jung-gu, Seoul, South Korea",37.5636375,126.9828427
+Nairobi,Kenya,KE,-1.2833,36.8167,club,ChIJxxqfOdYQLxgRmj7bUcb5xP4,Sixtyfour Restaurant & Lounge,"Nairobi, Kenya",-1.2848333,36.82394220000001
+Nairobi,Kenya,KE,-1.2833,36.8167,train station,ChIJCS8lOyERLxgRzVY5GhnOh7Q,Nairobi Railway Station,"Nairobi, Kenya",-1.2920408,36.82788710000001
+Seoul,"Korea, South",KR,37.5663,126.9997,mall,ChIJXz2vx_GifDURImd3aTJZ1VA,Myeong-Dong Walking Street,"83-9 Myeong-dong, Jung-gu, Seoul, South Korea",37.5636375,126.98284270000002
 Seoul,"Korea, South",KR,37.5663,126.9997,mall,ChIJ61qvjvCifDURsgRneJ9Fsg0,Myeongdong Underground Shopping Center,"124 Toegye-ro, Chungmuro 2(i)-ga, Jung-gu, Seoul, South Korea",37.5608222,126.9853555
-Seoul,"Korea, South",KR,37.5663,126.9997,park,ChIJbV4Kqi6jfDUReu01VjRdw2c,Marronnier Park,"1 Daehak-ro 8-gil, Ihwa-dong, Jongno-gu, Seoul, South Korea",37.5805009,127.0028245
+Seoul,"Korea, South",KR,37.5663,126.9997,park,ChIJbV4Kqi6jfDUReu01VjRdw2c,Marronnier Park,"1 Daehak-ro 8-gil, Ihwa-dong, Jongno-gu, Seoul, South Korea",37.5805009,127.00282450000002
 Seoul,"Korea, South",KR,37.5663,126.9997,park,ChIJ6RPSci2jfDURXTSdf7JjYp8,Naksan Park,"41 Naksan-gil, Ihwa-dong, Jongno-gu, Seoul, South Korea",37.5806571,127.0074835
-Seoul,"Korea, South",KR,37.5663,126.9997,park,ChIJK_b0UX2jfDURmkYPvmWYm90,Seoul Forest,"273 Ttukseom-ro, Seongsu-dong 1(il)-ga, Seongdong-gu, Seoul, South Korea",37.5443878,127.0374424
+Seoul,"Korea, South",KR,37.5663,126.9997,park,ChIJK_b0UX2jfDURmkYPvmWYm90,Seoul Forest,"273 Ttukseom-ro, Seongsu-dong 1(il)-ga, Seongdong-gu, Seoul, South Korea",37.5443878,127.03744240000002
 Seoul,"Korea, South",KR,37.5663,126.9997,park,ChIJw8UIcGCifDURB0MtY-xAUqM,Seoullo 7017,"18 Toegye-ro, Namdaemunno 5(o)-ga, Jung-gu, Seoul, South Korea",37.5568281,126.9722316
 Seoul,"Korea, South",KR,37.5663,126.9997,sights,ChIJ4wh0zluifDURaFBW2pdrKf8,Changdeokgung,"99 Yulgok-ro, Waryong-dong, Jongno-gu, Seoul, South Korea",37.5794309,126.9910426
 Seoul,"Korea, South",KR,37.5663,126.9997,sights,ChIJIwCT4-yifDUR1E63iG76hr0,Cheonggyecheon,"Cheonggyecheon-ro, Yongsin-dong, Jongno-gu, Seoul, South Korea",37.5713521,127.0246275
 Seoul,"Korea, South",KR,37.5663,126.9997,sights,ChIJMcWZMY2ifDUR2NLv8F3Togc,Deoksugung,"99 Sejong-daero, Jeong-dong, Jung-gu, Seoul, South Korea",37.5658049,126.9751461
-Seoul,"Korea, South",KR,37.5663,126.9997,sights,ChIJPXacoeqifDURZFdnLXIyirI,Gwanghwamun Gate,"161 Sajik-ro, Sejongno, Jongno-gu, Seoul, South Korea",37.57593689999999,126.9768157
+Seoul,"Korea, South",KR,37.5663,126.9997,sights,ChIJPXacoeqifDURZFdnLXIyirI,Gwanghwamun Gate,"161 Sajik-ro, Sejongno, Jongno-gu, Seoul, South Korea",37.57593689999999,126.97681570000002
 Seoul,"Korea, South",KR,37.5663,126.9997,sights,ChIJod7tSseifDUR9hXHLFNGMIs,Gyeongbokgung Palace,"161 Sajik-ro, Sejongno, Jongno-gu, Seoul, South Korea",37.579617,126.977041
 Seoul,"Korea, South",KR,37.5663,126.9997,sights,ChIJN2x0fu2ifDURheJ4-U3YaAA,북한산국립공원,"262 Bogukmun-ro, Jeongneung-dong, Seongbuk-gu, Seoul, South Korea",37.6197679,126.9955839
 Seoul,"Korea, South",KR,37.5663,126.9997,street market,ChIJm3V0fu2ifDURRJ8IMUijVtY,Gwangjang Market,"88 Changgyeonggung-ro, Jongno 4(sa)-ga, Jongno-gu, Seoul, South Korea",37.5701527,126.9993404
 Seoul,"Korea, South",KR,37.5663,126.9997,train station,ChIJDxUjqASifDURYoe1LjkFbE0,Yongsan Station,"Hangang-daero 23-gil, Hangangno 3(sam)-ga, Yongsan-gu, Seoul, South Korea",37.52989,126.964775
-Kuwait City,Kuwait,KW,29.3697,47.9783,street market,ChIJOVXXleiEzz8RsFKoNnkfCOI,Al Mubarakiya Cafe & Restaurant,المباركية شارع سوق الغربللي خلف ماكدونالدز، مدينة الكويت،، Kuwait,29.3737049,47.9729312
+Kuwait City,Kuwait,KW,29.3697,47.9783,street market,ChIJOVXXleiEzz8RsFKoNnkfCOI,Al Mubarakiya Cafe & Restaurant,المباركية شارع سوق الغربللي خلف ماكدونالدز، مدينة الكويت،، Kuwait,29.3737049,47.97293120000001
 Kuwait City,Kuwait,KW,29.3697,47.9783,tourist information,ChIJnUYkHu6Ezz8RpdeTrBdWIGY,The Grand Mosque of Kuwait,"25, Kuwait City, Kuwait",29.3793876,47.975244
-Riga,Latvia,LV,56.95,24.1,park,ChIJidG2_8_P7kYRsDFXQ87PAA8,Kronvalda Park,"Kalpaka bulvāris 12, Centra rajons, Rīga, LV-1010, Latvia",56.9569675,24.1050895
-Riga,Latvia,LV,56.95,24.1,park,ChIJsYyCLiXQ7kYRr5gG2h5GLZk,Victory Park,"Zemgale Suburb, Riga, LV-1048, Latvia",56.9358557,24.0844345
-Riga,Latvia,LV,56.95,24.1,park,ChIJT2NiGDTO7kYRQDFXQ87PAA8,Ziedoņdārzs,"Aleksandra Čaka iela 88, Latgales priekšpilsēta, Rīga, LV-1011, Latvia",56.95661339999999,24.1406678
+Riga,Latvia,LV,56.95,24.1,park,ChIJidG2_8_P7kYRsDFXQ87PAA8,Kronvalda Park,"Kalpaka bulvāris 12, Centra rajons, Rīga, LV-1010, Latvia",56.95696750000001,24.1050895
+Riga,Latvia,LV,56.95,24.1,park,ChIJsYyCLiXQ7kYRr5gG2h5GLZk,Victory Park,"Zemgale Suburb, Riga, LV-1048, Latvia",56.93585570000001,24.0844345
+Riga,Latvia,LV,56.95,24.1,park,ChIJT2NiGDTO7kYRQDFXQ87PAA8,Ziedoņdārzs,"Aleksandra Čaka iela 88, Latgales priekšpilsēta, Rīga, LV-1011, Latvia",56.95661339999999,24.140667800000006
 Riga,Latvia,LV,56.95,24.1,sights,ChIJxXsY39PP7kYRB4pgetCDFt4,Bastejkalna park,"Central District, Riga, LV-1050, Latvia",56.9516813,24.1120279
 Beirut,Lebanon,LB,33.872,35.5097,tourist information,ChIJLxWaS-QWHxURGZ0o_pi5DTU,Martyrs' Square,"Beirut, Lebanon",33.8963914,35.5071725
 Vilnius,Lithuania,LT,54.6834,25.3166,park,ChIJgVtzJ9aV3UYR18Z2rWwdcI4,Pavilnys Regional Park,"Belmonto g., Vilnius 01206, Lithuania",54.685571,25.3349313
 Vilnius,Lithuania,LT,54.6834,25.3166,park,ChIJl1_SmIOT3UYRsD5CTI3RAA8,Vingis Park,"M. K. Čiurlionio g. 100, Vilnius 03100, Lithuania",54.682928,25.237667
-Vilnius,Lithuania,LT,54.6834,25.3166,train station,ChIJs3bONuWU3UYRiX61sOgxME4,Oro uostas,"Vilnius 02188, Lithuania",54.6426456,25.2766071
+Vilnius,Lithuania,LT,54.6834,25.3166,train station,ChIJs3bONuWU3UYRiX61sOgxME4,Oro uostas,"Vilnius 02188, Lithuania",54.6426456,25.276607100000003
 Mexico City,Mexico,MX,19.4424,-99.131,bar,ChIJXaW5Syz50YURimljPd7Et3g,Bar Rio de la plata,"Calle Republica de Cuba 39, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, Mexico",19.4372045,-99.1376163
-Mexico City,Mexico,MX,19.4424,-99.131,bar,ChIJX03s9zr_0YURHdcjFe9hbiE,Licorería Limantour,"Av. Álvaro Obregón 106, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",19.4181297,-99.15937699999999
-Mexico City,Mexico,MX,19.4424,-99.131,bar,ChIJJ3vOmSz50YURYFga67X4PAM,The Opera,"Av. 5 de Mayo 10, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, Mexico",19.4347316,-99.13937089999999
+Mexico City,Mexico,MX,19.4424,-99.131,bar,ChIJX03s9zr_0YURHdcjFe9hbiE,Licorería Limantour,"Av. Álvaro Obregón 106, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",19.4181297,-99.159377
+Mexico City,Mexico,MX,19.4424,-99.131,bar,ChIJJ3vOmSz50YURYFga67X4PAM,The Opera,"Av. 5 de Mayo 10, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, Mexico",19.434731600000006,-99.1393709
 Mexico City,Mexico,MX,19.4424,-99.131,mall,ChIJ90P2x9v40YURxkaLX6N8mx0,Forum Buenavista Centro Comercial,"Eje 1 Nte. 259, Buenavista, Cuauhtémoc, 06350 Ciudad de México, CDMX, Mexico",19.4496728,-99.1516292
-Mexico City,Mexico,MX,19.4424,-99.131,mall,ChIJKXv3uCz50YUR_5sUv7TkjN0,Plaza Madero 20,"Av Francisco I. Madero 20, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",19.4339278,-99.1388733
+Mexico City,Mexico,MX,19.4424,-99.131,mall,ChIJKXv3uCz50YUR_5sUv7TkjN0,Plaza Madero 20,"Av Francisco I. Madero 20, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",19.433927800000006,-99.1388733
 Mexico City,Mexico,MX,19.4424,-99.131,mall,ChIJAxF39Cv50YUR3V9BTKzboWA,Plaza Pensador Mexicano,"Eje Central Lázaro Cárdenas 7SN, Centro Histórico de la Cdad. de México, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX, Mexico",19.437619,-99.1405189
 Mexico City,Mexico,MX,19.4424,-99.131,mall,ChIJmTJrhDP_0YURHpJrNSgT0x8,Reforma 222,"Av. Paseo de la Reforma 222, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico",19.4285988,-99.1615844
-Mexico City,Mexico,MX,19.4424,-99.131,park,ChIJ196jq8T40YURiuJzqm1JMQY,Alameda de Santa María,"Santa María la Ribera, Cuauhtémoc, 06400 Mexico City, Mexico",19.4496734,-99.15690169999999
+Mexico City,Mexico,MX,19.4424,-99.131,park,ChIJ196jq8T40YURiuJzqm1JMQY,Alameda de Santa María,"Santa María la Ribera, Cuauhtémoc, 06400 Mexico City, Mexico",19.4496734,-99.1569017
 Mexico City,Mexico,MX,19.4424,-99.131,park,ChIJayBdMbr-0YURQDqM2VyFNc0,Park illustrious journalists,"Fray Servando Teresa de Mier, El Parque, Venustiano Carranza, 15960 Ciudad de México, CDMX, Mexico",19.4201593,-99.1186381
-Mexico City,Mexico,MX,19.4424,-99.131,park,ChIJNVyrCTv_0YURLFtfs7u5SZM,Plaza Luis Cabrera,"Orizaba S/N, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",19.4163982,-99.15926870000001
+Mexico City,Mexico,MX,19.4424,-99.131,park,ChIJNVyrCTv_0YURLFtfs7u5SZM,Plaza Luis Cabrera,"Orizaba S/N, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",19.4163982,-99.1592687
 Mexico City,Mexico,MX,19.4424,-99.131,restaurant,ChIJmRyjRi350YUR5JZ-zfmpy6M,El Balcón del Zócalo,"Av. 5 de Mayo 61, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Mexicali, CDMX, Mexico",19.4339439,-99.1345454
 Mexico City,Mexico,MX,19.4424,-99.131,restaurant,ChIJh3D2US350YURVW0T-_DRdsA,El Cardenal,"Calle de la Palma 23, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, Mexico",19.4337285,-99.1353493
 Mexico City,Mexico,MX,19.4424,-99.131,restaurant,ChIJtfhD_tT40YURj39iqrcd2ww,El Cardenal Alameda,"Av. Juárez 70, Colonia Centro, Centro, Cuauhtémoc, 06010 Ciudad de México, CDMX, Mexico",19.434846,-99.1460738
@@ -397,7 +397,7 @@ Mexico City,Mexico,MX,19.4424,-99.131,supermarket,ChIJxcJ9j9D40YURbZF1Iup_gOA,Wa
 Mexico City,Mexico,MX,19.4424,-99.131,supermarket,ChIJNd2MJaf-0YURT96J1oOa5tM,Walmart Balbuena,"Fray Servando Teresa de Mier 881, Jardín Balbuena, Venustiano Carranza, 15900 Ciudad de México, CDMX, Mexico",19.4175705,-99.1057859
 Mexico City,Mexico,MX,19.4424,-99.131,supermarket,ChIJs2YFOcT-0YURb0aL86jgKu0,Walmart Portal Centro,"Lorenzo Boturini 258, Tránsito, Cuauhtémoc, 06820 Ciudad de México, CDMX, Mexico",19.4193362,-99.1302805
 Mexico City,Mexico,MX,19.4424,-99.131,tourist information,ChIJS7R39Sr50YURQE6mi9UOKds,Alameda Central,"Av. Hidalgo s/n, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06010 Hervidero y Plancha, CDMX, Mexico",19.4357353,-99.1439486
-Mexico City,Mexico,MX,19.4424,-99.131,tourist information,ChIJ4a8nxjL50YURJ19RJ_A9T5E,Mexico City Metropolitan Cathedral,"Plaza de la Constitución S/N, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, Mexico",19.4343942,-99.13308239999999
+Mexico City,Mexico,MX,19.4424,-99.131,tourist information,ChIJ4a8nxjL50YURJ19RJ_A9T5E,Mexico City Metropolitan Cathedral,"Plaza de la Constitución S/N, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, Mexico",19.4343942,-99.1330824
 Mexico City,Mexico,MX,19.4424,-99.131,train station,ChIJjUKlSNr40YUReWGDHYkbqKY,Estación Buenavista,"Colonia Buenavista, 06350 Mexico City, CDMX, Mexico",19.4471789,-99.1520707
 Rabat,Morocco,MA,34.0253,-6.8361,train station,ChIJQ6lCXNhrpw0RAw8OKjU0s2c,Gare de Salé-Tabriquet,"Avenue 6 Novembre, Salé, Morocco",34.0523686,-6.805175200000001
 Rabat,Morocco,MA,34.0253,-6.8361,train station,ChIJg0ZlY3hspw0R4LLmt70J1J0,Rabat Ville,"Ave Mohammed V, Rabat, Morocco",34.0164635,-6.8356942
@@ -405,55 +405,55 @@ Maputo,Mozambique,MZ,-25.9553,32.5892,train station,ChIJdZGHJsqa5h4RspI0l6zML70,
 Maputo,Mozambique,MZ,-25.9553,32.5892,train station,ChIJ23dTRBmb5h4RenAyMaQvBAs,Maputo Railway Station,"Maputo, Mozambique",-25.9710715,32.5643617
 Amsterdam,Netherlands,NL,52.35,4.9166,club,ChIJQwD_YbgJxkcRPLbytQSfkKE,Stone's Café Bar & Nightclub,"Warmoesstraat 96, 1012 JH Amsterdam, Netherlands",52.37454899999999,4.8968889
 Amsterdam,Netherlands,NL,52.35,4.9166,mall,ChIJD7P9IsMJxkcRMrf54OxoZSg,The 9 Streets,"Wolvenstraat 9, 1016 EM Amsterdam, Netherlands",52.3723627,4.8844173
-Amsterdam,Netherlands,NL,52.35,4.9166,park,ChIJW3VkBjwKxkcRVNsYc24GnkU,Amstelpark,"Arent Janszoon Ernststraat 1, 1083 GA Amsterdam, Netherlands",52.3300729,4.8939908
+Amsterdam,Netherlands,NL,52.35,4.9166,park,ChIJW3VkBjwKxkcRVNsYc24GnkU,Amstelpark,"Arent Janszoon Ernststraat 1, 1083 GA Amsterdam, Netherlands",52.3300729,4.893990799999999
 Amsterdam,Netherlands,NL,52.35,4.9166,park,ChIJZX1IThwKxkcRCE88Y-y9Y-o,Beatrixpark,"Diepenbrockstraat 21, 1077 VX Amsterdam, Netherlands",52.342989,4.8804617
-Amsterdam,Netherlands,NL,52.35,4.9166,sights,ChIJz3y0xeIJxkcRNcogBVV41Gw,Vondelpark,"Amsterdam, Netherlands",52.3579946,4.8686484
+Amsterdam,Netherlands,NL,52.35,4.9166,sights,ChIJz3y0xeIJxkcRNcogBVV41Gw,Vondelpark,"Amsterdam, Netherlands",52.3579946,4.8686484000000005
 The Hague,Netherlands,NL,52.08,4.27,bar,ChIJfcOHPCO3xUcRoIBuCG_DxI8,Millers,"Plein 10, A, 2511 CR Den Haag, Netherlands",52.079483,4.3164506
 The Hague,Netherlands,NL,52.08,4.27,park,ChIJeTVCC7SwxUcR5EdQLWrRLYc,Scheveningen Woods,"The Hague, Netherlands",52.0959928,4.292382799999999
 Wellington,New Zealand,NZ,-41.3,174.7833,bar,ChIJZcX5CdOvOG0Rc6FRWEX3iOc,Foxglove Bar & Kitchen,"33 Queens Wharf, Wellington 6011, New Zealand",-41.28365,174.778724
 Wellington,New Zealand,NZ,-41.3,174.7833,hardware store,ChIJq0V6b2KlOG0RtsuZ4J3Ovwo,Bunnings Warehouse Lyall Bay,"22/54 Kingsford Smith Street, Rongotai, Wellington 6022, New Zealand",-41.3256388,174.8005267
 Wellington,New Zealand,NZ,-41.3,174.7833,hardware store,ChIJE82hZtqvOG0RyADURHPepIc,Bunnings Warehouse Wellington Central,"46/56 Tory Street, Te Aro, Wellington 6011, New Zealand",-41.29406400000001,174.780567
 Wellington,New Zealand,NZ,-41.3,174.7833,mall,ChIJddR_3iquOG0RFPR7pH5Wzm0,Lambton Square & Eatery,"180 Lambton Quay, Wellington 6011, New Zealand",-41.2818584,174.7758938
-Wellington,New Zealand,NZ,-41.3,174.7833,park,ChIJg8nSNCqwOG0R0KudJGLvAA8,Kelburn Park,"Salamanca Road, Kelburn, Wellington 6012, New Zealand",-41.2870368,174.7700698
+Wellington,New Zealand,NZ,-41.3,174.7833,park,ChIJg8nSNCqwOG0R0KudJGLvAA8,Kelburn Park,"Salamanca Road, Kelburn, Wellington 6012, New Zealand",-41.2870368,174.77006980000004
 Wellington,New Zealand,NZ,-41.3,174.7833,park,ChIJPUlutN6vOG0RVo_6baFDadc,Pukeahu National War Memorial Park,"State Highway 1, Te Aro, Wellington 6011, New Zealand",-41.298272,174.7775258
 Wellington,New Zealand,NZ,-41.3,174.7833,park,ChIJYedsylSlOG0RYLKdJGLvAA8,Wakefield Park,"Adelaide Road, Berhampore, Wellington 6023, New Zealand",-41.3259946,174.773985
 Wellington,New Zealand,NZ,-41.3,174.7833,sights,ChIJq-ETf7ivOG0RJa_-GBUmQuc,Mount Victoria Lookout,"Lookout Road, Hataitai, Wellington 6021, New Zealand",-41.2960571,174.7943104
-Wellington,New Zealand,NZ,-41.3,174.7833,sights,ChIJnRaYrdGvOG0RMJot6PyfQJo,Museum of New Zealand Te Papa Tongarewa,"55 Cable Street, Te Aro, Wellington 6011, New Zealand",-41.2904563,174.7820894
+Wellington,New Zealand,NZ,-41.3,174.7833,sights,ChIJnRaYrdGvOG0RMJot6PyfQJo,Museum of New Zealand Te Papa Tongarewa,"55 Cable Street, Te Aro, Wellington 6011, New Zealand",-41.2904563,174.78208940000005
 Wellington,New Zealand,NZ,-41.3,174.7833,sights,ChIJPaSvMdOxOG0REKudJGLvAA8,Wellington Botanic Garden,"101 Glenmore Street, Kelburn, Wellington 6012, New Zealand",-41.2823079,174.7674514
 Wellington,New Zealand,NZ,-41.3,174.7833,sights,ChIJLyoZhNSvOG0R579NxQyM2YQ,Wellington Museum,"3 Jervois Quay, Wellington 6011, New Zealand",-41.28510319999999,174.7780803
-Wellington,New Zealand,NZ,-41.3,174.7833,sights,ChIJ0e_db9OvOG0RxNM4YL54czg,Wellington Waterfront,"Jervois Quay, Wellington 6011, New Zealand",-41.2866248,174.7792422
-Wellington,New Zealand,NZ,-41.3,174.7833,sights,ChIJSW__XPevOG0ROIAi_R-aY8E,Wellington Zoo,"200 Daniell Street, Newtown, Wellington 6021, New Zealand",-41.3195432,174.7846434
-Wellington,New Zealand,NZ,-41.3,174.7833,sights,ChIJmfs6nEKwOG0REKydJGLvAA8,ZEALANDIA Ecosanctuary,"53 Waiapu Road, Karori, Wellington 6012, New Zealand",-41.2901575,174.7534936
-Wellington,New Zealand,NZ,-41.3,174.7833,supermarket,ChIJEyUqGNWvOG0RmIgm8SMbDLA,Countdown Cable Car Lane,"280-284 Lambton Quay, Wellington 6011, New Zealand",-41.2843328,174.7752637
+Wellington,New Zealand,NZ,-41.3,174.7833,sights,ChIJ0e_db9OvOG0RxNM4YL54czg,Wellington Waterfront,"Jervois Quay, Wellington 6011, New Zealand",-41.2866248,174.77924219999997
+Wellington,New Zealand,NZ,-41.3,174.7833,sights,ChIJSW__XPevOG0ROIAi_R-aY8E,Wellington Zoo,"200 Daniell Street, Newtown, Wellington 6021, New Zealand",-41.31954320000001,174.78464340000005
+Wellington,New Zealand,NZ,-41.3,174.7833,sights,ChIJmfs6nEKwOG0REKydJGLvAA8,ZEALANDIA Ecosanctuary,"53 Waiapu Road, Karori, Wellington 6012, New Zealand",-41.2901575,174.75349359999996
+Wellington,New Zealand,NZ,-41.3,174.7833,supermarket,ChIJEyUqGNWvOG0RmIgm8SMbDLA,Countdown Cable Car Lane,"280-284 Lambton Quay, Wellington 6011, New Zealand",-41.2843328,174.77526369999995
 Wellington,New Zealand,NZ,-41.3,174.7833,supermarket,ChIJl7HKT4uvOG0RjxnjjIc6QYE,Countdown Kilbirnie,"47 Bay Road, Kilbirnie, Wellington 6022, New Zealand",-41.3193381,174.7949728
 Wellington,New Zealand,NZ,-41.3,174.7833,supermarket,ChIJlUWHXeGvOG0RejPRctt9Glg,Countdown Newtown,"3 John Street, Newtown, Wellington 6021, New Zealand",-41.3075079,174.7772195
-Wellington,New Zealand,NZ,-41.3,174.7833,supermarket,ChIJjT_no4KvOG0Rq_YVjIE9HPc,New World Miramar,"48 Miramar Avenue, Miramar, Wellington 6022, New Zealand",-41.3165397,174.8145883
-Wellington,New Zealand,NZ,-41.3,174.7833,supermarket,ChIJWWtFFvuvOG0RRRoEE4H_aYo,New World Newtown,"195 Riddiford Street, Newtown, Wellington 6021, New Zealand",-41.31456439999999,174.7802752
+Wellington,New Zealand,NZ,-41.3,174.7833,supermarket,ChIJjT_no4KvOG0Rq_YVjIE9HPc,New World Miramar,"48 Miramar Avenue, Miramar, Wellington 6022, New Zealand",-41.31653970000001,174.81458830000003
+Wellington,New Zealand,NZ,-41.3,174.7833,supermarket,ChIJWWtFFvuvOG0RRRoEE4H_aYo,New World Newtown,"195 Riddiford Street, Newtown, Wellington 6021, New Zealand",-41.31456439999999,174.78027519999995
 Wellington,New Zealand,NZ,-41.3,174.7833,supermarket,ChIJdwmhtSiuOG0RfSZInIzmaQ8,New World Thorndon,"150 Molesworth Street, Thorndon, Wellington 6011, New Zealand",-41.27416909999999,174.778392
 Wellington,New Zealand,NZ,-41.3,174.7833,supermarket,ChIJ96CS_M-vOG0R9Ar7H_u2yVw,New World Wellington City,"279 Wakefield Street, Te Aro, Wellington 6011, New Zealand",-41.2924093,174.7843416
-Wellington,New Zealand,NZ,-41.3,174.7833,supermarket,ChIJFyQodtavOG0RZ48Z8XYVHkk,New World Willis Street Metro,"68-70 Willis Street, Wellington 6011, New Zealand",-41.287948,174.775268
+Wellington,New Zealand,NZ,-41.3,174.7833,supermarket,ChIJFyQodtavOG0RZ48Z8XYVHkk,New World Willis Street Metro,"68-70 Willis Street, Wellington 6011, New Zealand",-41.287948,174.77526799999995
 Wellington,New Zealand,NZ,-41.3,174.7833,supermarket,ChIJR5ZOZ9-vOG0RMaAd5Mzq0F0,Yan's Supermarket,"28 Hopper Street, Mount Cook, Wellington 6011, New Zealand",-41.2992389,174.773775
 Wellington,New Zealand,NZ,-41.3,174.7833,train station,ChIJuddNPyyuOG0RcOsVJWLvAB0,Wellington Station,"District of Freedom#8573311~!#, Bunny Street, Pipitea, Wellington 6011, New Zealand",-41.279214,174.78034
-Managua,Nicaragua,NI,12.152999999999999,-86.2685,mall,ChIJCW46k_pVcY8RSh3XJb6Wvec,Metrocentro,"Marginal Av de las Naciones Unidas, Managua 10000, Nicaragua",12.1277624,-86.26476869999999
-Managua,Nicaragua,NI,12.152999999999999,-86.2685,park,ChIJUXclMAb-c48R9vqdnPh3j1E,El Dorado Park,"Managua, Nicaragua",12.1345755,-86.2471273
+Managua,Nicaragua,NI,12.152999999999999,-86.2685,mall,ChIJCW46k_pVcY8RSh3XJb6Wvec,Metrocentro,"Marginal Av de las Naciones Unidas, Managua 10000, Nicaragua",12.127762400000002,-86.26476869999998
+Managua,Nicaragua,NI,12.152999999999999,-86.2685,park,ChIJUXclMAb-c48R9vqdnPh3j1E,El Dorado Park,"Managua, Nicaragua",12.1345755,-86.24712729999997
 Managua,Nicaragua,NI,12.152999999999999,-86.2685,park,ChIJZZLLId9VcY8RsYL5EtYHCMI,Las Madres Park,"Managua 12066, Nicaragua",12.1357548,-86.2806686
 Managua,Nicaragua,NI,12.152999999999999,-86.2685,restaurant,ChIJiRsi33tWcY8R7IuhAXYY4Cw,Los Ranchos,"Managua, Nicaragua",12.1444068,-86.2905157
 Managua,Nicaragua,NI,12.152999999999999,-86.2685,sights,ChIJpekEP_dVcY8RfnbSjX0VEyQ,Japón Nicaragua Park,"Managua, Nicaragua",12.1249496,-86.2606168
 Managua,Nicaragua,NI,12.152999999999999,-86.2685,street market,ChIJIeprXfr9c48RQC4NGLio790,Oriental Maxi Pali,"Av. Xolotlán, Managua, Nicaragua",12.1479109,-86.2494207
-Managua,Nicaragua,NI,12.152999999999999,-86.2685,supermarket,ChIJ9cubvQb-c48Rcu6p7gbR3uU,Maxi Pali Dorado,"Boulevard Don Bosco, Managua, Nicaragua",12.1331292,-86.2503409
+Managua,Nicaragua,NI,12.152999999999999,-86.2685,supermarket,ChIJ9cubvQb-c48Rcu6p7gbR3uU,Maxi Pali Dorado,"Boulevard Don Bosco, Managua, Nicaragua",12.1331292,-86.25034090000003
 Managua,Nicaragua,NI,12.152999999999999,-86.2685,supermarket,ChIJ-8ao9I9VcY8RZ3gsn8JInUY,Super Porta's,"55 Calle Sureste, Managua, Nicaragua",12.1042873,-86.2655182
 Managua,Nicaragua,NI,12.152999999999999,-86.2685,supermarket,ChIJ89FzWYdWcY8RkZvgljcVfuk,Supermercado La Colonia Monsignor Lezcano,"10a Calle S.O, Managua, Nicaragua",12.1454124,-86.2971233
 Managua,Nicaragua,NI,12.152999999999999,-86.2685,supermarket,ChIJX0UVatlVcY8RkkVbrWSG1_Y,Supermercado La Colonia Plaza España,"Managua 12084, Nicaragua",12.1338977,-86.2832208
-Managua,Nicaragua,NI,12.152999999999999,-86.2685,tourist information,ChIJTTS0JxJWcY8RPV3BmWw3IQU,Luis Alfonso Velásquez Flores Park,"Managua, Nicaragua",12.1518397,-86.27108849999999
+Managua,Nicaragua,NI,12.152999999999999,-86.2685,tourist information,ChIJTTS0JxJWcY8RPV3BmWw3IQU,Luis Alfonso Velásquez Flores Park,"Managua, Nicaragua",12.1518397,-86.27108849999998
 Oslo,Norway,NO,59.9167,10.75,park,ChIJgzu7EH9uQUYRwajtZJFSX70,Palace Park,"Slottsplassen 1, 0010 Oslo, Norway",59.917625,10.730332
 Oslo,Norway,NO,59.9167,10.75,park,ChIJb4OV4mduQUYRks5TEOeXZGo,Sofienberg Park,"Sofienberggata 14, 0558 Oslo, Norway",59.92310310000001,10.7635437
 Oslo,Norway,NO,59.9167,10.75,park,ChIJdXwu3lpuQUYRknOl0TWnog0,Tøyen Park,"Helgesens gate 90, 0563 Oslo, Norway",59.91710089999999,10.7772202
 Oslo,Norway,NO,59.9167,10.75,sights,ChIJn5IXQ89tQUYRqXaN0mEtOw0,Frogner Park,"Kirkeveien, 0268 Oslo, Norway",59.92645829999999,10.7034734
 Oslo,Norway,NO,59.9167,10.75,train station,ChIJ1b8zu6dvQUYR0xO8GMXWK8A,Bryn,"0667 Oslo, Norway",59.90835999999999,10.81861
-Oslo,Norway,NO,59.9167,10.75,train station,ChIJyYnc6rNtQUYRJpKNR00W_8E,Skøyen stasjon,"0277 Oslo, Norway",59.92255909999999,10.6783786
+Oslo,Norway,NO,59.9167,10.75,train station,ChIJyYnc6rNtQUYRJpKNR00W_8E,Skøyen stasjon,"0277 Oslo, Norway",59.9225591,10.678378599999998
 Asunción,Paraguay,PY,-25.2964,-57.6415,park,ChIJYf-aLd-nXZQRpntalo_K_lY,Plaza Batallón 40,"General Aquino, Asunción, Paraguay",-25.2924307,-57.615752
-Asunción,Paraguay,PY,-25.2964,-57.6415,park,ChIJtxwYKPKnXZQRULIHIGrmwGY,Plaza Pública de LA DEMOCRACIA,"Independencia Nacional, Asunción, Paraguay",-25.2834276,-57.6347829
-Asunción,Paraguay,PY,-25.2964,-57.6415,restaurant,ChIJ64LOufOnXZQRoIaJZVVZwjo,Bolsi,"Estrella 399, Asunción, Paraguay",-25.2822623,-57.636171
+Asunción,Paraguay,PY,-25.2964,-57.6415,park,ChIJtxwYKPKnXZQRULIHIGrmwGY,Plaza Pública de LA DEMOCRACIA,"Independencia Nacional, Asunción, Paraguay",-25.2834276,-57.63478290000001
+Asunción,Paraguay,PY,-25.2964,-57.6415,restaurant,ChIJ64LOufOnXZQRoIaJZVVZwjo,Bolsi,"Estrella 399, Asunción, Paraguay",-25.282262300000006,-57.636171
 Asunción,Paraguay,PY,-25.2964,-57.6415,restaurant,ChIJHTEESfKnXZQRFuyfX62XqMI,Lido Bar,"Palma esquina, Asunción, Paraguay",-25.2820168,-57.63491819999999
 Asunción,Paraguay,PY,-25.2964,-57.6415,sights,ChIJO4m9NuunXZQR-5zkZiMZSiI,Costanera de Asuncion,"Av Costanera José Asunción Flores, Asunción, Paraguay",-25.2768765,-57.631348
 Asunción,Paraguay,PY,-25.2964,-57.6415,sights,ChIJOyhIZxkIXZQRI03zbbHOJ4w,Parque Carlos A Lopez,"Avenida Carlos Antonio López, Asunción, Paraguay",-25.2869366,-57.6510244
@@ -462,9 +462,9 @@ Lima,Peru,PE,-12.048,-77.0501,mall,ChIJVVVVqOfIBZERu35pV1TLIJw,C.C. La Rambla Br
 Lima,Peru,PE,-12.048,-77.0501,park,ChIJaYuvZibPBZERb7nc-BFDmeI,Franco Peruano Park,"Enrique Gongora, Cercado de Lima 15102, Peru",-12.028141,-77.051808
 Lima,Peru,PE,-12.048,-77.0501,park,ChIJ4y1oDMjIBZER3bxcF2EhFRc,Plaza San Martín,"Av. Nicolás de Piérola 1800, Cercado de Lima 15001, Peru",-12.0517214,-77.0346052
 Lima,Peru,PE,-12.048,-77.0501,sights,ChIJ0S6z0-zIBZERKUkhm2v4P6Y,Park of the Reserve,"Jr. Madre de Dios S/N, Cercado de Lima, Peru",-12.0709585,-77.0340339
-Lima,Peru,PE,-12.048,-77.0501,supermarket,ChIJt1I66pXIBZER3makJWTydSI,Metro market Plaza Manco Cápac,"Av. Manco Cápac 493, Cercado de Lima 15033, Peru",-12.0642786,-77.02875519999999
-Lima,Peru,PE,-12.048,-77.0501,supermarket,ChIJR1njjynJBZERzq0TKaVQlMU,Tottus,"Av. Oscar R. Benavides Nro. 1291, Cercado de Lima 15082, Peru",-12.048173,-77.058691
-Lima,Peru,PE,-12.048,-77.0501,supermarket,ChIJ___v0s7IBZERSu58fYWP0N8,plazaVea super Colmena,"Av. Nicolás de Piérola 476, Cercado de Lima 15001, Peru",-12.0488941,-77.0392459
+Lima,Peru,PE,-12.048,-77.0501,supermarket,ChIJt1I66pXIBZER3makJWTydSI,Metro market Plaza Manco Cápac,"Av. Manco Cápac 493, Cercado de Lima 15033, Peru",-12.0642786,-77.02875519999998
+Lima,Peru,PE,-12.048,-77.0501,supermarket,ChIJR1njjynJBZERzq0TKaVQlMU,Tottus,"Av. Oscar R. Benavides Nro. 1291, Cercado de Lima 15082, Peru",-12.048173,-77.05869100000002
+Lima,Peru,PE,-12.048,-77.0501,supermarket,ChIJ___v0s7IBZERSu58fYWP0N8,plazaVea super Colmena,"Av. Nicolás de Piérola 476, Cercado de Lima 15001, Peru",-12.048894099999998,-77.0392459
 Warsaw,Poland,PL,52.25,21.0,park,ChIJLcQBCnPLHkcRkZsqcmcHDU4,Moczydło Park,"Górczewska, 01-424 Warszawa, Poland",52.2409607,20.9532269
 Warsaw,Poland,PL,52.25,21.0,park,ChIJdYLy3CfNHkcR8sFIsLTSlhk,Park Morskie Oko,"Puławska 53B, 00-784 Warszawa, Poland",52.2052888,21.0259751
 Warsaw,Poland,PL,52.25,21.0,park,ChIJJ2C9GmrMHkcReA0ODrUpYwM,Park Praski,"aleja Solidarności, 03-461 Warszawa, Poland",52.2528201,21.027713
@@ -473,18 +473,18 @@ Warsaw,Poland,PL,52.25,21.0,park,ChIJUYt_movMHkcRDo_ofyJ1CT0,Świętokrzyski Par
 Warsaw,Poland,PL,52.25,21.0,sights,ChIJh0QLCW7MHkcRBpU8uKhlEU8,Multimedia Fountain Park,"Pomnik I Dywizji Pancernej gen. Stanisława Maczka, skwer I, 00-221 Warszawa, Poland",52.2542102,21.0112982
 Warsaw,Poland,PL,52.25,21.0,sights,ChIJkUWehmHMHkcRR-72WJvPCFg,Ogród Saski,"Marszałkowska, 00-102 Warszawa, Poland",52.240265,21.0076337
 Warsaw,Poland,PL,52.25,21.0,tourist information,ChIJM_a7C2bMHkcRsoH4Y3isoR8,Old Town Market Square,"rynek Starego Miasta, 00-279 Warszawa, Poland",52.2497413,21.0122417
-Lisbon,Portugal,PT,38.7227,-9.1449,park,ChIJy2NdwrczGQ0RKTUun24F0pU,Bela Vista Park,"Azinhaga da Bela Vista 300, 1950-037 Lisboa, Portugal",38.75004310000001,-9.1256567
-Lisbon,Portugal,PT,38.7227,-9.1449,park,ChIJ41Lk44gzGQ0Rs69StMfTQo8,Jardim da Cerca da Graça,"Calçada do Monte 46, 1100-362 Lisboa, Portugal",38.71746350000001,-9.132069399999999
-Lisbon,Portugal,PT,38.7227,-9.1449,train station,ChIJW4MjK6E0GQ0RVVMlTHXxNUU,Alcantara-Terra,"Lisbon, Portugal",38.70743460000001,-9.1734137
+Lisbon,Portugal,PT,38.7227,-9.1449,park,ChIJy2NdwrczGQ0RKTUun24F0pU,Bela Vista Park,"Azinhaga da Bela Vista 300, 1950-037 Lisboa, Portugal",38.750043100000006,-9.1256567
+Lisbon,Portugal,PT,38.7227,-9.1449,park,ChIJ41Lk44gzGQ0Rs69StMfTQo8,Jardim da Cerca da Graça,"Calçada do Monte 46, 1100-362 Lisboa, Portugal",38.71746350000001,-9.1320694
+Lisbon,Portugal,PT,38.7227,-9.1449,train station,ChIJW4MjK6E0GQ0RVVMlTHXxNUU,Alcantara-Terra,"Lisbon, Portugal",38.707434600000006,-9.1734137
 Lisbon,Portugal,PT,38.7227,-9.1449,train station,ChIJedMC-j8zGQ0Rw9-mAjABqLQ,Campolide,"Calçada Estação, 1070-025 Lisboa, Portugal",38.7322745,-9.1681385
 Lisbon,Portugal,PT,38.7227,-9.1449,train station,ChIJO41ppAo0GQ0RCSkBTGuQ1Uc,Lisboa Santa Apolónia,"Av. Infante Dom Henrique 1, 1100-105 Lisboa, Portugal",38.7141366,-9.1225711
 Doha,Qatar,QA,25.2866,51.533,park,ChIJOd3VbirFRT4R7QBPQM1nAnw,Al Bidda Park,"Doha, Qatar",25.2996027,51.5181195
 Doha,Qatar,QA,25.2866,51.533,park,ChIJ8RVuCsTERT4ROFaWVMIVkYs,Sheraton Hotel Park,"Doha, Qatar",25.3192069,51.5345111
 Doha,Qatar,QA,25.2866,51.533,sights,ChIJ_YRY8MHERT4RrQR4pJYhUjs,Hotel Park,"1 Al Corniche St, Doha, Qatar",25.3202461,51.5354068
 Doha,Qatar,QA,25.2866,51.533,street market,ChIJGWO4pg3FRT4RNhrQj_1hhbk,Corniche Fish Market,"Doha, Qatar",25.2915181,51.5482479
-Doha,Qatar,QA,25.2866,51.533,tourist information,ChIJORQSrD3FRT4R0z7IG7uMa_w,The Pearl Monument,"Corniche St, Doha, Qatar",25.291414,51.5336358
-Bucharest,Romania,RO,44.4334,26.0999,park,ChIJWyeMXg7_sUAR8FkTKME4i70,Carol Park,"Bulevardul Mărășești, București, Romania",44.4152297,26.0959202
-Bucharest,Romania,RO,44.4334,26.0999,park,ChIJq20fwwMCskARyrHR1-V24S8,Kiseleff Park,"Bucharest, Romania",44.4576517,26.0836661
+Doha,Qatar,QA,25.2866,51.533,tourist information,ChIJORQSrD3FRT4R0z7IG7uMa_w,The Pearl Monument,"Corniche St, Doha, Qatar",25.291414000000003,51.53363579999999
+Bucharest,Romania,RO,44.4334,26.0999,park,ChIJWyeMXg7_sUAR8FkTKME4i70,Carol Park,"Bulevardul Mărășești, București, Romania",44.41522970000001,26.0959202
+Bucharest,Romania,RO,44.4334,26.0999,park,ChIJq20fwwMCskARyrHR1-V24S8,Kiseleff Park,"Bucharest, Romania",44.45765170000001,26.0836661
 Bucharest,Romania,RO,44.4334,26.0999,park,ChIJuzuXobr4sUARbEdOtNV-NIs,Parcul Circului,"Bulevardul Lacul Tei 27, București, Romania",44.4562714,26.110248
 Bucharest,Romania,RO,44.4334,26.0999,park,ChIJ_9zV0qr_sUARjk_kKHWdIpw,Youth Park,"Sector 4, București, Romania",44.4078713,26.105064
 Bucharest,Romania,RO,44.4334,26.0999,sights,ChIJz29-j0P_sUARO0JmUSermD4,Cișmigiu Gardens,"Bulevardul Regina Elisabeta, București 030167, Romania",44.4369687,26.0909837
@@ -496,27 +496,27 @@ Moscow,Russia,RU,55.7522,37.6155,park,ChIJnZpeFkdKtUYRhgKc2IO_dM8,Novopushkinski
 Moscow,Russia,RU,55.7522,37.6155,park,ChIJIa7uAFhKtUYRRWeoyNDZL6U,Park Zaryad'ye,"улица Варварка домовладение 6, строение 1, Moscow, Russia, 109012",55.7514282,37.6291514
 Moscow,Russia,RU,55.7522,37.6155,park,ChIJn2z2KDhKtUYR5hI8memDlWg,Patriarch's Ponds,"Bol'shoy Patriarshiy Pereulok, 7, строение 1, Moscow, Russia, 123001",55.763625,37.5924195
 Moscow,Russia,RU,55.7522,37.6155,park,ChIJvycdAEdKtUYR_CkNnKiEesY,Tverskoy Bul'var,"с, Tverskoy Blvd, 26 строение 2, Moscow, Russia, 125009",55.76324169999999,37.6038873
-Moscow,Russia,RU,55.7522,37.6155,restaurant,ChIJJXXJr1pKtUYR3KROfZSs7-E,Grand Cafe Dr. Jhivago,"Mokhovaya St, 15/1, Moscow, Russia, 125009",55.7567427,37.6142481
+Moscow,Russia,RU,55.7522,37.6155,restaurant,ChIJJXXJr1pKtUYR3KROfZSs7-E,Grand Cafe Dr. Jhivago,"Mokhovaya St, 15/1, Moscow, Russia, 125009",55.7567427,37.61424810000001
 Moscow,Russia,RU,55.7522,37.6155,restaurant,ChIJV9zPi_xLtUYR_N-oIGSHxJ8,Restaurant Cafe Pushkin,"Tverskoy Blvd, 26А, Moscow, Russia, 125009",55.7637392,37.6049078
 Moscow,Russia,RU,55.7522,37.6155,supermarket,ChIJy7vpMD5KtUYRGzqj3pyZaMI,Azbuka Vkusa,"2-Ya Tverskaya-Yamskaya Ulitsa, 54, Moscow, Russia, 125047",55.77534259999999,37.5890467
-Moscow,Russia,RU,55.7522,37.6155,supermarket,ChIJI3Td3BdKtUYRNJd8ZObvlII,Azbuka Vkusa,"Ulitsa Chayanova, 14/10, Moscow, Russia, 125047",55.776227,37.596309
-Moscow,Russia,RU,55.7522,37.6155,supermarket,ChIJi5ZekwZLtUYRTTUbiSFvRs8,Azbuka Vkusa,"Ulitsa Bol'shaya Yakimanka, 32, Moscow, Russia, 119049",55.73543350000001,37.6127793
+Moscow,Russia,RU,55.7522,37.6155,supermarket,ChIJI3Td3BdKtUYRNJd8ZObvlII,Azbuka Vkusa,"Ulitsa Chayanova, 14/10, Moscow, Russia, 125047",55.776227,37.59630900000001
+Moscow,Russia,RU,55.7522,37.6155,supermarket,ChIJi5ZekwZLtUYRTTUbiSFvRs8,Azbuka Vkusa,"Ulitsa Bol'shaya Yakimanka, 32, Moscow, Russia, 119049",55.735433500000006,37.61277929999999
 Moscow,Russia,RU,55.7522,37.6155,supermarket,ChIJrUurjuxKtUYRGgQnBx1xCd8,Azbuka Vkusa,"Nikoloyamskiy Pereulok, 2, Moscow, Russia, 109004",55.749139,37.662235
 Moscow,Russia,RU,55.7522,37.6155,supermarket,ChIJ0SywmjJKtUYRz4KduS4Bgck,Billa,"улица Красная Пресня 23, к. Б, стр. 1, Moscow, Russia, 123557",55.7616613,37.5688529
-Moscow,Russia,RU,55.7522,37.6155,supermarket,ChIJY9fCHo-1SkERAWlBxfor7sk,Billa,"Pereulok Bernikov, 2, Moscow, Russia, 109240",55.7489261,37.6491786
-Moscow,Russia,RU,55.7522,37.6155,supermarket,ChIJRZ-M3EZKtUYRsrGSa3_P96s,Eliseyevskiy,"Tverskaya St, 14, Moscow, Russia, 125009",55.76406950000001,37.6069397
+Moscow,Russia,RU,55.7522,37.6155,supermarket,ChIJY9fCHo-1SkERAWlBxfor7sk,Billa,"Pereulok Bernikov, 2, Moscow, Russia, 109240",55.74892610000001,37.6491786
+Moscow,Russia,RU,55.7522,37.6155,supermarket,ChIJRZ-M3EZKtUYRsrGSa3_P96s,Eliseyevskiy,"Tverskaya St, 14, Moscow, Russia, 125009",55.76406950000001,37.60693970000001
 Moscow,Russia,RU,55.7522,37.6155,train station,ChIJ5ecq-yNKtUYRCLVHR4Lb9aw,Belorussky Station,"Tverskaya Zastava Square, 7, Moscow, Russia, 125047",55.77691300000001,37.581465
-Moscow,Russia,RU,55.7522,37.6155,train station,ChIJP9wms35KtUYRyR9W-WSew8I,Kazansky railway station,"Komsomolskaya Square, 2, Moscow, Russia, 107140",55.7736033,37.6567589
+Moscow,Russia,RU,55.7522,37.6155,train station,ChIJP9wms35KtUYRyR9W-WSew8I,Kazansky railway station,"Komsomolskaya Square, 2, Moscow, Russia, 107140",55.77360329999999,37.6567589
 Moscow,Russia,RU,55.7522,37.6155,train station,ChIJs2qGjLhLtUYRJECzgKufk7w,Kiyevsky railway station,"Kiyevsky Station Square, 1, Moscow, Russia, 121059",55.7430872,37.5667304
 Moscow,Russia,RU,55.7522,37.6155,train station,ChIJy6SWFIxKtUYRzEoB9-Gx2s0,Kurskiy Railway Station,"Moscow, Russia, 105064",55.75806799999999,37.6573369
 Moscow,Russia,RU,55.7522,37.6155,train station,ChIJNdpAV3hKtUYRrb_H0K9iKYU,Leningradskiy Railway Station,"Komsomolskaya Square, 3, Moscow, Russia, 107140",55.7760848,37.655356
 Moscow,Russia,RU,55.7522,37.6155,train station,ChIJw24OER9LtUYRcMtYzQ5wtoI,Moscow Paveletsky,"Paveletskaya Ploshchad', 1, Moscow, Russia, 102151",55.72971450000001,37.63938350000001
 Moscow,Russia,RU,55.7522,37.6155,train station,ChIJ2Wzi13hKtUYRqm9hQHUX0Ng,Yaroslavskiy Railway Terminal,"Komsomolskaya Square, 5, Moscow, Russia, 107140",55.7767911,37.6572732
 Riyadh,Saudi Arabia,SA,24.6408,46.7727,park,ChIJWW1BMa8GLz4RgKf4mbWaK3M,Nahda Park,"Nahdah Rd, Jarir, Riyadh 12833, Saudi Arabia",24.6864146,46.75495249999999
-Dakar,Senegal,SN,14.7158,-17.4731,restaurant,ChIJ8Wp3IL5ywQ4RGE3ZL40s7JU,Restaurant le BAZOFF,"Grand Dakar, Dakar, Senegal",14.7060301,-17.4601584
-Belgrade,Serbia,RS,44.8186,20.468,supermarket,ChIJpwR9ukplWkcRrbBmLVxjtec,Idea Dorćol,"11000, Cara Dušana 40, Beograd, Serbia",44.8233452,20.4599688
+Dakar,Senegal,SN,14.7158,-17.4731,restaurant,ChIJ8Wp3IL5ywQ4RGE3ZL40s7JU,Restaurant le BAZOFF,"Grand Dakar, Dakar, Senegal",14.7060301,-17.460158399999994
+Belgrade,Serbia,RS,44.8186,20.468,supermarket,ChIJpwR9ukplWkcRrbBmLVxjtec,Idea Dorćol,"11000, Cara Dušana 40, Beograd, Serbia",44.82334520000001,20.4599688
 Belgrade,Serbia,RS,44.8186,20.468,train station,ChIJ24YBgxBwWkcRgRReQKdgPIU,BELGRADE CENTER-Prokop (BEOGRAD CENTAR-Prokop),"Belgrade, Serbia",44.79360519999999,20.4533295
-Belgrade,Serbia,RS,44.8186,20.468,train station,ChIJM-XKkxBwWkcRjXcd-Gu-c_s,Belgrade Centre railway station,"Belgrade, Serbia",44.7927372,20.4538098
+Belgrade,Serbia,RS,44.8186,20.468,train station,ChIJM-XKkxBwWkcRjXcd-Gu-c_s,Belgrade Centre railway station,"Belgrade, Serbia",44.79273720000001,20.4538098
 Singapore,Singapore,SG,1.2930000000000001,103.8558,hardware store,ChIJmdcwzR8Y2jER7YYN2iwhUpo,Horme Hardware,"1, #01-01 Ubi Cres, Number One Building, Singapore 408563",1.325578,103.894064
 Singapore,Singapore,SG,1.2930000000000001,103.8558,park,ChIJnV5WzKwZ2jERJ8cM9ja9u_M,Bay East Garden,"11 Rhu Cross, Singapore 437440",1.2881607,103.869858
 Singapore,Singapore,SG,1.2930000000000001,103.8558,park,ChIJVSYjJKIZ2jERpRFinATD52s,Fort Canning Park,"River Valley Rd, Singapore 179037",1.2945126,103.845801
@@ -526,17 +526,17 @@ Singapore,Singapore,SG,1.2930000000000001,103.8558,sights,ChIJSeUa7KcZ2jERNVg2Cv
 Singapore,Singapore,SG,1.2930000000000001,103.8558,sights,ChIJMxZ-kwQZ2jERdsqftXeWCWI,Gardens by the Bay,"18 Marina Gardens Dr, Singapore 018953",1.2815683,103.8636132
 Singapore,Singapore,SG,1.2930000000000001,103.8558,sights,ChIJ29omWQgZ2jEROEz2yZFzQp8,Merlion,Singapore,1.2867892,103.8545014
 Singapore,Singapore,SG,1.2930000000000001,103.8558,sights,ChIJvWDbfRwa2jERgNnTOpAU3-o,Singapore Botanic Gardens,"1 Cluny Rd, Singapore 259569",1.3138397,103.8159136
-Singapore,Singapore,SG,1.2930000000000001,103.8558,street market,ChIJyzfPULoZ2jERCEVmhtL9I8g,Albert Centre Market & Food Centre,"270 Queen St, Singapore 180270",1.3011111,103.8541667
+Singapore,Singapore,SG,1.2930000000000001,103.8558,street market,ChIJyzfPULoZ2jERCEVmhtL9I8g,Albert Centre Market & Food Centre,"270 Queen St, Singapore 180270",1.3011111000000002,103.8541667
 Singapore,Singapore,SG,1.2930000000000001,103.8558,street market,ChIJRwKzawsZ2jERKxpszLl54EU,Hong Lim Market & Food Centre,"531A Upper Cross St, Singapore 051531",1.2854139,103.845807
 Singapore,Singapore,SG,1.2930000000000001,103.8558,street market,ChIJ5Y6l4Q0Z2jERYL0KDIjT6v0,Telok Ayer Market,"18 Raffles Quay, Singapore 048582",1.280684,103.8504436
 Singapore,Singapore,SG,1.2930000000000001,103.8558,supermarket,ChIJfW57Gp8Z2jERKWQuK59_UW4,Cold Storage UE Square,"81, Clemenceau Avenue 02-18 UE Square, Singapore 239917",1.2921204,103.8425444
 Singapore,Singapore,SG,1.2930000000000001,103.8558,supermarket,ChIJVcXun8gZ2jER90s2kBbgN3E,FairPrice City Square Mall,"180 Kitchener Rd, #B1 - 09 / 10, Singapore 208539",1.3116729,103.8565966
-Singapore,Singapore,SG,1.2930000000000001,103.8558,supermarket,ChIJ-RepEJoZ2jER4WLO94msolk,FairPrice Orchard Grand Court,"131 Killiney Rd, #01-01/02/03 Orchard Grand Court, Singapore 239571",1.2974154,103.8383964
+Singapore,Singapore,SG,1.2930000000000001,103.8558,supermarket,ChIJ-RepEJoZ2jER4WLO94msolk,FairPrice Orchard Grand Court,"131 Killiney Rd, #01-01/02/03 Orchard Grand Court, Singapore 239571",1.2974153999999998,103.8383964
 Singapore,Singapore,SG,1.2930000000000001,103.8558,supermarket,ChIJvcOX6a4Z2jERKZacMAuuTgE,Giant HyperFresh,"3 Temasek Blvd, #B1 - 152 - 159, Singapore 038983",1.2952791,103.8592562
 Singapore,Singapore,SG,1.2930000000000001,103.8558,train station,ChIJm18xEMYZ2jER-3GTUW917eI,Farrer Park MRT Station,"250 Race Course Rd, Singapore 218703",1.312604,103.854359
 Singapore,Singapore,SG,1.2930000000000001,103.8558,train station,ChIJ580nZDQY2jERNmMG5GQHQMI,Kallang,"5 Sims Ave, Singapore 387405",1.3114784,103.8713507
 Bratislava,Slovakia,SK,48.15,17.117,park,ChIJz4r24meJbEcRHa3GYzm6KCo,Hviezdoslav Square,"811 02 Bratislava, Slovakia",48.1413951,17.107165
-Bratislava,Slovakia,SK,48.15,17.117,park,ChIJw3g8YWuJbEcRPAXOkcs_hfI,Sad Janka Kráľa,"Sad Janka Kráľa, 851 01 Petržalka, Slovakia",48.1352454,17.1097314
+Bratislava,Slovakia,SK,48.15,17.117,park,ChIJw3g8YWuJbEcRPAXOkcs_hfI,Sad Janka Kráľa,"Sad Janka Kráľa, 851 01 Petržalka, Slovakia",48.1352454,17.109731399999998
 Bratislava,Slovakia,SK,48.15,17.117,train station,ChIJyzWcS1SJbEcRukJHAenx9q0,Bratislava Hlavná Stanica,"Námestie Franza Liszta, 811 04 Staré Mesto, Slovakia",48.1586849,17.1063664
 Bratislava,Slovakia,SK,48.15,17.117,train station,ChIJf8XvN1SJbEcRv8vH-dz766E,Hlavná stanica,"811 04 Bratislava, Slovakia",48.1579933,17.1062718
 Madrid,Spain,ES,40.4,-3.6834,park,ChIJbWJHqRQoQg0R5EugZXTDJu8,Parque del Oeste,"Paseo de Moret, 2, 28008 Madrid, Spain",40.4307703,-3.7262233
@@ -544,7 +544,7 @@ Madrid,Spain,ES,40.4,-3.6834,supermarket,ChIJDa0XUCwmQg0Rohc0LcETD9c,Carrefour M
 Madrid,Spain,ES,40.4,-3.6834,train station,ChIJO2EuJXomQg0RNrajmkhsmns,Asamblea de Madrid-Entrevías,"28018 Madrid, Spain",40.3816903,-3.6679811
 Madrid,Spain,ES,40.4,-3.6834,train station,ChIJhz0mgDAmQg0ROg1Hq25ND00,Delicias Train Station,"28045 Madrid, Spain",40.4003907,-3.6927656
 Stockholm,Sweden,SE,59.3508,18.0973,park,ChIJP-jGmaSdX0YRi4Kp-YCSU-I,Hagaparken,"Hagalund, Solna, Sweden",59.3644528,18.0332534
-Stockholm,Sweden,SE,59.3508,18.0973,park,ChIJr12Ag0OdX0YRha1cjS_CqO0,Humlegården,"Karlavägen 32, 114 31 Stockholm, Sweden",59.3391471,18.0726088
+Stockholm,Sweden,SE,59.3508,18.0973,park,ChIJr12Ag0OdX0YRha1cjS_CqO0,Humlegården,"Karlavägen 32, 114 31 Stockholm, Sweden",59.33914710000001,18.0726088
 Stockholm,Sweden,SE,59.3508,18.0973,park,ChIJPQhVFm-dX0YRhOaDuwX5EzI,Observatorielunden,"Drottninggatan, 113 60 Stockholm, Sweden",59.3421811,18.0546792
 Stockholm,Sweden,SE,59.3508,18.0973,park,ChIJdffPztl3X0YRHUYvBVVNIZE,Rålambshovsparken,"Smedsuddsvägen 6, 112 35 Stockholm, Sweden",59.3286445,18.0247621
 Stockholm,Sweden,SE,59.3508,18.0973,park,ChIJq5nT88F3X0YRp7FlhFxsFo4,Tantolunden,"gftg, Zinkens Väg, 118 42 Stockholm, Sweden",59.3132448,18.0491289
@@ -553,7 +553,7 @@ Stockholm,Sweden,SE,59.3508,18.0973,train station,ChIJeU4NfGCdX0YRuLBz4xDgRa8,St
 Stockholm,Sweden,SE,59.3508,18.0973,train station,ChIJpw5P10GdX0YRq475CTJUFkU,Stockholm East Station,"114 28 Stockholm, Sweden",59.3462543,18.0710324
 Stockholm,Sweden,SE,59.3508,18.0973,train station,ChIJ2eMaxG-dX0YREQQ_G2jvr6M,Stockholm Odenplan station,"113 22 Stockholm, Sweden",59.34295840000001,18.049797
 Stockholm,Sweden,SE,59.3508,18.0973,train station,ChIJbfIC9mCdX0YRPbpyttpTxZc,Stockholms Centralstation,"Centralplan 15, 111 20 Stockholm, Sweden",59.33066849999999,18.0579323
-Taipei,Taiwan,TW,25.0358,121.5683,park,ChIJ-2iGHziqQjQRtIxo8kzMOl8,Fujhoushan Park,"Lane 195, Wolong Street, Da’an District, Taipei City, Taiwan 116",25.0160102,121.55484
+Taipei,Taiwan,TW,25.0358,121.5683,park,ChIJ-2iGHziqQjQRtIxo8kzMOl8,Fujhoushan Park,"Lane 195, Wolong Street, Da’an District, Taipei City, Taiwan 116",25.0160102,121.55483999999998
 Taipei,Taiwan,TW,25.0358,121.5683,park,ChIJfQNTLDiqQjQRfVU8bVpiGS0,Fuyang Eco Park,"Fuyang Street, Da’an District, Taipei City, Taiwan 106",25.0167202,121.5574983
 Taipei,Taiwan,TW,25.0358,121.5683,park,ChIJH_p6JIWrQjQRuiL2tiFaEm4,Rainbow Riverside Park,"Section 1, Tiding Blvd, Neihu District, Taipei City, Taiwan 114",25.059919,121.572304
 Taipei,Taiwan,TW,25.0358,121.5683,park,ChIJ293KxeKrQjQRewbnsVtdLBg,Rongxing Garden,"No. 1號, Section 3, Minquan East Road, Zhongshan District, Taipei City, Taiwan 10491",25.0634668,121.5391412
@@ -561,7 +561,7 @@ Taipei,Taiwan,TW,25.0358,121.5683,park,ChIJA_dbHrqrQjQR4nR7t3qDWHc,Songshou Squa
 Taipei,Taiwan,TW,25.0358,121.5683,park,ChIJuwDE9bGrQjQRY7eR6Ve0Kik,Xiangshan Park,"Lane 150, Section 5, Xinyi Road, Xinyi District, Taipei City, Taiwan 110",25.0303924,121.5701294
 Taipei,Taiwan,TW,25.0358,121.5683,park,ChIJeWSiFzWqQjQR1gnWSvEwxA4,Xinyi No.414 Park,"No. 110, Xin'an Street, Xinyi District, Taipei City, Taiwan 110",25.0264519,121.5577868
 Taipei,Taiwan,TW,25.0358,121.5683,sights,ChIJnzZlOoCpQjQRH-WG9egh-2E,Daan Forest Park,"No. 1號, Section 2, Xinsheng South Road, Da’an District, Taipei City, Taiwan 106",25.032435,121.5349054
-Taipei,Taiwan,TW,25.0358,121.5683,sights,ChIJbSTgI2WpQjQRcVwWB2cnyfE,Huashan 1914 Creative Park,"No. 1, Section 1, Bade Road, Zhongzheng District, Taipei City, Taiwan 100",25.0441303,121.5293995
+Taipei,Taiwan,TW,25.0358,121.5683,sights,ChIJbSTgI2WpQjQRcVwWB2cnyfE,Huashan 1914 Creative Park,"No. 1, Section 1, Bade Road, Zhongzheng District, Taipei City, Taiwan 100",25.044130300000006,121.5293995
 Taipei,Taiwan,TW,25.0358,121.5683,sights,ChIJcRV3WHOpQjQRFpgzTpxZWgo,National Taiwan Museum,"No. 2號, Xiangyang Road, Zhongzheng District, Taipei City, Taiwan 100",25.042754,121.515034
 Taipei,Taiwan,TW,25.0358,121.5683,sights,ChIJj4EySmCqQjQRZte0Cf0G_qo,Taipei Zoo,"No. 30號, Section 2, Xinguang Road, Wenshan District, Taipei City, Taiwan 11656",24.9983469,121.5810358
 Taipei,Taiwan,TW,25.0358,121.5683,sights,ChIJ85xGkFSpQjQRzTIFvt5DcmU,林安泰古厝,"No. 5號, Binjiang Street, Zhongshan District, Taipei City, Taiwan 10491",25.071749,121.5303571
@@ -572,45 +572,124 @@ Taipei,Taiwan,TW,25.0358,121.5683,train station,ChIJiW9eYrarQjQR3aG-P4ODq_M,Taip
 Taipei,Taiwan,TW,25.0358,121.5683,train station,ChIJlWImqHKpQjQREk5-6lec4-w,Taipei Main Station,"No. 8號, Zhengzhou Road, Zhongzheng District, Taipei City, Taiwan 100",25.048738,121.514221
 Taipei,Taiwan,TW,25.0358,121.5683,train station,ChIJCZEzfnKpQjQRy75KOs4xSsM,Taipei Station,"Taiwan, Taipei City, Zhongzheng District, Beiping West Road, 3號100臺灣",25.047702,121.5173735
 Taipei,Taiwan,TW,25.0358,121.5683,train station,ChIJAQAAfHKpQjQRImBybm0wC9s,Taiwan High Speed Rail Taipei Station,"No. 3號, Beiping West Road, Zhongzheng District, Taipei City, Taiwan 100",25.047702,121.5173735
-Bangkok,Thailand,TH,13.75,100.5166,mall,ChIJZ3p9P8-e4jAROWTAP3o5qDM,The Platinum Fashion Mall,"222 Phetchaburi Rd, Thanon Phetchaburi, Ratchathewi, Bangkok 10400, Thailand",13.7502773,100.5390624
-Bangkok,Thailand,TH,13.75,100.5166,park,ChIJmfMfvBuf4jAR9rugvZd5Lyc,Benjakitti Park,"Ratchadaphisek Rd, Khlong Toei, Bangkok 10110, Thailand",13.7300127,100.5594973
+Bangkok,Thailand,TH,13.75,100.5166,mall,ChIJZ3p9P8-e4jAROWTAP3o5qDM,The Platinum Fashion Mall,"222 Phetchaburi Rd, Thanon Phetchaburi, Ratchathewi, Bangkok 10400, Thailand",13.750277300000002,100.5390624
+Bangkok,Thailand,TH,13.75,100.5166,park,ChIJmfMfvBuf4jAR9rugvZd5Lyc,Benjakitti Park,"Ratchadaphisek Rd, Khlong Toei, Bangkok 10110, Thailand",13.730012699999998,100.5594973
 Bangkok,Thailand,TH,13.75,100.5166,park,ChIJKds06CuZ4jAREX4LxxCQBbg,Chulalongkorn University Centenary Park,"จุฬาลงกรณ์มหาวิทยาลัย ซอย จุฬาลงกรณ์ 5 Wang Mai, Pathum Wan District, Bangkok 10330, Thailand",13.7394291,100.5238271
 Bangkok,Thailand,TH,13.75,100.5166,park,ChIJG7BL7Saf4jARNmn5AQiyAaw,Lumphini Park,"Rama IV Rd, Lumphini, Pathum Wan District, Bangkok 10330, Thailand",13.7314029,100.5414396
 Bangkok,Thailand,TH,13.75,100.5166,park,ChIJF1sbjx2Z4jARYDkLPbMAAQ8,Princess Mother Memorial Park,"3 Soi Somdet Chao Phraya 17, Khlong San, Bangkok 10600, Thailand",13.7366348,100.4994605
-Bangkok,Thailand,TH,13.75,100.5166,park,ChIJ_0J6BXKZ4jAREKhaPbMAAR0,Santi Chai Prakan Public Park,"Phra Athit Rd, Chana Songkhram, Phra Nakhon, Bangkok 10200, Thailand",13.7640578,100.4952696
+Bangkok,Thailand,TH,13.75,100.5166,park,ChIJ_0J6BXKZ4jAREKhaPbMAAR0,Santi Chai Prakan Public Park,"Phra Athit Rd, Chana Songkhram, Phra Nakhon, Bangkok 10200, Thailand",13.764057800000002,100.4952696
 Bangkok,Thailand,TH,13.75,100.5166,park,ChIJ144wX7ee4jARIDsLPbMAAQ8,Santiphap Park,"Ratchawithi Rd, Thanon Phaya Thai, Ratchathewi, Bangkok 10400, Thailand",13.761547,100.5406864
 Bangkok,Thailand,TH,13.75,100.5166,park,ChIJ29xTHBCZ4jARW6fp8aK8I-Q,Saranrom Palace Park,"Between the intersection of New Road and Rajini Road Phra Nakhon, Bangkok, Thailand",13.7481435,100.4950017
 Bangkok,Thailand,TH,13.75,100.5166,sights,ChIJVQsINhGZ4jARdouyvbBk3B8,Giant Swing,"Dinso Rd, Sao Chingcha, Phra Nakhon, Bangkok 10200, Thailand",13.7518076,100.5012838
-Bangkok,Thailand,TH,13.75,100.5166,sights,ChIJWVT7hDKZ4jARGJOhe21RhOk,Jim Thompson House Museum,"6 Kasem San 2 Alley, Wang Mai, Pathum Wan District, Bangkok 10330, Thailand",13.7493205,100.5282095
+Bangkok,Thailand,TH,13.75,100.5166,sights,ChIJWVT7hDKZ4jARGJOhe21RhOk,Jim Thompson House Museum,"6 Kasem San 2 Alley, Wang Mai, Pathum Wan District, Bangkok 10330, Thailand",13.749320499999998,100.5282095
 Bangkok,Thailand,TH,13.75,100.5166,sights,ChIJya0AFA-Z4jARNaRzjuLiyMc,The Grand Palace,"Na Phra Lan Rd, Phra Borom Maha Ratchawang, Phra Nakhon, Bangkok 10200, Thailand",13.7500943,100.491304
 Bangkok,Thailand,TH,13.75,100.5166,sights,ChIJaSv_6gaZ4jARnbiUVn6Z_YY,Wat Arun Ratchavararam,"158 Thanon Wang Doem, Wat Arun, Bangkok Yai, Bangkok 10600, Thailand",13.7437,100.4889265
-Bangkok,Thailand,TH,13.75,100.5166,sights,ChIJvccM01iZ4jARPwr8_uBuM_8,Wat Benchamabophit,"69 ถนน พระรามที่ 5 Dusit, Dusit District, Bangkok 10300, Thailand",13.7665623,100.5141391
-Bangkok,Thailand,TH,13.75,100.5166,sights,ChIJWaoiBdmY4jAReVIX1maq_-I,Wat Traimit Withayaram Worawihan,"661 Charoen Krung Rd, Talat Noi, Samphanthawong, Bangkok 10100, Thailand",13.7377012,100.5135898
+Bangkok,Thailand,TH,13.75,100.5166,sights,ChIJvccM01iZ4jARPwr8_uBuM_8,Wat Benchamabophit,"69 ถนน พระรามที่ 5 Dusit, Dusit District, Bangkok 10300, Thailand",13.766562300000002,100.5141391
+Bangkok,Thailand,TH,13.75,100.5166,sights,ChIJWaoiBdmY4jAReVIX1maq_-I,Wat Traimit Withayaram Worawihan,"661 Charoen Krung Rd, Talat Noi, Samphanthawong, Bangkok 10100, Thailand",13.737701199999998,100.5135898
 Bangkok,Thailand,TH,13.75,100.5166,street market,ChIJL-UmnhyZ4jARuwY-UTadgnI,Pak Khlong Market Flower Market,"ปากคลองตลาด สน พระราชวัง Bangkok, Thailand",13.7418033,100.4963673
 Bangkok,Thailand,TH,13.75,100.5166,street market,ChIJsSK-Pc-e4jARb7gqQpPkGlY,Pratunam Market,"Phetchaburi Rd, Thanon Phaya Thai, Ratchathewi, Bangkok 10400, Thailand",13.7511971,100.5409385
 Bangkok,Thailand,TH,13.75,100.5166,train station,ChIJU4R80k2Z4jARCKv98faP-OU,Ramathibodhi Station,"Suan Chitlada, Dusit District, Bangkok 10400, Thailand",13.7665861,100.5245981
-Bangkok,Thailand,TH,13.75,100.5166,train station,ChIJL7Fxtqqe4jAR2CSEysTEArU,Sam Sen,"Samsen Nai, Phaya Thai, Bangkok 10400, Thailand",13.7794972,100.5300515
+Bangkok,Thailand,TH,13.75,100.5166,train station,ChIJL7Fxtqqe4jAR2CSEysTEArU,Sam Sen,"Samsen Nai, Phaya Thai, Bangkok 10400, Thailand",13.779497199999998,100.5300515
 Bangkok,Thailand,TH,13.75,100.5166,train station,ChIJhY0NpfCY4jAR49laFyQTeaA,Wongwian Yai Station,"Bang Yi Ruea, Thon Buri, Bangkok 10600, Thailand",13.7245782,100.4919146
 Bangkok,Thailand,TH,13.75,100.5166,train station,ChIJ77QXyEmZ4jARePAAXJnlXjQ,Yommarat Railway Station,"Sawankhalok Road , Suan Chitlada , 10300 Dusit , Bangkok, Thailand",13.7581785,100.5212739
 Ankara,Turkey,TR,39.9272,32.8644,park,ChIJLbRQIfRO0xQRIZZ2_dlkOqk,Gençlik Parkı,"Doğanbey Mahallesi, Atatürk Blv No:50, 06050 Altındağ/Ankara, Turkey",39.9370104,32.8497594
 Ankara,Turkey,TR,39.9272,32.8644,park,ChIJRSh_PFBO0xQRgcjsVw-QklY,Independence Park,"Fidanlık, Prof. Dr. Nusret Fişek Caddesi No:39, 06420 Çankaya/Ankara, Turkey",39.9274396,32.864004
 Ankara,Turkey,TR,39.9272,32.8644,park,ChIJT7AhDqJP0xQRfUIL_yqAcTM,Kuğulu Park,"Çankaya, Kuğulu Park, 06690 Çankaya/Ankara, Turkey",39.9020001,32.8601762
-Ankara,Turkey,TR,39.9272,32.8644,sights,ChIJEcVIjmNO0xQRFl54K-VCnps,Haci Bayram Mosque,"Hacı Bayram, Sarıbağ Sk. No:13, 06050 Altındağ/Ankara, Turkey",39.9444168,32.85799250000001
+Ankara,Turkey,TR,39.9272,32.8644,sights,ChIJEcVIjmNO0xQRFl54K-VCnps,Haci Bayram Mosque,"Hacı Bayram, Sarıbağ Sk. No:13, 06050 Altındağ/Ankara, Turkey",39.94441679999999,32.85799250000001
 Ankara,Turkey,TR,39.9272,32.8644,train station,ChIJMWxAHfBO0xQRhK0Cvi4zaVY,Ankara Train Station,"Eti Mahallesi, Celal Bayar Bulvarı No:78, 06930 Çankaya/Altındağ/Ankara, Turkey",39.9348529,32.8435392
 Ankara,Turkey,TR,39.9272,32.8644,train station,ChIJgdeaURVO0xQRlu-7s61zOt0,Cebeci Banliyö Duraği,"Erzurum, 06590 Çankaya/Ankara, Turkey",39.9339614,32.8772587
-Kampala,Uganda,UG,0.3167,32.5833,bar,ChIJN2CZ46G7fRcRx5zVIbW_-f8,Casablanca Pub & Restaurant,"19 John Babiha (Acacia) Ave, Kampala, Uganda",0.3309969,32.5872852
+Kampala,Uganda,UG,0.3167,32.5833,bar,ChIJN2CZ46G7fRcRx5zVIbW_-f8,Casablanca Pub & Restaurant,"19 John Babiha (Acacia) Ave, Kampala, Uganda",0.3309969,32.587285200000004
 Kampala,Uganda,UG,0.3167,32.5833,park,ChIJ2bVoRLu7fRcRajGKkKRMAek,Namayiba Bus Park,"Down town, Kisekka area, Uganda",0.3194759,32.5708506
 Kampala,Uganda,UG,0.3167,32.5833,street market,ChIJ81loCIW8fRcR8b4DEjhxySc,St. Balikuddembe Market,"Kampala, Uganda",0.3096763,32.5736842
 Kampala,Uganda,UG,0.3167,32.5833,train station,ChIJy6EIU4O8fRcRNKf1klSFetk,Link Bus Terminal,"80 Namirembe Rd, Kampala, Uganda",0.3122562,32.57137
-Kyiv,Ukraine,UA,50.4334,30.5166,park,ChIJrQFVJaHP1EAR6htwXpSDs8Y,Park of Eternal Glory,"Lavrska St, 15, Kyiv, Київська обл., Ukraine, 01015",50.43696569999999,30.5531931
+Kyiv,Ukraine,UA,50.4334,30.5166,park,ChIJrQFVJaHP1EAR6htwXpSDs8Y,Park of Eternal Glory,"Lavrska St, 15, Kyiv, Київська обл., Ukraine, 01015",50.43696569999999,30.553193100000005
 Kyiv,Ukraine,UA,50.4334,30.5166,park,ChIJkxIfc8PO1EARBEabKWFE74c,Solomianka Landscape Park,"Henerala Shapovala St, Kyiv, Ukraine, 02000",50.427843,30.4817204
 Kyiv,Ukraine,UA,50.4334,30.5166,park,ChIJiT4uj0XO1EARGZx_Gnd3y2A,Volodymyrska Hill,"Volodymyrs'kyi descent, 1, Kyiv, Ukraine, 02000",50.4565251,30.5255203
-Kyiv,Ukraine,UA,50.4334,30.5166,sights,ChIJoUUJqfnO1EARfD--thVh3RA,Taras Shevchenko Park,"Tarasa Shevchenko Blvd, Kyiv, Ukraine, 02000",50.4418575,30.5131072
+Kyiv,Ukraine,UA,50.4334,30.5166,sights,ChIJoUUJqfnO1EARfD--thVh3RA,Taras Shevchenko Park,"Tarasa Shevchenko Blvd, Kyiv, Ukraine, 02000",50.44185750000001,30.5131072
 Kyiv,Ukraine,UA,50.4334,30.5166,supermarket,ChIJwZXNE__O1EAR3vzTHghG0AU,Le Silpo,"Baseina St, 6, Kyiv, Ukraine, 01004",50.44123560000001,30.5220373
 Kyiv,Ukraine,UA,50.4334,30.5166,supermarket,ChIJi4eRQ6bP1EARLCsowLhMxco,Silpo,"Mykhaila Omelianovycha-Pavlenka St, 4, Kyiv, Ukraine, 02000",50.4390079,30.5477975
 Kyiv,Ukraine,UA,50.4334,30.5166,train station,ChIJqY9Rj_LO1EAR1Y5OiuIyISM,Kyiv-Pasazhyrskyi,"Vokzalna St, 1, Kyiv, Ukraine, 02000",50.44048429999999,30.4893794
 Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,club,ChIJ1-HJSvNoXj4Rw19B_D7NO-Q,Abu Dhabi City Golf Club,19th St - Shakhbout Bin Sultan St - Abu Dhabi - United Arab Emirates,24.4432779,54.3819826
 Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,park,ChIJaaVyVWFmXj4RV8TZjDYGtR4,Capital Park,Al Danah - Crossroads of Khalifa Bin Zayed The First - 3rd St. & Sultan Bin، Zayed The First، 4th Street - Abu Dhabi - United Arab Emirates,24.4924756,54.36366899999999
-Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,park,ChIJE0GaE3ZmXj4R2ySE7tT24Y8,Family Park 2,"United Arab Emirates, Abu Dhabi, Corniche Rd W, Al Khalidiyah",24.4793433,54.3476069
+Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,park,ChIJE0GaE3ZmXj4R2ySE7tT24Y8,Family Park 2,"United Arab Emirates, Abu Dhabi, Corniche Rd W, Al Khalidiyah",24.479343300000004,54.3476069
 Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,park,ChIJPz5FZHxmXj4R5LvM9SETJNU,The Lake Park,Abu Dhabi - United Arab Emirates,24.4928505,54.356804
-Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,street market,ChIJfRiEU2dmXj4RqzumEWdI_AM,Abu Dhabi Co-operative Society - Hamdan Branch,"Hamdan Bin Mohammed Street,Near Al Maria Cinema - Abu Dhabi - United Arab Emirates",24.4939367,54.3682587
+Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,street market,ChIJfRiEU2dmXj4RqzumEWdI_AM,Abu Dhabi Co-operative Society - Hamdan Branch,"Hamdan Bin Mohammed Street,Near Al Maria Cinema - Abu Dhabi - United Arab Emirates",24.4939367,54.36825870000001
+Birmingham,United Kingdom,GB,52.48,-1.9025,park,ChIJ281UPtG8cEgR4KsmcGzkPTA,Handsworth Park,"Holly Rd, Handsworth, Birmingham B20 2BY, United Kingdom",52.509365,-1.9276285
+Birmingham,United Kingdom,GB,52.48,-1.9025,park,ChIJQZbzoqK7cEgRWCWyWvwjEWM,Small Heath Park,"Birmingham B10 0EF, United Kingdom",52.46603960000001,-1.8536215
+Birmingham,United Kingdom,GB,52.48,-1.9025,supermarket,ChIJcQNcg2K8cEgRGdQnoVC8_x8,Tesco Express,"Hurst St, Birmingham B5 4TP, United Kingdom",52.4735275,-1.8963336
+Birmingham,United Kingdom,GB,52.48,-1.9025,train station,ChIJr_nVBYa8cEgRphflgZ2fT8Y,Birmingham Moor Street,"Birmingham B4 7UL, United Kingdom",52.478721900000004,-1.8926119
+Birmingham,United Kingdom,GB,52.48,-1.9025,train station,ChIJr_nVBYa8cEgRJgUsYIrYmVE,Birmingham Moor Street,"Birmingham, United Kingdom",52.47896650000001,-1.8925279
+Birmingham,United Kingdom,GB,52.48,-1.9025,train station,ChIJcQUO3_GWcEgRLqMuD3pI-u0,Birmingham New Street,"Birmingham B2 4QA, United Kingdom",52.477754000000004,-1.8989580000000001
+Birmingham,United Kingdom,GB,52.48,-1.9025,train station,ChIJqacnDY68cEgRmTO4gfUnUac,Birmingham Snow Hill,"Colmore Row, Birmingham B3 2BJ, United Kingdom",52.4828375,-1.8983611
+Glasgow,United Kingdom,GB,55.860916,-4.2514330000000005,park,ChIJi3RmPkhEiEgRs11XafrGSK8,Ruchill Park,"Glasgow G20 7SR, United Kingdom",55.8857504,-4.2726115
+Glasgow,United Kingdom,GB,55.860916,-4.2514330000000005,street market,ChIJDXZB4MNGiEgRhY-_8Jx-EM8,Polmadie car boot sale Glasgow,"Jessie St, Polmadie, Glasgow G42 0PG, United Kingdom",55.83492760000001,-4.2414098
+Glasgow,United Kingdom,GB,55.860916,-4.2514330000000005,supermarket,ChIJLTir_pxGiEgR3Wm6R0uKTVE,Tesco Express,"2 (B, 348-382 Argyle St, The Bridge, Glasgow G2 8LY, United Kingdom",55.859047,-4.262821
+Glasgow,United Kingdom,GB,55.860916,-4.2514330000000005,supermarket,ChIJj7aiw7RFiEgROGDttN55HCU,Tesco Extra,"Maryhill Rd, Central, Glasgow G20 9SH, United Kingdom",55.8871909,-4.2863307
+Glasgow,United Kingdom,GB,55.860916,-4.2514330000000005,tourist information,ChIJ8cF-6MtFiEgRwMvh3DDvPDY,Glasgow Botanic Gardens,"730 Great Western Rd, Glasgow G12 0UE, United Kingdom",55.8797045,-4.2911777
+Glasgow,United Kingdom,GB,55.860916,-4.2514330000000005,tourist information,ChIJO3-BeqNGiEgRMb4hYLnKIkg,Glasgow Green,"Greendyke St, Saltmarket, Glasgow G1 5DB, United Kingdom",55.8491095,-4.2353156
+Glasgow,United Kingdom,GB,55.860916,-4.2514330000000005,train station,ChIJG84jYtVFiEgRRpHV1CspgBA,Exhibition Centre,"Glasgow G3 8JR, United Kingdom",55.861524200000005,-4.2834745000000005
+Glasgow,United Kingdom,GB,55.860916,-4.2514330000000005,train station,ChIJO5Cd151GiEgRVkqqbDK_Ze8,Glasgow Central Station,"Gordon St, Glasgow G1 3SL, United Kingdom",55.8591118,-4.2581088
+Glasgow,United Kingdom,GB,55.860916,-4.2514330000000005,train station,ChIJe3zQA6BGiEgRCcVFScCChd8,Glasgow Queen Street,"N Hanover St, Glasgow G1 2AF, United Kingdom",55.86246569999999,-4.2511563
+London,United Kingdom,GB,51.5,-0.1167,mall,ChIJScmL5SEFdkgR4e5jqRr1KZ8,Victoria Place Shopping Centre,"115 Buckingham Palace Rd, Victoria, London SW1W 9SJ, United Kingdom",51.49465670000001,-0.1457209
+London,United Kingdom,GB,51.5,-0.1167,park,ChIJOWBQvA4FdkgRQf5iYYFF1v4,Battersea Park,"Battersea, London SW11 4NJ, United Kingdom",51.4791075,-0.1564981
+London,United Kingdom,GB,51.5,-0.1167,park,ChIJYfO01G0DdkgR4H52YH-11gw,Burgess Park,"Albany Rd, London SE5 0AL, United Kingdom",51.4839469,-0.07926459999999999
+London,United Kingdom,GB,51.5,-0.1167,park,ChIJ2Sv_gSgFdkgRo_HVykixWts,Green Park,"London SW1A 1AA, United Kingdom",51.503903799999996,-0.1438567
+London,United Kingdom,GB,51.5,-0.1167,park,ChIJG-CxwNoEdkgRXx26gHZwVf8,St James's Park,"London SW1A 2BJ, United Kingdom",51.5024597,-0.13481089999999998
+London,United Kingdom,GB,51.5,-0.1167,sights,ChIJhRoYKUkFdkgRDL20SU9sr9E,Hyde Park,"London, United Kingdom",51.507268200000006,-0.1657303
+London,United Kingdom,GB,51.5,-0.1167,train station,ChIJgWfuuq0EdkgRMx1fYiZTGKE,Blackfriars Station,"179 Queen Victoria St, London EC4V 4DY, United Kingdom",51.5101691,-0.10325029999999999
+London,United Kingdom,GB,51.5,-0.1167,train station,ChIJEbut6s4EdkgRNxY-NezJYd8,Charing Cross,"Charing Cross, London WC2N 5DR, United Kingdom",51.50813640000001,-0.12476179999999999
+London,United Kingdom,GB,51.5,-0.1167,train station,ChIJCaUmtVIbdkgR9NdxHM7hwWQ,City Thameslink,"Ludgate Hill, London EC4M 7JH, United Kingdom",51.5138902,-0.1036586
+London,United Kingdom,GB,51.5,-0.1167,train station,ChIJmxO_XDwbdkgR-zjbcc_J6Xs,King's Cross,"Euston Rd, Kings Cross, London N1 9AL, United Kingdom",51.5320013,-0.12332339999999999
+London,United Kingdom,GB,51.5,-0.1167,train station,ChIJsUs1REwDdkgRX_9hC2x9f8U,Liverpool Street Station,"Liverpool St, London EC2M 7PY, United Kingdom",51.51875159999999,-0.0814374
+London,United Kingdom,GB,51.5,-0.1167,train station,ChIJbwtYnFADdkgRvFSPI4jzWjM,London Bridge,"20 Stainer St, London SE1 9RL, United Kingdom",51.504255799999996,-0.08477559999999999
+London,United Kingdom,GB,51.5,-0.1167,train station,ChIJ00V-I7ccdkgRsLnD9dZoLoM,Shoreditch High Street,"Braithwaite St, Shoreditch, London E1 6GJ, United Kingdom",51.52326979999999,-0.07537289999999999
+London,United Kingdom,GB,51.5,-0.1167,train station,ChIJJe2YjTsbdkgREt0yqM9vLbk,St Pancras International,"Euston Rd, Kings Cross, London N1C 4QP, United Kingdom",51.531427,-0.126133
+London,United Kingdom,GB,51.5,-0.1167,train station,ChIJHVKfwLkEdkgRugNQexmYBR0,Waterloo Station,"Waterloo Rd, Bishop's, London SE1 8SW, United Kingdom",51.5031653,-0.11230510000000002
+Manchester,United Kingdom,GB,53.479444,-2.245278,park,ChIJ8wIHyRyye0gRkB00Vn8uNuw,Alexandra Park,"180 Russell St, Manchester M16 7JL, United Kingdom",53.451562100000004,-2.2493203999999998
+Manchester,United Kingdom,GB,53.479444,-2.245278,supermarket,ChIJAbDGusKxe0gRVE05ZNjJCoc,Tesco Express,"2, Oversea House, 11 Quay St, Manchester M3 3BB, United Kingdom",53.4782009,-2.2502497999999997
+Manchester,United Kingdom,GB,53.479444,-2.245278,train station,ChIJP9YdKOaxe0gRXKnI4TywQPU,Deansgate,"Manchester M15 4GB, United Kingdom",53.4741723,-2.251
+Manchester,United Kingdom,GB,53.479444,-2.245278,train station,ChIJ87xKu-uxe0gR_0Kcr1xPxqY,Manchester Oxford Road,"Oxford Rd, Manchester M1 6FU, United Kingdom",53.474057900000005,-2.2422272
+Manchester,United Kingdom,GB,53.479444,-2.245278,train station,ChIJJ119P7FSekgRZCgb7kOayfA,Manchester Piccadilly,"Manchester M60 7RA, United Kingdom",53.4774166,-2.2311667
+Manchester,United Kingdom,GB,53.479444,-2.245278,train station,ChIJ7Uj0M8axe0gRsNV10bhsBew,Manchester Victoria,"Victoria Station Approach, Manchester M3 1WY, United Kingdom",53.48753749999999,-2.2421547000000004
+Chicago,United States,US,41.881944,-87.627778,sights,ChIJA5xPiqYsDogRBBCptdwsGEQ,Millennium Park,"201 E Randolph St, Chicago, IL 60602, United States",41.882552399999994,-87.62255139999998
+Chicago,United States,US,41.881944,-87.627778,train station,ChIJcw46G5YsDogRZrQcGmyuiCA,LaSalle Street Station,"414 S LaSalle St, Chicago, IL 60605, United States",41.87529989999999,-87.63214769999998
+Chicago,United States,US,41.881944,-87.627778,train station,ChIJxWs7XL4sDogRysYET13BYMg,Millennium Station,"151 Michigan Ave, Chicago, IL 60602, United States",41.884339700000005,-87.6246345
+Houston,United States,US,29.762778000000004,-95.38305600000001,park,ChIJn4XJrA-_QIYRAjudYPD8H5o,Emancipation Park,"3018 Emancipation Ave, Houston, TX 77004, United States",29.7357077,-95.36439260000002
+Houston,United States,US,29.762778000000004,-95.38305600000001,sights,ChIJZRhNaU-_QIYRV5P2J_E0O-8,Eleanor Tinsley Park,"18-3600 Allen Pkwy, Houston, TX 77019, United States",29.7613968,-95.3787014
+Los Angeles,United States,US,34.05,-118.25,restaurant,ChIJDzHVFLfHwoARD8kHhr0hpPM,The Original Pantry Cafe,"877 S Figueroa St, Los Angeles, CA 90017, United States",34.046370399999994,-118.2629158
+New York,United States,US,40.661,-73.944,train station,ChIJeRi2gR5bwokRQ3XCk1KQDg8,15 St - Prospect Park Station,"Brooklyn, NY 11215, United States",40.6604292,-73.9797224
+New York,United States,US,40.661,-73.944,train station,ChIJ44UjjxJbwokR9mDzIH-enRw,Prospect Park Subway Station,"Lincoln Rd, Brooklyn, NY 11226, United States",40.6608941,-73.96212290000001
+San Francisco,United States,US,37.7775,-122.416389,park,ChIJkZyW-2-AhYARzCwWSe3qHMQ,Rincon Park,"The Embarcadero & Folsom St, San Francisco, CA 94105, United States",37.7915675,-122.3899424
+San Francisco,United States,US,37.7775,-122.416389,train station,ChIJyRDpIrd_j4ARIiDdEyIYEx8,22nd Street,"1149 22nd St, San Francisco, CA 94107, United States",37.7573838,-122.3928954
+San Francisco,United States,US,37.7775,-122.416389,train station,ChIJFQYlk9Z_j4AR2IMIzaEcYbc,Caltrain Station,"700 4th St, San Francisco, CA 94107, United States",37.7766711,-122.3948431
+Washington,United States,US,38.9047,-77.0163,park,ChIJSZtUTLy3t4kRONPIZ9HxXyM,Lafayette Square,"Pennsylvania Ave NW & 16th Street Northwest, Washington, DC 20001, United States",38.8995369,-77.0365489
+Washington,United States,US,38.9047,-77.0163,park,ChIJ2ZUs0N23t4kRn0bZrd5RhWY,Meridian Hill Park,"16th St NW &, W St NW, Washington, DC 20009, United States",38.9210639,-77.0358109
+Washington,United States,US,38.9047,-77.0163,tourist information,ChIJMT3_Wpu3t4kRQScGokyrCDo,National Mall,"Washington, DC, United States",38.8896198,-77.0229772
+Washington,United States,US,38.9047,-77.0163,train station,ChIJUVpdyia4t4kR1-EM1pEJu1w,Union Station,"50 Massachusetts Ave NE, Washington, DC 20002, United States",38.8986425,-77.0058145
+Montevideo,Uruguay,UY,-34.858000000000004,-56.1711,park,ChIJw4NeBU3VoZUR1Qc18FpO0N4,El Rosedal,"y, Avenida Buschental & Av Delmira Agustini, 11700 Montevideo, Departamento de Montevideo, Uruguay",-34.8597667,-56.2057653
+Montevideo,Uruguay,UY,-34.858000000000004,-56.1711,tourist information,ChIJjx1GTUzVoZURSAoBE08dgao,Parque del Prado,"Reconquista 522, 11000 Montevideo, Departamento de Montevideo, Uruguay",-34.8570142,-56.2064547
+Hanoi,Vietnam,VN,21.0333,105.85,club,ChIJITrYlOurNTERzNySyegza4Y,Press Club Hanoi,"12 Lý Đạo Thành, Tràng Tiền, Hoàn Kiếm, Hà Nội, Vietnam",21.02533,105.856844
+Hanoi,Vietnam,VN,21.0333,105.85,mall,ChIJ28Sz_b2rNTERhG6JzGZN9y8,Hang Da Market,"Phố Hàng Da, Cửa Đông, Hoàn Kiếm, Hà Nội, Vietnam",21.0312988,105.8464787
+Hanoi,Vietnam,VN,21.0333,105.85,mall,ChIJ10mzWeurNTERUiJJjUD9EB0,Trang Tien Plaza,"Số, 23K Hai Bà Trưng, Tràng Tiền, Hoàn Kiếm, Hà Nội 110116, Vietnam",21.0247796,105.8533836
+Hanoi,Vietnam,VN,21.0333,105.85,mall,ChIJrY2_Mw-sNTERn0V6wwnp0DE,Vincom Center Ba Trieu,"191 Bà Triệu, Lê Đại Hành, Hai Bà Trưng, Hà Nội, Vietnam",21.011404,105.8500214
+Hanoi,Vietnam,VN,21.0333,105.85,mall,ChIJ8XgFUoerNTERnAwMSegtG1Y,Vincom Center Phạm Ngọc Thạch,"2 Phạm Ngọc Thạch, Trung Tự, Đống Đa, Hà Nội, Vietnam",21.0061882,105.8315717
+Hanoi,Vietnam,VN,21.0333,105.85,park,ChIJK7dMKbqrNTEReIxVz4tFvSI,Hang Dau Garden,"Phan Đình Phùng, Quán Thánh, Ba Đình, Hà Nội 118809, Vietnam",21.0401107,105.8463719
+Hanoi,Vietnam,VN,21.0333,105.85,park,ChIJQ9sXGqerNTERhMiL59VDKrs,Hanoi Botanical Garden,"3 Hoàng Hoa Thám, Ngọc Hồ, Ba Đình, Hà Nội, Vietnam",21.0403144,105.8312917
+Hanoi,Vietnam,VN,21.0333,105.85,park,ChIJo6y7oKKrNTERZAt2jOTgRjs,Lenin Park,"28A Điện Biên Phủ, Điện Bàn, Ba Đình, Hà Nội 100000, Vietnam",21.0315352,105.839588
+Hanoi,Vietnam,VN,21.0333,105.85,park,ChIJi3PpbWqrNTERcL7DLQFRKNw,Thu Le Zoo Hanoi,"58 Đường Bưởi, Ngọc Khánh, Ba Đình, Hà Nội 100000, Vietnam",21.0305802,105.8055016
+Hanoi,Vietnam,VN,21.0333,105.85,park,ChIJfyTf5o6rNTER6dKWJmY9GOY,Union Park,"354A Đường Lê Duẩn, Phương Liên, Đống Đa, Hà Nội, Vietnam",21.0109357,105.8423861
+Hanoi,Vietnam,VN,21.0333,105.85,sights,ChIJ00--4birNTERAe3KhQgps3o,Dong Xuan Market,"15 Cầu Đông, Đồng Xuân, Hoàn Kiếm, Hà Nội, Vietnam",21.0382232,105.849617
+Hanoi,Vietnam,VN,21.0333,105.85,sights,ChIJld5RqparNTERVK8x7gvhAZc,Hoa Lo Prison Memorial,"1 Hoả Lò, Trần Hưng Đạo, Hoàn Kiếm, Hà Nội, Vietnam",21.025235,105.8463895
+Hanoi,Vietnam,VN,21.0333,105.85,sights,ChIJp0o4Er6rNTERjlTif_IXU1k,Old Quarter,"Hàng Ngang, Hàng Đào, Hoàn Kiếm, Hà Nội 100000, Vietnam",21.034059,105.8506368
+Hanoi,Vietnam,VN,21.0333,105.85,sights,ChIJZ73nJpmrNTERHt_VdIgHDlg,Temple Of Literature,"58 Quốc Tử Giám, Văn Miếu, Đống Đa, Hà Nội 100000, Vietnam",21.0293646,105.8361633
+Hanoi,Vietnam,VN,21.0333,105.85,sights,ChIJiUJFE8CrNTERHK060qWnXk4,Thang Long Water Puppet Theatre,"57B Đinh Tiên Hoàng, Hàng Bạc, Hoàn Kiếm, Hà Nội 100000, Vietnam",21.0317018,105.8533415
+Hanoi,Vietnam,VN,21.0333,105.85,sights,ChIJSXwdOKOrNTERNylYj9mnIbU,Thăng Long Imperial Citadel,"19C Hoàng Diệu, Điện Bàn, Ba Đình, Hà Nội 100000, Vietnam",21.034381,105.8401142
+Hanoi,Vietnam,VN,21.0333,105.85,sights,ChIJIbhTQzmrNTERHBoID7tQyUc,Vietnam Museum Of Ethnology,"Nguyễn Văn Huyên, Quan Hoa, Cầu Giấy, Hà Nội 100000, Vietnam",21.040633,105.7985155
+Hanoi,Vietnam,VN,21.0333,105.85,street market,ChIJ1R33ErCrNTERhhl8iCMKrAM,Chau Long market,"Châu Long, Trúc Bạch, Ba Đình, Hà Nội, Vietnam",21.0439872,105.8419109
+Hanoi,Vietnam,VN,21.0333,105.85,street market,ChIJvx-GOY2rNTERp8YUQB7qqC4,Hom Market,"79 Huế, Ngô Thì Nhậm, Hai Bà Trưng, Hà Nội, Vietnam",21.0169545,105.851575
+Hanoi,Vietnam,VN,21.0333,105.85,supermarket,ChIJl5e2H5WrNTERZiN9e4osFV4,Intimex,"120 Hàng Trống, Hoàn Kiếm, Hà Nội, Vietnam",21.0288265,105.8506475
+Hanoi,Vietnam,VN,21.0333,105.85,supermarket,ChIJCXvOh-qrNTEREZRrG9Fy8Ps,Vinmart Lý Thái Tổ,"27A Phố Lý Thái Tổ, Lý Thái Tổ, Hoàn Kiếm, Hà Nội, Vietnam",21.0300883,105.8553174
+Hanoi,Vietnam,VN,21.0333,105.85,train station,ChIJBdI0eZqrNTEREK_Nhl4hGOI,Hanoi Railway Station,"120 Đường Lê Duẩn, Văn Miếu, Hoàn Kiếm, Hà Nội, Vietnam",21.0242529,105.841029
+Hanoi,Vietnam,VN,21.0333,105.85,train station,ChIJ81hs7pirNTERZg4IJtT3CVU,Văn Miếu - Quốc Tử Giám,"2 Văn Miếu, Ba Đình, Hà Nội, Vietnam",21.027401,105.835158
+Sanaa,Yemen,YE,15.3547,44.2066,mall,ChIJna9Y-hDbAxYRMWGw_7Dx1Do,ALKUMAIM Mall,"Haddah St, Sana'a, Yemen",15.3374827,44.198454
+Sanaa,Yemen,YE,15.3547,44.2066,mall,ChIJ5bLFNhfbAxYR7jR4BsI48F0,Arab Mall,"جولة الرويشان،, شارع حده، Sana'a, Yemen",15.3351053,44.1989927
