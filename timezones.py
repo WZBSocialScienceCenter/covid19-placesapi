@@ -1,7 +1,3 @@
-import os
-from datetime import datetime, timedelta
-from collections import defaultdict
-
 import pandas as pd
 import googlemaps
 
@@ -54,9 +50,3 @@ print('got TZ information for %d of %d places' % (sum(~pois.tz_id.isna()), len(p
 
 print('saving data to file', RESULT_FILE)
 pois.to_csv(RESULT_FILE, index=False)
-
-
-# poi_tzoffset = timedelta(seconds=poi_tz['rawOffset'] + poi_tz['dstOffset'])
-#
-# utcnow = datetime.utcnow()
-# utcnow + poi_tzoffset
