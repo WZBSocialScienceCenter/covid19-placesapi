@@ -28,7 +28,10 @@ resultrows = []
 
 for poi_i, poirow in pois.iterrows():
     print('place of interest %d/%d: %s in %s, %s' % (poi_i+1, len(pois), poirow.name, poirow.city, poirow.country))
-    poptimes = populartimes.get_id(API_KEY, poirow.place_id)
+    try:
+        poptimes = populartimes.get_id(API_KEY, poirow.place_id)
+    except Exception:  # catch any exception
+        poptimes = {}
 
     if 'current_popularity' in poptimes and 'populartimes' in poptimes:
         print('> got popularity data')
