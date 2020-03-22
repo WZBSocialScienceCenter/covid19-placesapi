@@ -118,17 +118,13 @@ for city_i, cityrow in cities.iterrows():
                     place['name'],
                     place['formatted_address'],
                     place['geometry']['location']['lat'],
-                    place['geometry']['location']['lng'],
-                    # poptimes['current_popularity'],
-                    # poptimes['populartimes'][now.weekday()]['data'][now.hour]       # corresponding "usual" popularity
+                    place['geometry']['location']['lng']
                 ])
 
                 existing_place_ids.add(place['place_id'])
                 n_pois += 1
 
         print('>> got %d places of interest for this city and query' % n_pois)
-
-    print('got %d places of interest so far' % len(resultrows))
 
     print('preparing and storing dataset')
 
@@ -140,6 +136,8 @@ for city_i, cityrow in cities.iterrows():
         .drop_duplicates(['city', 'country', 'iso2', 'query', 'place_id'])\
         .sort_values(by=['country', 'city', 'query', 'name'])\
         .reset_index(drop=True)
+
+    print('got %d places of interest so far' % len(places_of_interest))
 
     places_of_interest.to_csv(RESULT_FILE, index=False)
 

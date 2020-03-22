@@ -2,3 +2,4 @@ apikeys.py
 .idea/
 __pycache__/
 .~*
+data/popularity/*
