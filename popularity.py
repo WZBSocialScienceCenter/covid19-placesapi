@@ -95,7 +95,7 @@ popdata = pd.DataFrame(resultrows, columns=[
     'current_pop', 'usual_pop'
 ])
 
-outfile = os.path.join(datadir_today, '%s_h%d.csv' % (utcdate_ymd, utchour))
+outfile = os.path.join(datadir_today, '%s_h%s.csv' % (utcdate_ymd, str(utchour).zfill(2)))
 print('saving data to file', outfile)
 popdata.to_csv(outfile, index=False)
 
