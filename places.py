@@ -144,6 +144,6 @@ for city_i, cityrow in cities.iterrows():
     with open(QUERIED_FILE, mode='wb') as f:
         pickle.dump(queried_cities, f)
 
-    print('\n\n')
+    print('\n')
 
 print('done.')

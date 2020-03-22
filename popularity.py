@@ -44,7 +44,7 @@ for poi_i, poirow in pois.iterrows():
     else:
         print('> failed to fetch popularity data')
 
-print('\n\n')
+print('\n')
 
 #%%
 
