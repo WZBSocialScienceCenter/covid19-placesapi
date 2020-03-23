@@ -72,7 +72,7 @@ c(mean(popsm$pop_diff), sd(popsm$pop_diff), median(popsm$pop_diff))
 ```
 
 ```{r}
-qplot(popsm$pop_diff, binwidth = 10) + theme_minimal()
+qplot(popsm$pop_diff, binwidth = 10) + scale_x_continuous(limits = c(-100, 200)) + theme_minimal()
 ```
 
 ```{r}
@@ -109,7 +109,10 @@ ggplot(popglob, aes(x = local_time, y = diff_mean)) +
 ### Business/locality type at global level
 
 ```{r}
-poplocality <- group_by(popsm, local_time, category) %>% summarise(diff_mean = mean(pop_diff), diff_sd = sd(pop_diff), n = n())
+poplocality <- group_by(popsm, local_time, category) %>%
+    summarise(diff_mean = mean(pop_diff), diff_sd = sd(pop_diff), n = n()) %>%
+    ungroup() %>%
+    arrange(local_time, category)
 poplocality <- low_obs_to_NA(poplocality, 'diff_mean', thresh = 5)
 head(poplocality)
 ```
@@ -121,10 +124,34 @@ ggplot(filter(poplocality, !is.na(diff_mean)), aes(x = category, y = diff_mean))
 ```
 
 
+```{r}
+fill_time_gaps <- function(grp, group_var, y_var) {
+    grp <- select(grp, local_time, group_var, y_var)
+    time_range <- range(grp$local_time)
+    time_seq <- seq(time_range[1], time_range[2], by = 'hour')
+    time_fill <- time_seq[!(time_seq %in% grp$local_time)]
+    if (length(time_fill) > 0) {
+        filldf <- data.frame(local_time = time_fill,
+                             diff_mean = NA,
+                             stringsAsFactors = FALSE)
+        filldf[[group_var]] <- rep(unique(pull(grp, group_var)), times = length(time_fill))
+        bind_rows(grp, filldf)
+    } else {
+        grp
+    }
+}
+
+poplocality <- group_by(poplocality, category) %>%
+    do(fill_time_gaps(., group_var = 'category', y_var = 'diff_mean')) %>%
+    arrange(local_time, category) %>%
+    ungroup()
+```
+
+
 ```{r, warning=FALSE, fig.width=10}
 ggplot(poplocality, aes(x = local_time, y = diff_mean, color = category)) +
     geom_line(linetype = 1, alpha = 0.5) +
-    geom_point(aes(alpha = n)) +
+    geom_point() +
     geom_hline(yintercept = 0, linetype = 3) +
     scale_color_brewer(palette = 'Dark2') +
     theme_minimal()
@@ -137,21 +164,82 @@ ggplot(poplocality, aes(x = local_time, y = diff_mean, color = category)) +
 popcountry <- group_by(popsm, local_time, region, country) %>%
     summarise(diff_mean = mean(pop_diff), diff_sd = sd(pop_diff), n = n()) %>%
     ungroup()
-popcountry <- low_obs_to_NA(popcountry, 'diff_mean', thresh = 5)
 head(popcountry)
 ```
 
-```{r, fig.height=30, fig.width=8, warning=FALSE}
-regplots <- list()
-yminmax <- range(popcountry$diff_mean, na.rm = TRUE)
 
-for (reg in sort(unique(popcountry$region))) {
-    regdata <- filter(popcountry, region == reg)
+```{r, fig.height=12, fig.width=8}
+min_n_obs_countries <- count(popcountry, country) %>%
+    filter(n >= 10) %>%
+    pull(country)
+popcountry_filt <- filter(popcountry, country %in% min_n_obs_countries)
+
+ggplot(popcountry_filt, aes(x = country, y = diff_mean)) +
+    geom_boxplot() +
+    geom_hline(yintercept = 0, linetype = 3) +
+    scale_x_discrete(limits = rev(sort(unique(popcountry_filt$country)))) +
+    coord_flip() + 
+    theme_minimal()
+```
+
+
+```{r}
+popcountry_cats <- group_by(popsm, local_time, country, category) %>%
+    summarise(diff_mean = mean(pop_diff), diff_sd = sd(pop_diff), n = n()) %>%
+    ungroup()
+head(popcountry_cats)
+```
+
+```{r}
+min_n_obs_countries <- count(popcountry_cats, country, category) %>%
+    filter(n >= 10) %>%
+    pull(country)
+popcountry_cats_filt <- filter(popcountry_cats, country %in% min_n_obs_countries)
+head(popcountry_cats_filt)
+```
+
+
+```{r, fig.height=16, fig.width=8}
+ggplot(popcountry_cats_filt, aes(x = country, y = diff_mean)) +
+    geom_boxplot() +
+    geom_hline(yintercept = 0, linetype = 3) +
+    scale_x_discrete(limits = rev(sort(unique(popcountry_cats_filt$country)))) +
+    coord_flip() +
+    facet_wrap(~ category, ncol = 1, scales = 'free_y') +
+    theme_minimal()
+```
+
+
+
+```{r}
+popcountry_ts <- low_obs_to_NA(popcountry, 'diff_mean', thresh = 5)
+head(popcountry_ts)
+```
+
+
+```{r, fig.height=30, fig.width=10, warning=FALSE}
+regplots <- list()
+yminmax <- range(popcountry_ts$diff_mean, na.rm = TRUE)
+
+for (reg in sort(unique(popcountry_ts$region))) {
+    regdata <- filter(popcountry_ts, region == reg)
     no_obs_countries <- group_by(regdata, country) %>%
         summarise(n_not_NA = sum(!is.na(diff_mean))) %>%
         filter(n_not_NA == 0) %>%
         pull(country)
     regdata <- filter(regdata, !(country %in% no_obs_countries))
+
+    regdata <- group_by(regdata, country) %>%
+        do(fill_time_gaps(., group_var = 'country', y_var = 'diff_mean')) %>%
+        arrange(local_time, country) %>%
+        ungroup()
+    
+    # linearly approx. gaps of max. two NA values
+    regdata <- group_by(regdata, country) %>%
+        do(data.frame(local_time = .$local_time,
+                      country = .$country,
+                      diff_mean = zoo::na.approx(.$diff_mean, maxgap = 3, na.rm = FALSE)))
+
     regcountries <- sort(unique(regdata$country))
     n_countries <- length(regcountries)
     
@@ -159,7 +247,7 @@ for (reg in sort(unique(popcountry$region))) {
         country_colors <- colorRampPalette(brewer.pal(name = 'Dark2', n = 8))(n_countries)
         country_linetypes <- data.frame(
             country = regcountries,
-            linetype = as.factor(rep(1:3, each = ceiling(n_countries / 3))[1:n_countries])
+            linetype = as.factor(rep(1:3, times = ceiling(n_countries / 3))[1:n_countries])
         )
         regdata <- left_join(regdata, country_linetypes, by = 'country')
         line_mapping <- aes(linetype = linetype)
