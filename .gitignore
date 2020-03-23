@@ -3,3 +3,4 @@ apikeys.py
 __pycache__/
 .~*
 data/popularity/*
+.Rproj.user

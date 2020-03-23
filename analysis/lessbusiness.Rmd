@@ -1,0 +1,133 @@
+---
+title: "Less business than usual"
+author: "Markus Konrad"
+date: "March 23, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, warning=FALSE, message=FALSE}
+library(dplyr)
+library(ggplot2)
+library(lubridate)
+```
+
+## Data preparation
+
+```{r}
+poi <- read.csv('../data/places_of_interest_tz.csv', stringsAsFactors = FALSE)
+head(poi)
+```
+
+```{r}
+regions <- read.csv('../data/regions.csv', stringsAsFactors = FALSE)
+poi <- left_join(poi, regions, by = 'country')
+stopifnot(sum(is.na(poi$region)) == 0)
+head(poi)
+```
+
+
+```{r, warning=FALSE}
+poptime <- read.csv('../data/popularity.csv', stringsAsFactors = FALSE)
+head(poptime)
+```
+
+```{r}
+pop <- left_join(poptime, poi, by = 'place_id')
+stopifnot(sum(is.na(pop$name)) == 0)
+head(pop)
+```
+
+
+```{r}
+pop$local_time <- ymd_h(paste(pop$local_date, pop$local_hour))
+select(pop, local_date, local_hour, local_time) %>% sample_n(20)
+```
+
+```{r}
+pop$pop_diff <- pop$current_pop - pop$usual_pop
+
+# reduced dataset:
+popsm <- select(pop, region, country, city, query, name, local_time, pop_diff)
+head(popsm)
+```
+
+## Exploratory analysis
+
+### Global level
+
+```{r}
+c(mean(popsm$pop_diff), sd(popsm$pop_diff), median(popsm$pop_diff))
+```
+
+```{r}
+hist(popsm$pop_diff)
+```
+
+```{r}
+popglob <- group_by(popsm, local_time) %>% summarise(diff_mean = mean(pop_diff), diff_sd = sd(pop_diff), n = n())
+head(popglob)
+```
+
+```{r}
+qplot(popglob$local_time, popglob$n, geom = 'col')
+```
+
+
+```{r}
+# set values with very few observations to NA to produce gaps in plot
+low_obs_to_NA <- function(df, col, thresh) {
+    df[[col]] <- ifelse(df$n < thresh, NA, df[[col]])
+    df
+}
+
+popglob <- low_obs_to_NA(popglob, 'diff_mean', thresh = 5)
+head(popglob)
+```
+
+
+```{r, warning=FALSE}
+ggplot(popglob, aes(x = local_time, y = diff_mean, alpha = n)) +
+    geom_line() + geom_point(size = 0.75) + geom_hline(yintercept = 0, linetype = 'dashed')
+```
+
+
+### Business/locality type at global level
+
+```{r}
+poplocality <- group_by(popsm, local_time, query) %>% summarise(diff_mean = mean(pop_diff), diff_sd = sd(pop_diff), n = n())
+poplocality <- low_obs_to_NA(poplocality, 'diff_mean', thresh = 5)
+head(poplocality)
+```
+
+
+```{r, warning=FALSE}
+ggplot(poplocality, aes(x = local_time, y = diff_mean, color = query, alpha = n)) +
+    geom_line() +
+    geom_point(size = 0.75) +
+    geom_hline(yintercept = 0, linetype = 'dashed') +
+    scale_color_brewer(type = 'qual') +
+    scale_alpha_continuous(range = c(0.5, 1))
+```
+
+
+### Country level
+
+```{r}
+popcountry <- group_by(popsm, local_time, region, country) %>% summarise(diff_mean = mean(pop_diff), diff_sd = sd(pop_diff), n = n())
+popcountry <- low_obs_to_NA(popcountry, 'diff_mean', thresh = 5)
+head(popcountry)
+```
+
+
+```{r, warning=FALSE}
+ggplot(popcountry, aes(x = local_time, y = diff_mean, color = country)) +
+    geom_line() +
+    geom_hline(yintercept = 0, linetype = 'dashed') +
+    facet_wrap(~ region)
+```
+
