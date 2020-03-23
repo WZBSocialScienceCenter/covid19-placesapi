@@ -6,7 +6,7 @@ Austria,Europe
 Bolivia,South America
 Brazil,South America
 Bulgaria,Europe
-Canada,North America
+Canada,North America and Iceland
 Chile,South America
 Colombia,South America
 Czechia,Europe
@@ -19,9 +19,9 @@ Georgia,Asia
 Germany,Europe
 Ghana,Africa
 Greece,Europe
-Haiti,North America
+Haiti,North America and Iceland
 Hungary,Europe
-Iceland,Europe
+Iceland,North America and Iceland
 India,Asia
 Indonesia,Asia
 Ireland,Europe
@@ -35,12 +35,12 @@ Kuwait,Asia
 Latvia,Europe
 Lebanon,Asia
 Lithuania,Europe
-Mexico,North America
+Mexico,North America and Iceland
 Morocco,Africa
 Mozambique,Africa
 Netherlands,Europe
 New Zealand,Australia and Oceania
-Nicaragua,North America
+Nicaragua,North America and Iceland
 Norway,Europe
 Paraguay,South America
 Peru,South America
@@ -63,7 +63,7 @@ Uganda,Africa
 Ukraine,Europe
 United Arab Emirates,Asia
 United Kingdom,Europe
-United States,North America
+United States,North America and Iceland
 Uruguay,South America
 Vietnam,Asia
 Yemen,Asia
