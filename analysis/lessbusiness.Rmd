@@ -65,6 +65,12 @@ head(popsm)
 
 ## Exploratory analysis
 
+```{r}
+plot_subtitle <- 'Difference between current popularity score at local time and usual popularity at the same place.'
+plot_caption <- 'source: data retrieved from Google Places API'
+```
+
+
 ### Global level
 
 ```{r}
@@ -72,7 +78,13 @@ c(mean(popsm$pop_diff), sd(popsm$pop_diff), median(popsm$pop_diff))
 ```
 
 ```{r}
-qplot(popsm$pop_diff, binwidth = 10) + scale_x_continuous(limits = c(-100, 200)) + theme_minimal()
+qplot(popsm$pop_diff, binwidth = 10) +
+    scale_x_continuous(limits = c(-100, 200)) +
+    xlab('difference in popularity score') +
+    labs(title = 'Popularity score differences – histogram',
+         subtitle = plot_subtitle,
+         caption = plot_caption) +
+    theme_minimal()
 ```
 
 ```{r}
@@ -81,7 +93,10 @@ head(popglob)
 ```
 
 ```{r}
-qplot(popglob$local_time, popglob$n, geom = 'col') + theme_minimal()
+qplot(popglob$local_time, popglob$n, geom = 'col') +
+    xlab('local time') +
+    ggtitle('Number of collected observations over time') +
+    theme_minimal() + theme(axis.title.y = element_blank())
 ```
 
 
@@ -99,9 +114,13 @@ head(popglob)
 
 ```{r, warning=FALSE}
 ggplot(popglob, aes(x = local_time, y = diff_mean)) +
-    geom_line(linetype = 1, alpha = 0.5) +
-    geom_point(aes(alpha = n)) +
+    geom_line(linetype = 1) +
+    geom_point() +
     geom_hline(yintercept = 0, linetype = 3) +
+    xlab(NULL) + ylab(NULL) +
+    labs(title = 'Mean difference in popularity score over time',
+         subtitle = plot_subtitle,
+         caption = plot_caption) +
     theme_minimal()
 ```
 
@@ -120,7 +139,15 @@ head(poplocality)
 
 ```{r}
 ggplot(filter(poplocality, !is.na(diff_mean)), aes(x = category, y = diff_mean)) +
-    geom_boxplot() + theme_minimal()
+    geom_hline(yintercept = 0, linetype = 3) +
+    geom_boxplot(outlier.shape = NA) +
+    geom_jitter(width = 0.1, alpha = 0.3) +
+    xlab(NULL) +
+    ylab('Difference') +
+    labs(title = 'Difference in popularity score per place category',
+         subtitle = plot_subtitle,
+         caption = plot_caption) +
+    theme_minimal()
 ```
 
 
@@ -154,7 +181,11 @@ ggplot(poplocality, aes(x = local_time, y = diff_mean, color = category)) +
     geom_point() +
     geom_hline(yintercept = 0, linetype = 3) +
     scale_color_brewer(palette = 'Dark2') +
-    theme_minimal()
+    xlab(NULL) + ylab(NULL) +
+    labs(title = 'Mean difference in popularity score per category over time',
+         subtitle = plot_subtitle,
+         caption = plot_caption) +
+    theme_minimal() + theme(legend.title = element_blank(), legend.position = 'bottom')
 ```
 
 
@@ -175,10 +206,16 @@ min_n_obs_countries <- count(popcountry, country) %>%
 popcountry_filt <- filter(popcountry, country %in% min_n_obs_countries)
 
 ggplot(popcountry_filt, aes(x = country, y = diff_mean)) +
-    geom_boxplot() +
     geom_hline(yintercept = 0, linetype = 3) +
+    geom_boxplot(outlier.shape = NA) +
+    geom_jitter(width = 0.1, alpha = 0.3) +
     scale_x_discrete(limits = rev(sort(unique(popcountry_filt$country)))) +
     coord_flip() + 
+    xlab(NULL) +
+    ylab('Difference') +
+    labs(title = 'Difference in popularity score per country',
+         subtitle = plot_subtitle,
+         caption = plot_caption) +
     theme_minimal()
 ```
 
@@ -199,16 +236,20 @@ head(popcountry_cats_filt)
 ```
 
 
-```{r, fig.height=16, fig.width=8}
-ggplot(popcountry_cats_filt, aes(x = country, y = diff_mean)) +
-    geom_boxplot() +
+```{r, fig.height=20, fig.width=12}
+ggplot(popcountry_cats_filt, aes(x = reorder(country, desc(country)), y = diff_mean)) +
     geom_hline(yintercept = 0, linetype = 3) +
-    scale_x_discrete(limits = rev(sort(unique(popcountry_cats_filt$country)))) +
+    geom_boxplot(outlier.shape = NA) +
+    geom_jitter(width = 0.1, height = 0.2, alpha = 0.3) +
     coord_flip() +
-    facet_wrap(~ category, ncol = 1, scales = 'free_y') +
+    facet_wrap(~ category, ncol = 2, scales = 'free_y') +
+    xlab(NULL) +
+    ylab(NULL) +
+    labs(title = 'Difference in popularity score per country and place category',
+         subtitle = plot_subtitle,
+         caption = plot_caption) +
     theme_minimal()
 ```
-
 
 
 ```{r}
@@ -271,12 +312,16 @@ for (reg in sort(unique(popcountry_ts$region))) {
                 scale_y_continuous(limits = yminmax + c(-3, 3)) +
                 scale_linetype(guide = FALSE) +
                 ggtitle(reg) +
+                xlab(NULL) + ylab(NULL) +
                 theme_minimal()
         regplots[[reg]] <- p
     }
 }
 
-wrap_plots(regplots, ncol = 1)
+wrap_plots(regplots, ncol = 1) +
+    plot_annotation(title = 'Mean difference in popularity score per region and country over time*',
+                    subtitle = paste0(plot_subtitle, '\n*Unfortunately, so far not enough data for African countries could be collected to plot it at this level.'),
+                    caption = plot_caption)
 ```
 
 
