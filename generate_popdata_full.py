@@ -15,7 +15,7 @@ for csvfile in glob.glob('data/popularity/**/*.csv'):
 #%%
 
 print('concatenating datasets')
-full = pd.concat(datasets)
+full = pd.concat(datasets).sort_values(['utc_date', 'utc_hour'])
 
 print('saving full dataset with %d rows to %s' % (len(full), RESULT_FILE))
 full.to_csv(RESULT_FILE, index=False)
