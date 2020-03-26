@@ -1,0 +1,51 @@
+library(ggplot2)
+library(extrafont)    # Dahrendorf font (siehe https://stackoverflow.com/q/30058107)
+
+WZB_BLUE <- '#0380B5'
+WZB_VIOL <- '#9E3173'
+WZB_GREEN <- '#619933'
+WZB_PLUS <- '#272F35'
+
+DEFAULT_SUBTITLE <- 'Difference between current popularity score at local time and usual popularity at the same place.'
+
+# common shortcut objects / functions
+
+wzb_theme <- theme_minimal() + theme(
+    text = element_text(family = "Dahrendorf Light"),
+    axis.text = element_text(size = 11)
+)
+
+rotate_x_axis_labels <-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+zero_intercept <- geom_hline(yintercept = 0, linetype = 3)
+
+add_labels <- function(title, collection_time = NULL, subtitle = DEFAULT_SUBTITLE, xaxislab = NULL, yaxislab = NULL) {
+    if (!is.null(collection_time)) {
+        caption <- paste('source: data retrieved from Google Places API between',
+              collection_time[1], 'UTC and', collection_time[2], 'UTC')
+    } else {
+        caption <- NULL
+    }
+    
+    labs(title = title,
+         subtitle = subtitle,
+         caption = caption,
+         x = xaxislab, y = yaxislab)
+}
+
+
+# specific plotting functions
+
+plot_means_errorbars <- function(meansdata, x, y, ymin, ymax, title, collection_time) {
+    x <- enquo(x)
+    y <- enquo(y)
+    ymin <- enquo(ymin)
+    ymax <- enquo(ymax)
+    ggplot(meansdata, aes(x = !!x, y = !!y)) +
+        geom_point() +
+        geom_linerange(aes(ymin = !!ymin, ymax = !!ymax)) +
+        zero_intercept +
+        add_labels(title, collection_time) +
+        wzb_theme +
+        rotate_x_axis_labels
+}
