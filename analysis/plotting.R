@@ -49,3 +49,20 @@ plot_means_errorbars <- function(meansdata, x, y, ymin, ymax, title, collection_
         wzb_theme +
         rotate_x_axis_labels
 }
+
+plot_ts_means_ribbon <- function(meansdata, x, y, ymin, ymax, title, collection_time) {
+    x <- enquo(x)
+    y <- enquo(y)
+    ymin <- enquo(ymin)
+    ymax <- enquo(ymax)
+    ggplot(meansdata, aes(x = !!x, y = !!y)) +
+        geom_line() +
+        geom_point() +
+        geom_ribbon(aes(ymin = !!ymin, ymax = !!ymax), alpha = 0.25) +
+        zero_intercept +
+        scale_x_datetime(date_breaks = '1 day', date_minor_breaks = '6 hours') +
+        add_labels(title, collection_time) +
+        wzb_theme # +
+        # rotate_x_axis_labels
+}
+

@@ -31,6 +31,13 @@ range_collection_time <- function(popdata) {
 }
 
 
+# set values with very few observations to NA to produce gaps in plot
+low_obs_to_NA <- function(df, col, thresh) {
+    df[[col]] <- ifelse(df$n < thresh, NA, df[[col]])
+    df
+}
+
+
 group_means_ci <- function(grp, var) {
     var <- enquo(var)
     mean_name <- paste0("mean_", quo_name(var))
