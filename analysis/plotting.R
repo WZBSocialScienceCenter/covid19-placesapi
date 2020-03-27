@@ -15,7 +15,7 @@ wzb_theme <- theme_minimal() + theme(
     axis.text = element_text(size = 11)
 )
 
-rotate_x_axis_labels <-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+rotate_x_axis_labels <-  theme(axis.text.x = element_text(angle = 90, vjust = 0.25, hjust = 1))
 
 zero_intercept <- geom_hline(yintercept = 0, linetype = 3)
 
@@ -62,7 +62,21 @@ plot_ts_means_ribbon <- function(meansdata, x, y, ymin, ymax, title, collection_
         zero_intercept +
         scale_x_datetime(date_breaks = '1 day', date_minor_breaks = '6 hours') +
         add_labels(title, collection_time) +
-        wzb_theme # +
-        # rotate_x_axis_labels
+        wzb_theme
+}
+
+plot_country_categories <- function(meansdata, x, y, ymin, ymax, title, collection_time) {
+    x <- enquo(x)
+    y <- enquo(y)
+    ymin <- enquo(ymin)
+    ymax <- enquo(ymax)
+    ggplot(meansdata, aes(x = reorder(country, desc(!!x)), y = !!y)) +
+        geom_point() +
+        geom_linerange(aes(ymin = !!ymin, ymax = !!ymax)) +
+        zero_intercept +
+        coord_flip() + 
+        facet_wrap(~ category, ncol = 3, scales = 'free_y') + 
+        add_labels(title, collection_time) +
+        wzb_theme
 }
 
