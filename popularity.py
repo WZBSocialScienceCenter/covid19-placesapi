@@ -22,6 +22,7 @@ HOURS_OF_INTEREST = {
 
 DATADIR = 'data/popularity'
 EVERY_NTH_HOUR = 2  # None
+ON_WEEKDAYS = (1, 3, 5)   # = Tue, Thu, Sat
 
 #%%
 
@@ -30,6 +31,10 @@ utcnow = datetime.utcnow()
 utcdate_ymd = utcnow.strftime('%Y-%m-%d')
 utcweekday = utcnow.weekday()
 utchour = utcnow.hour
+
+if ON_WEEKDAYS and utcweekday not in ON_WEEKDAYS:
+    print('skipping (current UTC weekday is %d and will only run on weekdays %s)' % (utcweekday, str(ON_WEEKDAYS)))
+    exit(0)
 
 if EVERY_NTH_HOUR and utchour % EVERY_NTH_HOUR != 0:
     print('skipping (current UTC hour is %d and will only run every %d hour)' % (utchour, EVERY_NTH_HOUR))
