@@ -6,7 +6,10 @@ popsm <- load_pop_data()
 collection_time <- range_collection_time(popsm)
 collection_time
 
-popdata <- filter(popsm, region == 'Europe') %>% select(-region, -utc_date, -utc_hour)
+popsm <- select(popsm, -utc_date, -utc_hour)
+
+popdata <- filter(popsm, region == 'Europe')
+popdata <- group_by(popdata, local_day, place_id) %>% do(interpolate_per_place(.)) %>% ungroup() %>% select(-region)
 popdata
 
 # Europe Means per country
@@ -58,3 +61,29 @@ cat_means
 
 plot_means_errorbars(cat_means, category, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff,
                      'TEST Means in Europe', collection_time) + coord_flip()
+
+
+# Daily patterns
+
+popdaily <- filter(popdata, local_hour %in% 6:22)
+popdaily
+
+daily_country_means <- group_by(popdaily, country, local_weekend, local_hour) %>%
+    group_means_ci(pop_diff)
+daily_country_means
+daily_means <- group_by(daily_country_means, local_weekend, local_hour) %>% group_means_ci(mean_pop_diff)
+daily_means
+
+plot_daily_means_ribbon(daily_means, local_hour, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff,
+                        local_weekend, 'TEST', collection_time)
+
+daily_country_cat_means <- group_by(popdaily, country, category, local_weekend, local_hour) %>%
+    group_means_ci(pop_diff)
+daily_country_cat_means
+
+daily_cat_means <- group_by(daily_country_cat_means, category, local_weekend, local_hour) %>%
+    group_means_ci(mean_pop_diff)
+daily_cat_means
+
+plot_daily_cat_means_ribbon(daily_cat_means, local_hour, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff,
+                            category, 'TEST', collection_time)

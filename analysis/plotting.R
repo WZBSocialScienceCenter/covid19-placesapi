@@ -55,15 +55,66 @@ plot_ts_means_ribbon <- function(meansdata, x, y, ymin, ymax, title, collection_
     y <- enquo(y)
     ymin <- enquo(ymin)
     ymax <- enquo(ymax)
+    
     ggplot(meansdata, aes(x = !!x, y = !!y)) +
+        geom_ribbon(aes(ymin = !!ymin, ymax = !!ymax), alpha = 0.25) +
         geom_line() +
         geom_point() +
-        geom_ribbon(aes(ymin = !!ymin, ymax = !!ymax), alpha = 0.25) +
         zero_intercept +
         scale_x_datetime(date_breaks = '1 day', date_minor_breaks = '6 hours') +
         add_labels(title, collection_time) +
         wzb_theme
 }
+
+
+plot_daily_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, title, collection_time) {
+    x <- enquo(x)
+    y <- enquo(y)
+    ymin <- enquo(ymin)
+    ymax <- enquo(ymax)
+    color <- enquo(color)
+    
+    xrange = range(pull(meansdata, !!x))
+    
+    cmap <- c(WZB_BLUE, WZB_VIOL)
+    names(cmap) <- c(FALSE, TRUE)
+    
+    ggplot(meansdata, aes(x = !!x, y = !!y, color = !!color)) +
+        geom_ribbon(aes(ymin = !!ymin, ymax = !!ymax, fill = !!color), color = NA, alpha = 0.25) +
+        geom_line() +
+        geom_point() +
+        scale_x_continuous(breaks = seq(xrange[1], xrange[2], 2)) +
+        scale_color_manual(labels = c('working day', 'weekend'), values = cmap, guide = guide_legend(NULL)) +
+        scale_fill_manual(values = cmap, guide = FALSE) +
+        zero_intercept +
+        add_labels(title, collection_time) +
+        wzb_theme
+}
+
+
+plot_daily_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, title, collection_time) {
+    x <- enquo(x)
+    y <- enquo(y)
+    ymin <- enquo(ymin)
+    ymax <- enquo(ymax)
+    color <- enquo(color)
+    
+    xrange = range(pull(meansdata, !!x))
+    
+    ggplot(meansdata, aes(x = !!x, y = !!y, color = !!color)) +
+        geom_ribbon(aes(ymin = !!ymin, ymax = !!ymax, fill = !!color), color = NA, alpha = 0.25) +
+        geom_line() +
+        geom_point() +
+        scale_x_continuous(breaks = seq(xrange[1], xrange[2], 2)) +
+        scale_color_brewer(palette = "Dark2", guide = guide_legend(NULL)) +
+        scale_fill_brewer(palette = "Dark2", guide = FALSE) +
+        zero_intercept +
+        add_labels(title, collection_time) +
+        facet_wrap(~ local_weekend, ncol = 1,
+                   labeller = as_labeller(c(`FALSE` = 'working day', `TRUE` = 'weekend'))) +
+        wzb_theme
+}
+
 
 plot_country_categories <- function(meansdata, x, y, ymin, ymax, title, collection_time) {
     x <- enquo(x)
