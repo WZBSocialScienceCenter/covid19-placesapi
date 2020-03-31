@@ -8,6 +8,18 @@ collection_time
 
 popsm <- select(popsm, -utc_date, -utc_hour)
 
+qplot(popsm$pop_diff, binwidth = 10) +
+    #scale_x_continuous(limits = c(-100, 200)) +
+    xlab('difference in popularity score') +
+    labs(title = 'Popularity score differences – histogram') +
+    theme_minimal()
+
+n_obs_ts <- count(popsm, local_time)
+qplot(n_obs_ts$local_time, n_obs_ts$n, geom = 'col') +
+    xlab('local time') +
+    ggtitle('Number of collected observations over time') +
+    theme_minimal() + theme(axis.title.y = element_blank())
+
 popdata <- filter(popsm, region == 'Europe')
 popdata
 

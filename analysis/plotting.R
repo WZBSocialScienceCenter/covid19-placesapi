@@ -1,4 +1,5 @@
 library(ggplot2)
+library(RColorBrewer)
 library(extrafont)    # Dahrendorf font (siehe https://stackoverflow.com/q/30058107)
 
 WZB_BLUE <- '#0380B5'
@@ -51,6 +52,7 @@ plot_means_errorbars <- function(meansdata, x, y, ymin, ymax, title, collection_
         wzb_theme
 }
 
+
 plot_ts_means_ribbon <- function(meansdata, x, y, ymin, ymax, title, collection_time) {
     x <- enquo(x)
     y <- enquo(y)
@@ -69,6 +71,32 @@ plot_ts_means_ribbon <- function(meansdata, x, y, ymin, ymax, title, collection_
         geom_point() +
         zero_intercept +
         xscale +
+        add_labels(title, collection_time) +
+        wzb_theme
+}
+
+
+plot_ts_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, title, collection_time) {
+    x <- enquo(x)
+    y <- enquo(y)
+    ymin <- enquo(ymin)
+    ymax <- enquo(ymax)
+    color <- enquo(color)
+    
+    if ('POSIXct' %in% class(pull(meansdata, !!x))) {
+        xscale <- scale_x_datetime(date_breaks = '1 day', date_minor_breaks = '6 hours', date_labels = '%b %d')
+    } else {
+        xscale <- scale_x_date(date_breaks = '1 day', date_labels = '%b %d')
+    }
+    
+    ggplot(meansdata, aes(x = !!x, y = !!y, color = !!color)) +
+        geom_ribbon(aes(ymin = !!ymin, ymax = !!ymax, fill = !!color), color = NA, alpha = 0.25) +
+        geom_line() +
+        geom_point() +
+        zero_intercept +
+        xscale +
+        scale_color_brewer(palette = "Dark2", guide = guide_legend(NULL)) +
+        scale_fill_brewer(palette = "Dark2", guide = FALSE) +
         add_labels(title, collection_time) +
         wzb_theme
 }

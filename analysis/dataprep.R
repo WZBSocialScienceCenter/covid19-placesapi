@@ -76,16 +76,32 @@ low_obs_to_NA <- function(df, nvar, thresh, ...) {
     df_copy
 }
 
-group_means_ci <- function(grp, var) {
+group_means_ci <- function(grp, var, ...) {
     var <- enquo(var)
     mean_name <- paste0("mean_", quo_name(var))
+    n_name <- paste0("n_", quo_name(var))
     sd_name <- paste0("sd_", quo_name(var))
+    se_name <- paste0("se_", quo_name(var))
     bounds_name <- paste0(c("lwr_", "upr_"), quo_name(var))
-    summarise(grp,
-              !!mean_name := mean(!!var, na.rm = TRUE),
-              !!sd_name := sd(!!var, na.rm = TRUE),
-              n = sum(!is.na(!!var)),
-              !!bounds_name[1] := mean(!!var, na.rm = TRUE) - 1.96 * sd(!!var, na.rm = TRUE) / sqrt(n),
-              !!bounds_name[2] := mean(!!var, na.rm = TRUE) + 1.96 * sd(!!var, na.rm = TRUE) / sqrt(n))
+    args <- enquos(...)
+    
+    if (length(args) == 2) {   # adjusted SE calc.; weighted SE from SDs of higher level aggreg.
+        group_sd <- args[[1]]
+        n_obs <- args[[2]]
+        summarise(grp,
+                  !!mean_name := mean(!!var, na.rm = TRUE),
+                  !!n_name := sum(!is.na(!!var)),
+                  !!se_name := sqrt(sum((!!group_sd)^2 / !!n_obs, na.rm = TRUE)),
+                  !!bounds_name[1] := mean(!!var, na.rm = TRUE) - 1.96 * sqrt(sum((!!group_sd)^2 / !!n_obs, na.rm = TRUE)),
+                  !!bounds_name[2] := mean(!!var, na.rm = TRUE) + 1.96 * sqrt(sum((!!group_sd)^2 / !!n_obs, na.rm = TRUE)))
+    } else {
+        summarise(grp,
+                  !!mean_name := mean(!!var, na.rm = TRUE),
+                  !!sd_name := sd(!!var, na.rm = TRUE),
+                  !!n_name := sum(!is.na(!!var)),
+                  !!se_name := sd(!!var, na.rm = TRUE) / sqrt(sum(!is.na(!!var))),
+                  !!bounds_name[1] := mean(!!var, na.rm = TRUE) - 1.96 * sd(!!var, na.rm = TRUE) / sqrt(sum(!is.na(!!var))),
+                  !!bounds_name[2] := mean(!!var, na.rm = TRUE) + 1.96 * sd(!!var, na.rm = TRUE) / sqrt(sum(!is.na(!!var))))
+    }
 }
 
