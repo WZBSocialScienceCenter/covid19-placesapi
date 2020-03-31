@@ -66,11 +66,15 @@ interpolate_per_place <- function(grp) {
 }
 
 # set values with very few observations to NA to produce gaps in plot
-low_obs_to_NA <- function(df, col, thresh) {
-    df[[col]] <- ifelse(df$n < thresh, NA, df[[col]])
-    df
+low_obs_to_NA <- function(df, nvar, thresh, ...) {
+    nvar <- enquo(nvar)
+    yvars <- enquos(...)
+    fill_NAs <- pull(df, !!nvar) < 5
+    
+    df_copy <- df
+    df_copy[fill_NAs, sapply(yvars, quo_name)] <- NA
+    df_copy
 }
-
 
 group_means_ci <- function(grp, var) {
     var <- enquo(var)
