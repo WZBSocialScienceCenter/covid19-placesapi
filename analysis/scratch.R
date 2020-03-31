@@ -41,8 +41,8 @@ plot_ts_means_ribbon(ts_means, local_time, mean_mean_pop_diff, lwr_mean_pop_diff
 
 # Europe daily means
 
-ts_country_daily_means <- group_by(popdata_approx, local_day, country) %>% group_means_ci(pop_diff)
-ts_country_daily_means
+ts_country_daily_means <- group_by(popdata, local_day, country) %>% group_means_ci(pop_diff) %>% ungroup()
+ts_country_daily_means 
 
 ts_daily_means <- group_by(ts_country_daily_means %>% ungroup(), local_day) %>%
     group_means_ci(mean_pop_diff) 
@@ -50,6 +50,17 @@ ts_daily_means
 
 plot_ts_means_ribbon(ts_daily_means, local_day, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff,
                      'Mean popularity difference over time in Europe', collection_time)
+
+
+# Europe daily means per country
+
+countries <- sort(unique(ts_country_daily_means$country))
+
+ts_country_daily_means_sampled <- filter(ts_country_daily_means, country %in% c('Sweden', 'Italy', 'Germany', 'France'))
+ts_country_daily_means_sampled
+
+plot_country_daily_means(ts_country_daily_means_sampled, local_day, mean_pop_diff, lwr_pop_diff, upr_pop_diff, country,
+                         'TEST', collection_time)
 
 
 # Means per country and category

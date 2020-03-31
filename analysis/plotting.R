@@ -123,6 +123,25 @@ plot_daily_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, titl
 }
 
 
+plot_country_daily_means <- function(meansdata, x, y, ymin, ymax, color, title, collection_time) {
+    x <- enquo(x)
+    y <- enquo(y)
+    ymin <- enquo(ymin)
+    ymax <- enquo(ymax)
+    color <- enquo(color)
+    
+    ggplot(ts_country_daily_means_sampled, aes(x = !!x, y = !!y, color = !!color)) +
+        geom_ribbon(aes(ymin = !!ymin, ymax = !!ymax, fill = !!color), color = NA, alpha = 0.25) +
+        geom_line() +
+        geom_point() +
+        scale_color_brewer(palette = "Dark2", guide = guide_legend(NULL)) +
+        scale_fill_brewer(palette = "Dark2", guide = FALSE) +
+        zero_intercept +
+        add_labels(title, collection_time) +
+        wzb_theme
+}
+
+
 plot_country_categories <- function(meansdata, x, y, ymin, ymax, title, collection_time) {
     x <- enquo(x)
     y <- enquo(y)
