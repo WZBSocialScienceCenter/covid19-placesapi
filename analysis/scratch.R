@@ -35,11 +35,21 @@ ts_country_means
 ts_means <- group_by(ts_country_means %>% ungroup(), local_time) %>% group_means_ci(mean_pop_diff) 
 ts_means <- low_obs_to_NA(ts_means, n, 5, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff)
 
-p <- plot_ts_means_ribbon(ts_means, local_time, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff,
-                          'Mean popularity difference over time in Europe', collection_time)
-p
+plot_ts_means_ribbon(ts_means, local_time, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff,
+                     'Mean popularity difference over time in Europe', collection_time)
 
-ggsave('~/Pictures/ts_mean_europe.png', p, width = 8, height = 6)
+
+# Europe daily means
+
+ts_country_daily_means <- group_by(popdata_approx, local_day, country) %>% group_means_ci(pop_diff)
+ts_country_daily_means
+
+ts_daily_means <- group_by(ts_country_daily_means %>% ungroup(), local_day) %>%
+    group_means_ci(mean_pop_diff) 
+ts_daily_means
+
+plot_ts_means_ribbon(ts_daily_means, local_day, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff,
+                     'Mean popularity difference over time in Europe', collection_time)
 
 
 # Means per country and category
@@ -58,7 +68,7 @@ cat_means <- group_by(country_cat_means, category) %>% group_means_ci(mean_pop_d
 cat_means
 
 plot_means_errorbars(cat_means, category, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff,
-                     'TEST Means in Europe', collection_time) + coord_flip()
+                     'TEST Means in Europe', collection_time)
 
 
 # Daily patterns
@@ -72,12 +82,10 @@ daily_country_means
 daily_means <- group_by(daily_country_means, local_weekend, local_hour) %>% group_means_ci(mean_pop_diff)
 daily_means
 
-p <- plot_daily_means_ribbon(daily_means, local_hour, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff,
+plot_daily_means_ribbon(daily_means, local_hour, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff,
                         local_weekend,
                         'Daily patterns of difference in places popularity in Europe',
                         collection_time)
-p
-ggsave('~/Pictures/daily_mean_europe.png', p, width = 8, height = 6)
 
 daily_country_cat_means <- group_by(popdaily, country, category, local_weekend, local_hour) %>%
     group_means_ci(pop_diff)
@@ -87,11 +95,9 @@ daily_cat_means <- group_by(daily_country_cat_means, category, local_weekend, lo
     group_means_ci(mean_pop_diff)
 daily_cat_means
 
-p <- plot_daily_cat_means_ribbon(daily_cat_means, local_hour, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff,
+plot_daily_cat_means_ribbon(daily_cat_means, local_hour, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff,
                             category,
                             'Daily patterns of difference in places popularity in Europe by category',
                             collection_time)
-p
-ggsave('~/Pictures/daily_cat_mean_europe.png', p, width = 8, height = 6)
 
 
