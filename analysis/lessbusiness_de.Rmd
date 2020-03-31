@@ -1,0 +1,39 @@
+---
+title: "\"Weniger Besucher als gewöhnlich\""
+author: "Markus Konrad"
+date: "March 31, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+```{r, warning=FALSE, message=FALSE}
+source('dataprep.R')
+source('plotting.R')
+
+pop <- load_pop_data()
+collection_time <- range_collection_time(pop)
+pop <- select(pop, -utc_date, -utc_hour)
+
+pop_approx <- group_by(pop, local_day, place_id) %>%
+    do(interpolate_per_place(.)) %>% ungroup()
+
+pop_noparks <- filter(pop, category != 'parks')
+pop_noparks_approx <- filter(pop_approx, category != 'parks')
+
+popeur <- filter(pop, region == 'Europe') %>% select(-region)
+popeur_approx <- filter(pop_approx, region == 'Europe') %>% select(-region)
+popeur_noparks <- filter(popeur, category != 'parks')
+popeur_noparks_approx <- filter(popeur_approx, category != 'parks')
+```
+
+Viele Menschen senden über ihr Smartphone – ob wissentlich oder nicht – permanent ihre genaue Position an große Unternehmen wie Google oder Apple. Über die datenschutzrechtlichen und gesellschaftlichen Implikationen wurde – und wird im Zuge von Corona-Tracking Apps derzeit wieder – viel diskutiert. Dennoch ist vielen Menschen nicht bewusst, dass sie mit ihren Smartphones zu einem stetig wachsendem Berg an Bewegungsdaten beitragen, welcher auf aggregierter Ebene Beobachtungen über Verhaltensmuster eines großen Teils der Bevölkerung zulässt.
+
+Die Corona-Krise und die damit einhergehenden Maßnahmen zur Eindämmung des Virus erfordern von allen Menschen radikale Veränderungen ihrer Verhaltensmuster. Viele arbeiten von zu Hause aus, meiden wenn möglich öffentliche Verkehrsmittel, können keine Theater, Restaurants, Bars oder Fitnessstudios mehr besuchen. Es ist anzunehmen, dass sich diese Einschnitte auch in Bewegungsdaten wiederspiegeln. Diese erlauben uns aber weitergehende Fragen zu beantworten, bspw.: Welche Orte sind besonders von einem Rückgang von Besucher*innen betroffen? Gibt es eventuell auch Orte, die sogar öfter frequentiert werden, als vor den Kontaktsperren? Gibt es Unterschiede zwischen Ländern? Wie ist der zeitliche Verlauf?
+
+Um das zu untersuchen, habe ich mir nach einer Idee von Philipp Kreißler [TODO Link] Daten von Google Maps [eig. "Google Places", aber ich glaube damit weiß niemand was anzufangen] angeschaut. Vielleicht kennen Sie den Service von Google Maps, für bestimmte Orte die Stoßzeiten anzuzeigen, also beispielsweise wie beliebt ein bestimmtes Restaurant zu einer bestimmten Zeit überlicherweise ist. Zu manchen Orten bietet Google auch einen Echtzeitwert an, also ob gerade jetzt wirklich so viele Menschen an diesem Ort sind, wie üblich [TODO: Screenshot Aussschnitt davon?]. Beides basiert auf dem eingangs erwähnten Tracking mittels dem Smartphone vieler Nutzer*innen. Momentan zeigt Google etwa für den Berliner Hauptbahnhof an: "Weniger Besucher als gewöhnlich" – was sicherlich niemanden überrascht.
+
+Der Beliebtheitswert ist ein Prozentwert, bei dem 100% bedeutet, dass in etwa so viele Menschen vor Ort sind, wie zu dieser Zeit üblich. Interessant ist hierbei vor allem die Differenz zwischen der aktuellen Beliebtheit und der üblichen Beliebtheit zum gleichen Wochentag und zur selben Stunde. Da die übliche Beliebtheit ein über Jahre hinweg gemittelter Wert ist, ist er ein stabiler Bezugspunkt. Ich frage diese Daten für knapp 700 Orte weltweit automatisiert und in regelmäßigen Abständen seit dem 22. März ab und im folgenden möchte ich auf ein paar erste Ergebnisse eingehen. 
