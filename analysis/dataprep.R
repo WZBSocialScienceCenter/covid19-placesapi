@@ -11,6 +11,9 @@ load_pop_data <- function() {
     poi <- left_join(poi, query_categ, by = 'query')
     stopifnot(sum(is.na(poi$category)) == 0)
     
+    # move places with "park" in name to "parks" category
+    poi[poi$query == 'sights' & grepl('park', poi$name, ignore.case = TRUE), ]$category <- 'parks'
+    
     poptime <- read.csv('../data/popularity.csv', stringsAsFactors = FALSE)
     
     pop <- left_join(poptime, poi, by = 'place_id')

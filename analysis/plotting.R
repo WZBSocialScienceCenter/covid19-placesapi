@@ -76,7 +76,7 @@ plot_ts_means_ribbon <- function(meansdata, x, y, ymin, ymax, title, collection_
 }
 
 
-plot_ts_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, title, collection_time) {
+plot_ts_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, title, collection_time, ribbon = TRUE) {
     x <- enquo(x)
     y <- enquo(y)
     ymin <- enquo(ymin)
@@ -89,9 +89,13 @@ plot_ts_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, title, 
         xscale <- scale_x_date(date_breaks = '1 day', date_labels = '%b %d')
     }
     
-    ggplot(meansdata, aes(x = !!x, y = !!y, color = !!color)) +
-        geom_ribbon(aes(ymin = !!ymin, ymax = !!ymax, fill = !!color), color = NA, alpha = 0.25) +
-        geom_line() +
+    p <- ggplot(meansdata, aes(x = !!x, y = !!y, color = !!color))
+    
+    if (ribbon) {
+        p <- p + geom_ribbon(aes(ymin = !!ymin, ymax = !!ymax, fill = !!color), color = NA, alpha = 0.25)
+    }
+    
+    p + geom_line() +
         geom_point() +
         zero_intercept +
         xscale +
@@ -127,7 +131,7 @@ plot_daily_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, title, c
 }
 
 
-plot_daily_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, title, collection_time) {
+plot_daily_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, title, collection_time, ribbon = TRUE) {
     x <- enquo(x)
     y <- enquo(y)
     ymin <- enquo(ymin)
@@ -136,9 +140,13 @@ plot_daily_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, titl
     
     xrange = range(pull(meansdata, !!x))
     
-    ggplot(meansdata, aes(x = !!x, y = !!y, color = !!color)) +
-        geom_ribbon(aes(ymin = !!ymin, ymax = !!ymax, fill = !!color), color = NA, alpha = 0.25) +
-        geom_line() +
+    p <- ggplot(meansdata, aes(x = !!x, y = !!y, color = !!color))
+    
+    if (ribbon) {
+        p <- p + geom_ribbon(aes(ymin = !!ymin, ymax = !!ymax, fill = !!color), color = NA, alpha = 0.25)
+    }
+    
+    p + geom_line() +
         geom_point() +
         scale_x_continuous(breaks = seq(xrange[1], xrange[2], 2)) +
         scale_color_brewer(palette = "Dark2", guide = guide_legend(NULL)) +

@@ -21,13 +21,9 @@ pop <- select(pop, -utc_date, -utc_hour)
 pop_approx <- group_by(pop, local_day, place_id) %>%
     do(interpolate_per_place(.)) %>% ungroup()
 
-pop_noparks <- filter(pop, category != 'parks')
-pop_noparks_approx <- filter(pop_approx, category != 'parks')
-
-popeur <- filter(pop, region == 'Europe') %>% select(-region)
-popeur_approx <- filter(pop_approx, region == 'Europe') %>% select(-region)
-popeur_noparks <- filter(popeur, category != 'parks')
-popeur_noparks_approx <- filter(popeur_approx, category != 'parks')
+# also remove hardware stores (too few samples)
+popeur <- filter(pop, region == 'Europe', category != 'hardware stores') %>% select(-region)
+popeur_approx <- filter(pop_approx, region == 'Europe', category != 'hardware stores') %>% select(-region)
 ```
 
 Viele Menschen senden über ihr Smartphone – ob wissentlich oder nicht – permanent ihre genaue Position an große IT-Unternehmen wie Google oder Apple. Über die datenschutzrechtlichen und gesellschaftlichen Implikationen wurde – und wird im Zuge von Corona-Tracking Apps derzeit wieder – viel diskutiert. Dennoch ist vielen Menschen nicht bewusst, dass sie mit ihren Smartphones zu einem stetig wachsendem Berg an Bewegungsdaten beitragen, welcher auf aggregierter Ebene Beobachtungen über Verhaltensmuster eines großen Teils der Bevölkerung zulässt.
@@ -36,6 +32,64 @@ Die Corona-Krise und die damit einhergehenden Maßnahmen zur Eindämmung des Vir
 
 Um das zu untersuchen, habe ich mir Daten von Google Maps [eig. "Google Places", aber ich glaube damit weiß niemand was anzufangen] angeschaut. Vielleicht kennen Sie den Service von Google Maps, für bestimmte Orte die Stoßzeiten anzuzeigen, also beispielsweise wie beliebt ein bestimmtes Restaurant zu einer bestimmten Zeit überlicherweise ist. Zu manchen Orten bietet Google auch einen Echtzeitwert an, also ob gerade jetzt wirklich so viele Menschen an diesem Ort sind, wie üblich [TODO: Screenshot Aussschnitt davon?]. Beides basiert auf dem eingangs erwähnten Tracking mittels dem Smartphone vieler Nutzer*innen. Momentan zeigt Google etwa für den Berliner Hauptbahnhof an: "Weniger Besucher als gewöhnlich" – was sicherlich niemanden überrascht.
 
-Der Beliebtheitswert ist ein Prozentwert, bei dem 100% bedeutet, dass in etwa so viele Menschen vor Ort sind, wie zu dieser Zeit üblich. Interessant ist hierbei vor allem die Differenz zwischen der aktuellen Beliebtheit und der üblichen Beliebtheit zum gleichen Wochentag und zur selben Stunde. Da die übliche Beliebtheit ein über Jahre hinweg gemittelter Wert ist, ist er ein stabiler Bezugspunkt. Ich frage diese Daten für knapp 700 Orte weltweit automatisiert und in regelmäßigen Abständen seit dem 22. März ab und im folgenden möchte ich auf ein paar erste Ergebnisse eingehen. 
+Der Beliebtheitswert ist ein Prozentwert, bei dem 100% bedeutet, dass in etwa so viele Menschen vor Ort sind, wie zu dieser Zeit üblich. Interessant ist hierbei vor allem die Differenz zwischen der aktuellen Beliebtheit und der üblichen Beliebtheit zum gleichen Wochentag und zur selben Stunde. Da die übliche Beliebtheit ein über Jahre hinweg gemittelter Wert ist, ist er ein stabiler Bezugspunkt. Einschränkend muss man allerdings sagen, dass dieser Wert bei Google Maps fast ausschließlich für beliebte Orte im Zentrum großer Metropolen ermittelt wird. Somit ist die Aussagekraft auf innerstädtische Räume von Großstädten beschränkt.
 
-Zunächst können wir uns anschauen, wie die Differenz der Beliebtheitswerte seit dem 22. März für verschiedene Kategorien von Orten ausfällt.
+Ich frage diese Daten für knapp 700 Orte weltweit automatisiert und in regelmäßigen Abständen seit dem 22. März ab und im folgenden möchte ich auf ein paar erste Ergebnisse eingehen. Zunächst können wir uns anschauen, wie die Differenz der Beliebtheitswerte seit dem 22. März für verschiedene Kategorien von Orten ausfällt. Wir beschränken uns zunächst auf Daten aus Europa, da hierfür die meisten Daten vorliegen und somit die Aussagekraft am höchsten ist. [Die Resultate aus einzelnen Ländern wurden nach ihrer Bevölkerungszahl gewichtet.]
+
+```{r, fig.width=10, fig.height=5}
+country_cat_means <- group_by(popeur, country, category) %>% group_means_ci(pop_diff)
+cat_means <- group_by(country_cat_means, category) %>% group_means_ci(mean_pop_diff)
+
+plot_means_errorbars(cat_means, category, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff,
+                     'Differences in popularity score per category in Europe', collection_time)
+```
+
+[Alternative Darstellungen: Balkendiagramm oder rotiert als Säulendiagramm ohne Konf.intervalle / TODO: Beschriftungen auf deutsch]
+
+Es ist deutlich, dass sämtliche Arten von untersuchten Orten eine negative Differenz aufweisen, also weniger oft frequentiert werden, als vor der Corona-Krise. Besonders stark ist der Einbruch bei öffentlichen Verkehrsmitteln und Geschäften. Selbst Supermärkte werden weniger frequentiert, allerdings ist es möglich dass vielleicht weniger oft, aber dafür zu größeren Mengen eingekauft wird. Allein Parks weisen einen relativ geringen Rückgang auf.
+
+Über den zeitlichen Verlauf betrachtet sehen wir wenig Variation, da fast überall in Europa die Maßnahmen gegen das Virus unverändert andauern. Nur am Wochenende sieht man noch stärkere Effekte im Bereich Bars, Clubs, Restaurants sowie Tourismus.  [hier noch auf weitere Daten für kommendes Wochenende warten / Hinweis ab 28.3. nur noch drei mal wöchentlich Datenabfrage?]
+
+```{r, fig.width=10, fig.height=4}
+ts_country_cat_daily_means <- group_by(popeur, local_day, category, country) %>% group_means_ci(pop_diff) %>% ungroup()
+ts_daily_cat_means <- group_by(ts_country_cat_daily_means, local_day, category) %>%
+    group_means_ci(mean_pop_diff)
+
+plot_ts_cat_means_ribbon(ts_daily_cat_means, local_day, mean_mean_pop_diff,
+                         lwr_mean_pop_diff, upr_mean_pop_diff, category,
+                         'Mean daily popularity difference per category over time in Europe',
+                         collection_time, ribbon = FALSE)
+
+```
+
+[Hier noch mehr Daten abwarten / TODO: Beschriftungen auf deutsch]
+ 
+Über den Tagesverlauf zeigen sich wiederkehrende Muster. Werktags bricht besonders morgens und nachmittags der Berufsverkehr in den öffentlichen Verkehrsmitteln ein und auch Geschäfte sind nach Feierabend weitaus weniger frequentiert. Parks dagegen werden in den nachmittags und frühen Abendstunden sogar stärker frequentiert, als das üblicherweise der Fall ist. Das ist auch der Fall am Wochenende. Hier ist der Einbruch bei Geschäften, Supermärkten und Sehenswürdigkeiten allerdings um einiges deutlicher.
+
+
+
+```{r, warning=FALSE, message=FALSE, fig.width=10, fig.height=8}
+popdaily <- filter(popeur_approx, local_hour %in% 6:20)
+daily_country_cat_means <- group_by(popdaily, country, category, local_weekend, local_hour) %>%
+    group_means_ci(pop_diff)
+
+daily_cat_means <- group_by(daily_country_cat_means, category, local_weekend, local_hour) %>%
+    group_means_ci(mean_pop_diff) %>% ungroup() %>% filter(n_mean_pop_diff > 1)
+
+plot_daily_cat_means_ribbon(daily_cat_means, local_hour, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff,
+                            category,
+                            'Daily patterns of difference in places popularity in Europe by category',
+                            collection_time, ribbon = FALSE)
+```
+
+[TODO: Beschriftungen auf deutsch]
+
+
+- Blick auf einzelne Länder (Zeitverläufe):
+    - China
+    - Italy, Spain, USA
+    - Sweden vs rest of Europe
+    - good handling of crisis? South Korea, Taiwan
+
+- Blick auf einzelne Städte (Europa Karte / Weltkarte?)
+    - NY, Bergamo, Wuhan
