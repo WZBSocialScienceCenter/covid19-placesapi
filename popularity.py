@@ -32,14 +32,6 @@ utcdate_ymd = utcnow.strftime('%Y-%m-%d')
 utcweekday = utcnow.weekday()
 utchour = utcnow.hour
 
-if ON_WEEKDAYS and utcweekday not in ON_WEEKDAYS:
-    print('skipping (current UTC weekday is %d and will only run on weekdays %s)' % (utcweekday, str(ON_WEEKDAYS)))
-    exit(0)
-
-if EVERY_NTH_HOUR and utchour % EVERY_NTH_HOUR != 0:
-    print('skipping (current UTC hour is %d and will only run every %d hour)' % (utchour, EVERY_NTH_HOUR))
-    exit(0)
-
 datadir_today = os.path.join(DATADIR, utcdate_ymd)
 
 if not os.path.exists(datadir_today):
@@ -49,6 +41,7 @@ if not os.path.exists(datadir_today):
 #%%
 
 resultrows = []
+n_queries = 0
 
 for poi_i, poirow in pois.iterrows():
     print('place of interest %d/%d: %s, %s' % (poi_i+1, len(pois), poirow.city, poirow.country))
@@ -57,6 +50,14 @@ for poi_i, poirow in pois.iterrows():
     poi_localtime = utcnow + poi_tzoffset
     poi_localwd = poi_localtime.weekday()
     poi_localhour = poi_localtime.hour
+
+    if ON_WEEKDAYS and poi_localwd not in ON_WEEKDAYS:
+        print('skipping (local weekday is %d and will only run on weekdays %s)' % (poi_localwd, str(ON_WEEKDAYS)))
+        continue
+
+    if EVERY_NTH_HOUR and poi_localhour % EVERY_NTH_HOUR != 0:
+        print('skipping (local hour %d and will only run every %d hour)' % (poi_localhour, EVERY_NTH_HOUR))
+        continue
 
     poi_hinterest = HOURS_OF_INTEREST.get(poirow['query'], list(range(6, 21)))
     if not isinstance(poi_hinterest, list):
@@ -68,6 +69,7 @@ for poi_i, poirow in pois.iterrows():
         continue
 
     try:
+        n_queries += 1
         poptimes = populartimes.get_id(API_KEY, poirow.place_id)
     except Exception:  # catch any exception
         poptimes = {}
@@ -93,15 +95,20 @@ print('\n')
 
 #%%
 
-popdata = pd.DataFrame(resultrows, columns=[
-    'place_id',
-    'utc_date', 'utc_weekday', 'utc_hour',
-    'local_date', 'local_weekday', 'local_hour',
-    'current_pop', 'usual_pop'
-])
+print('made %d queries and got %d results' % (n_queries, len(resultrows)))
 
-outfile = os.path.join(datadir_today, '%s_h%s.csv' % (utcdate_ymd, str(utchour).zfill(2)))
-print('saving data to file', outfile)
-popdata.to_csv(outfile, index=False)
+if resultrows:
+    popdata = pd.DataFrame(resultrows, columns=[
+        'place_id',
+        'utc_date', 'utc_weekday', 'utc_hour',
+        'local_date', 'local_weekday', 'local_hour',
+        'current_pop', 'usual_pop'
+    ])
+
+    outfile = os.path.join(datadir_today, '%s_h%s.csv' % (utcdate_ymd, str(utchour).zfill(2)))
+    print('saving data to file', outfile)
+    popdata.to_csv(outfile, index=False)
+else:
+    print('nothing to save')
 
 print('done.')
