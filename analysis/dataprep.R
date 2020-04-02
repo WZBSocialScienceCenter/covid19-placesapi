@@ -28,7 +28,8 @@ load_pop_data <- function() {
     
     # reduced dataset:
     select(pop, local_time, local_day, local_hour, local_weekday, local_weekend,
-           region, country, city, category, query, place_id, name, pop_diff, utc_date, utc_hour) %>%
+           region, country, iso2, city, category, query, place_id, lat, lng,
+           name, pop_diff, utc_date, utc_hour) %>%
         arrange(local_time, region, country, city, category)
 }
 

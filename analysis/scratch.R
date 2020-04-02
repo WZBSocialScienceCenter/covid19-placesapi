@@ -123,4 +123,5 @@ plot_daily_cat_means_ribbon(daily_cat_means, local_hour, mean_mean_pop_diff, lwr
                             'Daily patterns of difference in places popularity in Europe by category',
                             collection_time)
 
+#
 

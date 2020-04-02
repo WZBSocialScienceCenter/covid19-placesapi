@@ -1,5 +1,8 @@
 library(ggplot2)
 library(RColorBrewer)
+library(sf)
+library(ggrepel)
+library(rnaturalearth)
 library(extrafont)    # Dahrendorf font (siehe https://stackoverflow.com/q/30058107)
 
 WZB_BLUE <- '#0380B5'
@@ -159,16 +162,20 @@ plot_daily_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, titl
 }
 
 
-plot_country_daily_means <- function(meansdata, x, y, ymin, ymax, color, title, collection_time) {
+plot_country_daily_means <- function(meansdata, x, y, ymin, ymax, color, title, collection_time, ribbon = TRUE) {
     x <- enquo(x)
     y <- enquo(y)
     ymin <- enquo(ymin)
     ymax <- enquo(ymax)
     color <- enquo(color)
     
-    ggplot(ts_country_daily_means_sampled, aes(x = !!x, y = !!y, color = !!color)) +
-        geom_ribbon(aes(ymin = !!ymin, ymax = !!ymax, fill = !!color), color = NA, alpha = 0.25) +
-        geom_line() +
+    p <- ggplot(meansdata, aes(x = !!x, y = !!y, color = !!color))
+    
+    if (ribbon) {
+        p <- p + geom_ribbon(aes(ymin = !!ymin, ymax = !!ymax, fill = !!color), color = NA, alpha = 0.25)
+    }
+    
+    p + geom_line() +
         geom_point() +
         scale_color_brewer(palette = "Dark2", guide = guide_legend(NULL)) +
         scale_fill_brewer(palette = "Dark2", guide = FALSE) +
@@ -193,3 +200,23 @@ plot_country_categories <- function(meansdata, x, y, ymin, ymax, title, collecti
         wzb_theme
 }
 
+
+plot_cities_map <- function(meansdata, title, collection_time) {
+    mapdata <- ne_countries(type = 'map_units', returnclass = 'sf')
+    cities_means_plotdata <- mutate(meansdata,
+                                    label = paste(city, round(mean_mean_pop_diff)),
+                                    scaled_mean = ifelse(mean_mean_pop_diff < 0,
+                                                         mean_mean_pop_diff / abs(min(mean_mean_pop_diff)),
+                                                         mean_mean_pop_diff / abs(max(mean_mean_pop_diff))))
+    
+    ggplot(cities_means_plotdata) +
+        geom_sf(data = mapdata) +
+        geom_point(aes(x = lng, y = lat, color = scaled_mean)) +
+        geom_label_repel(aes(x = lng, y = lat, label = label, fill = scaled_mean), size = 2.5) +
+        coord_sf(xlim = c(-120, 180), ylim = c(-55, 70), datum = NA) +
+        scale_color_distiller(palette = 'RdBu', direction = 1,
+                              guide = FALSE, aesthetics = c("colour", "fill")) +
+        labs(x = NULL, y = NULL) +
+        add_labels(title, collection_time) +
+        wzb_theme
+}
