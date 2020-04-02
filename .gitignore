@@ -6,3 +6,4 @@ data/popularity/*
 .Rproj.user
 .Rhistory
 Makefile
+analysis/*.html
