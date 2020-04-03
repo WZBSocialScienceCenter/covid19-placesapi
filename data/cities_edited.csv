@@ -10,11 +10,9 @@ Baku,Azerbaijan,AZ,40.3953,49.8622
 Dhaka,Bangladesh,BD,23.7231,90.4086
 Minsk,Belarus,BY,53.9,27.5666
 Brussels,Belgium,BE,50.8333,4.3333
-La Paz,Bolivia,BO,-16.498,-68.15
 Brasília,Brazil,BR,-15.7833,-47.9161
 Sao Paulo,Brazil,BR,-23.55,-46.633333
 Rio de Janeiro,Brazil,BR,-22.908333,-43.196389
-Sofia,Bulgaria,BG,42.6833,23.3167
 Ottawa,Canada,CA,45.4167,-75.7
 Toronto,Canada,CA,43.741667,-79.373333
 Vancouver,Canada,CA,49.25,-123.1
@@ -22,7 +20,6 @@ Santiago,Chile,CL,-33.45,-70.667
 Beijing,China,CN,39.9289,116.3883
 Wuhan,China,CN,30.587222,114.288056
 Shanghai,China,CN,31.228611,121.474722
-Bogotá,Colombia,CO,4.5964,-74.0833
 Kinshasa,Congo,CD,-4.3297,15.315
 Prague,Czechia,CZ,50.0833,14.466
 Copenhagen,Denmark,DK,55.6786,12.5635
@@ -32,7 +29,6 @@ Helsinki,Finland,FI,60.1756,24.9341
 Paris,France,FR,48.8667,2.3333
 Marseille,France,FR,43.2964,5.37
 Lyon,France,FR,45.76,4.84
-Tbilisi,Georgia,GE,41.725,44.7908
 Berlin,Germany,DE,52.5218,13.4015
 Cologne,Germany,DE,50.936389,6.952778
 Hamburg,Germany,DE,53.565278,10.001389
@@ -40,15 +36,17 @@ Dresden,Germany,DE,51.033333,13.733333
 Munich,Germany,DE,48.133333,11.566667
 Accra,Ghana,GH,5.55,-0.2167
 Athens,Greece,GR,37.9833,23.7333
-Port-au-Prince,Haiti,HT,18.541,-72.336
 Budapest,Hungary,HU,47.5,19.0833
 Reykjavík,Iceland,IS,64.15,-21.95
 New Delhi,India,IN,28.6,77.2
+Mumbai,India,IN,18.975,72.825833
+Delhi,India,IN,28.61,77.23
+Bangalore,India,IN,12.983333,77.583333
 Jakarta,Indonesia,ID,-6.1744,106.8294
 Tehran,Iran,IR,35.6719,51.4243
-Baghdad,Iraq,IQ,33.3386,44.3939
 Dublin,Ireland,IE,53.3331,-6.2489
 Jerusalem,Israel,IL,31.7784,35.2066
+Tel Aviv,Israel,IL,32.066667,34.783333
 Rome,Italy,IT,41.896,12.4833
 Naples,Italy,IT,40.845,14.258333
 Palermo,Italy,IT,38.116667,13.366667
@@ -61,7 +59,6 @@ Kuwait City,Kuwait,KW,29.3697,47.9783
 Riga,Latvia,LV,56.95,24.1
 Beirut,Lebanon,LB,33.872,35.5097
 Tripoli,Libya,LY,32.8925,13.18
-Vilnius,Lithuania,LT,54.6834,25.3166
 Luxembourg,Luxembourg,LU,49.6117,6.13
 Mexico City,Mexico,MX,19.4424,-99.131
 Rabat,Morocco,MA,34.0253,-6.8361
@@ -73,13 +70,14 @@ Wellington,New Zealand,NZ,-41.3,174.7833
 Managua,Nicaragua,NI,12.153,-86.2685
 Oslo,Norway,NO,59.9167,10.75
 Islamabad,Pakistan,PK,33.7,73.1666
-Asunción,Paraguay,PY,-25.2964,-57.6415
 Lima,Peru,PE,-12.048,-77.0501
 Warsaw,Poland,PL,52.25,21
 Lisbon,Portugal,PT,38.7227,-9.1449
 Doha,Qatar,QA,25.2866,51.533
 Bucharest,Romania,RO,44.4334,26.0999
 Moscow,Russia,RU,55.7522,37.6155
+Saint Petersburg,Russia,RU,59.9375,30.308611
+Novosibirsk,Russia,RU,55.05,82.95
 Kigali,Rwanda,RW,-1.9536,30.0605
 Riyadh,Saudi Arabia,SA,24.6408,46.7727
 Dakar,Senegal,SN,14.7158,-17.4731
@@ -98,6 +96,8 @@ Taipei,Taiwan,TW,25.0358,121.5683
 Bangkok,Thailand,TH,13.75,100.5166
 Tunis,Tunisia,TN,36.8028,10.1797
 Ankara,Turkey,TR,39.9272,32.8644
+Istanbul,Turkey,TR,41.013611,28.955
+Izmir,Turkey,TR,38.42,27.14
 Kampala,Uganda,UG,0.3167,32.5833
 Kyiv,Ukraine,UA,50.4334,30.5166
 Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666
@@ -111,7 +111,6 @@ Los Angeles,United States,US,34.05,-118.25
 Chicago,United States,US,41.881944,-87.627778
 San Francisco,United States,US,37.7775,-122.416389
 Houston,United States,US,29.762778,-95.383056
-Montevideo,Uruguay,UY,-34.858,-56.1711
 Tashkent,Uzbekistan,UZ,41.3117,69.2949
 Hanoi,Vietnam,VN,21.0333,105.85
 Sanaa,Yemen,YE,15.3547,44.2066

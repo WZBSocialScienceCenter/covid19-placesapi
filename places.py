@@ -1,5 +1,8 @@
 import pickle
 import math
+import json
+import os
+import sys
 from datetime import datetime
 
 import pandas as pd
@@ -11,23 +14,25 @@ from apikeys import API_KEY
 #%%
 
 PLACE_SEARCHES = [
-    'restaurant',
-    'bar',
-    'club',
-    'train station',
-    'tourist information',
-    'sights',
-    'park',
-    'mall',
-    'supermarket',
-    'street market',
-    'hardware store'
+    ('restaurant', 'restaurant'),
+    ('bar', 'bar'),
+    ('club', 'night_club'),
+    ('train station', 'train_station'),
+    ('tourist information', None),
+    ('sights', 'tourist_attraction'),
+    ('park', 'park'),
+    ('mall', 'shopping_mall'),
+    ('shopping', 'shopping_mall'),
+    ('supermarket', 'supermarket'),
+    ('street market', None),
+    ('hardware store', 'hardware_store')
 ]
 
-PLACE_SEARCH_RADIUS = 3000  # in meters
-LIMIT_NUM_PLACES = 10
+PLACE_SEARCH_RADIUS = 20000  # in meters
+LIMIT_NUM_PLACES = 20
 
-RESULT_FILE = 'data/places_of_interest.csv'
+RESULT_FILE = 'data/pois/%s.csv'
+RESULT_POP_FILE = 'data/pois/%s_pop.json'
 QUERIED_FILE = 'data/places_of_interest_queried_cities.pickle'
 
 #%%
@@ -53,12 +58,44 @@ def haversine(a_lat, a_lng, b_lat, b_lng):
     return R * c
 
 #%%
+if len(sys.argv) >= 2:
+    t_start_ymdh = sys.argv[1]
+    assert len(t_start_ymdh) == 14
+
+    skip_already_queried_cities = len(sys.argv) == 3 and sys.argv[2] == 'skip_queried_cities'
+
+    if skip_already_queried_cities:
+        print('will skip already queried cities')
+else:
+    t_start_ymdh = datetime.now().strftime('%Y-%m-%d_h%H')
+    skip_already_queried_cities = False
+
+result_file = RESULT_FILE % t_start_ymdh
+result_pop_file = RESULT_POP_FILE % t_start_ymdh
 
 gmaps = googlemaps.Client(key=API_KEY)
 
 cities = pd.read_csv('data/cities_edited.csv')
-existing_pois = pd.read_csv(RESULT_FILE)
-existing_place_ids = set(existing_pois.place_id)
+
+if os.path.exists(result_file):
+    print('loading existing POI CSV file', result_file)
+    existing_pois = pd.read_csv(result_file)
+    existing_place_ids = set(existing_pois.place_id)
+    print('> %d existing places' % len(existing_place_ids))
+    existing_queried_cities = set(existing_pois.city)
+    print('> %d existing cities' % len(existing_queried_cities))
+else:
+    existing_pois = None
+    existing_place_ids = set()
+    existing_queried_cities = set()
+
+if os.path.exists(result_pop_file):
+    print('loading existing POI initial popularity score JSON file', result_file)
+    with open(result_pop_file) as f:
+        resultrows_pop = json.load(f)
+    print('> %d existing place popularity score entries' % len(resultrows_pop))
+else:
+    resultrows_pop = []
 
 try:
     with open(QUERIED_FILE, mode='rb') as f:
@@ -68,19 +105,33 @@ except FileNotFoundError:
 
 #%%
 
+print('querying places in cities ...')
+
 resultrows = []
 for city_i, cityrow in cities.iterrows():
     print('> city %d/%d: %s' % (city_i+1, len(cities), cityrow.city))
-    for place_query in PLACE_SEARCHES:
-        full_query = place_query + ' in ' + cityrow.city + ', ' + cityrow.country
-        print('>> query: "%s" in lat=%.4f, lng=%.4f' % (full_query, cityrow.lat, cityrow.lng))
 
-        query_id = cityrow.city + cityrow.country + place_query
+    if skip_already_queried_cities and cityrow.city in existing_queried_cities:
+        print('> skipping (already queried this city)')
+        continue
+
+    for place_query, place_type in PLACE_SEARCHES:
+        utcnow = datetime.utcnow()
+
+        query_id = t_start_ymdh + cityrow.city + cityrow.country + place_query
         if query_id in queried_cities:
             print('>> skipping (already queried this city for this kind of places)')
             continue
 
-        places = gmaps.places(query=full_query, location=(cityrow.lat, cityrow.lng), radius=PLACE_SEARCH_RADIUS)
+        kwargs = {}
+        if place_type is not None:
+            kwargs['type'] = place_type
+
+        full_query = place_query + ' in ' + cityrow.city + ', ' + cityrow.country
+        print('>> query: "%s" in lat=%.4f, lng=%.4f' % (full_query, cityrow.lat, cityrow.lng))
+
+        places = gmaps.places(query=full_query, location=(cityrow.lat, cityrow.lng), radius=PLACE_SEARCH_RADIUS,
+                              open_now=True, **kwargs)
 
         if places['status'] != 'OK':
             print('>> skipping (bad status: %s)' % places['status'])
@@ -110,15 +161,22 @@ for city_i, cityrow in cities.iterrows():
 
             if 'current_popularity' in poptimes and 'populartimes' in poptimes:
                 print('>>>> adding this place as place of interest')
-                now = datetime.now()
 
                 resultrows.append(cityrow.to_list() + [
                     place_query,
                     place['place_id'],
                     place['name'],
-                    place['formatted_address'],
+                    place.get('formatted_address', ''),
                     place['geometry']['location']['lat'],
                     place['geometry']['location']['lng']
+                ])
+
+                resultrows_pop.append([
+                    place['place_id'],
+                    utcnow.strftime('%Y-%m-%d'),
+                    utcnow.hour,
+                    poptimes['current_popularity'],
+                    poptimes['populartimes']
                 ])
 
                 existing_place_ids.add(place['place_id'])
@@ -132,14 +190,20 @@ for city_i, cityrow in cities.iterrows():
         'query', 'place_id', 'name', 'addr', 'place_lat', 'place_lng'
     ])
 
-    places_of_interest = pd.concat((existing_pois, places_of_interest), ignore_index=True)\
+    if existing_pois is not None:
+        places_of_interest = pd.concat((existing_pois, places_of_interest), ignore_index=True)
+
+    places_of_interest = places_of_interest \
         .drop_duplicates(['city', 'country', 'iso2', 'query', 'place_id'])\
         .sort_values(by=['country', 'city', 'query', 'name'])\
         .reset_index(drop=True)
 
     print('got %d places of interest so far' % len(places_of_interest))
 
-    places_of_interest.to_csv(RESULT_FILE, index=False)
+    places_of_interest.to_csv(result_file, index=False)
+
+    with open(result_pop_file, 'w') as f:
+        json.dump(resultrows_pop, f, indent=2)
 
     with open(QUERIED_FILE, mode='wb') as f:
         pickle.dump(queried_cities, f)
