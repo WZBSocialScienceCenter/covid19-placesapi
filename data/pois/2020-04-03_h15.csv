@@ -1,0 +1,130 @@
+city,country,iso2,lat,lng,query,place_id,name,addr,place_lat,place_lng
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,train station,ChIJBbf4mqbFvJURJnLSn3eeHJw,Laferrere,"Av. Gral. Rojo 7415, B1757 Gregorio de Laferrere, Buenos Aires, Argentina",-34.7506371,-58.5843843
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,train station,ChIJ-bAhVU7JvJURGs3j3NvtWuY,Lugano,"Somellera 5739, 1439 CABA, Argentina",-34.6773043,-58.4770003
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,train station,ChIJl3SOGzSwvJUR5DDs0EGXrak,San Isidro,"299, B1642CCE, Juan Marin 201, B1642CCE San Isidro, Buenos Aires, Argentina",-34.47182069999999,-58.513831
+Graz,Austria,AT,47.07103,15.43811,train station,ChIJ5eT8-wo1bkcR3BZ6vuvF9PY,Graz Main Station,"Europaplatz 4, 8020 Graz, Austria",47.0727515,15.4162709
+Dhaka,Bangladesh,BD,23.7231,90.4086,train station,ChIJTWbgV064VTcRRt21tVf8toY,Kamalapur Railway Station,"Kamalapur Rd, Dhaka 1222, Bangladesh",23.7318697,90.4261114
+Minsk,Belarus,BY,53.9,27.5666,train station,ChIJt8o_ewTQ20YRY6Tonp5Xf30,Hrušaŭka,"где расположена ул.Тимирязевская и на каком транспорте можно доехать, Ulitsa Shchorsa, Minsk 220089, Belarus",53.886556,27.5140309
+Minsk,Belarus,BY,53.9,27.5666,train station,ChIJDZAJdOLO20YRWSKeZykodgE,Maskoŭskaja,"praspiekt Niezaliežnasci, Minsk, Belarus",53.928024,27.627941
+Minsk,Belarus,BY,53.9,27.5666,train station,ChIJRc9upwvQ20YRw4NuymCW_7c,Michalova,"ул. Гурского, Minsk 220089, Belarus",53.876753,27.4969349
+Brussels,Belgium,BE,50.8333,4.3333,train station,ChIJucWFf-jEw0cRqJFfGhYGsqM,Brussel-Zuid,"Avenue Fonsny 47B, 1060 Brussel, Belgium",50.8360982,4.3354548
+Brussels,Belgium,BE,50.8333,4.3333,train station,ChIJ9exvhJ3Dw0cRHmAGZFzpgSM,Gare de Bruxelles-Nord,"Rue du Progrès 76, 1030 Schaerbeek, Belgium",50.86049089999999,4.360106099999999
+Brussels,Belgium,BE,50.8333,4.3333,train station,ChIJ-YBoLWzEw0cR0xV1n15O3jY,Station Brussel-Zuid,"Avenue Fonsny 47B, 1060 Brussel, Belgium",50.83645809999999,4.3349661
+Brasília,Brazil,BR,-15.7833,-47.9161,train station,ChIJaSrm3cYxWpMRGkszUCpZ9Rc,Estação Feira,"Guará II QE 25 - Guará, Brasília - DF, 71025-100, Brazil",-15.8230865,-47.97504840000001
+Brasília,Brazil,BR,-15.7833,-47.9161,train station,ChIJQyttu4IlWpMRUIfuMAnj674,International Airport of Brasilia,"Lago Sul, Brasília - DF, 71608-900, Brazil",-15.8697369,-47.9172348
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,train station,ChIJiz2jV2p_mQARz0pm1NFc-6E,Central do Brasil,"Praça Cristiano Otoni, s/n - Subsolo, Rio de Janeiro - RJ, 20224-970, Brazil",-22.903534,-43.191547
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,train station,ChIJ99f-qoHfmwARmulOQlA3LWk,Estação Mocidade Padre Miguel,"R. Cel. Tamarindo, S/N - Padre Miguel, Rio de Janeiro - RJ, 21870-001, Brazil",-22.8750681,-43.4474447
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,train station,ChIJKdqCp4pkmQARwCg_G-TTPFI,Pavuna/São João de Meriti,"Largo da Pavuna, 13 - Pavuna, Rio de Janeiro - RJ, 21520-310, Brazil",-22.8052456,-43.3675409
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,train station,ChIJRT3BUBqAmQAR1QC7ISuAbV8,Sugar Loaf cable car,"Av. Pasteur, 520 - Urca, Rio de Janeiro - RJ, 22290-240, Brazil",-22.955644,-43.1669237
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,train station,ChIJVxczwit-mQARLGJdROoLBio,Trem do Corcovado,"R. Cosme Velho, 513 - Cosme Velho, Rio de Janeiro - RJ, 22241-091, Brazil",-22.9414867,-43.1987558
+Sao Paulo,Brazil,BR,-23.55,-46.633333,train station,ChIJoYLR3L5ZzpQRhxQbVHJCpMY,Brigadeiro,"01310-000, Av. Paulista, 447 - Paraíso, São Paulo, Brazil",-23.56761,-46.6490269
+Sao Paulo,Brazil,BR,-23.55,-46.633333,train station,ChIJpVnOYuB6zpQRZpAbhDnPGHs,Calmon Viana,"Av. Brasil, 198 - Centro, Poá - SP, 08561-000, Brazil",-23.5253717,-46.3332559
+Sao Paulo,Brazil,BR,-23.55,-46.633333,train station,ChIJjz--szNXzpQR6uDCMAN-mLM,Estação Berrini,"Jardim Panorama, São Paulo - State of São Paulo, 04583-105, Brazil",-23.6047163,-46.6967696
+Sao Paulo,Brazil,BR,-23.55,-46.633333,train station,ChIJhTrZCZ1jzpQRYDw_ewiJd94,Estação Itaim Paulista,"Jardim Aimore, São Paulo - State of São Paulo, Brazil",-23.4939713,-46.40207400000001
+Sao Paulo,Brazil,BR,-23.55,-46.633333,train station,ChIJb6_X3MdCzpQRsdwyZ01xZq0,Estação Prefeito Saladino,"Tamanduateí 4, Santo André - State of São Paulo, Brazil",-23.6383958,-46.5365613
+Sao Paulo,Brazil,BR,-23.55,-46.633333,train station,ChIJ-2YGPIdXzpQRFQUlp62M3-0,Metrô Clínicas,"Av. Dr. Arnaldo, 555 - Cerqueira César, São Paulo - SP, 01246-000, Brazil",-23.5554757,-46.6719994
+Sao Paulo,Brazil,BR,-23.55,-46.633333,train station,ChIJZbc203xhzpQRvu7yD2gvEM0,São Miguel Paulista,"R. Salvador de Medeiros, 449 - São Miguel Paulista, São Paulo - SP, 08010-020, Brazil",-23.4905676,-46.44370199999999
+Sao Paulo,Brazil,BR,-23.55,-46.633333,train station,ChIJ4eQe4zhXzpQRTacWl4bxR9E,Train Station - Vila Olímpia,"Marginal Pinheiros, 7522 - Pinheiros, São Paulo - SP, 04533-085, Brazil",-23.5936324,-46.6920311
+Ottawa,Canada,CA,45.4167,-75.7,train station,ChIJnyGLP7EFzkwR0ixJiiLzGnM,Ottawa,"265 Catherine St, Ottawa, ON K1R 7S5, Canada",45.4089299,-75.694745
+Toronto,Canada,CA,43.741667,-79.373333,train station,ChIJL_tDjH7M1IkRfDJQI54RtLI,Greenwood Yard,"400 Greenwood Ave, Toronto, ON M4J 4Y5, Canada",43.6762156,-79.3311658
+Santiago,Chile,CL,-33.45,-70.667,train station,ChIJQ9dAbebbYpYROOioT77FBLA,Estacion Lo Blanco,"Lo Blanco 1766, El Bosque, San Bernardo, Región Metropolitana, Chile",-33.5739211,-70.69854029999999
+Santiago,Chile,CL,-33.45,-70.667,train station,ChIJqXbVyj3bYpYRXwSggbUgA5o,Estacion Lo Espejo,"Clotario Blest 7135, Lo Espejo, Región Metropolitana, Chile",-33.5168243,-70.6855904
+Santiago,Chile,CL,-33.45,-70.667,train station,ChIJuSmfcN7OYpYRazIHjm6QMHE,Manquehue metro station,"O'connell 19, Las Condes, Región Metropolitana, Chile",-33.409034,-70.5686154
+Santiago,Chile,CL,-33.45,-70.667,train station,ChIJG-F5KAPPYpYRzt-ppCHQrFE,"Metro Fernando Castillo Velasco, Línea 3","La Reina, Santiago Metropolitan Region, Chile",-33.4520783,-70.5582695
+Santiago,Chile,CL,-33.45,-70.667,train station,ChIJ1xmCWs3EYpYRHAsmwU5SMko,Pedro Aguirre Cerda station,"Pintor de La Fuente 5174, Pedro Aguirre Cerda, Región Metropolitana, Chile",-33.4933629,-70.68174499999999
+Santiago,Chile,CL,-33.45,-70.667,train station,ChIJEV664ibZYpYRrw4DGBifQQE,Train Station 5 Pinos,"Av. Portales, San Bernardo, Región Metropolitana, Chile",-33.6237848,-70.7009435
+Prague,Czechia,CZ,50.0833,14.466,train station,ChIJb677-b2UC0cRodGPvVtUOi0,Praha Florenc,"Pod výtopnou 13/10, 186 00 Florenc, Czechia",50.0893751,14.4397448
+Copenhagen,Denmark,DK,55.6786,12.5635,train station,ChIJr7w12e9NUkYRqenxhgMU7Co,Gentofte Station | DSB,"Brogårdsvej 14, 2820 Gentofte, Denmark",55.753452,12.5413212
+Copenhagen,Denmark,DK,55.6786,12.5635,train station,ChIJf_IKNwVTUkYRGu-MtvoN9t4,Nørreport,"1358 Copenhagen, Denmark",55.68312779999999,12.5715129
+Cairo,Egypt,EG,30.05,31.25,train station,ChIJY4QCycRAWBQR7pfvnLFLbUw,6th October Bridge,"كوبرى 6 أكتوبر، Cairo Governorate, Egypt",30.0492335,31.2294952
+Cairo,Egypt,EG,30.05,31.25,train station,ChIJuTFD8JFAWBQR8FDWSdRxoGg,Al-Shohadaa,"Al Gayarah, Al Azbakeya, Cairo Governorate, Egypt",30.0610714,31.2460506
+Cairo,Egypt,EG,30.05,31.25,train station,ChIJFxVjMOVGWBQRgKChITZHBFs,El Giza Station,"Al Omraneyah Ash Sharqeyah, El Omraniya, Giza Governorate, Egypt",30.0093085,31.2079196
+Cairo,Egypt,EG,30.05,31.25,train station,ChIJ3YKVfo5AWBQRoUsW7_lvKho,محطة أتوبيس أحمد حلمي,"6 Emtedad Ahmed Helmi, Al Fagalah, Al Azbakeya, Cairo Governorate, Egypt",30.0642532,31.2457475
+Marseille,France,FR,43.2964,5.37,train station,ChIJKZyN_jOjyRIRQX0-DrMEAQM,Gare d'Aubagne,"Square Marcel Soulat, 13400 Aubagne, France",43.29603180000001,5.5665213
+Marseille,France,FR,43.2964,5.37,train station,ChIJgZNMiJnAyRIR6DFWnaIu8uA,Gare de Marseille-Saint-Charles,"Square Narvik, 13232 Marseille, France",43.3032853,5.380141999999999
+Paris,France,FR,48.8667,2.3333,train station,ChIJe3b2vjRw5kcRlBX60DNhA7k,Gare Montparnasse,"Rue du, 17 Boulevard de Vaugirard, 75015 Paris, France",48.8410203,2.3203779
+Paris,France,FR,48.8667,2.3333,train station,ChIJf6NY_Gtu5kcRDHnd0mg3tk8,Gare du Nord,"18 Rue de Dunkerque, 75010 Paris, France",48.8809481,2.3553137
+Paris,France,FR,48.8667,2.3333,train station,ChIJK1ZP4KJu5kcRiq1J34OcFi4,Gare du Stade de France St Denis,"Place aux Etoiles, 93210 Saint-Denis, France",48.9177876,2.3512141
+Paris,France,FR,48.8667,2.3333,train station,ChIJS78AIBty5kcRZLsIMcKhPAA,Paris Gare de Lyon,"Place Louis-Armand, 75571 Paris, France",48.84430380000001,2.3743773
+Cologne,Germany,DE,50.936389,6.9527779999999995,train station,ChIJmY9JK6Ulv0cRkNik00YUhZU,Cologne Central Station,"Trankgasse 11, 50667 Köln, Germany",50.9432141,6.9586017
+Dresden,Germany,DE,51.033333,13.733332999999998,train station,ChIJHQaglIrFCUcRKf1lbzKbJ0k,Dresden Central Station,"Wiener Platz 4, 01069 Dresden, Germany",51.0405029,13.7314191
+Hamburg,Germany,DE,53.565278,10.001389,train station,ChIJ_fCrfeaOsUcRImhRNtV53Zk,Central Bus Station,"Adenauerallee 78, 20097 Hamburg, Germany",53.5519984,10.0114917
+Hamburg,Germany,DE,53.565278,10.001389,train station,ChIJ3YT5fIiFsUcRDvu9yvJY16M,Train Station - Altona,"Paul-Nevermann-Platz 1, 22765 Hamburg, Germany",53.5523322,9.935308700000002
+Bangalore,India,IN,12.983333,77.583333,train station,ChIJx-RO1XU-rjsREh2um-9JFBc,Attiguppe Metro Station (Towards Bunts Sangha Entrance),"Chord Rd, Govindaraja Nagar Ward, Attiguppe, Bengaluru, Karnataka 560040, India",12.9614457,77.5333386
+Bangalore,India,IN,12.983333,77.583333,train station,ChIJK6u4WxsWrjsR7gb320OEztk,Krantivira Sangolli Rayanna (Bengaluru),"M.G. Railway Colony, Majestic, Bengaluru, Karnataka 560023, India",12.9781291,77.5695295
+Bangalore,India,IN,12.983333,77.583333,train station,ChIJFYNjriI9rjsRz16f24kpPUU,Mahalakshmi metro Station,"Rajajinagar, Bengaluru, Karnataka 560086, India",13.0081825,77.5488153
+Delhi,India,IN,28.61,77.23,train station,ChIJs44y_wr7DDkRrfiIKQGfyz8,Jhilmil Metro Station,"R-9A to R-9H, GT Road, Jhilmil Industrial Area, Block R, Dilshad Garden, New Delhi, Delhi 110095, India",28.6757392,77.31220890000002
+Delhi,India,IN,28.61,77.23,train station,ChIJz2deoQ_9DDkRT6BMli15e58,Old Delhi Railway Station (DLI),"Mori Gate, New Delhi, Delhi 110006, India",28.661242,77.22730419999999
+Delhi,India,IN,28.61,77.23,train station,ChIJC7zbw3IDDTkRd6JPVfYr1BY,Rajouri Garden Metro Station (Pink Line),"117, Ring Rd, Shivaji Place, Vishal Enclave, Raja Garden, New Delhi, Delhi 110027, India",28.6506713,77.12430739999999
+Mumbai,India,IN,18.975,72.82583299999999,train station,ChIJuc3b3sXI5zsRQjsiF7jma3s,Chuna Bhatti,"Dr Gangadhar S Badhe Marg, Samarth Nagar, Chunabhatti, Sion, Mumbai, Maharashtra 400022, India",19.0517347,72.86907479999999
+Mumbai,India,IN,18.975,72.82583299999999,train station,ChIJgZB9IjbO5zsRCABQyn08JBU,Dockyard Road,"Nawab Tank Bridge Road, Ekta Nagar, Mazgaon, Mumbai, Maharashtra 400010, India",18.9674478,72.8445615
+Mumbai,India,IN,18.975,72.82583299999999,train station,ChIJvWUwiW7O5zsRUhbzPs3reZg,Mumbai Central,"Nathani Heights Commercial,B'Wing,Shop no 57 Ground Floor, Mumbai Central, Mumbai, Maharashtra 400008, India",18.9696305,72.81936739999999
+Mumbai,India,IN,18.975,72.82583299999999,train station,ChIJkabqa4LI5zsRFiuKfTbLHBs,Vidhyavihar Station West,"Kirol Road, Vidya Vihar Road, Kirol Village, Vidyavihar Society, Ghatkopar West, Mumbai, Maharashtra 400068, India",19.0806844,72.89841129999999
+Jakarta,Indonesia,ID,-6.1744,106.8294,train station,ChIJ0QHpUA_saS4Rbaa1jp3m-zE,Pondok Cina Station,"Jl. Lkr. Kampus Blok Mawar No.9, Pondok Cina, Kecamatan Beji, Kota Depok, Jawa Barat 16424, Indonesia",-6.3690785,106.8322081
+Jakarta,Indonesia,ID,-6.1744,106.8294,train station,ChIJoRVGSGOLaS4R7fnUgMjNp1E,Stasiun Buaran,"Jl. Waru Doyong No.112, RW.8, Jatinegara, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13930, Indonesia",-6.2155732,106.9232089
+Jakarta,Indonesia,ID,-6.1744,106.8294,train station,ChIJQwGCs5mMaS4RuGrXIhQIDNQ,Stasiun Klender Baru,"Jl. Pd. Kopi Tim., Pd. Kopi, Kec. Cakung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13460, Indonesia",-6.2179949,106.9400275
+Tokyo,Japan,JP,35.685,139.7514,train station,ChIJE25z-3OFGGARfZM79XK_aso,Kanamachi Station,"6-chōme-4 Kanamachi, Katsushika City, Tōkyō-to 125-0042, Japan",35.7695707,139.8705943
+Tokyo,Japan,JP,35.685,139.7514,train station,ChIJZ1xQCp6SGGARwSwiE-vgFFU,Kita-Ikebukuro Station,"豊島区豊島清掃事務所 170-0011 36-6, 1 Chome-7-3 Ikebukurohoncho, Toshima City, Tokyo 170-0011, Japan",35.7408394,139.7167423
+Amman,Jordan,JO,31.95,35.9333,train station,ChIJI8ybU5ZfGxURbX5jjs8b1oM,Amman Citadel,"K. Ali Ben Al-Hussein St. 146, Amman, Jordan",31.9542833,35.9354321
+Amman,Jordan,JO,31.95,35.9333,train station,ChIJG9NJ4QJUGxUR_JWzrypSOBs,Queen Alia International Airport,"Alpha Building, 2nd Floor​ عمّان، 39052, Jordan",31.7222194,35.9864306
+Kuwait City,Kuwait,KW,29.3697,47.9783,train station,ChIJUwvC8oWczz8R-WyH5zTfEfk,KNPC Gas Station,"Beirut Street, Hawally, Kuwait",29.3323015,48.0103954
+Kuwait City,Kuwait,KW,29.3697,47.9783,train station,ChIJeXaUGiF2zz8RP5Dl0sR1zec,KNPC Petrol Station,"Salmiya, Kuwait",29.3384369,48.0834299
+Kuwait City,Kuwait,KW,29.3697,47.9783,train station,ChIJnUYkHu6Ezz8RpdeTrBdWIGY,The Grand Mosque of Kuwait,"25, Kuwait City, Kuwait",29.3793876,47.975244
+Kuwait City,Kuwait,KW,29.3697,47.9783,train station,ChIJs4UF1lKazz8RF7zlHJEBnl4,حديقة الحيوان الكويت Kuwait Zoo,"Airport Rd, Kuwait",29.3002161,47.9610438
+Mexico City,Mexico,MX,19.4424,-99.131,train station,ChIJEYLg6bbi0YUR5uj-No8vVVk,Acatitla,"Calz. Ignacio Zaragoza 547, Santa Martha Acatitla, Ciudad de México, CDMX, Mexico",19.3646912,-99.00564089999999
+Mexico City,Mexico,MX,19.4424,-99.131,train station,ChIJ3dZSWAX_0YURPFDkeEibsa4,Etiopía,"Eje 4 Sur, Xola, Narvarte Poniente, 03020 Ciudad de México, Mexico",19.3959144,-99.156067
+Mexico City,Mexico,MX,19.4424,-99.131,train station,ChIJQf2B6NMBzoUR52rw_laxMtE,La Virgen,"Calz. de Tlalpan, Cd Jardín, 04370 Ciudad de México, CDMX, Mexico",19.3317039,-99.14062
+Mexico City,Mexico,MX,19.4424,-99.131,train station,ChIJGTUJlWH_0YURT-Nx-M5VLvM,Metro Tacubaya L-1,"Tacubaya, Miguel Hidalgo, 11870 Mexico City, CDMX, Mexico",19.4025209,-99.18836900000001
+Mexico City,Mexico,MX,19.4424,-99.131,train station,ChIJyysBPmN6WhERaRuxHRWHiWY,Terminal de Autobuses de Pasajeros de Oriente,"Calz. Ignacio Zaragoza 200, 10 de Mayo, 15290 Ciudad de México, CDMX, Mexico",19.4300789,-99.11224480000001
+Rabat,Morocco,MA,34.0253,-6.8361,train station,ChIJrw2l_v1Bpw0RaDyXVYV2CLY,Rabat - Sale Airport,"Rabat, Salé, Morocco",34.0361152,-6.7480954
+Rabat,Morocco,MA,34.0253,-6.8361,train station,ChIJj0BfRItspw0R6SOCYy6gjJM,Rabat Agdal,"Avenue El Hadj Ahmed Charkaoui, Rabat, Morocco",34.0021353,-6.855586
+Amsterdam,Netherlands,NL,52.35,4.9166,train station,ChIJbQqgh5ALxkcRp2xSFzAVq7E,Amsterdam Bijlmer ArenA,"Hoekenrode 10A, 1102 BR Amsterdam, Netherlands",52.3116485,4.9476993
+Managua,Nicaragua,NI,12.152999999999999,-86.2685,train station,ChIJvweO1zH8c48RxLsJzSoXBwU,UNO-Waspan,"Panamericana Nte., Managua, Nicaragua",12.1489091,-86.2093369
+Oslo,Norway,NO,59.9167,10.75,train station,ChIJL0seFX5uQUYRcuvdXStVli8,Nationaltheatret stasjon,"Ruseløkkveien 1, 0251 Oslo, Norway",59.9147507,10.7303432
+Oslo,Norway,NO,59.9167,10.75,train station,ChIJkWZJhAlvQUYRM73KUteEgME,Parkering Bryn Senter - OSLO | APCOA,"Bryn Senter, Østensjøveien 79, 0667 Oslo, Norway",59.90364899999999,10.821855
+Islamabad,Pakistan,PK,33.7,73.1666,train station,ChIJuUuqb52U3zgR3kZpHYhfPKA,Saddar Metro Bus Station,"Murree Rd, Saddar, Rawalpindi, Punjab 46000, Pakistan",33.5937147,73.0561875
+Lima,Peru,PE,-12.048,-77.0501,train station,ChIJZ-DUhBzIBZERKQ1PIf-w2rU,Benavides station Metropolitan,"Vía Expresa Paseo de la República, Miraflores 15047, Peru",-12.1252509,-77.0241423
+Lima,Peru,PE,-12.048,-77.0501,train station,ChIJz94McEK4BZERZd0I2AVsU8c,Estacion Atocongo,"Lima District 15803, Peru",-12.150828,-76.9794379
+Lima,Peru,PE,-12.048,-77.0501,train station,ChIJV8wPkHzIBZERMYsEZQYOYfs,Tepsa,"Av Javier Prado Este 1091, Cercado de Lima 15034, Peru",-12.089977,-77.01989499999999
+Warsaw,Poland,PL,52.25,21.0,train station,ChIJI224g1_MHkcRTziMWjko1nw,Nowy Świat-Uniwersytet,"Nowy Świat 0, 00-046 Warszawa, Poland",52.23680760000001,21.0172161
+Lisbon,Portugal,PT,38.7227,-9.1449,train station,ChIJCcgU0YcxGQ0RPnRwQXl7K74,Estação do Oriente,"Av. Dom João II, 1900-233 Lisboa, Portugal",38.7678423,-9.0993449
+Lisbon,Portugal,PT,38.7227,-9.1449,train station,ChIJL42Kt3g0GQ0RfGlw4GJ8FOE,Santa Justa Lift,"R. do Ouro, 1150-060 Lisboa, Portugal",38.7121301,-9.139429699999999
+Doha,Qatar,QA,25.2866,51.533,train station,ChIJpdZYwbDIRT4R0zDtL-03UYU,Hamad International Airport,"Doha, Qatar",25.2608759,51.61384169999999
+Doha,Qatar,QA,25.2866,51.533,train station,ChIJadonCgjRRT4RUHxJ6CXOFpg,Karwa Taxi,"Doha, Qatar",25.1951358,51.4719216
+Doha,Qatar,QA,25.2866,51.533,train station,ChIJocYJHO_nRT4RUfxOCWpSk4g,Lusail Metro Station,"Al Khor Coastal Rd, Qatar",25.415242,51.4865479
+Bucharest,Romania,RO,44.4334,26.0999,train station,ChIJpSrGc_D-sUARoj7b52-1NCw,Mihai Bravu metro station,"Șoseaua Mihai Bravu 514, București, Romania",44.4119955,26.1272061
+Bucharest,Romania,RO,44.4334,26.0999,train station,ChIJs64X4oH4sUAR88atRxH-ww8,Pipera Metro Station,"Bulevardul Dimitrie Pompeiu, București, Romania",44.4806236,26.1164588
+Moscow,Russia,RU,55.7522,37.6155,train station,ChIJNdpAV3hKtUYRrb_H0K9iKYU,Leningradskiy Railway Station,"Komsomolskaya Square, 3, Moscow, Russia, 107140",55.7760848,37.655356
+Novosibirsk,Russia,RU,55.05,82.95,train station,ChIJP3zp0zbk30IRz7GuOVJvbbU,Novosibirsk Main Railway Station,"Ulitsa Shamshurina, дом 43, Novosibirsk, Novosibirsk Oblast, Russia, 630004",55.035705,82.896254
+Kigali,Rwanda,RW,-1.9536,30.0605,train station,ChIJpf5fPhWk3BkRjFCF57tudfI,Nyabugogo Taxi Park,"Boulevard de Nyabugoro, Kigali, Rwanda",-1.9408422,30.0444955
+Singapore,Singapore,SG,1.2930000000000001,103.8558,train station,ChIJm18xEMYZ2jER-3GTUW917eI,Farrer Park MRT Station,"250 Race Course Rd, Singapore 218703",1.312604,103.854359
+Madrid,Spain,ES,40.4,-3.6834,train station,ChIJJTaKziUmQg0R1VNywIpcLQw,Estación de Madrid-Puerta de Atocha Adif,"Glorieta Emperador Carlos V, s/n, 28045 Madrid, Spain",40.4064177,-3.6903845
+Madrid,Spain,ES,40.4,-3.6834,train station,ChIJAQAAANAxQg0R786FD-old24,Madrid-Barajas Adolfo Suárez Airport,"Av de la Hispanidad, s/n, 28042 Madrid, Spain",40.4983322,-3.5675982
+Bern,Switzerland,CH,46.9167,7.4670000000000005,train station,ChIJ0WT1zLg5jkcRpxfIfGOn_Dg,"Bern, Bahnhof","Bollwerk 4, 3011 Bern, Switzerland",46.9476485,7.440412799999999
+Taipei,Taiwan,TW,25.0358,121.5683,train station,ChIJlWImqHKpQjQREk5-6lec4-w,Taipei Main Station,"No. 8號, Zhengzhou Road, Zhongzheng District, Taipei City, Taiwan 100",25.048738,121.514221
+Taipei,Taiwan,TW,25.0358,121.5683,train station,ChIJAQAAfHKpQjQRImBybm0wC9s,Taiwan High Speed Rail Taipei Station,"No. 3號, Beiping West Road, Zhongzheng District, Taipei City, Taiwan 100",25.047702,121.5173735
+Istanbul,Turkey,TR,41.013611,28.955,train station,ChIJJddPCBK3yhQRtWzwbZyyoRc,Osmanbey Metro Station,"Halaskargazi Mah., 34363 Şişli/İstanbul, Turkey",41.0540138,28.987181
+Izmir,Turkey,TR,38.42,27.14,train station,ChIJw_GswH5iuRQRG1gY7KwXCxE,Cankaya Subway Station,"Çankaya, Fevzi Paşa Blv, 35210 Konak/İzmir, Turkey",38.4225429,27.1369614
+Izmir,Turkey,TR,38.42,27.14,train station,ChIJ0SDOIJLQuxQRqdUOSnKKa50,Egekent,"Balatçık, 1671/1. Sk., 35620 Çiğli/İzmir, Turkey",38.5074215,27.0459261
+Izmir,Turkey,TR,38.42,27.14,train station,ChIJ58-dYzbfuxQR_S3EO6ISdek,Koşu,"Akıncılar, Koşu Metro İstasyonu İçi Yolu, 35380 Buca/İzmir, Turkey",38.3833966,27.1473414
+Izmir,Turkey,TR,38.42,27.14,train station,ChIJEVm-rZPZuxQRid6trex1TWk,Çarşı,"Bostanlı, 2018. Sk. No:1, 35590 Karşıyaka/İzmir, Turkey",38.4580894,27.0943783
+Izmir,Turkey,TR,38.42,27.14,train station,ChIJzTFK3dLhuxQRtuLpocQXpvg,İzban Cumaovası İstasyonu,"Gölcükler, 902. Sk, 35470 Menderes/İzmir, Turkey",38.2638456,27.163007
+Izmir,Turkey,TR,38.42,27.14,train station,ChIJH2nPoTlZuRQRaBbkNLbg6MU,İzban Pancar İstasyonu,"Kazım Karabekir, Şht. Erdinç Tekirli Cd. No:148, 35860 Torbalı/İzmir, Turkey",38.1976605,27.2394399
+Izmir,Turkey,TR,38.42,27.14,train station,ChIJswZNbAbfuxQRBFkYapJnqfM,İzban Semt Garajı İstasyonu,"Binbaşı Reşatbey, 351. Sk., 35410 Gaziemir/İzmir, Turkey",38.3566978,27.1366133
+Izmir,Turkey,TR,38.42,27.14,train station,ChIJUZ1BrYrXuxQRBHyNMHgdrNk,İzban Turan İstasyonu,"Turan, 35590 Bayraklı/İzmir, Turkey",38.4668981,27.1493958
+Izmir,Turkey,TR,38.42,27.14,train station,ChIJcYdyD6XfuxQRbrnv5EvSHG0,İzban koşu istasyonu,"Akıncılar, Koşu Metro İstasyonu İçi Yolu, 35380 Buca/İzmir, Turkey",38.3833511,27.1473093
+Izmir,Turkey,TR,38.42,27.14,train station,ChIJ9yZupyXZuxQRRy6zC9zfQLU,İzmir Tarihi Asansör Binası,"Turgut Reis, Şht. Nihatbey Cd. 76/A, 03500 Konak/İzmir, Turkey",38.4086609,27.1176643
+Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,train station,ChIJ73EMkN5IXj4RXnVtI3mZN5s,Abu Dhabi International Airport,Abu Dhabi - United Arab Emirates,24.441938,54.6500736
+London,United Kingdom,GB,51.5,-0.1167,train station,ChIJJe2YjTsbdkgREt0yqM9vLbk,St Pancras International,"Euston Rd, Kings Cross, London N1C 4QP, United Kingdom",51.531427,-0.126133
+Chicago,United States,US,41.881944,-87.627778,train station,ChIJX4ULHMcsDogRkQSms4_CmLA,Ogilvie Transportation Center,"Citigroup Center, 500 W Madison St #3610, Chicago, IL 60661, United States",41.88315559999999,-87.6404924
+Los Angeles,United States,US,34.05,-118.25,train station,ChIJS7ytYEHGwoARaSWuQfUXclI,Union Station,"800 N Alameda St, Los Angeles, CA 90012, United States",34.056219,-118.2365021
+New York,United States,US,40.661,-73.944,train station,ChIJhRwB-yFawokRi0AhGH87UTc,Grand Central Terminal,"89 E 42nd St, New York, NY 10017, United States",40.7527262,-73.9772294
+New York,United States,US,40.661,-73.944,train station,ChIJy62yFa5ZwokRun79NAZCVXk,Pennsylvania Station,"New York, NY 10119, United States",40.750568,-73.993519
+San Francisco,United States,US,37.7775,-122.416389,train station,ChIJ85oSU8mAj4AR6Z76S_qiR_4,Jack London Square,"245 2nd St, Oakland, CA 94607, United States",37.7938137,-122.2715217
+San Francisco,United States,US,37.7775,-122.416389,train station,ChIJUUH7B4aAhYARZzM1r72kDbQ,Powell Street Station,"899 Market St, San Francisco, CA 94103, United States",37.7843693,-122.4079981
+San Francisco,United States,US,37.7775,-122.416389,train station,ChIJw8B-EwZ4hYAR3LrPrCTytn8,Richmond Station,"1700 Nevin Ave, Richmond, CA 94802, United States",37.93688059999999,-122.3536155
+Washington,United States,US,38.9047,-77.0163,train station,ChIJUVpdyia4t4kR1-EM1pEJu1w,Union Station,"50 Massachusetts Ave NE, Washington, DC 20002, United States",38.8986425,-77.0058145
+Washington,United States,US,38.9047,-77.0163,train station,ChIJYfftSyS3t4kRw2FdrygmKrA,Virginia Railway Express (VRE) Crystal City Station,"1503 South Crystal Dr, Arlington, VA 22202, United States",38.8592991,-77.04834389999999
+Washington,United States,US,38.9047,-77.0163,train station,ChIJF0Qy5y64t4kRog9s5spTOOk,WASHINGTON D.C. AMTRAK STATION,"50 Massachusetts Ave NE, Washington, DC 20002, United States",38.8977974,-77.0061417
+Hanoi,Vietnam,VN,21.0333,105.85,train station,ChIJL0PI18OtNTERQTzGKl4-Ul0,Automatic Luggage Storage Locker at Hanoi Train Station,"Hanoi Railway/Train Station, 120 Đường Lê Duẩn, Văn Miếu, Hoàn Kiếm, Hà Nội, Vietnam",21.0242984,105.8411127
+Hanoi,Vietnam,VN,21.0333,105.85,train station,ChIJiYIaNJarNTERGWzmm8msKRg,Hanoi Train Street,"5 Trần Phú, Hàng Bông, Hoàn Kiếm, Hà Nội, Vietnam",21.030098,105.8440237

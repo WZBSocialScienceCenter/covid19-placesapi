@@ -1,4 +1,3 @@
-import pickle
 import math
 import json
 import os
@@ -16,8 +15,8 @@ from apikeys import API_KEY
 PLACE_SEARCHES = [
     ('restaurant', 'restaurant'),
     ('bar', 'bar'),
-    ('club', 'night_club'),
-    ('train station', 'train_station'),
+    ('club', None),
+    ('train station', None),
     ('tourist information', None),
     ('sights', 'tourist_attraction'),
     ('park', 'park'),
@@ -33,7 +32,6 @@ LIMIT_NUM_PLACES = 20
 
 RESULT_FILE = 'data/pois/%s.csv'
 RESULT_POP_FILE = 'data/pois/%s_pop.json'
-QUERIED_FILE = 'data/places_of_interest_queried_cities.pickle'
 
 #%%
 
@@ -97,11 +95,7 @@ if os.path.exists(result_pop_file):
 else:
     resultrows_pop = []
 
-try:
-    with open(QUERIED_FILE, mode='rb') as f:
-        queried_cities = pickle.load(f)
-except FileNotFoundError:
-    queried_cities = []
+queried_cities = []
 
 #%%
 
@@ -204,9 +198,6 @@ for city_i, cityrow in cities.iterrows():
 
     with open(result_pop_file, 'w') as f:
         json.dump(resultrows_pop, f, indent=2)
-
-    with open(QUERIED_FILE, mode='wb') as f:
-        pickle.dump(queried_cities, f)
 
     print('\n')
 
