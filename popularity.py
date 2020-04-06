@@ -21,7 +21,7 @@ HOURS_OF_INTEREST = {
 }
 
 DATADIR = 'data/popularity'
-EVERY_NTH_HOUR = 2  # None
+EVERY_NTH_HOUR = 3  # None
 ON_WEEKDAYS = (1, 3, 5)   # = Tue, Thu, Sat
 
 #%%
