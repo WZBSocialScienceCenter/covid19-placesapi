@@ -2,13 +2,14 @@ query,category
 bar,"bars, clubs, restaurants"
 club,"bars, clubs, restaurants"
 gastro pub,"bars, clubs, restaurants"
-hardware store,hardware stores
+hardware store,commerce
 main station,public transport
 mall,commerce
+shopping,commerce
 park,parks
 restaurant,"bars, clubs, restaurants"
 sights,tourism
 street market,commerce
-supermarket,supermarkets
+supermarket,commerce
 tourist information,tourism
 train station,public transport

@@ -201,7 +201,7 @@ plot_country_categories <- function(meansdata, x, y, ymin, ymax, title, collecti
 }
 
 
-plot_cities_map <- function(meansdata, title, collection_time) {
+plot_cities_map <- function(meansdata, title, collection_time, draw_labels = TRUE) {
     mapdata <- ne_countries(type = 'map_units', returnclass = 'sf')
     cities_means_plotdata <- mutate(meansdata,
                                     label = paste(city, round(mean_mean_pop_diff)),
@@ -209,11 +209,16 @@ plot_cities_map <- function(meansdata, title, collection_time) {
                                                          mean_mean_pop_diff / abs(min(mean_mean_pop_diff)),
                                                          mean_mean_pop_diff / abs(max(mean_mean_pop_diff))))
     
-    ggplot(cities_means_plotdata) +
+    p <- ggplot(cities_means_plotdata) +
         geom_sf(data = mapdata) +
-        geom_point(aes(x = lng, y = lat, color = scaled_mean)) +
-        geom_label_repel(aes(x = lng, y = lat, label = label, fill = scaled_mean), size = 2.5) +
-        coord_sf(xlim = c(-120, 180), ylim = c(-55, 70), datum = NA) +
+        geom_point(aes(x = lng, y = lat), color = 'white', size = 3) +
+        geom_point(aes(x = lng, y = lat, color = scaled_mean), size = 2)
+    
+    if (draw_labels) {
+        p <- p + geom_label_repel(aes(x = lng, y = lat, label = label, fill = scaled_mean), size = 2.5)
+    }
+    
+    p + coord_sf(xlim = c(-120, 180), ylim = c(-55, 70), datum = NA) +
         scale_color_distiller(palette = 'RdBu', direction = 1,
                               guide = FALSE, aesthetics = c("colour", "fill")) +
         labs(x = NULL, y = NULL) +
