@@ -21,6 +21,7 @@ load_pop_data <- function() {
     
     pop <- mutate(pop,
                   pop_diff = current_pop - usual_pop,
+                  pop_frac = (current_pop + 1) / (usual_pop + 1),   # pragmatic solution to prevent div. by zero
                   local_day = ymd(local_date),
                   local_time = ymd_h(paste(local_date, local_hour)),
                   local_weekday = wday(local_time, week_start = 1),
@@ -29,7 +30,7 @@ load_pop_data <- function() {
     # reduced dataset:
     select(pop, local_time, local_day, local_hour, local_weekday, local_weekend,
            region, country, iso2, city, category, query, place_id, lat, lng,
-           name, pop_diff, utc_date, utc_hour) %>%
+           name, current_pop, usual_pop, pop_diff, pop_frac, utc_date, utc_hour) %>%
         arrange(local_time, region, country, city, category)
 }
 
@@ -39,14 +40,14 @@ range_collection_time <- function(popdata) {
 }
 
 
-# interpolate a place's pop_diff values for a single day
+# interpolate a place's pop_frac values for a single day
 # does linear interpolation with a maximum gap size of 2 NAs
 # use with group_by(local_day, place_id) and do()
 interpolate_per_place <- function(grp) {
     hrange <- range(grp$local_hour)
     fill <- data.frame(local_hour = seq(hrange[1], hrange[2]))
     
-    fill <- select(grp, local_hour, pop_diff) %>% right_join(fill, by = 'local_hour')
+    fill <- select(grp, local_hour, pop_diff, pop_frac) %>% right_join(fill, by = 'local_hour')
     fill$is_approx <- is.na(fill$pop_diff)
     
     if (sum(fill$is_approx) == 0) {
@@ -54,9 +55,9 @@ interpolate_per_place <- function(grp) {
     }
     
     fill$pop_diff <- zoo::na.approx(fill$pop_diff, maxgap = 3, na.rm = FALSE)
-    fill
+    fill$pop_frac <- zoo::na.approx(fill$pop_frac, maxgap = 3, na.rm = FALSE)
     
-    distinctrow <- select(grp, -local_time, -local_hour, -pop_diff) %>% distinct()
+    distinctrow <- select(grp, -local_time, -local_hour, -pop_diff, -pop_frac) %>% distinct()
     stopifnot(nrow(distinctrow) == 1)
     
     newrows <- bind_cols(distinctrow[rep(1, sum(fill$is_approx)), ], filter(fill, is_approx)) %>%

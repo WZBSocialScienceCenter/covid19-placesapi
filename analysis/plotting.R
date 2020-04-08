@@ -22,6 +22,7 @@ wzb_theme <- theme_minimal() + theme(
 rotate_x_axis_labels <-  theme(axis.text.x = element_text(angle = 90, vjust = 0.25, hjust = 1))
 
 zero_intercept <- geom_hline(yintercept = 0, linetype = 3)
+one_intercept <- geom_hline(yintercept = 1, linetype = 3)
 
 add_labels <- function(title, collection_time = NULL, subtitle = DEFAULT_SUBTITLE, xaxislab = NULL, yaxislab = NULL) {
     if (!is.null(collection_time)) {
