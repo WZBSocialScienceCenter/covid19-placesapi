@@ -2,6 +2,7 @@ city,country,iso2,lat,lng,query,place_id,name,addr,place_lat,place_lng,tz_id,tz_
 Kabul,Afghanistan,AF,34.5167,69.1833,park,ChIJbWAhh7hu0TgRaDRVJl_nI_w,پارک شهر نو,"Shahre Now Park، Kabul, Afghanistan",34.5339042,69.1689984,Asia/Kabul,16200,0
 Kabul,Afghanistan,AF,34.5167,69.1833,street market,ChIJO3c4mrRu0TgRmqWoQXCVIVk,Golbahar Center Bank e Millie Afghan,"Kabul, Afghanistan",34.5232712,69.17346859999999,Asia/Kabul,16200,0
 Buenos Aires,Argentina,AR,-34.6025,-58.3975,bar,ChIJ2Uj7kcDKvJURzFx4ATwvHMw,Dellepiane Bar,"Luis Dellepiane 685, C1019 CABA, Argentina",-34.6009435,-58.3909198,America/Buenos_Aires,-10800,0
+Buenos Aires,Argentina,AR,-34.6025,-58.3975,fast food,ChIJrRAyfOXHvJUR-s-FtbnCdJs,Wendy's Argentina,"BUB, Av. de Mayo 151, B1704 Ramos Mejía, Buenos Aires, Argentina",-34.64233,-58.56570989999999,America/Buenos_Aires,-10800,0
 Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJP9FLhYzKvJURoUraVMD1DPw,Abasto de Buenos Aires,"Av. Corrientes 3247, C1193 CABA, Argentina",-34.6038897,-58.41099820000001,America/Buenos_Aires,-10800,0
 Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJlXOtb2W1vJURpg0p1aOr42Q,Alcorta Mall,"Jerónimo Salguero 3172, C1425 CABA, Argentina",-34.5744668,-58.4038029,America/Buenos_Aires,-10800,0
 Buenos Aires,Argentina,AR,-34.6025,-58.3975,mall,ChIJIRWq0oPKvJURoBsCDf5Bqcc,Alto Palermo,"Av. Santa Fe 3253, C1091 CABA, Argentina",-34.5878627,-58.41016060000001,America/Buenos_Aires,-10800,0
@@ -66,6 +67,7 @@ Canberra,Australia,AU,-35.283,149.129,fast food,ChIJ3xPgsXetF2sRl-m_dCCKc_c,King
 Canberra,Australia,AU,-35.283,149.129,fast food,ChIJ1RFn8WZNFmsR7kH_XmqWxQI,McDonald's Braddon,"Mort St, Braddon ACT 2601, Australia",-35.2753352,149.1308176,Australia/Sydney,36000,3600
 Canberra,Australia,AU,-35.283,149.129,fast food,ChIJpV6TT-1SFmsRlg8_gyB7SmY,McDonald's Dickson,"Cnr Badham Street &, Dickson Pl, Dickson ACT 2602, Australia",-35.24981029999999,149.1381879,Australia/Sydney,36000,3600
 Canberra,Australia,AU,-35.283,149.129,fast food,ChIJYa6yok61F2sRsdlGcClqzzs,McDonald's Erindale,"Cnr Ricardo Street &, McBryde Cres, Wanniassa ACT 2903, Australia",-35.4053191,149.0979273,Australia/Sydney,36000,3600
+Canberra,Australia,AU,-35.283,149.129,fast food,ChIJVwJbw72sF2sRROBVmiMgTUc,McDonald's Gold Creek,"2 O'Hanlon Pl, Nicholls ACT 2913, Australia",-35.1899967,149.0819073,Australia/Sydney,36000,3600
 Canberra,Australia,AU,-35.283,149.129,fast food,ChIJe4rlWZlUFmsRYvGzZpF-AoI,McDonald's Gungahlin,"Cnr Ernest Cavanagh &, Gozzard St, Gungahlin ACT 2912, Australia",-35.183677,149.1323738,Australia/Sydney,36000,3600
 Canberra,Australia,AU,-35.283,149.129,fast food,ChIJxRrhrORNFmsR16aUtQ190JA,McDonald's Majura Park,"MAJURA PARK Cnr Majura Road, Mustang Ave, ACT 2609, Australia",-35.2942894,149.1900706,Australia/Sydney,36000,3600
 Canberra,Australia,AU,-35.283,149.129,fast food,ChIJHy74cqpTFmsRe4XIxfVbNEA,McDonald's Mitchell,"661 Northbourne Ave, Lyneham ACT 2911, Australia",-35.2304555,149.1503226,Australia/Sydney,36000,3600
@@ -90,6 +92,7 @@ Canberra,Australia,AU,-35.283,149.129,supermarket,ChIJsc9euohSFmsRVHJ1pIvs4Ag,IG
 Sydney,Australia,AU,-33.865,151.209444,club,ChIJX4oqSz6uEmsRrf33asrgvPg,City Tattersalls Club,"198 Pitt St, Sydney NSW 2000, Australia",-33.8711059,151.2083592,Australia/Sydney,36000,3600
 Sydney,Australia,AU,-33.865,151.209444,fast food,ChIJ_57I9PKuEmsRiNv_mD5rOmY,Hungry Jack's Burgers North Sydney,"67-69 Mount St, North Sydney NSW 2059, Australia",-33.8391078,151.20758069999997,Australia/Sydney,36000,3600
 Sydney,Australia,AU,-33.865,151.209444,fast food,ChIJdfj4NjyuEmsR_3_uTOgmN0U,KFC George Street Sydney: Delivery,"485 George Street, Cnr Bathurst St, Sydney NSW 2000, Australia",-33.8744604,151.2065332,Australia/Sydney,36000,3600
+Sydney,Australia,AU,-33.865,151.209444,fast food,ChIJkfMyqp6tEmsRHrJczOvP4JM,McDonald's Bondi Beach,"164 Campbell Parade, Bondi Beach NSW 2026, Australia",-33.8901338,151.2750337,Australia/Sydney,36000,3600
 Sydney,Australia,AU,-33.865,151.209444,fast food,ChIJVaUz1GmuEmsRbP5RNeRV6no,McDonald's Sydney Gateway,"Loftus St &, Alfred St, Sydney NSW 2000, Australia",-33.8618124,151.210405,Australia/Sydney,36000,3600
 Sydney,Australia,AU,-33.865,151.209444,fast food,ChIJ2fYBWjyuEmsRfDHULH_SDlY,McDonald's The Strand Arcade,"375-377 George St, Sydney NSW 2000, Australia",-33.869225799999995,151.2066825,Australia/Sydney,36000,3600
 Sydney,Australia,AU,-33.865,151.209444,mall,ChIJS-17vD-uEmsRTETZZzs9F6g,Pitt Street Mall,"182 Pitt St, Sydney NSW 2000, Australia",-33.869754,151.208405,Australia/Sydney,36000,3600
@@ -124,6 +127,7 @@ Sydney,Australia,AU,-33.865,151.209444,train station,ChIJOWBULGiuEmsRoSJ5WA2U2hY
 Sydney,Australia,AU,-33.865,151.209444,train station,ChIJb6gKEySjEmsRP7BNIW349IY,Harris Park Station,"Girraween St, Kingsgrove NSW 2208, Australia",-33.8233344,151.0076421,Australia/Sydney,36000,3600
 Sydney,Australia,AU,-33.865,151.209444,train station,ChIJo2ODlmquEmsRnMfTFeHQcvs,Martin Place Station,"Sydney NSW 2000, Australia",-33.867924,151.211807,Australia/Sydney,36000,3600
 Sydney,Australia,AU,-33.865,151.209444,train station,ChIJcexqOBWuEmsRK1a72WYib80,St James Station,"Sydney NSW 2000, Australia",-33.8706943,151.2104294,Australia/Sydney,36000,3600
+Sydney,Australia,AU,-33.865,151.209444,train station,ChIJ19Jnw0CuEmsRPq5-MDI4oKU,"Wynyard railway station, Sydney","Sydney NSW 2000, Australia",-33.866007700000004,151.2055521,Australia/Sydney,36000,3600
 Graz,Austria,AT,47.07103,15.43811,park,ChIJ0Ywoy3w1bkcR-6bqoxU0bGY,Augarten,"Wielandgasse 43, 8010 Graz",47.0613889,15.4358333,Europe/Vienna,3600,3600
 Graz,Austria,AT,47.07103,15.43811,park,ChIJf2tweYE1bkcRIqUGeh31GN0,Graz Park,"Stadtpark 1, 8010 Graz",47.07461869999999,15.4443393,Europe/Vienna,3600,3600
 Graz,Austria,AT,47.07103,15.43811,park,ChIJdUUH-Z01bkcRjWK3oUNKQik,"Volksgarten, Graz","Mühlgasse 25, 8020 Graz",47.0734737,15.4272805,Europe/Vienna,3600,3600
@@ -291,6 +295,10 @@ Brasília,Brazil,BR,-15.7833,-47.9161,bar,ChIJY_2pfk86WpMRSvvW1TQcFPo,Delta Bar,
 Brasília,Brazil,BR,-15.7833,-47.9161,bar,ChIJQ0r-0tw6WpMRMyWKgO7bQ6I,Dudu Bar,"SCLS 303, Bloco A, SHCS, Brasília - DF, Brazil",-15.803619400000002,-47.89227750000001,America/Sao_Paulo,-10800,0
 Brasília,Brazil,BR,-15.7833,-47.9161,bar,ChIJj5RDcRQyWpMRQJRWBCezsSo,Piratas Bar,"SIG, Q. 06 Rua L, 1515, Brasília - DF, 70610-460, Brazil",-15.793655599999996,-47.9162021,America/Sao_Paulo,-10800,0
 Brasília,Brazil,BR,-15.7833,-47.9161,bar,ChIJ254Kg9o6WpMRxWWRK0F-Va8,Versão Brasileira,"CLS, SHCS 204, SHIGS 713 Bl. A, Lj 02 - Asa Sul, Brasília - DF, 70234-510, Brazil",-15.809686600000001,-47.89012779999999,America/Sao_Paulo,-10800,0
+Brasília,Brazil,BR,-15.7833,-47.9161,fast food,ChIJLZPF5AM7WpMRbdnLzH7XzCI,Burger King,"0, SHCN CLN 201 - Asa Norte, Brasília - DF, 70832-530, Brazil",-15.783857800000002,-47.87798239999999,America/Sao_Paulo,-10800,0
+Brasília,Brazil,BR,-15.7833,-47.9161,fast food,ChIJfTkHqcYzWpMRHnz6weifnt8,Horácio Fast-Food,"St. Hab. Vicente Pires - Taguatinga, Brasília - DF, 72007-150, Brazil",-15.797739300000002,-48.01605350000001,America/Sao_Paulo,-10800,0
+Brasília,Brazil,BR,-15.7833,-47.9161,fast food,ChIJ4wml9poxWpMR8oMAfAAMebY,McDonald's,"Guará I QE 7 - Guará, Brasília - DF, 71020-007, Brazil",-15.8161145,-47.9793904,America/Sao_Paulo,-10800,0
+Brasília,Brazil,BR,-15.7833,-47.9161,fast food,ChIJKajKXjU6WpMRELA4QDlg2r4,McDonald's,"SHC Norte, ERL - Norte, s/n - Loja 50, Brasília - DF, 70853-400, Brazil",-15.761042199999999,-47.883,America/Sao_Paulo,-10800,0
 Brasília,Brazil,BR,-15.7833,-47.9161,mall,ChIJDaoVfjE6WpMRi_Z68OkER5c,Plaza Norte Mall,"EQN 110/111 LOTE A - Asa Norte, Brasília - DF, 70297-400, Brazil",-15.755540599999998,-47.88780269999999,America/Sao_Paulo,-10800,0
 Brasília,Brazil,BR,-15.7833,-47.9161,mall,ChIJNb0nLfo6WpMRchvI5m9PLOo,Shopping ID,"Setor Comercial Norte, Quadra 06 Edificio Venancio, Conjunto A, Via N2, Brasília - DF, 70297-400, Brazil",-15.7867745,-47.8904102,America/Sao_Paulo,-10800,0
 Brasília,Brazil,BR,-15.7833,-47.9161,mall,ChIJqaoPWmgwWpMRVAGi4hes9xg,Terraço Shopping,"SHC aos entrequadras 2/8 lote 5, Octogonal - Sul, Brasília - DF, 70660-090, Brazil",-15.803672800000001,-47.94048309999999,America/Sao_Paulo,-10800,0
@@ -335,11 +343,20 @@ Brasília,Brazil,BR,-15.7833,-47.9161,train station,ChIJaSrm3cYxWpMRGkszUCpZ9Rc,
 Brasília,Brazil,BR,-15.7833,-47.9161,train station,ChIJQyttu4IlWpMRUIfuMAnj674,International Airport of Brasilia,"Lago Sul, Brasília - DF, 71608-900, Brazil",-15.869736900000001,-47.9172348,America/Sao_Paulo,-10800,0
 Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,bar,ChIJBXc-52R_mQARxN4O1zHaQv4,Bar da Lapa - Lapa,"Av. Mem de Sá, 69 - Centro, Rio de Janeiro - RJ, 20230-150, Brazil",-22.9133275,-43.181499,America/Sao_Paulo,-10800,0
 Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,fast food,ChIJtUq5SAXVmwARIbc_FKmRMKM,Burger King,"R. Visc. de Pirajá, 303 - Ipanema, Rio de Janeiro - RJ, 22410-001, Brazil",-22.984405300000002,-43.2043565,America/Sao_Paulo,-10800,0
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,fast food,ChIJfVdJImF_mQAR8ktSD_RSH_E,Burger King,"R. Sen. Dantas, 177 - Centro, Rio de Janeiro - RJ, 26440-100, Brazil",-22.9088096,-43.1785927,America/Sao_Paulo,-10800,0
 Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,fast food,ChIJtawUJw3ZmwARWiQAK8jVa-M,Burgão,"Estr. dos Bandeirantes, 3300 - Jacarepaguá, Rio de Janeiro - RJ, 22775-110, Brazil",-22.953317600000002,-43.375721,America/Sao_Paulo,-10800,0
 Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,fast food,ChIJT0PFnat-mQARet7OJqJ3xpI,Habib's,"Av. Brasil, 5455 - Bonsucesso, Rio de Janeiro - RJ, 21040-360, Brazil",-22.865992000000002,-43.248179500000006,America/Sao_Paulo,-10800,0
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,fast food,ChIJSeLOxV9_mQARn34zNYTMUEs,KFC,"R. São José, 82 - Loja A/B - Centro, Rio de Janeiro - RJ, 20010-020, Brazil",-22.9059105,-43.17652210000001,America/Sao_Paulo,-10800,0
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,fast food,ChIJy7wU2IB_mQARkf4nnDBzYys,KFC Largo do Machado,"R. do Catete, 269 - Loja A - Catete, Rio de Janeiro - RJ, 22220-001, Brazil",-22.929665,-43.17717270000001,America/Sao_Paulo,-10800,0
 Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,fast food,ChIJ182NG1V8mQARpg7-_a5YNEA,McDonald's,"Av. Dom Hélder Câmara, 5895 - Engenho de Dentro, Rio de Janeiro - RJ, 20771-002, Brazil",-22.8868503,-43.2884473,America/Sao_Paulo,-10800,0
 Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,fast food,ChIJVVGUYMrZmwARCJRpiYnEc2g,McDonald's,"Estr. do Gabinal, 901 - bloco 1 - Freguesia de Jacarepaguá, Rio de Janeiro - RJ, 22760-000, Brazil",-22.941245600000002,-43.3446092,America/Sao_Paulo,-10800,0
 Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,fast food,ChIJBQCZMV57mQARKYgjdmcr2rk,McDonald's,"Tv. da Brandura, 506 - Vila da Penha, Rio de Janeiro - RJ, 21250-010, Brazil",-22.8393943,-43.3108028,America/Sao_Paulo,-10800,0
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,fast food,ChIJLd0mTal-mQARpsnc5KTrA7c,McDonald's,"Av. Brasil, 5085 - 5085A - Bonsucesso, Rio de Janeiro - RJ, 21040-360, Brazil",-22.869843,-43.247409000000005,America/Sao_Paulo,-10800,0
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,fast food,ChIJs4km-wbVmwARUkzILRgy-64,McDonald's,"R. Visc. de Pirajá, 247 - Loja A - Ipanema, Rio de Janeiro - RJ, 22410-001, Brazil",-22.984598100000003,-43.202625299999994,America/Sao_Paulo,-10800,0
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,fast food,ChIJ3S-zhVDVmwARz4Tj9pkMkr4,McDonald's,"Rua Hilário de Gouvêia, 74 - loja D - Copacabana, Rio de Janeiro - RJ, 22040-020, Brazil",-22.968102,-43.183926,America/Sao_Paulo,-10800,0
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,fast food,ChIJWSYuI6BimQAR18oUszfwm1o,McDonald's,"Praça Floriano, 19 - Centro, Rio de Janeiro - RJ, 20031-050, Brazil",-22.9112612,-43.175982,America/Sao_Paulo,-10800,0
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,fast food,ChIJJ3i93EDVmwAR1w0dL5h0PAE,McDonald's,"Av. Nossa Sra. de Copacabana, 967 - loja A - Copacabana, Rio de Janeiro - RJ, 22060-000, Brazil",-22.976654699999997,-43.1901331,America/Sao_Paulo,-10800,0
+Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,fast food,ChIJVQBKjF5_mQARoyu8HPx5O6o,McDonald's,"Av. Rio Branco, 100, sobreloja, 201 - loja A, Rio de Janeiro - RJ, 20040-000, Brazil",-22.9033685,-43.1785044,America/Sao_Paulo,-10800,0
 Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,mall,ChIJlY-mX9uBmQARQ6nnQHkBhE0,Bossa Nova Mall,"Av. Alm. Silvio de Noronha, 365 - Centro, Rio de Janeiro - RJ, 20021-010, Brazil",-22.914003,-43.1670093,America/Sao_Paulo,-10800,0
 Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,park,ChIJr02tNYV_mQARYiP3ZAzKpZ8,Parque Eduardo Guinle,"R. Paulo César de Andrade, s/n - Laranjeiras, Rio de Janeiro - RJ, 22221-090, Brazil",-22.9308457,-43.18445010000001,America/Sao_Paulo,-10800,0
 Rio de Janeiro,Brazil,BR,-22.908333,-43.196389,park,ChIJffdYUGJ_mQARin3Mf7OOb_E,Praça Passeio Público,"Rua do Passeio - Centro, Rio de Janeiro - RJ, 20021-280, Brazil",-22.913237600000002,-43.1768489,America/Sao_Paulo,-10800,0
@@ -394,9 +411,12 @@ Sao Paulo,Brazil,BR,-23.55,-46.633333,fast food,ChIJ9a6Q71RXzpQRllpjQFgaPBs,Burg
 Sao Paulo,Brazil,BR,-23.55,-46.633333,fast food,ChIJm1-_mtJZzpQRqAeq-LPpO64,Habib's,"R. Augusta, 1894 - Cerqueira César, São Paulo - SP, 01412-000, Brazil",-23.5590458,-46.6614456,America/Sao_Paulo,-10800,0
 Sao Paulo,Brazil,BR,-23.55,-46.633333,fast food,ChIJQ8dPlERXzpQRzUFPZGq73_c,McDonald's,"Av. Brg. Faria Lima, 3.805 - Jardim Paulistano, São Paulo - SP, 04538-133, Brazil",-23.5893826,-46.681313,America/Sao_Paulo,-10800,0
 Sao Paulo,Brazil,BR,-23.55,-46.633333,fast food,ChIJx7nyGgpazpQR2LnNqtycVls,McDonald's,"Alameda dos Pamaris, 291 - Moema, São Paulo - SP, 04086-020, Brazil",-23.6134868,-46.6691274,America/Sao_Paulo,-10800,0
+Sao Paulo,Brazil,BR,-23.55,-46.633333,fast food,ChIJqUUy31NWzpQRcQq6w8pOfhk,McDonald's,"Av. Vital Brasil, 1256 - Butantã, São Paulo - SP, 05503-000, Brazil",-23.5688275,-46.715155100000004,America/Sao_Paulo,-10800,0
 Sao Paulo,Brazil,BR,-23.55,-46.633333,fast food,ChIJ2T2NSHVXzpQRQj7I991EVYA,Nova Donna Carolina - Bar e Restaurante,"R. dos Pinheiros, 1205 - Pinheiros, São Paulo - SP, 05422-012, Brazil",-23.5682218,-46.6892396,America/Sao_Paulo,-10800,0
 Sao Paulo,Brazil,BR,-23.55,-46.633333,fast food,ChIJbdxKeb5bzpQRlroMtwsNwuY,Ragazzo,"Av. Dr. Gentil de Moura, 42 - Ipiranga, São Paulo - SP, 04273-100, Brazil",-23.6028502,-46.6146908,America/Sao_Paulo,-10800,0
 Sao Paulo,Brazil,BR,-23.55,-46.633333,fast food,ChIJN5-g7YZTzpQRVBupEnWswiU,Ragazzo,"Av. Carlos Lacerda, 970 - Campo Limpo, São Paulo - SP, 05789-001, Brazil",-23.6401518,-46.780140700000004,America/Sao_Paulo,-10800,0
+Sao Paulo,Brazil,BR,-23.55,-46.633333,fast food,ChIJM8nlUK9ZzpQRRcrYOZ85TNU,Ragazzo,"Av. da Liberdade, 638 - Liberdade, São Paulo - SP, 01502-001, Brazil",-23.5582517,-46.637347600000005,America/Sao_Paulo,-10800,0
+Sao Paulo,Brazil,BR,-23.55,-46.633333,fast food,ChIJwROZ8qlXzpQRJ25a50D52G0,Sukiya Butantã,"Av. Vital Brasil, 1250 - Butantã, São Paulo - SP, 05503-000, Brazil",-23.5690135,-46.7146105,America/Sao_Paulo,-10800,0
 Sao Paulo,Brazil,BR,-23.55,-46.633333,hardware store,ChIJ3_7WIgVZzpQRKhD1p3dWX-w,FELAP Machinery and Equipment,"Av. Alcântara Machado, 190 - Mooca, São Paulo - SP, 03102-000",-23.5524635,-46.6229133,America/Sao_Paulo,-10800,0
 Sao Paulo,Brazil,BR,-23.55,-46.633333,mall,ChIJ8TdMTLVZzpQRjvierSN-1AA,Frei Caneca Mall,"R. Frei Caneca, 569 - Consolação, São Paulo - SP, 01307-001, Brazil",-23.554563899999998,-46.6529657,America/Sao_Paulo,-10800,0
 Sao Paulo,Brazil,BR,-23.55,-46.633333,mall,ChIJzfLoNdtZzpQRUNricu9WAuc,Jardim Pamplona Shopping,"R. Pamplona, 1704 - Jardim Paulista, São Paulo - SP, 01405-002, Brazil",-23.570370699999998,-46.6613187,America/Sao_Paulo,-10800,0
@@ -474,6 +494,7 @@ Ottawa,Canada,CA,45.4167,-75.7,train station,ChIJa2Ckik8EzkwRhvi_wNuI7TE,Pimisi,
 Toronto,Canada,CA,43.741667,-79.373333,bar,ChIJV8SvIKLS1IkRevaBnd2jyHY,The Goose,"1875 Leslie St, North York, ON M3B 2M5, Canada",43.7561997,-79.36000940000002,America/Toronto,-18000,3600
 Toronto,Canada,CA,43.741667,-79.373333,fast food,ChIJcx2urAg1K4gRx5bGiAnZ0pk,McDonald's,"196 Bloor St W, Toronto, ON M5S 1T8, Canada",43.66871949999999,-79.39554759999999,America/Toronto,-18000,3600
 Toronto,Canada,CA,43.741667,-79.373333,fast food,ChIJfbk7xJM0K4gR89A20VLLDlw,Popeyes Louisiana Kitchen,"553 Bloor St W, Toronto, ON M5S 1Y6, Canada",43.6651955,-79.4103654,America/Toronto,-18000,3600
+Toronto,Canada,CA,43.741667,-79.373333,fast food,ChIJ4Wl6QpzL1IkRNSqKwxPTXpM,Wendy's,"731 Eastern Ave, Toronto, ON M4M 3H6, Canada",43.6595818,-79.3290615,America/Toronto,-18000,3600
 Toronto,Canada,CA,43.741667,-79.373333,mall,ChIJA_TebvDS1IkRBs9yz5jDotM,CF Fairview Mall,"1800 Sheppard Ave E, Toronto, ON M2J 5A7, Canada",43.7780055,-79.3441593,America/Toronto,-18000,3600
 Toronto,Canada,CA,43.741667,-79.373333,mall,ChIJQ7nEMKwyK4gRRS9mX6_C7oQ,York Mills Shopping Centre,"291 York Mills Rd, North York, ON M2L 1L3, Canada",43.747065,-79.38516209999997,America/Toronto,-18000,3600
 Toronto,Canada,CA,43.741667,-79.373333,park,ChIJ6VTP1EHN1IkRJ_ivXl_DSSM,Toronto Botanical Garden,"777 Lawrence Ave E, North York, ON M3C 1P2, Canada",43.7333015,-79.3602052,America/Toronto,-18000,3600
@@ -499,7 +520,9 @@ Toronto,Canada,CA,43.741667,-79.373333,supermarket,ChIJH2xtY9TM1IkRRX3PsTdOPtE,M
 Toronto,Canada,CA,43.741667,-79.373333,supermarket,ChIJG9EZzzwzK4gRzCschHb_z4g,Metro,"2300 Yonge St, Toronto, ON M4P 1E4, Canada",43.7072763,-79.39956219999998,America/Toronto,-18000,3600
 Toronto,Canada,CA,43.741667,-79.373333,tourist information,ChIJWyfdtDHL1IkR_bal8ay1Cso,St. Lawrence Market,"93 Front St E, Toronto, ON M5E 1C3, Canada",43.6486718,-79.37152689999998,America/Toronto,-18000,3600
 Toronto,Canada,CA,43.741667,-79.373333,train station,ChIJj6ZzBnzR1IkR5CxA1vKCJww,Agincourt GO,"Toronto, ON M1S 1B5, Canada",43.78611,-79.284385,America/Toronto,-18000,3600
+Toronto,Canada,CA,43.741667,-79.373333,train station,ChIJL7z26RjM1IkRrrQg5r2S5Dc,Danforth,"213 Main St, Toronto, ON M4E 2H2, Canada",43.6864325,-79.30032829999998,America/Toronto,-18000,3600
 Toronto,Canada,CA,43.741667,-79.373333,train station,ChIJyx6FZOxHK4gRIjjWssgJDCc,Dixie GO Station,"2445 Dixie Rd, Mississauga, ON L4Y 2A1, Canada",43.60803,-79.57771899999999,America/Toronto,-18000,3600
+Toronto,Canada,CA,43.741667,-79.373333,train station,ChIJkTrvZPoxK4gRX8OqRE18mRI,Downsview Park,"Toronto, ON M3K 2C1, Canada",43.75365499999999,-79.4787455,America/Toronto,-18000,3600
 Toronto,Canada,CA,43.741667,-79.373333,train station,ChIJqc5UDCfQ1IkRxeuKDGwWizg,Eglinton GO,"Toronto, ON M1J 2E5, Canada",43.739934999999996,-79.2315562,America/Toronto,-18000,3600
 Toronto,Canada,CA,43.741667,-79.373333,train station,ChIJxQnrUAQ1K4gRKGpbEHK-ufk,Exhibition GO,"Toronto, ON, Canada",43.63587929999999,-79.41877339999998,America/Toronto,-18000,3600
 Toronto,Canada,CA,43.741667,-79.373333,train station,ChIJL_tDjH7M1IkRfDJQI54RtLI,Greenwood Yard,"400 Greenwood Ave, Toronto, ON M4J 4Y5, Canada",43.6762156,-79.3311658,America/Toronto,-18000,3600
@@ -512,6 +535,9 @@ Vancouver,Canada,CA,49.25,-123.1,fast food,ChIJydf90BN0hlQR5OFVu-6ooK0,Church's 
 Vancouver,Canada,CA,49.25,-123.1,fast food,ChIJA98BZpN1hlQRGfpzE7K3GiY,Hi Five Chicken,"203 SE Marine Dr, Vancouver, BC V5X 3L6, Canada",49.211306,-123.1018814,America/Vancouver,-28800,3600
 Vancouver,Canada,CA,49.25,-123.1,fast food,ChIJO1V_sWZxhlQR69RUQ1rHcb0,McDonald's,"1527 Main St, Vancouver, BC V6A 2W5, Canada",49.271916999999995,-123.10071640000001,America/Vancouver,-28800,3600
 Vancouver,Canada,CA,49.25,-123.1,fast food,ChIJm0jRjMt2hlQRO6rSYKwblRY,McDonald's,"2909 Grandview Hwy, Vancouver, BC V5M 2E4, Canada",49.2586899,-123.0435922,America/Vancouver,-28800,3600
+Vancouver,Canada,CA,49.25,-123.1,fast food,ChIJsyHnGVl0hlQRyCDjNCmsKmI,Wendy's,"10 SE Marine Dr, Vancouver, BC V5X 2S2, Canada",49.2119168,-123.10615449999999,America/Vancouver,-28800,3600
+Vancouver,Canada,CA,49.25,-123.1,fast food,ChIJJ6fpl91zhlQREZQ6jlHveO0,Wendy's,"480 W 8th Ave, Vancouver, BC V5Y 1N9, Canada",49.2637317,-123.11450579999999,America/Vancouver,-28800,3600
+Vancouver,Canada,CA,49.25,-123.1,fast food,ChIJOZ8mpdB2hlQRIOWyMHy0zvQ,Wendy's,"3698 Grandview Hwy, Vancouver, BC V5M 2G9, Canada",49.25779060000001,-123.02431229999999,America/Vancouver,-28800,3600
 Vancouver,Canada,CA,49.25,-123.1,hardware store,ChIJdQ1jud1zhlQRrzO3fVYUkyg,The Home Depot,"2388 Cambie St, Vancouver, BC V5Z 2T8, Canada",49.2641544,-123.11431699999999,America/Vancouver,-28800,3600
 Vancouver,Canada,CA,49.25,-123.1,mall,ChIJP2oYRX9xhlQRUGL0tr-uzSY,CF Pacific Centre,"701 W Georgia St, Vancouver, BC V7Y 1G5, Canada",49.28333189999999,-123.1183909,America/Vancouver,-28800,3600
 Vancouver,Canada,CA,49.25,-123.1,mall,ChIJBwLQ4edzhlQRN3E3qS-g9tg,City Square Shopping Centre,"555 W 12th Ave, Vancouver, BC V5Z 3X7, Canada",49.2609498,-123.11716170000001,America/Vancouver,-28800,3600
@@ -551,6 +577,8 @@ Vancouver,Canada,CA,49.25,-123.1,train station,ChIJ5URWK2RxhlQRrHLKR2r9N6M,Pacif
 Santiago,Chile,CL,-33.45,-70.667,bar,ChIJJ6n5yJ7FYpYRJg3thKg2G5I,Bar La Junta,"Local 5, José Victorino Lastarria 70, Santiago, Región Metropolitana, Chile",-33.4394444,-70.64138890000002,America/Santiago,-14400,3600
 Santiago,Chile,CL,-33.45,-70.667,bar,ChIJTxx61ZbFYpYRwuqykuDJN0o,Bar La Virgen,"Erasmo Escala 2395, Santiago, Región Metropolitana, Chile",-33.4453148,-70.6694105,America/Santiago,-14400,3600
 Santiago,Chile,CL,-33.45,-70.667,bar,ChIJSar4ZbvFYpYRgMGJGeV2tDk,La Piojera,"Aillavilú 1030, Santiago, Región Metropolitana, Chile",-33.433593800000004,-70.65213779999998,America/Santiago,-14400,3600
+Santiago,Chile,CL,-33.45,-70.667,fast food,ChIJe7rNXrvFYpYRAV8V9KESyCc,Emporio Zunino,"Paseo Puente 801, Santiago, Región Metropolitana, Chile",-33.4341153,-70.6515198,America/Santiago,-14400,3600
+Santiago,Chile,CL,-33.45,-70.667,fast food,ChIJa_ebBELPYpYRUckpfU-v7kQ,Wendy's,"Encomenderos 300, Las Condes, Región Metropolitana, Chile",-33.41631110000001,-70.6041051,America/Santiago,-14400,3600
 Santiago,Chile,CL,-33.45,-70.667,hardware store,ChIJ620lfBHFYpYR84GPjn8GxmY,ACO Alvaro Casanova Machinery,"Av. Manuel Antonio Matta 1300, Santiago, Región Metropolitana",-33.460089,-70.6518162,America/Santiago,-14400,3600
 Santiago,Chile,CL,-33.45,-70.667,hardware store,ChIJb0bfPjPOYpYRbONZr3R5Hy0,Hardware Los Guindos,"Av. Egaña 897, Penalolen, Peñalolén, Región Metropolitana",-33.4618222,-70.5727306,America/Santiago,-14400,3600
 Santiago,Chile,CL,-33.45,-70.667,park,ChIJabUIzg7FYpYRTIltmOeisC8,Almagro Park,"Santiago, Santiago Metropolitan Region, Chile",-33.4521121,-70.65359980000002,America/Santiago,-14400,3600
@@ -591,6 +619,7 @@ Santiago,Chile,CL,-33.45,-70.667,train station,ChIJG-F5KAPPYpYRzt-ppCHQrFE,"Metr
 Santiago,Chile,CL,-33.45,-70.667,train station,ChIJ1xmCWs3EYpYRHAsmwU5SMko,Pedro Aguirre Cerda station,"Pintor de La Fuente 5174, Pedro Aguirre Cerda, Región Metropolitana, Chile",-33.493362899999994,-70.68174499999998,America/Santiago,-14400,3600
 Santiago,Chile,CL,-33.45,-70.667,train station,ChIJrZ0DzfXEYpYRc0070y3im3s,Terminal Alameda Santiago,"Av Libertador Bernardo O'Higgins 3850, Santiago, Estación Central, Región Metropolitana, Chile",-33.45437220000001,-70.6881262,America/Santiago,-14400,3600
 Santiago,Chile,CL,-33.45,-70.667,train station,ChIJEV664ibZYpYRrw4DGBifQQE,Train Station 5 Pinos,"Av. Portales, San Bernardo, Región Metropolitana, Chile",-33.6237848,-70.70094350000001,America/Santiago,-14400,3600
+Santiago,Chile,CL,-33.45,-70.667,train station,ChIJwXHYCrbPYpYRjgQYoCNgduE,Villa Frei metro station,"Irarrázaval, Ñuñoa, Región Metropolitana, Chile",-33.4547576,-70.580221,America/Santiago,-14400,3600
 Bogotá,Colombia,CO,4.5964,-74.0833,club,ChIJp_3j2p2ZP44RNEwSRwFYgEM,Pool Night Club,"Cra. 15 #23 - 64, Bogotá, Colombia",4.612124700000002,-74.0747481,America/Bogota,-18000,0
 Bogotá,Colombia,CO,4.5964,-74.0833,mall,ChIJBfpB73qZP44RMcl9pJoMCsM,Calima Shopping Mall,"Avenida Carrera 30 #19, Los Mártires, Bogotá, Colombia",4.618114800000002,-74.08577840000002,America/Bogota,-18000,0
 Bogotá,Colombia,CO,4.5964,-74.0833,mall,ChIJK7onqIWZP44RR35rulKrKfE,San Martín Mall,"Bogota, Bogotá, Bogotá D.C., Colombia",4.6191505,-74.0677594,America/Bogota,-18000,0
@@ -618,6 +647,10 @@ Prague,Czechia,CZ,50.0833,14.466,train station,ChIJb677-b2UC0cRodGPvVtUOi0,Praha
 Prague,Czechia,CZ,50.0833,14.466,train station,ChIJJdPMLSmVC0cRyExDE2Yf_4k,Praha-Podbaba,"Goetheho, 160 00 Praha 6, Czechia",50.11238779999999,14.3953263,Europe/Prague,3600,3600
 Prague,Czechia,CZ,50.0833,14.466,train station,ChIJ5XykMQ-TC0cR7El0Byr1NHQ,Praha-Strašnice Zastávka,"U Trati, 100 00 Strašnice, Czechia",50.067492200000004,14.4907676,Europe/Prague,3600,3600
 Prague,Czechia,CZ,50.0833,14.466,train station,ChIJgxbubrfsC0cRpUIVCiw9uPs,Praha-Vysočany,"U Vinných sklepů, 190 00 Praha 9, Czechia",50.1121783,14.497481699999998,Europe/Prague,3600,3600
+Copenhagen,Denmark,DK,55.6786,12.5635,fast food,ChIJszeiu3RUUkYRrzSBN6C3fXQ,McDonald's,"Gammel Køge Landevej 103, 2500 København, Denmark",55.6501305,12.5088484,Europe/Copenhagen,3600,3600
+Copenhagen,Denmark,DK,55.6786,12.5635,fast food,ChIJA8n4j_BSUkYRQnIWWRsIZwE,McDonald's,"Østerbrogade 120, 2100 København, Denmark",55.7046174,12.577705,Europe/Copenhagen,3600,3600
+Copenhagen,Denmark,DK,55.6786,12.5635,fast food,ChIJ41ZBcG1RUkYRL0T707VkJHg,McDonald's,"Jyllingevej 166, 2610 Rødovre, Denmark",55.69256979999999,12.462945800000002,Europe/Copenhagen,3600,3600
+Copenhagen,Denmark,DK,55.6786,12.5635,fast food,ChIJl11UMa1RUkYRnacSMrLddVk,McDonald's,"Mileparken 39, 2730 Herlev, Denmark",55.716695400000006,12.4377931,Europe/Copenhagen,3600,3600
 Copenhagen,Denmark,DK,55.6786,12.5635,mall,ChIJEW6uSrNRUkYRFvx2o_khlGc,Bangs Torv,"Herlev Hovedgade 121, 2730 Herlev",55.7224782,12.4399305,Europe/Copenhagen,3600,3600
 Copenhagen,Denmark,DK,55.6786,12.5635,mall,ChIJD6C_6w1TUkYRqzJFQ31tmdo,Field's,"Arne Jacobsens Allé 12, 2300 København",55.6305659,12.5774796,Europe/Copenhagen,3600,3600
 Copenhagen,Denmark,DK,55.6786,12.5635,mall,ChIJQw-OB6pWUkYRAyPgUhwP8kI,Hvidovrevejs Butikstorv,"Hvidovrevej 178, 2650 Hvidovre",55.65313680000001,12.4741738,Europe/Copenhagen,3600,3600
@@ -703,6 +736,7 @@ Helsinki,Finland,FI,60.1756,24.9341,club,ChIJ7R1d8MwLkkYRUunkP0dyKAo,Milliklubi 
 Helsinki,Finland,FI,60.1756,24.9341,fast food,ChIJW_oOW38JkkYRG-pbpk2wWBg,King Kebab Kallio,"Vaasankatu 19a, 00101 Helsinki, Finland",60.18854899999999,24.956224,Europe/Helsinki,7200,3600
 Helsinki,Finland,FI,60.1756,24.9341,fast food,ChIJFRhCijQKkkYREiMAvVwnJtk,McDonald's,"Fredrikinkatu 46, 00100 Helsinki, Finland",60.16894839999999,24.9299703,Europe/Helsinki,7200,3600
 Helsinki,Finland,FI,60.1756,24.9341,fast food,ChIJUzZJsAIKkkYRjC4-lNkom9A,McDonald's,"Paciuksenkatu 29, 00270 Helsinki, Finland",60.195544999999996,24.890779300000002,Europe/Helsinki,7200,3600
+Helsinki,Finland,FI,60.1756,24.9341,fast food,ChIJa5ctszcJkkYRIzeZxO9bisg,McDonald's,"Laivalahdenkatu 1, 00810 Helsinki, Finland",60.19426529999999,25.0377516,Europe/Helsinki,7200,3600
 Helsinki,Finland,FI,60.1756,24.9341,hardware store,ChIJXxVr4ef0jUYR9bBk9QAwAig,BAUHAUS Espoo,"Rusthollarinkatu 6, 02270 Espoo",60.15990919999999,24.7115078,Europe/Helsinki,7200,3600
 Helsinki,Finland,FI,60.1756,24.9341,hardware store,ChIJc8eMKvwHkkYR00cAtjmDYr0,Bauhaus Vantaa,"Tammiston Kauppatie 19, 01510 Vantaa",60.28087129999999,24.9747817,Europe/Helsinki,7200,3600
 Helsinki,Finland,FI,60.1756,24.9341,hardware store,ChIJOwYPtPgGkkYRS2-V6nX6uRQ,K-Rauta 75,"Vanha Porvoontie 243, 01380 Vantaa",60.304551000000004,25.094922,Europe/Helsinki,7200,3600
@@ -769,6 +803,7 @@ Lyon,France,FR,45.76,4.84,street market,ChIJk2CL7nTq9EcRovAzfKngaNA,Carrefour Dr
 Lyon,France,FR,45.76,4.84,street market,ChIJDfzANGbr9EcRXYrqglrkJa4,Halles de Lyon Paul Bocuse,"102 Cours Lafayette, 69003 Lyon, France",45.7633439,4.8504558,Europe/Paris,3600,3600
 Lyon,France,FR,45.76,4.84,street market,ChIJkbFIf1Xq9EcRsIogqrDkXiw,Marché alimentaire Saint-Antoine Célestins,"69002 Lyon, France",45.7619323,4.8315855,Europe/Paris,3600,3600
 Lyon,France,FR,45.76,4.84,tourist information,ChIJjyI4Eavr9EcRKEdGOieOt-0,Cathédrale Saint-Jean-Baptiste,"Place Saint-Jean, 69005 Lyon, France",45.7608008,4.8272903,Europe/Paris,3600,3600
+Lyon,France,FR,45.76,4.84,train station,ChIJ6ezweHDp9EcRl-DTQLnzKg8,Gare d'Oullins,"69600 Oullins, France",45.7173039,4.813130399999999,Europe/Paris,3600,3600
 Lyon,France,FR,45.76,4.84,train station,ChIJU-LazG7r9EcRHupPkWDtdbU,Gare de Vaise,"2 Place de Paris, 69009 Lyon, France",45.78015300000001,4.804104,Europe/Paris,3600,3600
 Lyon,France,FR,45.76,4.84,train station,ChIJ644swrTr9EcRdgKu7yu33Nw,Lyon Perrache railway station,"14 Cours de Verdun Gensoul, 69002 Lyon, France",45.7484829,4.8257933,Europe/Paris,3600,3600
 Lyon,France,FR,45.76,4.84,train station,ChIJKWSv_WLq9EcR-FEoq1JxCW4,Part Dieu railway station of Lyon,"5 Place Charles Béraudier, 69003 Lyon, France",45.7605474,4.8611176999999985,Europe/Paris,3600,3600
@@ -799,8 +834,12 @@ Tbilisi,Georgia,GE,41.725,44.7908,park,ChIJ37TnINcMREARoZL_1LBlzMo,Vera Park,"37
 Tbilisi,Georgia,GE,41.725,44.7908,supermarket,ChIJfRs72zJzREARUP-A2F1MuKE,Goodwill,"Ilia Chavchavadze Avenue, Tbilisi, Georgia",41.7090515,44.7701307,Asia/Tbilisi,14400,0
 Berlin,Germany,DE,52.5218,13.4015,bar,ChIJ_UJvWfpRqEcRhuYK986O46c,Das Hotel Bar,"Mariannenstraße 26A, 10999 Berlin, Germany",52.49662360000001,13.420408300000002,Europe/Berlin,3600,3600
 Berlin,Germany,DE,52.5218,13.4015,club,ChIJxw-fVB5OqEcRtWYAqTCfqrs,Salon - Zur wilden Renate,"Alt-Stralau 70, 10245 Berlin, Germany",52.4974459,13.465185,Europe/Berlin,3600,3600
+Berlin,Germany,DE,52.5218,13.4015,fast food,ChIJqWfienpOqEcRvWLV92h7S0Q,BURGER KING Deutschland GmbH,"Landsberger Allee 119, 10407 Berlin, Germany",52.529461899999994,13.4579807,Europe/Berlin,3600,3600
+Berlin,Germany,DE,52.5218,13.4015,fast food,ChIJFQzaEKVIqEcRHxjNwXtsX2Y,Burger King Berlin,"Michael-Brückner-Straße 24, 12439 Berlin, Germany",52.452507,13.514942199999998,Europe/Berlin,3600,3600
 Berlin,Germany,DE,52.5218,13.4015,fast food,ChIJScwmSRJIqEcRcV145kVtWf8,McDonald's,"Wendenschloßstraße 2, 12559 Berlin, Germany",52.4480719,13.592939000000001,Europe/Berlin,3600,3600
+Berlin,Germany,DE,52.5218,13.4015,fast food,ChIJ1eLre-5FqEcR7DY7-JbKyzY,McDonald's,"Rudower Str. 100, 12351 Berlin, Germany",52.4361831,13.464757,Europe/Berlin,3600,3600
 Berlin,Germany,DE,52.5218,13.4015,fast food,ChIJJTrAdP9RqEcRFZCHzSjrgLo,RISA Chicken,"Schönhauser Allee 45, 10435 Berlin, Germany",52.5408573,13.412560500000001,Europe/Berlin,3600,3600
+Berlin,Germany,DE,52.5218,13.4015,fast food,ChIJ23bYUrdPqEcR--60xiSSnaI,Risa Chicken,"Sonnenallee 26 D, 12047 Berlin, Germany",52.4864578,13.4287215,Europe/Berlin,3600,3600
 Berlin,Germany,DE,52.5218,13.4015,gastro pub,ChIJU-UjNsJRqEcRU-VkZMYOGOk,Berliner Republik,"Schiffbauerdamm 8, 10117 Berlin, Germany",52.52137140000001,13.3858237,Europe/Berlin,3600,3600
 Berlin,Germany,DE,52.5218,13.4015,hardware store,ChIJsba0P7hPqEcRJXRxDCgjlyA,BAUHAUS,"Hasenheide 109, 10967 Berlin",52.4853111,13.4217709,Europe/Berlin,3600,3600
 Berlin,Germany,DE,52.5218,13.4015,hardware store,ChIJNWzO7SBRqEcRTPmbE-Et0pw,BAUHAUS,"Wilmersdorfer Str. 32, 10585 Berlin",52.5126674,13.3047779,Europe/Berlin,3600,3600
@@ -920,8 +959,14 @@ Berlin,Germany,DE,52.5218,13.4015,train station,ChIJkXqLeNlOqEcRnZjFxxIJhyQ,Betr
 Berlin,Germany,DE,52.5218,13.4015,train station,ChIJYxlGmqlHqEcRB_18Dsbch-0,Grünbergallee,"12529 Berlin, Germany",52.3991467,13.5409878,Europe/Berlin,3600,3600
 Berlin,Germany,DE,52.5218,13.4015,train station,ChIJz4ha4AFPqEcRYVFjG8IRfH8,Treptower Park,"12435 Berlin, Germany",52.493945,13.461433800000002,Europe/Berlin,3600,3600
 Cologne,Germany,DE,50.936389,6.952778,club,ChIJIXcsd3Mlv0cR4KBW1oRrH8E,Pascha,"Hornstraße 2, 50823 Köln, Germany",50.955374400000004,6.9402466999999985,Europe/Berlin,3600,3600
+Cologne,Germany,DE,50.936389,6.952778,fast food,ChIJIX0Zbwkkv0cRbl6jOmxQ4XU,BURGER King Köln Verteilerkreis,"Am Verteilerkreis West, 50968 Köln, Germany",50.8918008,6.966284,Europe/Berlin,3600,3600
+Cologne,Germany,DE,50.936389,6.952778,fast food,ChIJYdgahCAmv0cRgb-rAYB1AUY,Burger King,"Bergisch Gladbacher Str. 417/419, 51067 Köln, Germany",50.9677391,7.034270299999998,Europe/Berlin,3600,3600
+Cologne,Germany,DE,50.936389,6.952778,fast food,ChIJ0bTdFBMmv0cRM3YW3YPG8oM,Burger King Köln,"Frankfurter Str. 200, 51065 Köln, Germany",50.9497648,7.0176799,Europe/Berlin,3600,3600
 Cologne,Germany,DE,50.936389,6.952778,fast food,ChIJSwp9fxAnv0cRD_6xPLZG2gA,KFC,"Frankfurter Str. 751, 51149 Köln, Germany",50.917994,7.049837399999999,Europe/Berlin,3600,3600
 Cologne,Germany,DE,50.936389,6.952778,fast food,ChIJMxsFJd8lv0cRypS-ZpcznSk,McDonald's,"Istanbulstraße 1, 51103 Köln, Germany",50.9428679,6.994188200000001,Europe/Berlin,3600,3600
+Cologne,Germany,DE,50.936389,6.952778,fast food,ChIJlchN1Nk6v0cRtgPe--sM3fk,McDonald's,"Aachener Str. 752, 50933 Köln, Germany",50.9381565,6.877787700000001,Europe/Berlin,3600,3600
+Cologne,Germany,DE,50.936389,6.952778,fast food,ChIJFxsAimUov0cRpc-baeLl8Fo,McDonald's,"Bergisch Gladbacher Str. 1005, 51069 Köln, Germany",50.9797172,7.0727148,Europe/Berlin,3600,3600
+Cologne,Germany,DE,50.936389,6.952778,fast food,ChIJZ7RJv6o7v0cRVDD1GvULyNY,McDonald's,"Koblenzer Str. 2-4, 50968 Köln, Germany",50.9140131,6.9623307,Europe/Berlin,3600,3600
 Cologne,Germany,DE,50.936389,6.9527779999999995,hardware store,ChIJVa75ydglv0cR9Zt1UCxFQg4,BAUHAUS,"Istanbulstraße 20, 51103 Köln",50.9436109,6.9963646,Europe/Berlin,3600,3600
 Cologne,Germany,DE,50.936389,6.9527779999999995,hardware store,ChIJffM1bTslv0cR1m_Q-i0V0aE,BAUHAUS,"Weinsbergstraße 190A, 50825 Köln",50.945366,6.9110095000000005,Europe/Berlin,3600,3600
 Cologne,Germany,DE,50.936389,6.9527779999999995,hardware store,ChIJ31Y2V0Env0cRa5C9JotBTwg,BAUHAUS,"Theodor-Heuss-Straße 80-86, 51149 Köln",50.89809,7.0718,Europe/Berlin,3600,3600
@@ -987,6 +1032,7 @@ Dresden,Germany,DE,51.033333,13.733332999999998,fast food,ChIJxQYzBRHPCUcRUhQCBb
 Dresden,Germany,DE,51.033333,13.733332999999998,fast food,ChIJxeGrFavHCUcR3-ag2LrCJGY,McDonald's,"Michaelisstraße 1, 01257 Dresden, Germany",50.994893,13.803397400000001,Europe/Berlin,3600,3600
 Dresden,Germany,DE,51.033333,13.733332999999998,fast food,ChIJ0zbPMLHaCUcR0yUxjR7Iqzc,McDonald's,"Gompitzer Höhe 3, 01156 Dresden, Germany",51.0386541,13.6313785,Europe/Berlin,3600,3600
 Dresden,Germany,DE,51.033333,13.733332999999998,fast food,ChIJK9wfT9XJCUcR1_U9_Q81PFQ,McDonald's,"An der Prießnitzaue 1a, 01328 Dresden, Germany",51.065150200000005,13.895427800000002,Europe/Berlin,3600,3600
+Dresden,Germany,DE,51.033333,13.733332999999998,fast food,ChIJVSyaXjTECUcRljkwXMZ6hk4,McDonald's,"Boderitzer Str. 30, 01728 Bannewitz, Germany",50.99860349999999,13.7192574,Europe/Berlin,3600,3600
 Dresden,Germany,DE,51.033333,13.733332999999998,hardware store,ChIJRyJ0q7DaCUcRuD4PZ_qD1oo,toom Baumarkt (nur Abholung nach Reservierung),"Gompitzer Höhe 5, 01156 Dresden",51.0392677,13.6296288,Europe/Berlin,3600,3600
 Dresden,Germany,DE,51.033333,13.733332999999998,hardware store,ChIJDUfX08THCUcRsByUPevH-uY,toom Baumarkt (nur Abholung nach Reservierung),"Leubener Str. 61, 01279 Dresden",51.01768879999999,13.832004000000001,Europe/Berlin,3600,3600
 Dresden,Germany,DE,51.033333,13.733332999999998,hardware store,ChIJ5wew4tvECUcRbjbJW1XaKOQ,toom Baumarkt (offen für Gewerbetreibende),"Schachtstraße 8C, 01705 Freital",51.00452629999999,13.6490277,Europe/Berlin,3600,3600
@@ -1029,6 +1075,11 @@ Dresden,Germany,DE,51.033333,13.733332999999998,train station,ChIJfYgPV3DPCUcR4Z
 Dresden,Germany,DE,51.033333,13.733332999999998,train station,ChIJ6xfHNK_OCUcR24OFOKLw1KM,Dresden-Klotzsche railway station,"01109 Dresden, Germany",51.11425730000001,13.788367000000001,Europe/Berlin,3600,3600
 Hamburg,Germany,DE,53.565278,10.001389,fast food,ChIJBROl0JWOsUcRzpM0Cq9wu2M,Burger King,"Eiffestraße 64, 20537 Hamburg, Germany",53.552105299999994,10.037185000000001,Europe/Berlin,3600,3600
 Hamburg,Germany,DE,53.565278,10.001389,fast food,ChIJgYimH4aFsUcRTLfDySrk-qo,McDonald's,"Eiffestraße 440, 20537 Hamburg, Germany",53.552079299999995,10.0464022,Europe/Berlin,3600,3600
+Hamburg,Germany,DE,53.565278,10.001389,fast food,ChIJgYimH4aFsUcRDepCdb1bC4c,McDonald's,"Langenhorner Chaussee 287, 22415 Hamburg, Germany",53.6537182,10.0054824,Europe/Berlin,3600,3600
+Hamburg,Germany,DE,53.565278,10.001389,fast food,ChIJgYimH4aFsUcRAcHvQi8PaYM,McDonald's,"Stader Str. 256, 21075 Hamburg, Germany",53.47113960000001,9.9282367,Europe/Berlin,3600,3600
+Hamburg,Germany,DE,53.565278,10.001389,fast food,ChIJAaPoAITysUcRx1N8AmozaqI,McDonald's,"Lehfeld 2, 21029 Hamburg, Germany",53.4805438,10.2071091,Europe/Berlin,3600,3600
+Hamburg,Germany,DE,53.565278,10.001389,fast food,ChIJgYimH4aFsUcRrqNEg5CC8lE,McDonald's,"Poppenbütteler Weg 94, 22339 Hamburg, Germany",53.6479654,10.0583694,Europe/Berlin,3600,3600
+Hamburg,Germany,DE,53.565278,10.001389,fast food,ChIJgYimH4aFsUcRbb3PXxPik8o,McDonald's Restaurant,"Kieler Str. 191/193, 22525 Hamburg, Germany",53.5767196,9.9369954,Europe/Berlin,3600,3600
 Hamburg,Germany,DE,53.565278,10.001389,hardware store,ChIJfz6Rim2GsUcRPFzt8Q1jJkM,BAUHAUS,"Kieler Str. 499, 22525 Hamburg",53.5961449,9.9208121,Europe/Berlin,3600,3600
 Hamburg,Germany,DE,53.565278,10.001389,hardware store,ChIJw30y4aGIsUcRwo7s_OgI8QQ,BAUHAUS,"Alte Kollaustraße 44-46, 22529 Hamburg",53.60413639999999,9.9648871,Europe/Berlin,3600,3600
 Hamburg,Germany,DE,53.565278,10.001389,hardware store,ChIJLf1oALP0sUcRM40xND5mAdg,BAUHAUS,"Rahlstedter Str. 2, 22885 Barsbüttel",53.57588929999999,10.1941629,Europe/Berlin,3600,3600
@@ -1096,10 +1147,15 @@ Hamburg,Germany,DE,53.565278,10.001389,train station,ChIJ_fCrfeaOsUcRImhRNtV53Zk
 Hamburg,Germany,DE,53.565278,10.001389,train station,ChIJB2JZALOFsUcRbIS7ihLVb7o,Othmarschen Station,"22605 Hamburg, Germany",53.55916070000001,9.8853773,Europe/Berlin,3600,3600
 Hamburg,Germany,DE,53.565278,10.001389,train station,ChIJ3zB6oBqPsUcRjIuwpX-yfbE,Stadthausbrücke,"20354 Hamburg, Germany",53.5498373,9.986447,Europe/Berlin,3600,3600
 Hamburg,Germany,DE,53.565278,10.001389,train station,ChIJ3YT5fIiFsUcRDvu9yvJY16M,Train Station - Altona,"Paul-Nevermann-Platz 1, 22765 Hamburg, Germany",53.5523322,9.935308700000002,Europe/Berlin,3600,3600
+Munich,Germany,DE,48.133333,11.566667,fast food,ChIJD5t9tNzXnUcRpogmfXCONGI,Burger King,"Bodenseestraße 319, 81249 München, Germany",48.141029700000004,11.4133666,Europe/Berlin,3600,3600
+Munich,Germany,DE,48.133333,11.566667,fast food,ChIJCcEAC-_YnUcRZLx2U6YGtYo,Burger King,"Pollinger Str. 2, 81377 München, Germany",48.1129152,11.5027352,Europe/Berlin,3600,3600
+Munich,Germany,DE,48.133333,11.566667,fast food,ChIJ1R14b993nkcRmfMH84z5M_k,Burger King,"Landsberger Str. 422, 81241 München, Germany",48.14553,11.47705,Europe/Berlin,3600,3600
 Munich,Germany,DE,48.133333,11.566667,fast food,ChIJNS_l9Fh2nkcRDnI6M7q6Vus,Kentucky Fried Chicken,"Hanauer Str. 44, 80992 München, Germany",48.1782455,11.529568699999999,Europe/Berlin,3600,3600
 Munich,Germany,DE,48.133333,11.566667,fast food,ChIJfXFTWYp1nkcRE_JLWvGyhM4,McDonald's,"Tal 6, 80331 München, Germany",48.1360227,11.5781413,Europe/Berlin,3600,3600
 Munich,Germany,DE,48.133333,11.566667,fast food,ChIJd092EPd2nkcR6jeXmFFeeYI,McDonald's,"Hanauer Str. 83, 80993 München, Germany",48.18411,11.531006399999999,Europe/Berlin,3600,3600
 Munich,Germany,DE,48.133333,11.566667,fast food,ChIJUcJs8OcLnkcRse1PCHZJ1_E,McDonald's,"Maria-Probst-Straße 1, 80939 München, Germany",48.1922393,11.5845545,Europe/Berlin,3600,3600
+Munich,Germany,DE,48.133333,11.566667,fast food,ChIJa3ZfNVx0nkcRzr0ekTIy1rk,McDonald's,"Situlistraße 6, 80939 München, Germany",48.18858710000001,11.6141061,Europe/Berlin,3600,3600
+Munich,Germany,DE,48.133333,11.566667,fast food,ChIJJVZTtth3nkcRcxujbV8c2r4,McDonald's,"Landsberger Str. 412 A, 81241 München, Germany",48.1454929,11.479872199999999,Europe/Berlin,3600,3600
 Munich,Germany,DE,48.133333,11.566667,hardware store,ChIJeQlIGGx0nkcRrdL5G5GP84s,BAUHAUS,"Maria-Probst-Straße 50, 80939 München",48.1971898,11.6075434,Europe/Berlin,3600,3600
 Munich,Germany,DE,48.133333,11.566667,hardware store,ChIJmf_l4x92nkcRsThUXWmh6B0,BAUHAUS München,"Landsberger Str. 175-179, 80687 München",48.13945620000001,11.524703,Europe/Berlin,3600,3600
 Munich,Germany,DE,48.133333,11.566667,mall,ChIJfa-WuEPWnUcR0v3wCoZ4sms,City Galerie Einkaufszentrum,"Gabriele-Münter-Straße 2, 82110 Germering",48.129630999999996,11.3662716,Europe/Berlin,3600,3600
@@ -1182,8 +1238,13 @@ Budapest,Hungary,HU,47.5,19.0833,club,ChIJ3RbjiB3cQUcRMR6GqCXvzzk,Instant Club,"
 Budapest,Hungary,HU,47.5,19.0833,club,ChIJwxtK9w7cQUcRxjobpvkpE_o,Morrison's 2.,"Budapest, Szent István krt. 11, 1055 Hungary",47.512051,19.050319899999998,Europe/Budapest,3600,3600
 Budapest,Hungary,HU,47.5,19.0833,club,ChIJQakOWUfoQUcReSRPzy9gSnQ,The Grund,"Budapest, Nagy Templom utca 30, 1082",47.4849825,19.0765894,Europe/Budapest,3600,3600
 Budapest,Hungary,HU,47.5,19.0833,fast food,ChIJJaAe123cQUcR4G-dJboOYCQ,Burger King,"Budapest Oktogon Square 1, 1066 Hungary",47.5052365,19.062761300000002,Europe/Budapest,3600,3600
+Budapest,Hungary,HU,47.5,19.0833,fast food,ChIJufvEW77dQUcRTR6NNdei_YM,Burger King,"Budapest, Etele út 53, 1113 Hungary",47.4640146,19.032041600000003,Europe/Budapest,3600,3600
+Budapest,Hungary,HU,47.5,19.0833,fast food,ChIJPQDxEtfcQUcRqISMPs36qfw,Burger King,"Budapest, Üllői út 110, 1101 Hungary",47.4720765,19.1097112,Europe/Budapest,3600,3600
+Budapest,Hungary,HU,47.5,19.0833,fast food,ChIJvyQTa5jcQUcRJq2PvipKy0w,Burger King,"Budapest, Kerepesi út 42-46, 1148 Hungary",47.501051600000004,19.113015100000002,Europe/Budapest,3600,3600
+Budapest,Hungary,HU,47.5,19.0833,fast food,ChIJ77Fk0YLcQUcRGbZPbFlZJxE,Burger King,"Budapest, Hungária krt. 116, 1143 Hungary",47.50859730000001,19.1012889,Europe/Budapest,3600,3600
 Budapest,Hungary,HU,47.5,19.0833,fast food,ChIJJ7bCG2_cQUcRtkKapSYxNLM,KFC Király,"Budapest, Erzsébet krt. 53, 1073 Hungary",47.50326219999999,19.066119399999998,Europe/Budapest,3600,3600
 Budapest,Hungary,HU,47.5,19.0833,fast food,ChIJaRBfDUPcQUcRqNMImKSkP5g,McDonald's,"Budapest, Múzeum krt. 1b, 1053 Hungary",47.4939387,19.0599115,Europe/Budapest,3600,3600
+Budapest,Hungary,HU,47.5,19.0833,fast food,ChIJyyYMVWfcQUcRUDRISiVZh4I,McDonald's,"Budapest, József krt. 8, 1085 Hungary",47.49600529999999,19.0711314,Europe/Budapest,3600,3600
 Budapest,Hungary,HU,47.5,19.0833,mall,ChIJD4ta-kjaQUcRS7Q6Abi1FOA,Arpad Shopping Center Association,"Budapest, Árpád út 112, 1045",47.56044319999999,19.0983215,Europe/Budapest,3600,3600
 Budapest,Hungary,HU,47.5,19.0833,mall,ChIJX3XOP1HcQUcR5iypR_rLQao,Bálna Budapest,"Budapest, Fővám tér 11-12, 1093",47.4838156,19.0610022,Europe/Budapest,3600,3600
 Budapest,Hungary,HU,47.5,19.0833,mall,ChIJQyfahADnQUcRINnQCGFvbXg,Campona,"Budapest, Nagytétényi út 37, 1222",47.406734,19.0168028,Europe/Budapest,3600,3600
@@ -1296,6 +1357,7 @@ Mumbai,India,IN,18.975,72.82583299999997,train station,ChIJuc3b3sXI5zsRQjsiF7jma
 Mumbai,India,IN,18.975,72.82583299999997,train station,ChIJCwutcdzO5zsR_OaUwR9amHQ,Dadar,"Western Railway Station, Dadar, Mumbai, Maharashtra, India",19.018769,72.84317659999998,Asia/Calcutta,19800,0
 Mumbai,India,IN,18.975,72.82583299999997,train station,ChIJgZB9IjbO5zsRCABQyn08JBU,Dockyard Road,"Nawab Tank Bridge Road, Ekta Nagar, Mazgaon, Mumbai, Maharashtra 400010, India",18.9674478,72.8445615,Asia/Calcutta,19800,0
 Mumbai,India,IN,18.975,72.82583299999997,train station,ChIJky8WBS3G5zsRpyzlpX4r5_E,Ghatkopar,"Jawahar Rd, Ghatkopar, Saibaba Nagar, Pant Nagar, Ghatkopar East, Mumbai, Maharashtra 400077, India",19.0857262,72.9089968,Asia/Calcutta,19800,0
+Mumbai,India,IN,18.975,72.82583299999997,train station,ChIJIzYLphrJ5zsRz35eqNaFzz8,Khar Road,"Bandra Terminus, Golibar Rd, Khar West, Mumbai, Maharashtra 400051, India",19.0696783,72.8399001,Asia/Calcutta,19800,0
 Mumbai,India,IN,18.975,72.82583299999997,train station,ChIJZwcAS5TI5zsRr0ad6UeWowI,Kurla Station,"Station Brahmanwadi, Kurla, 400024, Station Rd, Kurla West, Kurla, Mumbai, Maharashtra 400070, India",19.0655986,72.8791535,Asia/Calcutta,19800,0
 Mumbai,India,IN,18.975,72.82583299999997,train station,ChIJCQm5y9fO5zsRUeigB6dFCIM,Matunga,"Matunga Central Railway Workshop, Hanuman Nagar, Dadar, Mumbai, Maharashtra 400019, India",19.02768,72.8502918,Asia/Calcutta,19800,0
 Mumbai,India,IN,18.975,72.82583299999997,train station,ChIJvWUwiW7O5zsRUhbzPs3reZg,Mumbai Central,"Nathani Heights Commercial,B'Wing,Shop no 57 Ground Floor, Mumbai Central, Mumbai, Maharashtra 400008, India",18.9696305,72.81936739999998,Asia/Calcutta,19800,0
@@ -1332,6 +1394,11 @@ Jakarta,Indonesia,ID,-6.1744,106.8294,fast food,ChIJdymE4UTwaS4RDsGFGd-UGfY,Blen
 Jakarta,Indonesia,ID,-6.1744,106.8294,fast food,ChIJr5BPAlvxaS4RMoqT7I2u8JU,Flip Burger,"Jl. Senopati No.27, RT.6/RW.3, Senayan, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12190, Indonesia",-6.230810900000001,106.80852759999999,Asia/Jakarta,25200,0
 Jakarta,Indonesia,ID,-6.1744,106.8294,fast food,ChIJv1Gt4iX0aS4RbqzFLAv2XHw,McDonald's,"Sarinah Thamrin, Jl. M.H. Thamrin No.11, RT.8/RW.4, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10350, Indonesia",-6.187459,106.823531,Asia/Jakarta,25200,0
 Jakarta,Indonesia,ID,-6.1744,106.8294,fast food,ChIJr9EGtar2aS4Rnp4i03ayBgs,McDonald's,"Plaza Sentral Ground Floor, Jl. Jend. Sudirman No.Kav.47-48, RT.5/RW.4, Karet Semanggi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 10250, Indonesia",-6.217356,106.8166408,Asia/Jakarta,25200,0
+Jakarta,Indonesia,ID,-6.1744,106.8294,fast food,ChIJt0saXciMaS4RBl9uhuG2k8Q,McDonald's,"Jl. Pendidikan Raya, RT.3/RW.2, Duren Sawit, Jakarta, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13440, Indonesia",-6.227353,106.92285600000001,Asia/Jakarta,25200,0
+Jakarta,Indonesia,ID,-6.1744,106.8294,fast food,ChIJ-4jKJHz2aS4RUvMKiBsHve8,McDonald's,"Jl. Cideng Barat No.55, RT.14/RW.2, Cideng, Gambir, Central Jakarta City, Jakarta 10150, Indonesia",-6.173476000000001,106.8111108,Asia/Jakarta,25200,0
+Jakarta,Indonesia,ID,-6.1744,106.8294,fast food,ChIJEwwrrXH3aS4RcBo0XDRfOnc,McDonald's,"Puri Indah Jl Puri Indah blok U1 No 1, RT.3/RW.2, Puri, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11610, Indonesia",-6.1875737,106.73794620000001,Asia/Jakarta,25200,0
+Jakarta,Indonesia,ID,-6.1744,106.8294,fast food,ChIJm1nenkjxaS4RRL2j0dJ3JSg,McDonald's Senayan Trade Center,"Senayan Trade Center (STC), Lt.LG, Jl. Asia Afrika Pintu IX No.1, RT.1/RW.3, Senayan, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10270, Indonesia",-6.228047900000001,106.798557,Asia/Jakarta,25200,0
+Jakarta,Indonesia,ID,-6.1744,106.8294,fast food,ChIJ7dcOv6XxaS4RyMFL_RaGCm0,Mcdonald's Pondok Indah,"Shop House Pondok Indah Plaza I Blok UA, Jl. Metro Pondok Indah No.33, RT.4/RW.14, Pd. Pinang, Kec. Kby. Lama, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 13220, Indonesia",-6.283863999999999,106.78046699999999,Asia/Jakarta,25200,0
 Jakarta,Indonesia,ID,-6.1744,106.8294,fast food,ChIJzXIiz7P1aS4RSux4OlHFt_U,Yakiniku Like Mall of Indonesia,"Mall of Indonesia, Lantai 2, Dotonbori, Jl. Boulevard Bar. Raya No.19, RT.18/RW.8, Klp. Gading Bar., Kec. Klp. Gading, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14240, Indonesia",-6.1507809999999985,106.8921979,Asia/Jakarta,25200,0
 Jakarta,Indonesia,ID,-6.1744,106.8294,mall,ChIJY9TrwiH0aS4RrvGqlZvI_Mw,Grand Indonesia,"Jl. M.H. Thamrin No.1, RT.1/RW.5, Menteng, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10310",-6.195022199999999,106.8209413,Asia/Jakarta,25200,0
 Jakarta,Indonesia,ID,-6.1744,106.8294,mall,ChIJKaUfSyD0aS4RzgythiJugxc,Grand Indonesia West Mall,"Jl. Tlk. Betung I No.45A, Kb. Melati, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10230",-6.1948124999999985,106.82009520000001,Asia/Jakarta,25200,0
@@ -1377,6 +1444,7 @@ Jakarta,Indonesia,ID,-6.1744,106.8294,train station,ChIJQwGCs5mMaS4RuGrXIhQIDNQ,
 Jakarta,Indonesia,ID,-6.1744,106.8294,train station,ChIJ0RVwvYT2aS4RAlUv_UtqCnk,Stasiun Tanahabang,"Jalan Jati Baru Raya, Jl. Cideng Timur, Kecamatan Tanah Abang, 10250, Indonesia",-6.1857020999999985,106.81085359999999,Asia/Jakarta,25200,0
 Jakarta,Indonesia,ID,-6.1744,106.8294,train station,ChIJ663qAxz0aS4R3x6eEyQE-RM,Sudirman Station,"10, Jl. Kendal No.24, RW.6, Menteng, 10310, Indonesia",-6.2024167000000014,106.8234654,Asia/Jakarta,25200,0
 Jakarta,Indonesia,ID,-6.1744,106.8294,train station,ChIJK1zST5vzaS4RS8TExpfzGRI,Tebet Station,"Tim, Jl. Tebet Raya No.62, Tebet Tim., Kec. Tebet, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12820, Indonesia",-6.2260624,106.8582835,Asia/Jakarta,25200,0
+Dublin,Ireland,IE,53.3331,-6.2489,fast food,ChIJp6vu9FAOZ0gRca3HjAO_Uso,Burger King,"Malahide Rd, Northside, Coolock, Co. Dublin, Ireland",53.3919386,-6.1930315,Europe/Dublin,0,3600
 Dublin,Ireland,IE,53.3331,-6.2489,sights,ChIJFXuSYYMOZ0gRb7gtcRw21Uc,Ha'penny Bridge,"Bachelors Walk, Temple Bar, Dublin",53.34630309999999,-6.2630846999999985,Europe/Dublin,0,3600
 Dublin,Ireland,IE,53.3331,-6.2489,sights,ChIJRVhJcpsOZ0gRU0mkyl3emMo,Molly Malone Statue,"Suffolk St, Dublin 2, D02 KX03",53.343757499999995,-6.2609382999999985,Europe/Dublin,0,3600
 Dublin,Ireland,IE,53.3331,-6.2489,sights,ChIJe1F08akNZ0gRa1ndmi3YJqE,Phoenix Park,"Northside, Dublin 8",53.3558823,-6.3298133000000005,Europe/Dublin,0,3600
@@ -1470,6 +1538,7 @@ Tel Aviv,Israel,IL,32.066666999999995,34.783333,train station,ChIJvWSdgNhLHRURGe
 Tel Aviv,Israel,IL,32.066666999999995,34.783333,train station,ChIJnXTNsb9LHRURACEfNTD58ik,Tel Aviv - Savidor Center,"Tel Aviv-Yafo, Israel",32.084175300000005,34.7983524,Asia/Jerusalem,7200,3600
 Tel Aviv,Israel,IL,32.066666999999995,34.783333,train station,ChIJp9_SHmZLHRURXBzmYEszCh0,Tel Aviv Ha'Hagana,"Tel Aviv-Yafo, Israel",32.054062,34.7847899,Asia/Jerusalem,7200,3600
 Tel Aviv,Israel,IL,32.066666999999995,34.783333,train station,ChIJ7-8kIZlLHRUR2qz0pEdmwYM,Tel Aviv-Hashalom,"לרחובות, Tel Aviv-Yafo, Israel",32.0734005,34.793175399999996,Asia/Jerusalem,7200,3600
+Florence,Italy,IT,43.783333,11.25,fast food,ChIJnygWpIRXKhMRsmLcEpcqlIg,Ristop Peretola Sud,"km. 3, Autostrada Firenze-Mare, 50019 Sesto Fiorentino FI, Italy",43.8187704,11.1720869,Europe/Rome,3600,3600
 Florence,Italy,IT,43.783333,11.25,sights,ChIJzQFOT8VWKhMRTyUGUZU3a8I,Parco delle Cascine,"Piazzale delle Cascine, 50144 Firenze FI",43.7822419,11.2193548,Europe/Rome,3600,3600
 Florence,Italy,IT,43.783333,11.25,sights,ChIJq6SMOVBRKhMRW0enUIBtpKo,"Porta Romana, Florence","Piazzale di Porta Romana, 50125 Firenze FI",43.7607328,11.2418543,Europe/Rome,3600,3600
 Florence,Italy,IT,43.783333,11.25,sights,ChIJYa1JLAlUKhMRi09aQ6yeiaE,Sant'Ambrogio Market,"Piazza Lorenzo Ghiberti, 50122 Firenze FI",43.770487700000004,11.2668928,Europe/Rome,3600,3600
@@ -1527,6 +1596,7 @@ Palermo,Italy,IT,38.116667,13.366667,train station,ChIJv2MgYI7lGRMR-VYesXfT_9M,P
 Palermo,Italy,IT,38.116667,13.366667,train station,ChIJ5d3hPmPvGRMRiM4zMEvzZYw,Palermo Palazzo Reale-Orleans,"90128 Palermo, Province of Palermo, Italy",38.1087813,13.3539756,Europe/Rome,3600,3600
 Palermo,Italy,IT,38.116667,13.366667,train station,ChIJh7rGZ47lGRMR4K5lyYlWWEE,Stazione Centrale,"90123 Palermo, Province of Palermo, Italy",38.110204100000004,13.368097099999998,Europe/Rome,3600,3600
 Palermo,Italy,IT,38.116667,13.366667,train station,ChIJ7c4nIE_vGRMRswauS7sjcSE,Stazione Palermo Notarbartolo,"Piazza Matteo Boiardo, 90144 Palermo PA, Italy",38.1324081,13.3419262,Europe/Rome,3600,3600
+Rome,Italy,IT,41.896,12.4833,fast food,ChIJdUaVtitgLxMRweJvop8z69c,Burger King,"C, Via Ostiense, 50/A/B, 00154 Roma RM, Italy",41.8720474,12.479871300000001,Europe/Rome,3600,3600
 Rome,Italy,IT,41.896,12.4833,mall,ChIJVz28Ho9iLxMRmq3vJEIvdTg,Centro Commerciale Casilino,"Via Casilina, 1011, 00169 Roma RM",41.871067,12.5832615,Europe/Rome,3600,3600
 Rome,Italy,IT,41.896,12.4833,mall,ChIJ_1v1REJiLxMRythaGlSADK8,Centro Commerciale Primavera,"Viale della Primavera, 194, 00172 Roma RM",41.8819848,12.5603528,Europe/Rome,3600,3600
 Rome,Italy,IT,41.896,12.4833,mall,ChIJY0Q5rBVkLxMRTFMtZWNjUWg,Dima Shopping Bufalotta,"Via Dario Niccodemi, 99, 00137 Roma RM",41.9577778,12.5488889,Europe/Rome,3600,3600
@@ -1566,6 +1636,8 @@ Rome,Italy,IT,41.896,12.4833,train station,ChIJlRxa-_NhLxMRkX7xjTtVBJU,Roma Tusc
 Rome,Italy,IT,41.896,12.4833,train station,ChIJ00hDNcGKJRMRgAPEdHq688g,Villa Bonelli,"00149 Rome, Metropolitan City of Rome, Italy",41.8478814,12.455190199999999,Europe/Rome,3600,3600
 Tokyo,Japan,JP,35.685,139.7514,fast food,ChIJ1b-LZDmNGGARb10FDfed-aM,KFC,"1 Chome-28-10 Takadanobaba, Shinjuku City, Tokyo 169-0075, Japan",35.7121787,139.70468430000003,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,fast food,ChIJsUd55LqMGGARAYlpkYlM4U8,McDonald's,"Japan, 〒150-0001 Tokyo, Shibuya City, Jingumae, 1 Chome−19−8 原宿ファミリービル １Ｆ",35.6716094,139.7035426,Asia/Tokyo,32400,0
+Tokyo,Japan,JP,35.685,139.7514,fast food,ChIJySdYw4CLGGARBMcpnvCZBgc,McDonald's,"5 Chome-4-5 Akasaka, Minato City, Tokyo 107-0052, Japan",35.6722617,139.7361434,Asia/Tokyo,32400,0
+Tokyo,Japan,JP,35.685,139.7514,fast food,ChIJdQ4RBKiMGGARe0xs-hhSKnk,McDonald's,"1 Chome-23-13 Jinnan, 渋谷区 Shibuya City, Tokyo 150-0041, Japan",35.66017720000001,139.7009307,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,fast food,ChIJkznhuZ6OGGAR8P2k4ZU1bdk,Wendy's First Kitchen Ueno Asakusaguchi,"7 Chome-2-2 Ueno, 台東区 Taito City, Tokyo 110-0005, Japan",35.71248129999999,139.7772989,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,mall,ChIJgauNe-3sGGARTMdHtZe3sFc,AEON Itabashi Shopping Center,"2 Chome-6-1 Tokumaru, Itabashi City, Tokyo 175-0083",35.7700362,139.6608532,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,mall,ChIJL8dbO_aJGGARLNy0iz274cE,AQUA CiTY ODAIBA,"1 Chome-7-1 Daiba, Minato City, Tokyo 135-0091",35.6277531,139.7733862,Asia/Tokyo,32400,0
@@ -1621,22 +1693,26 @@ Tokyo,Japan,JP,35.685,139.7514,supermarket,ChIJMwYlg7-OGGAR_Y6hAJsaIaA,SEIYU Asa
 Tokyo,Japan,JP,35.685,139.7514,supermarket,ChIJ3yB99W6NGGARD3XFPXk-tXo,Seiyu Sunshine Seiyu Store,"4 Chome-27-10 Higashiikebukuro, Toshima City, Tokyo 170-0013",35.7280965,139.7191097,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJK-m5fnbyGGARzAqJYzNX0MI,Asagaya Station,"3 Chome-36-2 Asagayaminami, Suginami City, Tokyo 166-0004, Japan",35.704870899999996,139.6355111,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJ1XqfRK2OGGARskk4jgTbxtI,Bakurochō Station,"Japan, 〒103-0002 東京都中央区日本橋馬喰町１丁目７−3",35.693883899999996,139.78310980000003,Asia/Tokyo,32400,0
+Tokyo,Japan,JP,35.685,139.7514,train station,ChIJzbmIx0WLGGAR-PRxDc5B-VA,Daikan-Yama Station,"19-4 Daikanyamacho, Shibuya City, Tokyo 150-0034, Japan",35.6480919,139.703148,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJ_yy1ybqMGGAR0tPR4qiHDVY,Harajuku Station,"1 Chome Jingumae, Shibuya City, Tokyo 150-0001, Japan",35.6702285,139.7026976,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJ4yc4UTvzGGAR2dzBPcNtwDo,Hatagaya Station,"Japan, 〒151-0072 東京都渋谷区幡ケ谷1丁目2−1",35.677314,139.6768408,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJLRE2fVxgGGARk_HykdulF3k,Kamata Station,"Japan, 〒144-0051 東京都大田区西蒲田７丁目２−3",35.5624794,139.7160731,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJE25z-3OFGGARfZM79XK_aso,Kanamachi Station,"6-chōme-4 Kanamachi, Katsushika City, Tōkyō-to 125-0042, Japan",35.7695707,139.87059430000002,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJZ1xQCp6SGGARwSwiE-vgFFU,Kita-Ikebukuro Station,"豊島区豊島清掃事務所 170-0011 36-6, 1 Chome-7-3 Ikebukurohoncho, Toshima City, Tokyo 170-0011, Japan",35.7408394,139.71674230000002,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJ5YZ6U1yKGGARfhvbKWcyVy0,Kitashinagawa Station,"1-chōme-1 Kitashinagawa, Shinagawa City, Tōkyō-to 140-0001, Japan",35.622066,139.739202,Asia/Tokyo,32400,0
+Tokyo,Japan,JP,35.685,139.7514,train station,ChIJMSkMutWNGGARvoPOfbkjYKA,Nippori Station,"2 Chome Nishinippori, Arakawa City, Tokyo, Japan",35.7281578,139.77064140000002,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJc-deL6COGGARRENyB-YX2eI,Okachimachi Station,"5 Chome-27 Ueno, Taito City, Tokyo 110-0005, Japan",35.7075185,139.7748564,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJJeSNmmjxGGAR7fBvh3Xjgig,Seijogakuen-mae Station,"6-chōme-5 Seijō, Setagaya City, Tōkyō-to 157-0066, Japan",35.6401283,139.5990873,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJ4RGu0emLGGARuUX8XtPxUVg,Shimbashi Station,"2 Chome-17 Shinbashi, Minato City, Tokyo 105-0004, Japan",35.666379,139.75833980000002,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJdYcUblqKGGARcNsG90fDRZo,Shinagawa Station,"3 Chome-26-27 Takanawa, Minato City, Tokyo 108-0074, Japan",35.6284713,139.73875969999997,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJkw7wvpGMGGAR5W5hbRuPKl0,Shinanomachi Station,"34 Shinanomachi, Shinjuku City, Tokyo 160-0016, Japan",35.6800602,139.7203199,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJH7qx1tCMGGAR1f2s7PGhMhw,Shinjuku Station,"3 Chome-38-1 Shinjuku, Shinjuku City, Tokyo 160-0022, Japan",35.68960670000001,139.70057130000004,Asia/Tokyo,32400,0
+Tokyo,Japan,JP,35.685,139.7514,train station,ChIJW7_cCLSLGGARVMFH0PVMOz0,Tamachi Station,"5 Chome-33-36 Shiba, Minato City, Tokyo 108-0014, Japan",35.6457361,139.74756240000002,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJC3Cf2PuLGGAROO00ukl8JwA,Tokyo Station,"1 Chome Marunouchi, Chiyoda City, Tokyo 100-0005, Japan",35.68123620000001,139.7671248,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJ6RCyu_CJGGARN8lKFZBh6J4,Tokyo Teleport Station,"1 Chome Aomi, Koto City, Tokyo 135-0064, Japan",35.6275325,139.7788145,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJCwbTk56OGGARRJJPe22ziWw,Ueno Station,"7 Chome Ueno, Taito City, Tokyo 110-0005, Japan",35.7141672,139.7774091,Asia/Tokyo,32400,0
 Tokyo,Japan,JP,35.685,139.7514,train station,ChIJwQ1Pvy6NGGARLG39QkbYBJ8,Ōkubo Station,"1 Chome-17-1 Hyakunincho, Shinjuku City, Tokyo 169-0073, Japan",35.700686499999996,139.697381,Asia/Tokyo,32400,0
+Amman,Jordan,JO,31.95,35.9333,fast food,ChIJK8FjQvemHBURYY2GbxuAytY,Barcelona Restaurant,"Al Sheikh Hraiz, Said Mohammad Al Abbadi St 79, Amman, Jordan",31.8910917,35.8601847,Asia/Amman,7200,3600
 Amman,Jordan,JO,31.95,35.9333,fast food,ChIJNQ7TlaOhHBURgH4Ppl8NnbY,McDonald's,"McDonalds, Abdallah Ghosheh St. 104, Amman, Jordan",31.974351000000002,35.854113,Asia/Amman,7200,3600
 Amman,Jordan,JO,31.95,35.9333,mall,ChIJ4eilwVueHBURL-xHadcgw2g,Abu Nsair Shopping Center,"يسمين, Amman",32.0525932,35.87829970000001,Asia/Amman,7200,3600
 Amman,Jordan,JO,31.95,35.9333,mall,ChIJA4b4NAKhHBURkGb55QnFZzI,Avenue Mall,"Salah Al-Shemat St., Amman",31.957014899999997,35.869386799999994,Asia/Amman,7200,3600
@@ -1697,6 +1773,9 @@ Seoul,"Korea, South",KR,37.5663,126.9997,fast food,ChIJ9RQS8-GjfDURAo7_Lqb9Tr4,B
 Seoul,"Korea, South",KR,37.5663,126.9997,fast food,ChIJzeLfLOqifDURmV4voUqZQs8,Burger King,"57 Sambong-ro, Susong-dong, Jongno-gu, Seoul, South Korea",37.5725,126.98055559999999,Asia/Seoul,32400,0
 Seoul,"Korea, South",KR,37.5663,126.9997,fast food,ChIJw3wDGsOYfDUR7xetCLuuyxk,Burger King,"34 Hongik-ro 6-gil, Seogyo-dong, Mapo-gu, Seoul, South Korea",37.555674100000005,126.9235585,Asia/Seoul,32400,0
 Seoul,"Korea, South",KR,37.5663,126.9997,fast food,ChIJI1pEr-6ifDURFVz4okow7wA,KFC 청계천점,"35 Cheonggyecheon-ro, Seorin-dong, Jongno-gu, Seoul, South Korea",37.569299900000004,126.9813612,Asia/Seoul,32400,0
+Seoul,"Korea, South",KR,37.5663,126.9997,fast food,ChIJSXJdIsOYfDURm5WSGWXvQUU,KFC 홍익대점,"17 Yanghwa-ro 18an-gil, Donggyo-dong, Mapo-gu, Seoul, South Korea",37.5559737,126.92323459999999,Asia/Seoul,32400,0
+Seoul,"Korea, South",KR,37.5663,126.9997,fast food,ChIJvd6Yg5WYfDUR9-eXh3fGTuo,Lotteria,"137 Seogang-ro, Seogyo-dong, Mapo-gu, Seoul, South Korea",37.554606400000004,126.9356835,Asia/Seoul,32400,0
+Seoul,"Korea, South",KR,37.5663,126.9997,fast food,ChIJI7B1wCKjfDURgNcJipIOAhQ,Lotteria,"255 Eulji-ro, Gwanghui-dong, Jung-gu, Seoul, South Korea",37.5663562,127.00661550000001,Asia/Seoul,32400,0
 Seoul,"Korea, South",KR,37.5663,126.9997,fast food,ChIJPVJiTcOYfDURG7B5opzr2Sw,McDonald's,"140 Yanghwa-ro, Seogyo-dong, Mapo-gu, Seoul, South Korea",37.55507490000001,126.9219716,Asia/Seoul,32400,0
 Seoul,"Korea, South",KR,37.5663,126.9997,fast food,ChIJ6Sjb23ekfDURZFGa3dof2wI,McDonald's,"407 Dosan-daero, Cheongdam-dong, Gangnam-gu, Seoul, South Korea",37.5235967,127.04029799999999,Asia/Seoul,32400,0
 Seoul,"Korea, South",KR,37.5663,126.9997,fast food,ChIJ2dv02O-ifDURr_mJyhANetk,McDonald's,"8 Myeongdong 7-gil, Myeongdong 1(il)-ga, Jung-gu, Seoul, South Korea",37.5641667,126.98444440000002,Asia/Seoul,32400,0
@@ -1770,6 +1849,7 @@ Seoul,"Korea, South",KR,37.5663,126.9997,train station,ChIJDxUjqASifDURYoe1LjkFb
 Seoul,"Korea, South",KR,37.5663,126.9997,train station,ChIJ6VuYeVO6fDURC2SC5ClMr5o,상봉역,"Sangbong 1(il)-dong, Seoul, South Korea",37.5972075,127.08586070000001,Asia/Seoul,32400,0
 Kuwait City,Kuwait,KW,29.3697,47.9783,fast food,ChIJXcB44d6Ezz8RQi1VBqoPqpI,KFC Maliya,"Fahad Al-Salem Street, Kuwait City, Kuwait",29.362568900000003,47.964135999999996,Asia/Kuwait,10800,0
 Kuwait City,Kuwait,KW,29.3697,47.9783,fast food,ChIJq0lJAoOEzz8RyQGu9GYk8cc,Mais Alghanim Restaurant,"Kuwait Kuwait city، 13012, Kuwait",29.3906158,47.998310100000005,Asia/Kuwait,10800,0
+Kuwait City,Kuwait,KW,29.3697,47.9783,fast food,ChIJPdnwRJeczz8RpFmj92MqRm8,McDonald's,"Hawalli Division 170, Ibn Khaldoun Street- Zaina Center., Ibn Khaldoun Street, Hawally 30000, Kuwait",29.3420646,48.011716,Asia/Kuwait,10800,0
 Kuwait City,Kuwait,KW,29.3697,47.9783,hardware store,ChIJJRZK7ZCazz8R5kC2EVx23rE,ACE Hardware,#1، 1207 9 St,29.309166700000002,47.9325,Asia/Kuwait,10800,0
 Kuwait City,Kuwait,KW,29.3697,47.9783,sights,ChIJsT9kmymczz8RRjFxbZjdLCE,Bayan Palace,Hawally 13008,29.3069875,48.0337065,Asia/Kuwait,10800,0
 Kuwait City,Kuwait,KW,29.3697,47.9783,sights,ChIJGTd9NPSdzz8RWj_KgKWIe6U,Boulevard,Salmiya,29.3293669,48.07747579999999,Asia/Kuwait,10800,0
@@ -1790,6 +1870,7 @@ Kuwait City,Kuwait,KW,29.3697,47.9783,train station,ChIJs4UF1lKazz8RF7zlHJEBnl4,
 Riga,Latvia,LV,56.95,24.1,fast food,ChIJD0lw9ETO7kYR3-q6QbkAQrA,Hesburger,"Dzelzavas iela 3, Vidzemes priekšpilsēta, Rīga, LV-1084, Latvia",56.96479919999999,24.1674867,Europe/Riga,7200,3600
 Riga,Latvia,LV,56.95,24.1,fast food,ChIJhd1_2cfa7kYRThQux4R_Xt8,Hesburger,"Kurzemes prospekts 166, Kurzemes rajons, Rīga, LV-1029, Latvia",56.95376629999999,23.9982904,Europe/Riga,7200,3600
 Riga,Latvia,LV,56.95,24.1,fast food,ChIJcy8tmNTP7kYRH0BPbxc85W0,Hesburger,"Stacijas laukums 2, Centra rajons, Rīga, LV-1050, Latvia",56.946827,24.1184078,Europe/Riga,7200,3600
+Riga,Latvia,LV,56.95,24.1,fast food,ChIJOZNnmeDR7kYRMLZOe4NLAOw,Hesburger,"Krasta iela 85, Latgales priekšpilsēta, Rīga, LV-1003, Latvia",56.93124599999999,24.149123,Europe/Riga,7200,3600
 Riga,Latvia,LV,56.95,24.1,fast food,ChIJpwurX3bQ7kYRJpk9NOnjUZw,McDonald's,"Kārļa Ulmaņa gatve 88A, Zemgales priekšpilsēta, Rīga, LV-1046, Latvia",56.929208900000006,24.024405899999998,Europe/Riga,7200,3600
 Riga,Latvia,LV,56.95,24.1,fast food,ChIJZUZDSFPF7kYRjhCmv_Fst98,McDonald's,"Kurzemes prospekts 5-7, Kurzemes rajons, Rīga, LV-1067, Latvia",56.95902599999999,24.036168,Europe/Riga,7200,3600
 Riga,Latvia,LV,56.95,24.1,fast food,ChIJR1fhaNPP7kYRuGn71tStK0g,McDonald's,"Merķeļa iela 1, Centra rajons, Rīga, LV-1050, Latvia",56.94833329999999,24.1197222,Europe/Riga,7200,3600
@@ -1797,6 +1878,7 @@ Riga,Latvia,LV,56.95,24.1,fast food,ChIJ04UVPtHP7kYRn_xgfdP4oyU,McDonald's,"Zigf
 Riga,Latvia,LV,56.95,24.1,fast food,ChIJje7KxhLO7kYRcjNm38HG2sI,McDonald's,"Gunāra Astras iela 17, Vidzemes priekšpilsēta, Rīga, LV-1082, Latvia",56.950320999999995,24.1850683,Europe/Riga,7200,3600
 Riga,Latvia,LV,56.95,24.1,fast food,ChIJ1c2JR6DO7kYRmq4OVfAHluE,McDonald's,"Brīvības gatve 434A, Vidzemes priekšpilsēta, Rīga, LV-1024, Latvia",56.989349,24.244178,Europe/Riga,7200,3600
 Riga,Latvia,LV,56.95,24.1,fast food,ChIJPWp1LPvR7kYR3CcLBqjT0Kw,McDonald's,"Ģenerāļa Radziņa krastmala 101, Latgales priekšpilsēta, Rīga, LV-1019, Latvia",56.92401089999999,24.162615399999996,Europe/Riga,7200,3600
+Riga,Latvia,LV,56.95,24.1,fast food,ChIJCZ-lAvzN7kYRJafFNqnnQf4,McDonald's,"Lubānas iela 76B, Latgales priekšpilsēta, Rīga, LV-1073, Latvia",56.930983,24.1985809,Europe/Riga,7200,3600
 Riga,Latvia,LV,56.95,24.1,fast food,ChIJd4YJqqzR7kYRxSd5NSETldo,McDonald’s,"Vienības gat. 115A, Zemgales priekšpilsēta, Rīga, LV-1058, Latvia",56.9069444,24.0827777,Europe/Riga,7200,3600
 Riga,Latvia,LV,56.95,24.1,hardware store,ChIJT5piZNjR7kYRxUiVPdYVp-A,DEPO,"Krasta iela 36, Latgales priekšpilsēta, Rīga, LV-1003",56.9374031,24.135226199999998,Europe/Riga,7200,3600
 Riga,Latvia,LV,56.95,24.1,hardware store,ChIJT15EawjM7kYRgyhVlqyiqLE,DEPO,"Siguldas šoseja 6, Berģi, Garkalnes novads, LV-1024",57.0019296,24.2877763,Europe/Riga,7200,3600
@@ -1850,6 +1932,9 @@ Luxembourg,Luxembourg,LU,49.6117,6.13,tourist information,ChIJIbwtNNNIlUcR9p7eIq
 Mexico City,Mexico,MX,19.4424,-99.131,bar,ChIJXaW5Syz50YURimljPd7Et3g,Bar Rio de la plata,"Calle Republica de Cuba 39, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, Mexico",19.4372045,-99.13761629999999,America/Mexico_City,-21600,0
 Mexico City,Mexico,MX,19.4424,-99.131,bar,ChIJX03s9zr_0YURHdcjFe9hbiE,Licorería Limantour,"Av. Álvaro Obregón 106, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX, Mexico",19.418129699999998,-99.159377,America/Mexico_City,-21600,0
 Mexico City,Mexico,MX,19.4424,-99.131,bar,ChIJJ3vOmSz50YURYFga67X4PAM,The Opera,"Av. 5 de Mayo 10, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX, Mexico",19.434731600000006,-99.1393709,America/Mexico_City,-21600,0
+Mexico City,Mexico,MX,19.4424,-99.131,fast food,ChIJNahh5yr50YUR0aI0pC05xl0,Burger King Alameda Central,"Av. Juárez 30, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06050 Ciudad de México, CDMX, Mexico",19.4343969,-99.1432932,America/Mexico_City,-21600,0
+Mexico City,Mexico,MX,19.4424,-99.131,fast food,ChIJnVGBQIX50YURAlh6F5nNFMM,Carl's Jr.,"casi esq. Montevideo, Av. Insurgentes Nte. 1840, Lindavista, Gustavo A. Madero, 07300 Ciudad de México, CDMX, Mexico",19.4881588,-99.12418790000001,America/Mexico_City,-21600,0
+Mexico City,Mexico,MX,19.4424,-99.131,fast food,ChIJWUnVMNz_0YURw4DElJoawaA,Carl's Jr.,"Av Miguel Ángel de Quevedo 643, San Francisco, Coyoacán, 04000 Ciudad de México, CDMX, Mexico",19.344447,-99.1645567,America/Mexico_City,-21600,0
 Mexico City,Mexico,MX,19.4424,-99.131,mall,ChIJs4nT1xoC0oURRpC7xl0_Pbg,Antara Fashion Hall,"Av Ejército Nacional 843, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX",19.4391975,-99.2022922,America/Mexico_City,-21600,0
 Mexico City,Mexico,MX,19.4424,-99.131,mall,ChIJNytXAO3-0YURzHSDgQSlfV0,Centro Comercial Patio Clavería,"Calle Egipto 135-147, Claveria, Azcapotzalco, 02080 Ciudad de México, CDMX",19.4635654,-99.18187569999999,America/Mexico_City,-21600,0
 Mexico City,Mexico,MX,19.4424,-99.131,mall,ChIJTcMYut4A0oURoMYpThqkxOc,Centro Santa Fe,"Vasco de Quiroga 3800, Lomas de Santa Fe, Contadero, Cuajimalpa de Morelos, 05348 Ciudad de México, CDMX",19.3611003,-99.2735972,America/Mexico_City,-21600,0
@@ -1954,6 +2039,7 @@ Windhoek,Namibia,,-22.57,17.0835,street market,ChIJ6YEDYi4bCxwRmuLghimGi6A,Check
 Windhoek,Namibia,,-22.57,17.0835,street market,ChIJpUzqYFsbCxwRKxbMYb_WaHs,OK Foods (Independance),"Windhoek, Namibia",-22.5573758,17.0837389,Africa/Windhoek,7200,0
 Windhoek,Namibia,,-22.57,17.0835,street market,ChIJMf4_XVsbCxwRbJr1RUcIQcA,OK Supermarkt,"Windhoek, Namibia",-22.5575014,17.0838876,Africa/Windhoek,7200,0
 Amsterdam,Netherlands,NL,52.35,4.9166,club,ChIJQwD_YbgJxkcRPLbytQSfkKE,Stone's Café Bar & Nightclub,"Warmoesstraat 96, 1012 JH Amsterdam, Netherlands",52.37454899999999,4.8968889,Europe/Amsterdam,3600,3600
+Amsterdam,Netherlands,NL,52.35,4.9166,fast food,ChIJwRWvJXYLxkcRoKnhDTM_u30,McDonald's,"Muntbergweg 16-18, 1101 ED Amsterdam, Netherlands",52.3000974,4.9446655999999996,Europe/Amsterdam,3600,3600
 Amsterdam,Netherlands,NL,52.35,4.9166,park,ChIJW3VkBjwKxkcRVNsYc24GnkU,Amstelpark,"Arent Janszoon Ernststraat 1, 1083 GA Amsterdam, Netherlands",52.3300729,4.893990799999999,Europe/Amsterdam,3600,3600
 Amsterdam,Netherlands,NL,52.35,4.9166,sights,ChIJcVZ0i_IJxkcRSwuhqrmu2NI,Albert Cuyp Market,"Albert Cuypstraat, 1073 BD Amsterdam",52.355967299999996,4.8953871,Europe/Amsterdam,3600,3600
 Amsterdam,Netherlands,NL,52.35,4.9166,sights,ChIJYQnr8rHhxUcRtlrEKyr4to8,Amsterdam Forest,1182 DA Amstelveen,52.31850220000001,4.8331301,Europe/Amsterdam,3600,3600
@@ -2020,6 +2106,9 @@ Wellington,New Zealand,NZ,-41.3,174.7833,supermarket,ChIJR5ZOZ9-vOG0RMaAd5Mzq0F0
 Wellington,New Zealand,NZ,-41.3,174.7833,tourist information,ChIJPaSvMdOxOG0REKudJGLvAA8,Wellington Botanic Garden,"101 Glenmore Street, Kelburn, Wellington 6012, New Zealand",-41.2823079,174.7674514,Pacific/Auckland,43200,3600
 Wellington,New Zealand,NZ,-41.3,174.7833,train station,ChIJS54pT25TP20RkJebJGLvAB0,Porirua Station,"Porirua City Centre, Porirua 5022, New Zealand",-41.1375725,174.8433759,Pacific/Auckland,43200,3600
 Wellington,New Zealand,NZ,-41.3,174.7833,train station,ChIJuddNPyyuOG0RcOsVJWLvAB0,Wellington Station,"District of Freedom#8573311~!#, Bunny Street, Pipitea, Wellington 6011, New Zealand",-41.279214,174.78034,Pacific/Auckland,43200,3600
+Managua,Nicaragua,NI,12.153,-86.2685,fast food,ChIJ1wyj6CX-c48Rx7N6oG2y3Jg,Carl's Jr,"Camino Viejo a Sto. Domingo, Managua, Nicaragua",12.1050165,-86.2504257,America/Managua,-21600,0
+Managua,Nicaragua,NI,12.153,-86.2685,fast food,ChIJPZ9qoN39c48ROXPe92lAqBI,McDonald's,"Boulevard Ruben Dario, Managua, Nicaragua",12.1462927,-86.2347793,America/Managua,-21600,0
+Managua,Nicaragua,NI,12.153,-86.2685,fast food,ChIJX0DMD_BVcY8RTSqiEkEeETk,McDonald's,"Marginal Av de las Naciones Unidas, Managua 14003, Nicaragua",12.1261472,-86.2658043,America/Managua,-21600,0
 Managua,Nicaragua,NI,12.152999999999999,-86.2685,hardware store,ChIJuXdcdzT-c48RjRR1tzgE_uU,SINSA Carretera a Masaya,"KM 8, 1/2 Carretera a Masaya, Managua",12.0959814,-86.2407248,America/Managua,-21600,0
 Managua,Nicaragua,NI,12.152999999999999,-86.2685,hardware store,ChIJ11X-NdhVcY8R4bdLiaF_3gA,SINSA Home Center,"Pista Benjamin Zeledon, Managua 12066",12.136206800000002,-86.2852984,America/Managua,-21600,0
 Managua,Nicaragua,NI,12.152999999999999,-86.2685,mall,ChIJZ2E5ahj-c48RJbTrwecWF2Q,Managua Comercial Centrer,"Centro Comercial Managua, Managua",12.1169901,-86.24826159999998,America/Managua,-21600,0
@@ -2047,6 +2136,7 @@ Managua,Nicaragua,NI,12.153,-86.2685,supermarket,ChIJX0UVatlVcY8RkkVbrWSG1_Y,Sup
 Managua,Nicaragua,NI,12.152999999999999,-86.2685,tourist information,ChIJpekEP_dVcY8RfnbSjX0VEyQ,Japón Nicaragua Park,"Managua, Nicaragua",12.1249496,-86.2606168,America/Managua,-21600,0
 Managua,Nicaragua,NI,12.153,-86.2685,train station,ChIJvweO1zH8c48RxLsJzSoXBwU,UNO-Waspan,"Panamericana Nte., Managua, Nicaragua",12.148909100000001,-86.20933690000001,America/Managua,-21600,0
 Oslo,Norway,NO,59.9167,10.75,fast food,ChIJH2tgVX1uQUYRke8NNL5M0G8,Max,"Karl Johans gate 18C, 0159 Oslo, Norway",59.912750900000006,10.7417242,Europe/Oslo,3600,3600
+Oslo,Norway,NO,59.9167,10.75,fast food,ChIJU9wNu19uQUYRWUJev4kTmvk,Max,"Grønland basar, Tøyengata 2, 0190 Oslo, Norway",59.91276329999999,10.7633782,Europe/Oslo,3600,3600
 Oslo,Norway,NO,59.9167,10.75,fast food,ChIJUxh0cZVvQUYRW2uXBdcyoPw,McDonald's Alnabru,"Strømsveien 241A, 0668 Oslo, Norway",59.92472220000001,10.843611099999999,Europe/Oslo,3600,3600
 Oslo,Norway,NO,59.9167,10.75,fast food,ChIJUUE21_NvQUYR7Xq9vPza5wM,McDonald's Furuset,"Tevlingveien 17, 1081 Oslo, Norway",59.93078649999999,10.868673199999998,Europe/Oslo,3600,3600
 Oslo,Norway,NO,59.9167,10.75,fast food,ChIJE_AdPmJuQUYRnSsQ1Ns-9e8,McDonald's Storgata,"Storgata 15, 0155 Oslo, Norway",59.91352079999999,10.7496138,Europe/Oslo,3600,3600
@@ -2097,6 +2187,7 @@ Oslo,Norway,NO,59.9167,10.75,train station,ChIJOT0lHIpuQUYR0lDolr7vaW0,Oslo Cent
 Oslo,Norway,NO,59.9167,10.75,train station,ChIJkWZJhAlvQUYRM73KUteEgME,Parkering Bryn Senter - OSLO | APCOA,"Bryn Senter, Østensjøveien 79, 0667 Oslo, Norway",59.90364899999999,10.821855000000001,Europe/Oslo,3600,3600
 Oslo,Norway,NO,59.9167,10.75,train station,ChIJyYnc6rNtQUYRJpKNR00W_8E,Skøyen stasjon,"0277 Oslo, Norway",59.9225591,10.678378599999998,Europe/Oslo,3600,3600
 Islamabad,Pakistan,PK,33.7,73.1666,fast food,ChIJaZUyZj6-3zgR0Xw7zvtDDj8,McDonald's,"Jinnah Avenue, F-9, Islamabad, Islamabad Capital Territory, Pakistan",33.691537200000006,73.01917890000001,Asia/Karachi,18000,0
+Islamabad,Pakistan,PK,33.7,73.1666,fast food,ChIJA25EIE_t3zgRcO42nG8qD6s,McDonald's,"Bahria Town, Phase 7 ,Near Green Valley، Bahria Town، Islamabad Capital Territory, 46000, Pakistan",33.5261744,73.0967792,Asia/Karachi,18000,0
 Islamabad,Pakistan,PK,33.7,73.1666,restaurant,ChIJ-1-nYmy_3zgR5jfCpERAMYY,Des Pardes,"Saidpur Rd, Saidpur, Islamabad, Islamabad Capital Territory 44000",33.7441688,73.0678061,Asia/Karachi,18000,0
 Islamabad,Pakistan,PK,33.7,73.1666,restaurant,ChIJwbBFrqK_3zgRKtFBCoJQjwY,Savour Foods,"Fortune Plaza, 2 Jinnah Ave, Block H Sector G-7 G 7/2 Blue Area, Islamabad, Islamabad Capital Territory 44000",33.713265899999996,73.0635171,Asia/Karachi,18000,0
 Islamabad,Pakistan,PK,33.7,73.1666,sights,ChIJgYJTTluT3zgR59SHCUEkZQo,Jinnah Park Rawalpindi,"Mushtaq Baig Shaheed Road, Chaklala Cantt., Rawalpindi, Punjab 46000",33.58462539999999,73.07203009999998,Asia/Karachi,18000,0
@@ -2122,6 +2213,7 @@ Asunción,Paraguay,PY,-25.2964,-57.6415,restaurant,ChIJHTEESfKnXZQRFuyfX62XqMI,L
 Asunción,Paraguay,PY,-25.2964,-57.6415,sights,ChIJO4m9NuunXZQR-5zkZiMZSiI,Costanera de Asuncion,"Av Costanera José Asunción Flores, Asunción, Paraguay",-25.2768765,-57.631347999999996,America/Asuncion,-14400,0
 Asunción,Paraguay,PY,-25.2964,-57.6415,sights,ChIJOyhIZxkIXZQRI03zbbHOJ4w,Parque Carlos A Lopez,"Avenida Carlos Antonio López, Asunción, Paraguay",-25.2869366,-57.6510244,America/Asuncion,-14400,0
 Asunción,Paraguay,PY,-25.2964,-57.6415,sights,ChIJuYzAVO6nXZQRiBn2cX5-PO4,Plaza Pública URUGUAYA,"25 De Mayo & Estrella, Asunción, Paraguay",-25.2848982,-57.6299915,America/Asuncion,-14400,0
+Lima,Peru,PE,-12.048,-77.0501,fast food,ChIJ3XZUaVHOBZERym4ubTry9t0,McDonald's,"Av. Carlos Izaguirre 295-255, Lima 15311, Peru",-11.9903427,-77.0632201,America/Lima,-18000,0
 Lima,Peru,PE,-12.048,-77.0501,mall,ChIJVVVVqOfIBZERu35pV1TLIJw,C.C. La Rambla Brasil,"Av. Brasil 702, Breña 15083, Peru",-12.066937300000001,-77.047381,America/Lima,-18000,0
 Lima,Peru,PE,-12.048,-77.0501,mall,ChIJbQBKKUPIBZERxeuoaR_jSm0,Camino Real Mall,"Av. Camino Real 871, San Isidro 15073",-12.097180300000002,-77.0363325,America/Lima,-18000,0
 Lima,Peru,PE,-12.048,-77.0501,mall,ChIJtfZdpLnIBZER3DI3U1BSMmo,El Hueco,"Av. Abancay 1451, Cercado de Lima 15001",-12.054262199999998,-77.02942890000001,America/Lima,-18000,0
@@ -2167,6 +2259,7 @@ Lima,Peru,PE,-12.048,-77.0501,tourist information,ChIJsX6q1bXIBZERqiIeSAseBhY,Pl
 Lima,Peru,PE,-12.048,-77.0501,train station,ChIJZ-DUhBzIBZERKQ1PIf-w2rU,Benavides station Metropolitan,"Vía Expresa Paseo de la República, Miraflores 15047, Peru",-12.125250900000001,-77.0241423,America/Lima,-18000,0
 Lima,Peru,PE,-12.048,-77.0501,train station,ChIJz94McEK4BZERZd0I2AVsU8c,Estacion Atocongo,"Lima District 15803, Peru",-12.150828,-76.97943790000001,America/Lima,-18000,0
 Lima,Peru,PE,-12.048,-77.0501,train station,ChIJQVo3MQ-4BZERR4zQGt5xbwI,Estación Ayacucho,"Av. Tomas Marsano cruce con Av. Ayacucho, Cercado de Lima, Peru",-12.1347355,-76.99697789999998,America/Lima,-18000,0
+Lima,Peru,PE,-12.048,-77.0501,train station,ChIJzfP6d8HDBZER8VeiMbGxlCU,Santa Clara,"Lima District 15487, Peru",-12.0170759,-76.8930385,America/Lima,-18000,0
 Lima,Peru,PE,-12.048,-77.0501,train station,ChIJV8wPkHzIBZERMYsEZQYOYfs,Tepsa,"Av Javier Prado Este 1091, Cercado de Lima 15034, Peru",-12.089977000000001,-77.01989499999998,America/Lima,-18000,0
 Warsaw,Poland,PL,52.25,21.0,fast food,ChIJTR7dSIsyGUcRXtfTUyDvFzc,KFC,"Puławska 274C, 02-819 Warszawa, Poland",52.151812,21.016818899999997,Europe/Warsaw,3600,3600
 Warsaw,Poland,PL,52.25,21.0,fast food,ChIJrcQC0VnLHkcRHcwrSIyLzDk,KFC BP Jerozolimskie,"al. Jerozolimskie 144c, 02-305 Warszawa, Poland",52.21522539999999,20.956210000000002,Europe/Warsaw,3600,3600
@@ -2243,8 +2336,11 @@ Lisbon,Portugal,PT,38.7227,-9.1449,train station,ChIJL42Kt3g0GQ0RfGlw4GJ8FOE,San
 Lisbon,Portugal,PT,38.7227,-9.1449,train station,ChIJ7TndzRczGQ0RIS4hn7YXsAo,Sete Rios,"1500-561 Lisbon, Portugal",38.7402436,-9.166652699999998,Europe/Lisbon,0,3600
 Doha,Qatar,QA,25.2866,51.533,fast food,ChIJHS-Q0MnaRT4RcDS8MweA410,Burger King,"C Ring Rd, Doha, Qatar",25.2767696,51.507637,Asia/Qatar,10800,0
 Doha,Qatar,QA,25.2866,51.533,fast food,ChIJ6RlVF3jPRT4RgZOa9WI5qRw,KFC Airport دجاج كنتاكي,"Airport Road, Doha, Qatar",25.261174899999997,51.558057399999996,Asia/Qatar,10800,0
+Doha,Qatar,QA,25.2866,51.533,fast food,ChIJB1hcVdvaRT4RaoLzXIB5rlM,KFC Al Sadd,"Al Sadd St, Doha, Qatar",25.281116,51.4989828,Asia/Qatar,10800,0
 Doha,Qatar,QA,25.2866,51.533,fast food,ChIJYbUJCHjaRT4RLQJWoHMRjz8,McDonald's,"Al Jazeera Petrol Station, Salwa Road,, Doha, Qatar",25.2426647,51.463097399999995,Asia/Qatar,10800,0
 Doha,Qatar,QA,25.2866,51.533,fast food,ChIJE8dD_93ORT4Rg9ux70Rk5-I,McDonald's,"00974, Airport Road Al Matar St, Doha, Qatar",25.2614853,51.557646399999996,Asia/Qatar,10800,0
+Doha,Qatar,QA,25.2866,51.533,fast food,ChIJ-WWuG2bbRT4R6pzANawNwN8,McDonald's,"Al Markhiya, Near TV Round About, Khalifa Street, Doha, Qatar",25.32123,51.489585,Asia/Qatar,10800,0
+Doha,Qatar,QA,25.2866,51.533,fast food,ChIJFQph9d3RRT4RgjqHEYr5CGE,McDonald's Barwa City,Lulu Hypemarket، Qatar,25.197414399999996,51.508184,Asia/Qatar,10800,0
 Doha,Qatar,QA,25.2866,51.533,mall,ChIJnQA1E1_bRT4R2b1nIECxl5w,Al Hazm,"Al Markhiya St, Doha",25.332420000000006,51.497217,Asia/Qatar,10800,0
 Doha,Qatar,QA,25.2866,51.533,mall,ChIJielAv07ORT4R3yJ1GTprQFU,B Square Mall,"F-Ring Rd، Al Thumama, Doha",25.2207607,51.54221190000001,Asia/Qatar,10800,0
 Doha,Qatar,QA,25.2866,51.533,mall,ChIJ8y9GNL_ERT4RfI1CzAegl2g,City Center Mall Doha,"Doha City Center 4th Street, Doha",25.3255831,51.53056770000001,Asia/Qatar,10800,0
@@ -2280,8 +2376,10 @@ Bucharest,Romania,RO,44.4334,26.0999,fast food,ChIJx137ydT4sUARUdaFVOmIsUs,Calif
 Bucharest,Romania,RO,44.4334,26.0999,fast food,ChIJn2VLAAX_sUARXqCxghQgN3s,Dristor Doner Kebap,"Bulevardul Dimitrie Cantemir 22, București, Romania",44.417005200000006,26.1039557,Europe/Bucharest,7200,3600
 Bucharest,Romania,RO,44.4334,26.0999,fast food,ChIJgbsbI-j-sUARTIuiZ71NE20,Dristor Kebap,"Bulevardul camil ressu, sector 3 2 A, București 011135, Romania",44.420361,26.137445899999996,Europe/Bucharest,7200,3600
 Bucharest,Romania,RO,44.4334,26.0999,fast food,ChIJxYMUfeECskARPmRj4loGpy8,KFC drive Baneasa,"Șoseaua București-Ploiești 42-44, București 013696, Romania",44.50776860000001,26.084673199999997,Europe/Bucharest,7200,3600
+Bucharest,Romania,RO,44.4334,26.0999,fast food,ChIJdYgUPDr-sUARciPnx6bljD0,La Grași,"Strada Huedin 14, București, Romania",44.384314,26.1018509,Europe/Bucharest,7200,3600
 Bucharest,Romania,RO,44.4334,26.0999,fast food,ChIJBdq2XOj-sUAR7m-KSfk6tHs,McDonald's,"Șoseaua Mihai Bravu 307, București 030307, Romania",44.4196234,26.1370527,Europe/Bucharest,7200,3600
 Bucharest,Romania,RO,44.4334,26.0999,fast food,ChIJ7Qufck7_sUAR9z7Pnf_7c0w,McDonald's,"Bulevardul General Gheorghe Magheru 24A, București 030167, Romania",44.44452159999999,26.098332199999998,Europe/Bucharest,7200,3600
+Bucharest,Romania,RO,44.4334,26.0999,fast food,ChIJ48E9Pqb-sUARy15r_TdP4dI,McDonald's,"Bulevardul 1 Decembrie 1918 33A, București 032455, Romania",44.4202182,26.1760318,Europe/Bucharest,7200,3600
 Bucharest,Romania,RO,44.4334,26.0999,fast food,ChIJ15JhuRX_sUARDJQwuTtg3Mg,McDonald's Unirea,"McDonald's 78, Unirea Shopping Center 0034, Piața Unirii 1, București 030119, Romania",44.4285225,26.104276300000002,Europe/Bucharest,7200,3600
 Bucharest,Romania,RO,44.4334,26.0999,fast food,ChIJjQ8ef0kAskAR1BLx1SqcRPc,Primo Fast Food,"Drumul Taberei 70, București 061366, Romania",44.4235169,26.024695,Europe/Bucharest,7200,3600
 Bucharest,Romania,RO,44.4334,26.0999,hardware store,ChIJ-7px90v5sUAR6qWVg3mcmwo,MAM Bricolaj Morarilor,"Șoseaua Morarilor 2A, București 022452",44.4386059,26.1669003,Europe/Bucharest,7200,3600
@@ -2496,9 +2594,11 @@ Kigali,Rwanda,RW,-1.9536,30.0605,street market,ChIJT2oqUUim3BkR5uYl9bSozTw,Simba
 Kigali,Rwanda,RW,-1.9536,30.0605,street market,ChIJC1_ZuiWk3BkRqOYb7jQezTo,T-2000 Supermarket,"KN 82 St, Kigali, Rwanda",-1.9433473999999997,30.0587453,Africa/Kigali,7200,0
 Kigali,Rwanda,RW,-1.9536,30.0605,train station,ChIJ1XpB-Zan3BkR4v5rKXK660U,Kigali International Airport,"KN 5 Rd, Kigali, Rwanda",-1.9630791,30.1350038,Africa/Kigali,7200,0
 Kigali,Rwanda,RW,-1.9536,30.0605,train station,ChIJpf5fPhWk3BkRjFCF57tudfI,Nyabugogo Taxi Park,"Boulevard de Nyabugoro, Kigali, Rwanda",-1.9408421999999999,30.0444955,Africa/Kigali,7200,0
+Riyadh,Saudi Arabia,SA,24.6408,46.7727,fast food,ChIJreql9EcPLz4RRqS2YXKQVqM,Hardee's,"Dist، Al Batha St، Al Mansourah, Riyadh 12684, Saudi Arabia",24.5952089,46.736974700000005,Asia/Riyadh,10800,0
 Riyadh,Saudi Arabia,SA,24.6408,46.7727,fast food,ChIJ4f_jAHahLz4RjpBBdGvaokI,McDonald's,Industiral city of Riyadh، Riyadh Saudi Arabia,24.553372500000002,46.8887033,Asia/Riyadh,10800,0
 Riyadh,Saudi Arabia,SA,24.6408,46.7727,fast food,ChIJoZo0IWsELz4R3EmsEb_9WlA,McDonald's,"Sitteen, Salahddine Street Intersection with Jareer Street, Ad Dubbat، Ad Dhubbat, Riyadh 12627, Saudi Arabia",24.6703957,46.7276071,Asia/Riyadh,10800,0
 Riyadh,Saudi Arabia,SA,24.6408,46.7727,fast food,ChIJTVw4XEr9Lj4RryN9NjAX0DE,McDonald's,"Ibn Sina, ، المصيف، Riyadh 12467, Saudi Arabia",24.7614795,46.6734942,Asia/Riyadh,10800,0
+Riyadh,Saudi Arabia,SA,24.6408,46.7727,fast food,ChIJW9PTAR0DLz4R3pPxE7buCHk,McDonald's,"Rakaa Plaza, Prince Abdulah st, in front of King Saud University، Riyadh 12355, Saudi Arabia",24.713554600000002,46.6332191,Asia/Riyadh,10800,0
 Riyadh,Saudi Arabia,SA,24.6408,46.7727,fast food,ChIJjd5mTN_9Lj4Rh13xrzdXJb8,Welcome Fast Food,"2689 Abi Jafar Al Mansour St, Ghirnatah, Riyadh 13242, Saudi Arabia",24.7937182,46.746997,Asia/Riyadh,10800,0
 Riyadh,Saudi Arabia,SA,24.6408,46.7727,restaurant,ChIJ-eOIxmMELz4RVqkvGa80cuo,Delhi Restaurant مطعم ديلهي,شارع الشيخ عبد الرحمان بن محسن، حي، Riyadh,24.6679905,46.7122515,Asia/Riyadh,10800,0
 Riyadh,Saudi Arabia,SA,24.6408,46.7727,restaurant,ChIJ39dVnIcELz4RiIEMFRoxOvI,Malaz Indian Restaurant,"شاعر الأمير عبد الرحمن بن عبد العزيز، حي المربع، Al Murabba, Riyadh 12626",24.6728208,46.7084384,Asia/Riyadh,10800,0
@@ -2533,6 +2633,7 @@ Riyadh,Saudi Arabia,SA,24.6408,46.7727,tourist information,ChIJN1RXRTsELz4RvVlDw
 Riyadh,Saudi Arabia,SA,24.6408,46.7727,tourist information,ChIJWW1BMa8GLz4RgKf4mbWaK3M,Nahda Park,"Nahdah Rd, Jarir, Riyadh 12833, Saudi Arabia",24.6864146,46.75495249999999,Asia/Riyadh,10800,0
 Riyadh,Saudi Arabia,SA,24.6408,46.7727,tourist information,ChIJOS7K1UQDLz4RRd7xthgaPaI,Olaya Park,"ابي بكر الباقلاني ,العليا، Al Olaya, Riyadh 12311, Saudi Arabia",24.6806073,46.68280410000001,Asia/Riyadh,10800,0
 Riyadh,Saudi Arabia,SA,24.6408,46.7727,tourist information,ChIJL8ewJBcELz4RQ2IOF855NzU,Riyadh Zoo,"Al Ihsa, Al Malaz, Riyadh 12832, Saudi Arabia",24.6753198,46.7375011,Asia/Riyadh,10800,0
+Riyadh,Saudi Arabia,SA,24.6408,46.7727,train station,ChIJoSalUtIFLz4RviOxczpU3TA,Riyadh Rail Station,"Ath Thumamah Road, thumamh, Riyadh Saudi Arabia",24.6505103,46.740551200000006,Asia/Riyadh,10800,0
 Dakar,Senegal,SN,14.7158,-17.4731,fast food,ChIJnTakeM1ywQ4R-IsJECDbAh8,La Brioche Dorée,"Route du Front de Terre, Dakar, Senegal",14.726944400000002,-17.4444444,Africa/Dakar,0,0
 Dakar,Senegal,SN,14.7158,-17.4731,restaurant,ChIJ8Wp3IL5ywQ4RGE3ZL40s7JU,Restaurant le BAZOFF,"Grand Dakar, Dakar, Senegal",14.706030100000001,-17.460158399999994,Africa/Dakar,0,0
 Dakar,Senegal,SN,14.7158,-17.4731,street market,ChIJ2yUu1V5ywQ4Rt8Ey4UnQm00,MARCHE TILENE,"Avenue Blaise Diagne, Dakar, Senegal",14.681695499999998,-17.4497116,Africa/Dakar,0,0
@@ -2541,6 +2642,8 @@ Dakar,Senegal,SN,14.7158,-17.4731,tourist information,ChIJ8XduIUxywQ4RtcavmSMOPN
 Dakar,Senegal,SN,14.7158,-17.4731,tourist information,ChIJe2waPoNywQ4RwRNsG9g5HRk,Place du Souvenir Africain,"Dakar, Senegal",14.692202599999998,-17.4746981,Africa/Dakar,0,0
 Belgrade,Serbia,RS,44.8186,20.468,fast food,ChIJI7V2R7N6WkcR45KRY44Kzy4,KFC Studentski Trg,"Vase Čarapića 24, Beograd 105905, Serbia",44.818438,20.458425,Europe/Belgrade,3600,3600
 Belgrade,Serbia,RS,44.8186,20.468,fast food,ChIJH68XrnVvWkcRs5WO9M71NBI,McDonald's Piramida,"Jurija Gagarina 153, Beograd 11000, Serbia",44.802132799999995,20.3855543,Europe/Belgrade,3600,3600
+Belgrade,Serbia,RS,44.8186,20.468,fast food,ChIJC5GNmnVlWkcR7Z1ytL7t_W4,Sis Cevap,"Goce Delčeva, Beograd, Serbia",44.83051879999999,20.413988399999997,Europe/Belgrade,3600,3600
+Belgrade,Serbia,RS,44.8186,20.468,fast food,ChIJC5GNmnVlWkcRKsudVkh2Z28,Ćirino drvce,"Goce Delčeva 11a, Beograd, Serbia",44.8309967,20.4182185,Europe/Belgrade,3600,3600
 Belgrade,Serbia,RS,44.8186,20.468,restaurant,ChIJuea0JnplWkcRKfcy-kwFtA8,Durmitor,"Omladinskih brigada 16a, Beograd",44.8222874,20.4108254,Europe/Belgrade,3600,3600
 Belgrade,Serbia,RS,44.8186,20.468,shopping,ChIJHQJkIodmWkcRXRS2Ys0z1O8,BN BOS TRŽNI CENTAR,"Batajnički Drum 1, Beograd 11080",44.862835100000005,20.3671299,Europe/Belgrade,3600,3600
 Belgrade,Serbia,RS,44.8186,20.468,shopping,ChIJV1iTPgRxWkcRowz_6g5sL88,Banjica Shopping Center,"Paunova 24, Beograd 11010",44.7567294,20.476377399999997,Europe/Belgrade,3600,3600
@@ -2570,12 +2673,17 @@ Belgrade,Serbia,RS,44.8186,20.468,train station,ChIJm7RwjOBtWkcRVLFfotqu4ps,Belg
 Belgrade,Serbia,RS,44.8186,20.468,train station,ChIJFf7eRr96WkcR-svZ4I9r0MY,Železnička stanica Beograd Dunav,"Poenkareova 39, Beograd 11000, Serbia",44.8192456,20.4805675,Europe/Belgrade,3600,3600
 Singapore,Singapore,SG,1.293,103.8558,fast food,ChIJwWAbzA4Z2jERdkEry5RFyJk,Burger King,"30 Raffles Place, 01-01 / 02, Singapore 048622",1.2843331,103.8523732,Asia/Singapore,28800,0
 Singapore,Singapore,SG,1.293,103.8558,fast food,ChIJhbR_nXgX2jER_55U4lm-RTk,McDonald's,"148 Potong Pasir Ave 1, #01-43, Singapore 350148",1.3328,103.8680073,Asia/Singapore,28800,0
+Singapore,Singapore,SG,1.293,103.8558,fast food,ChIJb-ErmBYX2jEReAv41kzY_7g,McDonald's Ang Mo Kio Park,"10 Ang Mo Kio Street 12, Singapore 567740",1.3724397,103.8447661,Asia/Singapore,28800,0
 Singapore,Singapore,SG,1.293,103.8558,fast food,ChIJfyzyWto92jERJ1G6w_pk-Vs,McDonald's Changi Airport T3,"65 Airport Blvd, Singapore 819663",1.3552680000000001,103.9864349,Asia/Singapore,28800,0
 Singapore,Singapore,SG,1.293,103.8558,fast food,ChIJL2u2o7YX2jERLceCHtqWtbg,McDonald’s,"208 Hougang Street 21, #01-217, Singapore 530208",1.3584825,103.88633730000001,Asia/Singapore,28800,0
 Singapore,Singapore,SG,1.293,103.8558,fast food,ChIJ4VNxIMYZ2jER2gBSZpDf1aw,McDonald’s,"180 Kitchener Rd, Singapore 208539",1.3117115,103.85635490000001,Asia/Singapore,28800,0
+Singapore,Singapore,SG,1.293,103.8558,fast food,ChIJJVbp8dEZ2jERKuG3jhWrNHg,McDonald’s,"22 Boon Keng Rd, #01-01, Singapore 330022",1.319014,103.8617162,Asia/Singapore,28800,0
+Singapore,Singapore,SG,1.293,103.8558,fast food,ChIJn-_JSuMW2jERzi8vVHceo8o,McDonald’s Ang Mo Kio Ave,"Ang Mo Kio Ave 10, #01-1693 Block 448, Singapore 560448",1.3675515,103.8563644,Asia/Singapore,28800,0
 Singapore,Singapore,SG,1.293,103.8558,fast food,ChIJWT0bvgsZ2jERM7sHz6m87gE,McDonald’s Boat Quay,"1 S Canal Rd, Singapore 048508",1.2857571,103.8497842,Asia/Singapore,28800,0
 Singapore,Singapore,SG,1.293,103.8558,fast food,ChIJz-oM7SMY2jERVN3YVne0R-w,McDonald’s Geylang East Central,"113 Aljunied Ave 2, #01-01, Singapore 380113",1.3204231000000002,103.8858185,Asia/Singapore,28800,0
+Singapore,Singapore,SG,1.293,103.8558,fast food,ChIJIWK8s0cY2jER1Cm87uKoHl8,McDonald’s Kallang,"200 Stadium Blvd, Singapore 397801",1.3052937,103.88190420000001,Asia/Singapore,28800,0
 Singapore,Singapore,SG,1.293,103.8558,fast food,ChIJUZ8cpagZ2jERjw26UPWvSTY,McDonald’s Suntec City,"3 Temasek Boulevard #02-732/733 Suntec City Mall, Singapore 038983",1.2948098999999997,103.85997859999999,Asia/Singapore,28800,0
+Singapore,Singapore,SG,1.293,103.8558,fast food,ChIJD2X0sQI92jERvyA7VrV4VRI,McDonald’s Tampines Mart (TN3),"5 Tampines Street 32, #01-01, Singapore 529284",1.3539646,103.9596057,Asia/Singapore,28800,0
 Singapore,Singapore,SG,1.293,103.8558,hardware store,ChIJmdcwzR8Y2jER7YYN2iwhUpo,Horme Hardware,"1, #01-01 Ubi Cres, Number One Building, Singapore 408563",1.3255780000000001,103.894064,Asia/Singapore,28800,0
 Singapore,Singapore,SG,1.293,103.8558,park,ChIJVSYjJKIZ2jERpRFinATD52s,Fort Canning Park,"River Valley Rd, Singapore 179037",1.2945126,103.845801,Asia/Singapore,28800,0
 Singapore,Singapore,SG,1.293,103.8558,park,ChIJJeg_k0oY2jER3tyt8xkYb9M,Kallang Riverside Park,"Cnr Kallang Road and, Crawford St, Singapore 397732",1.3070353000000001,103.8682849,Asia/Singapore,28800,0
@@ -2694,6 +2802,8 @@ Madrid,Spain,ES,40.4,-3.6834,train station,ChIJ_RDaRE0pQg0RMVyzc4rP1EI,Fuente de
 Madrid,Spain,ES,40.4,-3.6834,train station,ChIJAQAAANAxQg0R786FD-old24,Madrid-Barajas Adolfo Suárez Airport,"Av de la Hispanidad, s/n, 28042 Madrid, Spain",40.49833220000001,-3.5675982000000004,Europe/Madrid,3600,3600
 Madrid,Spain,ES,40.4,-3.6834,train station,ChIJBwKCjxQmQg0RTAQ56z4i-pU,Méndez Álvaro South Station,"Calle de Méndez Álvaro, 28045 Madrid, Spain",40.3957289,-3.6778369,Europe/Madrid,3600,3600
 Madrid,Spain,ES,40.4,-3.6834,train station,ChIJNXVEsdQmQg0RDh4k2OgMMTo,San Cristobal Industrial,"28021 Madrid, Spain",40.331696799999996,-3.6994233999999997,Europe/Madrid,3600,3600
+Stockholm,Sweden,SE,59.3508,18.0973,fast food,ChIJURvdKWGdX0YRK3cEVIgj5zk,Burger King,"Vasagatan 15-17, 111 20 Stockholm, Sweden",59.33337820000001,18.0561707,Europe/Stockholm,3600,3600
+Stockholm,Sweden,SE,59.3508,18.0973,fast food,ChIJ-U3ltm-dX0YRHjaWDscTtTE,Burger King,"Karlbergsvägen 4, 113 27 Stockholm, Sweden",59.34334140000001,18.0515121,Europe/Stockholm,3600,3600
 Stockholm,Sweden,SE,59.3508,18.0973,fast food,ChIJm-_p62CdX0YRsh2ILhG_NyA,Max,"Vasagatan 7, 111 20 Stockholm, Sweden",59.332294700000006,18.057384699999997,Europe/Stockholm,3600,3600
 Stockholm,Sweden,SE,59.3508,18.0973,fast food,ChIJH6vm-VudX0YRovHeujG8M9g,Max,"Kungsträdgårdsgatan 20, 111 47 Stockholm, Sweden",59.33267779999999,18.072078100000002,Europe/Stockholm,3600,3600
 Stockholm,Sweden,SE,59.3508,18.0973,fast food,ChIJXT4CW_t3X0YR4YDzP3MDw-U,McDonald s,"Katarinavägen 1-3, 116 45 Stockholm, Sweden",59.31962100000001,18.0732064,Europe/Stockholm,3600,3600
@@ -2701,6 +2811,8 @@ Stockholm,Sweden,SE,59.3508,18.0973,fast food,ChIJC6fXzWadX0YRl4iHv5402OA,McDona
 Stockholm,Sweden,SE,59.3508,18.0973,fast food,ChIJvy-y53udX0YRThPUMULJ8Gg,McDonald's,"Sankt Eriksgatan 32, 112 34 Stockholm, Sweden",59.33352689999999,18.0322343,Europe/Stockholm,3600,3600
 Stockholm,Sweden,SE,59.3508,18.0973,fast food,ChIJQZBrVE6dX0YRD3b_ox4ya_Y,McDonald's,"Karlaplan 13, 115 20 Stockholm, Sweden",59.339035300000006,18.0907388,Europe/Stockholm,3600,3600
 Stockholm,Sweden,SE,59.3508,18.0973,fast food,ChIJ4cfQ4G6dX0YRiJPR3Bwyddw,McDonald's,"Sveavägen 71, 113 50 Stockholm, Sweden",59.343256800000006,18.0558345,Europe/Stockholm,3600,3600
+Stockholm,Sweden,SE,59.3508,18.0973,fast food,ChIJfdLp3xJ3X0YRFWjrffizUhs,McDonald's,"Gamla Huddingevägen 500, 125 42 Älvsjö, Sweden",59.272614299999994,18.0127943,Europe/Stockholm,3600,3600
+Stockholm,Sweden,SE,59.3508,18.0973,fast food,ChIJ-ZDa9VudX0YRbcgdajOrSTY,McDonald's,"Kungsgatan 4, 111 43 Stockholm, Sweden",59.336239500000005,18.0703349,Europe/Stockholm,3600,3600
 Stockholm,Sweden,SE,59.3508,18.0973,hardware store,ChIJzckkBiZ4X0YRtbEiNQTE5Zc,Flinks Järn AB,"Hallvägen 21, 121 62 Johanneshov",59.28955149999999,18.0808319,Europe/Stockholm,3600,3600
 Stockholm,Sweden,SE,59.3508,18.0973,hardware store,ChIJh1pEPfydX0YRd9Xh5YHsPk4,Flinks Järn AB,"Ulvsundavägen 134, 168 67 Bromma",59.3488331,17.957427,Europe/Stockholm,3600,3600
 Stockholm,Sweden,SE,59.3508,18.0973,mall,ChIJr2Uz9V2dX0YRKdpQ_y2pWiI,Hötorget subway,"Hötorget, 111 57 Stockholm",59.335581999999995,18.062910000000002,Europe/Stockholm,3600,3600
@@ -2748,6 +2860,7 @@ Stockholm,Sweden,SE,59.3508,18.0973,train station,ChIJpw5P10GdX0YRq475CTJUFkU,St
 Stockholm,Sweden,SE,59.3508,18.0973,train station,ChIJ2eMaxG-dX0YREQQ_G2jvr6M,Stockholm Odenplan station,"113 22 Stockholm, Sweden",59.34295840000001,18.049797,Europe/Stockholm,3600,3600
 Stockholm,Sweden,SE,59.3508,18.0973,train station,ChIJbfIC9mCdX0YRPbpyttpTxZc,Stockholms Centralstation,"Centralplan 15, 111 20 Stockholm, Sweden",59.33066849999999,18.0579323,Europe/Stockholm,3600,3600
 Stockholm,Sweden,SE,59.3508,18.0973,train station,ChIJf4Opke93X0YRWwXHhAIPd4Q,Stockholms södra,"118 28 Stockholm, Sweden",59.3140412,18.064261899999998,Europe/Stockholm,3600,3600
+Bern,Switzerland,CH,46.9167,7.467,fast food,ChIJm8M3QL85jkcR9m0YqUhlN9E,Burger King,"Genfergasse 4, 3011 Bern, Switzerland",46.9492467,7.440948699999999,Europe/Zurich,3600,3600
 Bern,Switzerland,CH,46.9167,7.467,sights,ChIJYUBUEGGjj0cRkz2nPoeM6po,Höhematte,3800 Interlaken,46.686375399999996,7.861385899999999,Europe/Zurich,3600,3600
 Bern,Switzerland,CH,46.9167,7.467,sights,ChIJQ6JC5PKyj0cR__NSHUyj4uo,Schadau Park,"Seestrasse 45, 3600 Thun",46.746220799999996,7.6366643,Europe/Zurich,3600,3600
 Bern,Switzerland,CH,46.9167,7.467,sights,ChIJXUkZ3zppjkcRaFZIBcRn2d4,"St-Nicolas cathedral, Fribourg","Rue du Pont-Suspendu, 1700 Fribourg",46.8061722,7.163097199999998,Europe/Zurich,3600,3600
@@ -2767,7 +2880,14 @@ Taipei,Taiwan,TW,25.0358,121.5683,fast food,ChIJc9xR1wipQjQRiQ65xIJgq7k,McDonald
 Taipei,Taiwan,TW,25.0358,121.5683,fast food,ChIJ-Y7icHOpQjQR3yT-dkq4-fE,McDonald's,"No. 8號, Guanqian Road, Zhongzheng District, Taipei City, Taiwan 100",25.0458908,121.5148544,Asia/Taipei,28800,0
 Taipei,Taiwan,TW,25.0358,121.5683,fast food,ChIJ-Y7icHOpQjQRsQCAcFtswBE,McDonald's,"No. 66, Section 2, Jinan Road, Zhongzheng District, Taipei City, Taiwan 100",25.0400268,121.5324778,Asia/Taipei,28800,0
 Taipei,Taiwan,TW,25.0358,121.5683,fast food,ChIJ5Zls-surQjQRuwJq1J8WCts,McDonald's,"106, Taiwan, Taipei City, Da’an District, Section 4, Zhongxiao East Road, 73號之一號",25.041768100000002,121.5469743,Asia/Taipei,28800,0
+Taipei,Taiwan,TW,25.0358,121.5683,fast food,ChIJo14vFIOuQjQR5OSe7SXaBL4,McDonald's,"No. 602號, Section 5, Zhongshan North Road, Shilin District, Taipei City, Taiwan 111",25.0960295,121.5281335,Asia/Taipei,28800,0
+Taipei,Taiwan,TW,25.0358,121.5683,fast food,ChIJWdQlWpqpQjQRGp8WGVvaLCg,McDonald's,"No. 45號, Section 2, Roosevelt Rd, Da’an District, Taipei City, Taiwan 10643",25.027535,121.5223709,Asia/Taipei,28800,0
+Taipei,Taiwan,TW,25.0358,121.5683,fast food,ChIJzapf0lypQjQRmkTDbLejLzw,McDonald's,"No. 86號, Section 1, Nanjing East Road, Zhongshan District, Taipei City, Taiwan 10491",25.0519098,121.52571040000001,Asia/Taipei,28800,0
+Taipei,Taiwan,TW,25.0358,121.5683,fast food,ChIJJ-T2AW2pQjQRGAXWqee-_z4,McDonald's,"No. 34, Section 1, Chengde Road, Datong District, Taipei City, Taiwan 103",25.0507839,121.51678999999999,Asia/Taipei,28800,0
+Taipei,Taiwan,TW,25.0358,121.5683,fast food,ChIJLd2tBKepQjQR7GfSJDt1ZQs,McDonald's Carrefour Guilin Restaurant,"No. 1, Guilin Road, Wanhua District, Taipei City, Taiwan 108",25.037709200000002,121.50597579999999,Asia/Taipei,28800,0
+Taipei,Taiwan,TW,25.0358,121.5683,fast food,ChIJcVe4HuirQjQR7Q7bcnviKSc,McDonald's Taipei Nanijng II,"No. 162號, Section 5, Nanjing East Road, Songshan District, Taipei City, Taiwan 105",25.051223,121.563076,Asia/Taipei,28800,0
 Taipei,Taiwan,TW,25.0358,121.5683,fast food,ChIJjfzEsLCrQjQRN8ctcgH9pxQ,McDonald's Taipei Zhuangjing,"No. 475號, Zhuangjing Road, Xinyi District, Taipei City, Taiwan 110",25.026822199999998,121.5682258,Asia/Taipei,28800,0
+Taipei,Taiwan,TW,25.0358,121.5683,fast food,ChIJNU5gAwypQjQRk_whxlSPnbI,Mos Burger Zhonghua Store,"No. 80, Section 1, Zhonghua Road, Wanhua District, Taipei City, Taiwan 108",25.0455398,121.5087662,Asia/Taipei,28800,0
 Taipei,Taiwan,TW,25.0358,121.5683,fast food,ChIJT4h3YIauQjQR8hroZGsxIjQ,Texas Rangers Fried Chicken,"No. 752號, Section 6, Zhongshan North Road, Shilin District, Taipei City, Taiwan 111",25.1156865,121.5282993,Asia/Taipei,28800,0
 Taipei,Taiwan,TW,25.0358,121.5683,mall,ChIJn7Qwk9urQjQRNTJw1qTfXTU,Breeze Center,"No. 39號, Section 1, Fuxing South Road, Songshan District, Taipei City, 105",25.0458971,121.5450396,Asia/Taipei,28800,0
 Taipei,Taiwan,TW,25.0358,121.5683,mall,ChIJNze26l2rQjQRNmvIBVScRAg,CITYLINK Nangang Store,"No. 369號, Section 7, Zhongxiao East Road, Nangang District, Taipei City, 115",25.052222600000004,121.6053107,Asia/Taipei,28800,0
@@ -2843,6 +2963,7 @@ Taipei,Taiwan,TW,25.0358,121.5683,train station,ChIJI8dfvRJTXTQRJ-VVApF9XSY,Xizh
 Bangkok,Thailand,TH,13.75,100.5166,fast food,ChIJjZNaldqe4jARkkMFWvdpRCM,Burger King,"1, Nana Square, 49 Sukhumvit, Klongtoey-nua, Wattana, Bangkok 10110, Thailand",13.7426136,100.5525938,Asia/Bangkok,25200,0
 Bangkok,Thailand,TH,13.75,100.5166,fast food,ChIJBzEebCuf4jARIAPME2nv0-o,Burger King,"50 Thanon Surawong, Khwaeng Si Phraya, Bang Rak, Bangkok 10500, Thailand",13.730004600000001,100.5313782,Asia/Bangkok,25200,0
 Bangkok,Thailand,TH,13.75,100.5166,fast food,ChIJOwam5IWe4jARmMnUFV-s0iY,Burger King - The Street Ratchada,"139 Ratchadaphisek Rd, Din Daeng, Bangkok 10400, Thailand",13.769955,100.57213,Asia/Bangkok,25200,0
+Bangkok,Thailand,TH,13.75,100.5166,fast food,ChIJ_eVqGwqd4jAR9i066PG382Q,KFC Drive Thru Wang-Hin,"4/99, 4/99 Lad Prao Wanghin Rd, Lat Phrao, Bangkok 10230, Thailand",13.8242527,100.5919542,Asia/Bangkok,25200,0
 Bangkok,Thailand,TH,13.75,100.5166,fast food,ChIJ9bT1nxSZ4jARwm-mmZPS82Y,McDonald's Ratchadamnoen,"77/1 Ratchadamnoen Avenue, Wat Bowon Niwet, Phra Nakhon, Bangkok 10200, Thailand",13.7573376,100.50163959999999,Asia/Bangkok,25200,0
 Bangkok,Thailand,TH,13.75,100.5166,mall,ChIJZ3p9P8-e4jAROWTAP3o5qDM,The Platinum Fashion Mall,"222 Phetchaburi Rd, Thanon Phetchaburi, Ratchathewi, Bangkok 10400, Thailand",13.750277300000002,100.5390624,Asia/Bangkok,25200,0
 Bangkok,Thailand,TH,13.75,100.5166,park,ChIJmfMfvBuf4jAR9rugvZd5Lyc,Benjakitti Park,"Ratchadaphisek Rd, Khlong Toei, Bangkok 10110, Thailand",13.730012699999998,100.5594973,Asia/Bangkok,25200,0
@@ -2978,6 +3099,7 @@ Izmir,Turkey,TR,38.42,27.14,shopping,ChIJpQM73wnYuxQRtwOyid8lutw,Ege Perla,"Çı
 Izmir,Turkey,TR,38.42,27.14,shopping,ChIJd5g378nZuxQRRTicgnehIA4,Karşıyaka Bazaar,"Tuna, Kemal Paşa Cd. No:12, 35600 Karşıyaka/İzmir",38.4554783,27.1195297,Europe/Istanbul,10800,0
 Izmir,Turkey,TR,38.42,27.14,sights,ChIJe8WYqw7cuxQRIZDoXid_Oag,İnciraltı Kent Ormanı,"Bahçelerarası, Engelliler Mrk. İçi Yolu, 35330 Balçova/İzmir",38.40797740000001,27.063746500000004,Europe/Istanbul,10800,0
 Izmir,Turkey,TR,38.42,27.14,sights,ChIJ9yZupyXZuxQRRy6zC9zfQLU,İzmir Tarihi Asansör Binası,"Turgut Reis, Şht. Nihatbey Cd. 76/A, 03500 Konak/İzmir",38.4086609,27.117664299999998,Europe/Istanbul,10800,0
+Izmir,Turkey,TR,38.42,27.14,train station,ChIJYwALS5jQuxQRdOarTvYFktw,Ata Sanayi,"Yeni Mahalle, Aosb/, 1671. Sk., 35620 Çiğli/İzmir, Turkey",38.4990586,27.0532462,Europe/Istanbul,10800,0
 Izmir,Turkey,TR,38.42,27.14,train station,ChIJPczjkvPYuxQRr8uMjdMQGno,Basmane Gar,"Etiler Mah. Basmane,, Anafartalar Cd., Konak/İzmir, Turkey",38.4224857,27.1436001,Europe/Istanbul,10800,0
 Izmir,Turkey,TR,38.42,27.14,train station,ChIJw_GswH5iuRQRG1gY7KwXCxE,Cankaya Subway Station,"Çankaya, Fevzi Paşa Blv, 35210 Konak/İzmir, Turkey",38.4225429,27.1369614,Europe/Istanbul,10800,0
 Izmir,Turkey,TR,38.42,27.14,train station,ChIJ0SDOIJLQuxQRqdUOSnKKa50,Egekent,"Balatçık, 1671/1. Sk., 35620 Çiğli/İzmir",38.5074215,27.0459261,Europe/Istanbul,10800,0
@@ -3075,6 +3197,8 @@ Kyiv,Ukraine,UA,50.4334,30.5166,train station,ChIJqY9Rj_LO1EAR1Y5OiuIyISM,Kyiv-P
 Kyiv,Ukraine,UA,50.4334,30.5166,train station,ChIJu5uc6VHJ1EARKp_vpXu4ziY,Kyiv-Volynskyi,"Kyiv, Ukraine, 02000",50.4121955,30.430112400000002,Europe/Kiev,7200,3600
 Kyiv,Ukraine,UA,50.4334,30.5166,train station,ChIJsadMKODO1EAR9vaYb-iu1Ek,Протасів Яр,"Kyiv, Ukraine, 02000",50.42636359999999,30.506646999999997,Europe/Kiev,7200,3600
 Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,club,ChIJ1-HJSvNoXj4Rw19B_D7NO-Q,Abu Dhabi City Golf Club,19th St - Shakhbout Bin Sultan St - Abu Dhabi - United Arab Emirates,24.4432779,54.3819826,Asia/Dubai,14400,0
+Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,fast food,ChIJUxNmnNo4Xj4RQw4eLoa7C3Y,Hardee's,"ADNOC Petrol Station, Road E30، Musaffah - Abu Dhabi - United Arab Emirates",24.3052248,54.533010700000005,Asia/Dubai,14400,0
+Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,fast food,ChIJFQbEOGdmXj4RYQxt8h2xnpE,KFC,"Hamdan Bin Muhammad St., Tourist Club Area - Abu Dhabi - United Arab Emirates",24.4928603,54.367018200000004,Asia/Dubai,14400,0
 Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,fast food,ChIJ_6Tal5RlXj4RpzFAxkFN3Y8,McDonald's,Adnoc Corniche Road Besides Adnoc Petrol Station - Abu Dhabi - United Arab Emirates,24.466516,54.33289499999999,Asia/Dubai,14400,0
 Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,fast food,ChIJPXIVrApmXj4RKE64cLZrJjc,McDonald's,"Zayed The First Street,Al Khalidiya, Opposite RAK Bank - Abu Dhabi - United Arab Emirates",24.4738508,54.347840399999995,Asia/Dubai,14400,0
 Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,park,ChIJE0GaE3ZmXj4R2ySE7tT24Y8,Family Park 2,"United Arab Emirates, Abu Dhabi, Corniche Rd W, Al Khalidiyah",24.479343300000004,54.3476069,Asia/Dubai,14400,0
@@ -3110,7 +3234,10 @@ Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,supermarket,ChIJq6qqquY3Xj4Rtc
 Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,supermarket,ChIJOWxwWNBFXj4RUFZb7iqqdpQ,LuLu Express - Al Raha Mall,"Al Raha Mall, Channel St Off Abu Dhabi - Dubai Highway - Rd - Abu Dhabi",24.4387793,54.574695999999996,Asia/Dubai,14400,0
 Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,train station,ChIJ73EMkN5IXj4RXnVtI3mZN5s,Abu Dhabi International Airport,Abu Dhabi - United Arab Emirates,24.441938,54.650073600000006,Asia/Dubai,14400,0
 Abu Dhabi,United Arab Emirates,AE,24.4667,54.3666,train station,ChIJ06QO1EFCXj4RhYGMu8zHuIc,Al Bateen Executive Airport,Abu Dhabi - United Arab Emirates,24.428812,54.455930099999996,Asia/Dubai,14400,0
+Birmingham,United Kingdom,GB,52.48,-1.9025,fast food,ChIJAT-ElWawcEgREkByI4D-pFA,Big John's Chelmsley Wood,"Cooks Ln, Birmingham B37 1NU, United Kingdom",52.4834054,-1.758068,Europe/London,0,3600
 Birmingham,United Kingdom,GB,52.48,-1.9025,fast food,ChIJZ7zXJHy7cEgRSN_AcT0OEdg,Big John's Lawley Middleway,"UNIT - 2 Langdon St, Garrison Ln, Birmingham B9 4BP, United Kingdom",52.48034699999999,-1.876409,Europe/London,0,3600
+Birmingham,United Kingdom,GB,52.48,-1.9025,fast food,ChIJlSUDjOSXcEgRutVmqveJeME,Fast 1 Pizza & Grill Smethwick,"West Cross Shopping Centre, Unit 15-17, Oldbury Rd, Birmingham, Smethwick B66 1JG, United Kingdom",52.50227350000001,-1.9905656999999999,Europe/London,0,3600
+Birmingham,United Kingdom,GB,52.48,-1.9025,fast food,ChIJ6yZyfAy7cEgRZVQyg-iGE-Q,Roscoe's Food Fast,"31 Alfred St, Sparkbrook, Birmingham B12 8JJ, United Kingdom",52.4575204,-1.8729198,Europe/London,0,3600
 Birmingham,United Kingdom,GB,52.48,-1.9025,park,ChIJQZbzoqK7cEgRWCWyWvwjEWM,Small Heath Park,"Birmingham B10 0EF, United Kingdom",52.46603960000001,-1.8536215,Europe/London,0,3600
 Birmingham,United Kingdom,GB,52.48,-1.9025,sights,ChIJJfmNiLCwcEgRTWC4rVIFXQw,Elmdon Park,"Elmdon Nature Park, Tanhouse Farm Rd, Solihull B92 9EY",52.443189000000004,-1.7664779,Europe/London,0,3600
 Birmingham,United Kingdom,GB,52.48,-1.9025,sights,ChIJ281UPtG8cEgR4KsmcGzkPTA,Handsworth Park,"Holly Rd, Handsworth, Birmingham B20 2BY",52.509365,-1.9276285,Europe/London,0,3600
@@ -3229,6 +3356,7 @@ Chicago,United States,US,41.881944,-87.627778,fast food,ChIJaWSr9GosDogR-_DHSJxx
 Chicago,United States,US,41.881944,-87.627778,fast food,ChIJw6FXY7AsDogRYYFCoZJpNMo,McDonald's,"23 S Clark St, Chicago, IL 60603, United States",41.880939,-87.63056279999998,America/Chicago,-21600,3600
 Chicago,United States,US,41.881944,-87.627778,fast food,ChIJz96tkVLTD4gRlP_hYYMZ084,McDonald's,"10 E Chicago Ave, Chicago, IL 60611, United States",41.8969635,-87.62771,America/Chicago,-21600,3600
 Chicago,United States,US,41.881944,-87.627778,fast food,ChIJ24q4qLMsDogRkwzJD2maZcw,McDonald's,"600 N Clark St, Chicago, IL 60610, United States",41.89286999999999,-87.631553,America/Chicago,-21600,3600
+Chicago,United States,US,41.881944,-87.627778,fast food,ChIJf_CED7MsDogR72PLB04AlFA,Portillo's Hot Dogs,"100 W Ontario St, Chicago, IL 60654, United States",41.893429499999996,-87.6314147,America/Chicago,-21600,3600
 Chicago,United States,US,41.881944,-87.627778,fast food,ChIJuegoh9LTD4gRL91mfVlzrpk,Sonic Drive-In,"1022 W Wilson Ave, Chicago, IL 60640, United States",41.9657167,-87.6558793,America/Chicago,-21600,3600
 Chicago,United States,US,41.881944,-87.627778,fast food,ChIJ_24whu_SD4gRHteCQLI3ErE,Wendy's,"2312 N Ashland Ave, Chicago, IL 60614, United States",41.9237584,-87.6686678,America/Chicago,-21600,3600
 Chicago,United States,US,41.881944,-87.627778,fast food,ChIJ_6bSDRnSD4gRgKXKbzpn1GE,Wendy's,"2053 W Lawrence Ave, Chicago, IL 60625, United States",41.968523100000006,-87.6812095,America/Chicago,-21600,3600
@@ -3268,12 +3396,17 @@ Houston,United States,US,29.762778000000004,-95.383056,fast food,ChIJh2llUaPGQIY
 Houston,United States,US,29.762778000000004,-95.383056,fast food,ChIJXStWsPbAQIYR2HCGSPaumKE,Chick-fil-A,"2715 Southwest Fwy, Houston, TX 77098, United States",29.7297136,-95.4208791,America/Chicago,-21600,3600
 Houston,United States,US,29.762778000000004,-95.383056,fast food,ChIJA2-iQMzCQIYRRyi5EESEQ1o,Chick-fil-A,"6840 W Sam Houston Pkwy S, Houston, TX 77072, United States",29.703110499999998,-95.5580739,America/Chicago,-21600,3600
 Houston,United States,US,29.762778000000004,-95.383056,fast food,ChIJIWKPf3HBQIYROwbYKZ3tgrg,Chick-fil-A,"5325 S Rice Ave Sage Road and Westpark Toll, Houston, TX 77081, United States",29.7241897,-95.46759990000001,America/Chicago,-21600,3600
+Houston,United States,US,29.762778000000004,-95.383056,fast food,ChIJC9Dwb2W4QIYRJ4_u6AMqu4M,Chick-fil-A,"4410 North Fwy, Houston, TX 77022, United States",29.828936,-95.3804296,America/Chicago,-21600,3600
+Houston,United States,US,29.762778000000004,-95.383056,fast food,ChIJ_6W2VLK4QIYRNpL-0-6X0H0,Chick-fil-A,"2222 Shearn St, Houston, TX 77007, United States",29.7748166,-95.3809899,America/Chicago,-21600,3600
+Houston,United States,US,29.762778000000004,-95.383056,fast food,ChIJTbFywb3bQIYRgMVnJv-usjw,Chick-fil-A,"2267 West Sam Houston Pkwy N, Houston, TX 77043, United States",29.811947600000003,-95.5644695,America/Chicago,-21600,3600
 Houston,United States,US,29.762778000000004,-95.383056,fast food,ChIJEfRZm4y-QIYRcZqiX6IOAQs,Jack in the Box,"801 Telephone Rd, Houston, TX 77023, United States",29.734519899999995,-95.32929990000001,America/Chicago,-21600,3600
 Houston,United States,US,29.762778000000004,-95.383056,fast food,ChIJqdlRGRq2QIYR5omMd9UKNr0,Jack in the Box,"739 N Sam Houston Pkwy E, Houston, TX 77060, United States",29.9398163,-95.38456409999999,America/Chicago,-21600,3600
 Houston,United States,US,29.762778000000004,-95.383056,fast food,ChIJM48q50qWQIYRVD06eJLc3tk,Jack in the Box,"8111 Airport Blvd, Houston, TX 77061, United States",29.658643400000003,-95.2698755,America/Chicago,-21600,3600
 Houston,United States,US,29.762778000000004,-95.383056,fast food,ChIJ6_zF9vXCQIYREw0aAskCLHU,Jack in the Box,"7221 Fondren Rd, Houston, TX 77036, United States",29.7020165,-95.51920340000001,America/Chicago,-21600,3600
 Houston,United States,US,29.762778000000004,-95.383056,fast food,ChIJOdoRAAzqQIYRqiqwqK5G9UE,Jack in the Box,"4920 W Bellfort Blvd, Houston, TX 77035, United States",29.670970299999997,-95.46278670000001,America/Chicago,-21600,3600
+Houston,United States,US,29.762778000000004,-95.383056,fast food,ChIJzyFgnAK4QIYRrf3HvMqfVPE,Jack in the Box,"7045 Airline Dr, Houston, TX 77076, United States",29.8641536,-95.3851421,America/Chicago,-21600,3600
 Houston,United States,US,29.762778000000004,-95.383056,fast food,ChIJicrszzm_QIYRs1vXNrPlnQA,Jollibee,"8001 S Main St #100, Houston, TX 77025, United States",29.693384499999997,-95.4145963,America/Chicago,-21600,3600
+Houston,United States,US,29.762778000000004,-95.383056,fast food,ChIJy1CI0JbAQIYRpKdVTZuKcPQ,Raising Cane's Chicken Fingers,"1902 Westheimer Rd, Houston, TX 77098, United States",29.7430745,-95.4074566,America/Chicago,-21600,3600
 Houston,United States,US,29.762778000000004,-95.383056,fast food,ChIJEQJDxMDEQIYRz6gaOvFK5p4,Wendy's,"1225 Gessner Rd, Houston, TX 77055, United States",29.7905703,-95.545034,America/Chicago,-21600,3600
 Houston,United States,US,29.762778000000004,-95.383056,fast food,ChIJ8VSr4MvcQIYReTmC7U5McEc,Wendy's,"10780 Westheimer Rd, Houston, TX 77042, United States",29.7371762,-95.566678,America/Chicago,-21600,3600
 Houston,United States,US,29.762778000000004,-95.383056,park,ChIJn4XJrA-_QIYRAjudYPD8H5o,Emancipation Park,"3018 Emancipation Ave, Houston, TX 77004, United States",29.7357077,-95.36439260000002,America/Chicago,-21600,3600
@@ -3299,6 +3432,8 @@ Houston,United States,US,29.762778000000004,-95.383056,tourist information,ChIJ9
 Los Angeles,United States,US,34.05,-118.25,fast food,ChIJMWnCPNq2woARfG2sVycGnao,Carl's Jr.,"5625 W Century Blvd, Los Angeles, CA 90045, United States",33.945871600000004,-118.3796328,America/Los_Angeles,-28800,3600
 Los Angeles,United States,US,34.05,-118.25,fast food,ChIJfwtOnHDHwoARPnL7W7dVcFk,Carl's Jr.,"3005 W 6th St, Los Angeles, CA 90020, United States",34.0639158,-118.2874686,America/Los_Angeles,-28800,3600
 Los Angeles,United States,US,34.05,-118.25,fast food,ChIJVa_zcn_GwoARp7xounQ41lM,Carl's Jr.,"3215 N Broadway, Los Angeles, CA 90031, United States",34.0740524,-118.2071713,America/Los_Angeles,-28800,3600
+Los Angeles,United States,US,34.05,-118.25,fast food,ChIJLVi1syW_woARY1_M2FFZSWU,Chick-fil-A,"6750 Sunset Blvd, Los Angeles, CA 90028, United States",34.0977555,-118.3382322,America/Los_Angeles,-28800,3600
+Los Angeles,United States,US,34.05,-118.25,fast food,ChIJN87DvqmwwoAR_RVdkzYires,Chick-fil-A,"11750 Jefferson Blvd, Los Angeles, CA 90230, United States",33.9862666,-118.4007615,America/Los_Angeles,-28800,3600
 Los Angeles,United States,US,34.05,-118.25,fast food,ChIJ07Z5qKXIwoAR4BVPirbOZ6o,Jack in the Box,"1335 S Soto St, Los Angeles, CA 90023, United States",34.025364399999994,-118.2202345,America/Los_Angeles,-28800,3600
 Los Angeles,United States,US,34.05,-118.25,fast food,ChIJ54tM2ZzIwoAR7XM0rvZmt5I,Jack in the Box,"1415 S Alameda St, Los Angeles, CA 90021, United States",34.025021,-118.23987360000001,America/Los_Angeles,-28800,3600
 Los Angeles,United States,US,34.05,-118.25,fast food,ChIJ3dPMkJDHwoARqZORTJqLGWM,Jack in the Box,"2120 W Pico Blvd, Los Angeles, CA 90006, United States",34.046938,-118.28377069999999,America/Los_Angeles,-28800,3600
@@ -3315,6 +3450,9 @@ Los Angeles,United States,US,34.05,-118.25,fast food,ChIJ-yi7oWPPwoARZEYDTbTmSC0
 Los Angeles,United States,US,34.05,-118.25,fast food,ChIJ12_rD_3FwoARMGvKLJHEYf4,Jack in the Box,"2701 East Cesar E Chavez Avenue, Los Angeles, CA 90033, United States",34.0452767,-118.20377109999998,America/Los_Angeles,-28800,3600
 Los Angeles,United States,US,34.05,-118.25,fast food,ChIJdQpsN3vHwoAReS-FaQYF1O4,Jack in the Box,"459 S Vermont Ave, Los Angeles, CA 90020, United States",34.0655876,-118.29194469999999,America/Los_Angeles,-28800,3600
 Los Angeles,United States,US,34.05,-118.25,fast food,ChIJTVzJ98rJwoAR67TRUwp0OPo,Jack in the Box,"7120 S Broadway, Los Angeles, CA 90003, United States",33.974898700000004,-118.2780696,America/Los_Angeles,-28800,3600
+Los Angeles,United States,US,34.05,-118.25,fast food,ChIJAypNMGi5woARyrGjfu8efNs,Jack in the Box,"8605 W Pico Blvd, Los Angeles, CA 90035, United States",34.0540739,-118.3788376,America/Los_Angeles,-28800,3600
+Los Angeles,United States,US,34.05,-118.25,fast food,ChIJ6XhuRCe_woARZtFT05B4T7I,Wendy's,"7135 Sunset Blvd, Los Angeles, CA 90046, United States",34.0982115,-118.34532820000001,America/Los_Angeles,-28800,3600
+Los Angeles,United States,US,34.05,-118.25,fast food,ChIJr4-qQFPHwoARU-JffqMXC9U,Wendy's,"1305 N Vermont Ave, Los Angeles, CA 90027, United States",34.0958832,-118.2921629,America/Los_Angeles,-28800,3600
 Los Angeles,United States,US,34.05,-118.25,restaurant,ChIJDzHVFLfHwoARD8kHhr0hpPM,The Original Pantry Cafe,"877 S Figueroa St, Los Angeles, CA 90017, United States",34.046370399999994,-118.2629158,America/Los_Angeles,-28800,3600
 Los Angeles,United States,US,34.05,-118.25,sights,ChIJ_3JANWW8woARC2vJFg5CxEM,Holmby Park Community,"Los Angeles, CA 90024",34.0724488,-118.42963619999999,America/Los_Angeles,-28800,3600
 Los Angeles,United States,US,34.05,-118.25,sights,ChIJBTk8wjy5woARmunGKGJ3PCI,"Public Art ""Urban Light""","5905 Wilshire Blvd, Los Angeles, CA 90036",34.0630235,-118.35923729999999,America/Los_Angeles,-28800,3600
@@ -3345,6 +3483,7 @@ New York,United States,US,40.661,-73.944,fast food,ChIJ2_VLfRdawokRXKfA6CMf5YQ,M
 New York,United States,US,40.661,-73.944,fast food,ChIJ-V8pZbxYwokRcaLbqZjnkz0,McDonald's,"1499 3rd Ave, New York, NY 10028, United States",40.777789,-73.954515,America/New_York,-18000,3600
 New York,United States,US,40.661,-73.944,fast food,ChIJ37k-1lBYwokRI83De2HGXlk,McDonald's,"946 8th Ave, New York, NY 10019, United States",40.765877,-73.983273,America/New_York,-18000,3600
 New York,United States,US,40.661,-73.944,fast food,ChIJEbAoZYpYwokRFMuHCoXVP94,McDonald's,"2049 Broadway, New York, NY 10023, United States",40.777901,-73.982472,America/New_York,-18000,3600
+New York,United States,US,40.661,-73.944,fast food,ChIJP-1S5KtZwokRM2NwZm2b3ec,Shake Shack,"1333 Broadway, New York, NY 10018, United States",40.751368400000004,-73.9879468,America/New_York,-18000,3600
 New York,United States,US,40.661,-73.944,fast food,ChIJX6gV9qlYwokRb44IOUFbw4Q,White Castle,"351 E 103rd St, New York, NY 10029, United States",40.7880559,-73.9417277,America/New_York,-18000,3600
 New York,United States,US,40.661,-73.944,sights,ChIJraKL-BJawokREpxDmF5GcL4,Battery Park,"New York, NY 10004",40.703277500000006,-74.01702790000002,America/New_York,-18000,3600
 New York,United States,US,40.661,-73.944,sights,ChIJvbGg56pZwokRp_E3JbivnLQ,Bryant Park,"New York, NY 10018",40.7535965,-73.9832326,America/New_York,-18000,3600
@@ -3376,6 +3515,7 @@ New York,United States,US,40.661,-73.944,train station,ChIJ44UjjxJbwokR9mDzIH-en
 New York,United States,US,40.661,-73.944,train station,ChIJZ-yfexlawokRAAudy1wMF98,World Trade Center,"10007, 70 Vesey St, New York, 10006, United States",40.7115742,-74.0114485,America/New_York,-18000,3600
 San Francisco,United States,US,37.7775,-122.416389,fast food,ChIJe1dFg1N-j4ARUmPiL2TKF-s,Burger King,"245 Bayshore Blvd, San Francisco, CA 94124, United States",37.74415020000001,-122.40402749999998,America/Los_Angeles,-28800,3600
 San Francisco,United States,US,37.7775,-122.416389,fast food,ChIJe-DIDjmHhYARTuWMrkDMZAA,Burger King,"3900 Geary Blvd, San Francisco, CA 94118, United States",37.781356,-122.46124070000002,America/Los_Angeles,-28800,3600
+San Francisco,United States,US,37.7775,-122.416389,fast food,ChIJKUQp-IWAhYARWFztu1YfEY4,Burger King,"35 Powell St, San Francisco, CA 94102, United States",37.78508190000001,-122.408064,America/Los_Angeles,-28800,3600
 San Francisco,United States,US,37.7775,-122.416389,fast food,ChIJ-XBT5Gx8j4ARDraqDDvVQxA,Carl's Jr.,"2434 Junipero Serra Blvd, Daly City, CA 94015, United States",37.6923026,-122.47135549999999,America/Los_Angeles,-28800,3600
 San Francisco,United States,US,37.7775,-122.416389,fast food,ChIJy9BQABaHhYARa3fVL1DQeoI,Jack in the Box,"4649 Geary Blvd, San Francisco, CA 94118, United States",37.7805826,-122.4694611,America/Los_Angeles,-28800,3600
 San Francisco,United States,US,37.7775,-122.416389,fast food,ChIJYzN0GFR-j4AR0FEX96PaoM8,Jack in the Box,"366 Bayshore Blvd, San Francisco, CA 94124, United States",37.7415988,-122.40670619999999,America/Los_Angeles,-28800,3600
@@ -3387,6 +3527,7 @@ San Francisco,United States,US,37.7775,-122.416389,fast food,ChIJLYvK8TF-j4ARF3I
 San Francisco,United States,US,37.7775,-122.416389,fast food,ChIJ92WDBbuAhYARQZ1TXrfhXv0,McDonald's,"1100 Fillmore St, San Francisco, CA 94102, United States",37.779871299999996,-122.43171720000001,America/Los_Angeles,-28800,3600
 San Francisco,United States,US,37.7775,-122.416389,fast food,ChIJebS92dJ9j4ARPPVCa7T1q8Q,McDonald's,"1201 Ocean Ave, San Francisco, CA 94112, United States",37.7235448,-122.45545800000001,America/Los_Angeles,-28800,3600
 San Francisco,United States,US,37.7775,-122.416389,fast food,ChIJu37Vayx6j4ARVt6bhwhnbak,McDonald's,"2298 Gellert Blvd, South San Francisco, CA 94080, United States",37.6437801,-122.45370249999999,America/Los_Angeles,-28800,3600
+San Francisco,United States,US,37.7775,-122.416389,fast food,ChIJRagBt46AhYARJim-yIO5cyo,McDonald's,"441 Sutter St, San Francisco, CA 94108, United States",37.789151000000004,-122.4076962,America/Los_Angeles,-28800,3600
 San Francisco,United States,US,37.7775,-122.416389,park,ChIJkZyW-2-AhYARzCwWSe3qHMQ,Rincon Park,"The Embarcadero & Folsom St, San Francisco, CA 94105, United States",37.7915675,-122.38994240000001,America/Los_Angeles,-28800,3600
 San Francisco,United States,US,37.7775,-122.416389,street market,ChIJ1z3lvmeHhYAROUsW2ZNkFI8,Andronico's Community Markets,"1200 Irving St, San Francisco, CA 94122, United States",37.7641474,-122.47114679999999,America/Los_Angeles,-28800,3600
 San Francisco,United States,US,37.7775,-122.416389,street market,ChIJSfI3La1_j4ARecaaU6tlM0g,Gus's Community Market,"1101 4th St, San Francisco, CA 94158, United States",37.7742907,-122.39140790000002,America/Los_Angeles,-28800,3600
@@ -3410,6 +3551,7 @@ San Francisco,United States,US,37.7775,-122.416389,train station,ChIJW4Eh5rB3j4A
 San Francisco,United States,US,37.7775,-122.416389,train station,ChIJJcGq74WAhYARe6CJkbXi9l8,Powell Station,"San Francisco, CA 94102, United States",37.7849377,-122.40690520000001,America/Los_Angeles,-28800,3600
 San Francisco,United States,US,37.7775,-122.416389,train station,ChIJUUH7B4aAhYARZzM1r72kDbQ,Powell Street Station,"899 Market St, San Francisco, CA 94103, United States",37.784369299999994,-122.40799809999999,America/Los_Angeles,-28800,3600
 San Francisco,United States,US,37.7775,-122.416389,train station,ChIJw8B-EwZ4hYAR3LrPrCTytn8,Richmond Station,"1700 Nevin Ave, Richmond, CA 94802, United States",37.93688059999999,-122.3536155,America/Los_Angeles,-28800,3600
+San Francisco,United States,US,37.7775,-122.416389,train station,ChIJvWvdQtB5j4AR_YBJOf80ZtI,San Bruno Station,"San Bruno, CA 94066, United States",37.62976099999999,-122.4113463,America/Los_Angeles,-28800,3600
 Washington,United States,US,38.9047,-77.0163,fast food,ChIJ4eQy-8jJt4kRjcA2KiLMv1Y,Burger King,"4422 Connecticut Ave NW, Washington, DC 20008, United States",38.9473046,-77.06576480000003,America/New_York,-18000,3600
 Washington,United States,US,38.9047,-77.0163,fast food,ChIJ4VTlfB_It4kRR8l_KJahZ1U,Chick-fil-A,"3100 14th St NW, Washington, DC 20010, United States",38.9291367,-77.0328614,America/New_York,-18000,3600
 Washington,United States,US,38.9047,-77.0163,fast food,ChIJseVNSEC4t4kRghd51D0Bnas,Chick-fil-A,"1401 Maryland Ave NE, Washington, DC 20002, United States",38.899106700000004,-76.9851262,America/New_York,-18000,3600
