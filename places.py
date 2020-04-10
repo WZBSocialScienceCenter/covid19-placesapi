@@ -13,18 +13,19 @@ from apikeys import API_KEY
 #%%
 
 PLACE_SEARCHES = [
-    ('restaurant', 'restaurant'),
-    ('bar', 'bar'),
-    ('club', None),
-    ('train station', None),
-    ('tourist information', None),
-    ('sights', 'tourist_attraction'),
-    ('park', 'park'),
-    ('mall', 'shopping_mall'),
-    ('shopping', 'shopping_mall'),
-    ('supermarket', 'supermarket'),
-    ('street market', None),
-    ('hardware store', 'hardware_store')
+    # ('restaurant', 'restaurant', True),
+    # ('bar', 'bar', True),
+    ('fast food', None, True),
+    # ('club', None, True),
+    ('train station', None, None),
+    # ('tourist information', None, True),
+    # ('sights', 'tourist_attraction', None),
+    # ('park', 'park', None),
+    # ('mall', 'shopping_mall', True),
+    # ('shopping', 'shopping_mall', True),
+    # ('supermarket', 'supermarket', True),
+    # ('street market', None, None),
+    # ('hardware store', 'hardware_store', True)
 ]
 
 PLACE_SEARCH_RADIUS = 20000  # in meters
@@ -109,7 +110,7 @@ for city_i, cityrow in cities.iterrows():
         print('> skipping (already queried this city)')
         continue
 
-    for place_query, place_type in PLACE_SEARCHES:
+    for place_query, place_type, open_now in PLACE_SEARCHES:
         utcnow = datetime.utcnow()
 
         query_id = t_start_ymdh + cityrow.city + cityrow.country + place_query
@@ -120,12 +121,18 @@ for city_i, cityrow in cities.iterrows():
         kwargs = {}
         if place_type is not None:
             kwargs['type'] = place_type
+        if open_now is not None:
+            kwargs['open_now'] = open_now
 
+        if open_now is not None:
+            open_now_info = '(open now restriction: ' + str(open_now) + ')'
+        else:
+            open_now_info = ''
         full_query = place_query + ' in ' + cityrow.city + ', ' + cityrow.country
-        print('>> query: "%s" in lat=%.4f, lng=%.4f' % (full_query, cityrow.lat, cityrow.lng))
+        print('>> query: "%s" %s in lat=%.4f, lng=%.4f' % (full_query, open_now_info, cityrow.lat, cityrow.lng))
 
         places = gmaps.places(query=full_query, location=(cityrow.lat, cityrow.lng), radius=PLACE_SEARCH_RADIUS,
-                              open_now=True, **kwargs)
+                              **kwargs)
 
         if places['status'] != 'OK':
             print('>> skipping (bad status: %s)' % places['status'])

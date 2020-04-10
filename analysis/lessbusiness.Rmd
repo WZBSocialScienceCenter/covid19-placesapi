@@ -1,367 +1,117 @@
 ---
 title: "Less business than usual"
 author: "Markus Konrad"
-date: "March 23, 2020"
+date: "March 31, 2020"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
 ```{r, warning=FALSE, message=FALSE}
-library(dplyr)
-library(ggplot2)
-library(lubridate)
-library(patchwork)
-library(RColorBrewer)
+source('dataprep.R')
+source('plotting.R')
+
+pop <- load_pop_data()
+collection_time <- range_collection_time(pop)
+pop <- select(pop, -utc_date, -utc_hour)
+
+pop_approx <- group_by(pop, local_day, place_id) %>%
+    do(interpolate_per_place(.)) %>% ungroup()
+
+pop_noparks <- filter(pop, category != 'parks')
+pop_noparks_approx <- filter(pop_approx, category != 'parks')
+
+popeur <- filter(pop, region == 'Europe') %>% select(-region)
+popeur_approx <- filter(pop_approx, region == 'Europe') %>% select(-region)
+popeur_noparks <- filter(popeur, category != 'parks')
+popeur_noparks_approx <- filter(popeur_approx, category != 'parks')
 ```
 
-## Data preparation
+- motivation: effect of soc. dist. measures on public mobility
+- explain data source and motivation: Google Places API / popularity
+- data collection (search queries, categories) and time frame
+- caution / limits (due to costly API queries) / focus on Europe and cities / city population only!
+- categories are mutually exclusive
+
+## Europe
+
+
+- daily mean over time
 
 ```{r}
-poi <- read.csv('../data/places_of_interest_tz.csv', stringsAsFactors = FALSE)
-head(poi)
+ts_country_daily_means <- group_by(popeur, local_day, country) %>% group_means_ci(pop_diff) %>% ungroup()
+ts_daily_means <- group_by(ts_country_daily_means, local_day) %>%
+    group_means_ci(mean_pop_diff)
+
+plot_ts_means_ribbon(ts_daily_means, local_day, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff,
+                     'Mean daily popularity difference over time in Europe', collection_time)
+
 ```
+
+
+- mean per category
 
 ```{r}
-regions <- read.csv('../data/regions.csv', stringsAsFactors = FALSE)
-poi <- left_join(poi, regions, by = 'country')
-stopifnot(sum(is.na(poi$region)) == 0)
+country_cat_means <- group_by(popeur, country, category) %>% group_means_ci(pop_diff)
+cat_means <- group_by(country_cat_means, category) %>% group_means_ci(mean_pop_diff)
 
-query_categ <- read.csv('../data/query_categories.csv', stringsAsFactors = FALSE)
-poi <- left_join(poi, query_categ, by = 'query')
-stopifnot(sum(is.na(poi$category)) == 0)
-
-head(poi)
+plot_means_errorbars(cat_means, category, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff,
+                     'Differences in popularity score per category in Europe', collection_time)
 ```
 
 
-```{r, warning=FALSE}
-poptime <- read.csv('../data/popularity.csv', stringsAsFactors = FALSE)
-head(poptime)
-```
+- daily mean over time per categ.
 
 ```{r}
-pop <- left_join(poptime, poi, by = 'place_id')
-stopifnot(sum(is.na(pop$name)) == 0)
-head(pop)
+ts_country_cat_daily_means <- group_by(popeur, local_day, category, country) %>% group_means_ci(pop_diff) %>% ungroup()
+ts_daily_cat_means <- group_by(ts_country_cat_daily_means, local_day, category) %>%
+    group_means_ci(mean_pop_diff)
+
+plot_ts_cat_means_ribbon(ts_daily_cat_means, local_day, mean_mean_pop_diff,
+                         lwr_mean_pop_diff, upr_mean_pop_diff, category,
+                         'Mean daily popularity difference per category over time in Europe',
+                         collection_time)
+
+```
+
+- hourly means to reveal daily patterns
+
+```{r, message=FALSE, warning=FALSE}
+popeur_approx_firstweek <- filter(popeur_approx, local_day >= '2020-03-23', local_day <= '2020-03-29')
+ts_country_means <- group_by(popeur_approx_firstweek, local_time, country) %>% group_means_ci(pop_diff) %>% ungroup()
+
+ts_means <- group_by(ts_country_means, local_time) %>% group_means_ci(mean_pop_diff) 
+ts_means <- low_obs_to_NA(ts_means, n_mean_pop_diff, 5, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff)
+
+plot_ts_means_ribbon(ts_means, local_time, mean_mean_pop_diff, lwr_mean_pop_diff, upr_mean_pop_diff,
+                     'Mean popularity difference over time in Europe', collection_time)
 ```
 
 
-```{r}
-pop$local_time <- ymd_h(paste(pop$local_date, pop$local_hour))
-select(pop, local_date, local_hour, local_time) %>% sample_n(20)
-```
+- daily patterns
+- daily patterns w/o parks
+- daily patterns per categ.
 
-```{r}
-pop$pop_diff <- pop$current_pop - pop$usual_pop
+## Selected countries world-wide
 
-# reduced dataset:
-popsm <- select(pop, region, country, city, category, query, name, local_time, pop_diff)
-head(popsm)
-```
+- first: China
+- bad development: Italy, Spain, USA
+- different approach in Europe: Sweden
+- good handling of crisis? South Korea, Taiwan
 
-## Exploratory analysis
+## Selected cities?
 
-```{r}
-range_collection_time <- strftime(range(ymd_h(paste(pop$utc_date, pop$utc_hour))), "%Y-%m-%d %I%p", tz = 'UTC')
+- NY, Bergamo, Wuhan
 
-plot_subtitle <- 'Difference between current popularity score at local time and usual popularity at the same place.'
-plot_caption <- paste('source: data retrieved from Google Places API between',
-                      range_collection_time[1], 'UTC and', range_collection_time[2], 'UTC')
-plot_caption
-```
+## Selected places?
 
+## Conclusion
 
-### Global level
-
-```{r}
-c(mean(popsm$pop_diff), sd(popsm$pop_diff), median(popsm$pop_diff))
-```
-
-```{r}
-filter(popsm, pop_diff > 200)  # outliers?
-```
-
-
-```{r}
-qplot(popsm$pop_diff, binwidth = 10) +
-    #scale_x_continuous(limits = c(-100, 200)) +
-    xlab('difference in popularity score') +
-    labs(title = 'Popularity score differences – histogram',
-         subtitle = plot_subtitle,
-         caption = plot_caption) +
-    theme_minimal()
-```
-
-```{r}
-popglob <- group_by(popsm, local_time) %>% summarise(diff_mean = mean(pop_diff), diff_sd = sd(pop_diff), n = n())
-head(popglob)
-```
-
-
-```{r}
-qplot(popglob$local_time, popglob$n, geom = 'col') +
-    xlab('local time') +
-    ggtitle('Number of collected observations over time') +
-    theme_minimal() + theme(axis.title.y = element_blank())
-```
-
-
-
-### Europe
-
-```{r}
-popeur <- filter(popsm, region == 'Europe')
-popeur
-```
-
-```{r}
-popeur_means <- group_by(popeur, local_time) %>%
-    summarise(diff_mean = mean(pop_diff), diff_sd = sd(pop_diff), n = n()) %>%
-    ungroup
-head(popeur_means)
-```
-
-
-```{r}
-# set values with very few observations to NA to produce gaps in plot
-low_obs_to_NA <- function(df, col, thresh) {
-    df[[col]] <- ifelse(df$n < thresh, NA, df[[col]])
-    df
-}
-
-popeur_means <- low_obs_to_NA(popeur_means, 'diff_mean', thresh = 10)
-head(popeur_means)
-```
-
-
-```{r, warning=FALSE}
-p <- ggplot(popeur_means, aes(x = local_time, y = diff_mean)) +
-    geom_line(linetype = 1) +
-    geom_point() +
-    geom_hline(yintercept = 0, linetype = 3) +
-    xlab(NULL) + ylab(NULL) +
-    labs(title = 'Mean difference in popularity score over time in Europe',
-         subtitle = plot_subtitle,
-         caption = plot_caption) +
-    theme_minimal()
-ggsave('plots/europe_ts.png', p, width = 10, height = 8)
-p
-```
-
-
-### Business/locality type in Europe
-
-```{r}
-poplocality <- group_by(popeur, local_time, category) %>%
-    summarise(diff_mean = mean(pop_diff), diff_sd = sd(pop_diff), n = n()) %>%
-    ungroup() %>%
-    arrange(local_time, category) %>% ungroup()
-head(poplocality)
-```
-
-
-```{r, fig.width=10, fig.height=8}
-p <- ggplot(filter(poplocality, !is.na(diff_mean)), aes(x = category, y = diff_mean)) +
-    geom_hline(yintercept = 0, linetype = 3) +
-    geom_boxplot(outlier.shape = NA) +
-    geom_jitter(width = 0.1, alpha = 0.3) +
-    xlab(NULL) +
-    ylab('Difference') +
-    labs(title = 'Difference in popularity score per place category in Europe',
-         subtitle = plot_subtitle,
-         caption = plot_caption) +
-    theme_minimal()
-ggsave('plots/europe_placecat_box.png', p, width = 10, height = 8)
-p
-```
-
-
-```{r}
-fill_time_gaps <- function(grp, group_var, y_var) {
-    grp <- select(grp, local_time, group_var, y_var)
-    time_range <- range(grp$local_time)
-    time_seq <- seq(time_range[1], time_range[2], by = 'hour')
-    time_fill <- time_seq[!(time_seq %in% grp$local_time)]
-    if (length(time_fill) > 0) {
-        filldf <- data.frame(local_time = time_fill,
-                             diff_mean = NA,
-                             stringsAsFactors = FALSE)
-        filldf[[group_var]] <- rep(unique(pull(grp, group_var)), times = length(time_fill))
-        bind_rows(grp, filldf)
-    } else {
-        grp
-    }
-}
-
-poplocality <- low_obs_to_NA(poplocality, 'diff_mean', thresh = 5)
-
-poplocality <- group_by(poplocality, category) %>%
-    do(fill_time_gaps(., group_var = 'category', y_var = 'diff_mean')) %>%
-    arrange(local_time, category) %>%
-    ungroup()
-```
-
-
-```{r, warning=FALSE, fig.width=10, fig.width=8}
-p <- ggplot(poplocality, aes(x = local_time, y = diff_mean, color = category)) +
-    geom_line(linetype = 1, alpha = 0.5) +
-    geom_point() +
-    geom_hline(yintercept = 0, linetype = 3) +
-    scale_color_brewer(palette = 'Dark2') +
-    xlab(NULL) + ylab(NULL) +
-    labs(title = 'Mean difference in popularity score per category over time in Europe',
-         subtitle = plot_subtitle,
-         caption = plot_caption) +
-    theme_minimal() + theme(legend.title = element_blank(), legend.position = 'bottom')
-ggsave('plots/europe_placecat_ts.png', p, width = 10, height = 8)
-p
-```
-
-
-### Country level
-
-```{r}
-popcountry <- group_by(popsm, local_time, region, country) %>%
-    summarise(diff_mean = mean(pop_diff), diff_sd = sd(pop_diff), n = n()) %>%
-    ungroup()
-head(popcountry)
-```
-
-
-```{r, fig.height=12, fig.width=8}
-min_n_obs_countries <- count(popcountry, country) %>%
-    filter(n >= 9) %>%
-    pull(country)
-popcountry_filt <- filter(popcountry, country %in% min_n_obs_countries)
-
-p <- ggplot(popcountry_filt, aes(x = country, y = diff_mean)) +
-    geom_hline(yintercept = 0, linetype = 3) +
-    geom_boxplot(outlier.shape = NA) +
-    geom_jitter(width = 0.1, alpha = 0.3) +
-    scale_x_discrete(limits = rev(sort(unique(popcountry_filt$country)))) +
-    coord_flip() + 
-    xlab(NULL) +
-    ylab('Difference') +
-    labs(title = 'Difference in popularity score per country',
-         subtitle = plot_subtitle,
-         caption = plot_caption) +
-    theme_minimal()
-ggsave('plots/countries_box.png', p, width = 8, height = 12)
-p
-```
-
-
-```{r}
-popcountry_cats <- group_by(popsm, local_time, country, category) %>%
-    summarise(diff_mean = mean(pop_diff), diff_sd = sd(pop_diff), n = n()) %>%
-    ungroup()
-head(popcountry_cats)
-```
-
-```{r}
-min_n_obs_countries <- count(popcountry_cats, country, category) %>%
-    filter(n >= 10) %>%
-    pull(country)
-popcountry_cats_filt <- filter(popcountry_cats, country %in% min_n_obs_countries)
-head(popcountry_cats_filt)
-```
-
-
-```{r, fig.height=20, fig.width=12}
-p <- ggplot(popcountry_cats_filt, aes(x = reorder(country, desc(country)), y = diff_mean)) +
-    geom_hline(yintercept = 0, linetype = 3) +
-    geom_boxplot(outlier.shape = NA) +
-    geom_jitter(width = 0.1, height = 0.2, alpha = 0.3) +
-    coord_flip() +
-    facet_wrap(~ category, ncol = 2, scales = 'free_y') +
-    xlab(NULL) +
-    ylab(NULL) +
-    labs(title = 'Difference in popularity score per country and place category',
-         subtitle = plot_subtitle,
-         caption = plot_caption) +
-    theme_minimal()
-ggsave('plots/countries_placecat_box.png', p, width = 12, height = 20)
-p
-```
-
-
-```{r}
-popcountry_ts <- low_obs_to_NA(popcountry, 'diff_mean', thresh = 5)
-head(popcountry_ts)
-```
-
-
-```{r, fig.height=30, fig.width=10, warning=FALSE}
-regplots <- list()
-yminmax <- range(popcountry_ts$diff_mean, na.rm = TRUE)
-
-for (reg in sort(unique(popcountry_ts$region))) {
-    regdata <- filter(popcountry_ts, region == reg)
-    no_obs_countries <- group_by(regdata, country) %>%
-        summarise(n_not_NA = sum(!is.na(diff_mean))) %>%
-        filter(n_not_NA == 0) %>%
-        pull(country)
-    regdata <- filter(regdata, !(country %in% no_obs_countries))
-
-    regdata <- group_by(regdata, country) %>%
-        do(fill_time_gaps(., group_var = 'country', y_var = 'diff_mean')) %>%
-        arrange(local_time, country) %>%
-        ungroup()
-    
-    # linearly approx. gaps of max. two NA values
-    regdata <- group_by(regdata, country) %>%
-        do(data.frame(local_time = .$local_time,
-                      country = .$country,
-                      diff_mean = zoo::na.approx(.$diff_mean, maxgap = 3, na.rm = FALSE)))
-
-    regcountries <- sort(unique(regdata$country))
-    n_countries <- length(regcountries)
-    
-    if (n_countries > 8) {
-        country_colors <- colorRampPalette(brewer.pal(name = 'Dark2', n = 8))(n_countries)
-        country_linetypes <- data.frame(
-            country = regcountries,
-            linetype = as.factor(rep(1:3, times = ceiling(n_countries / 3))[1:n_countries])
-        )
-        regdata <- left_join(regdata, country_linetypes, by = 'country')
-        line_mapping <- aes(linetype = linetype)
-        line_guide_override <- list(linetype = as.integer(country_linetypes$linetype))
-    } else {
-        country_colors <- brewer.pal(name = 'Dark2', n = max(3, n_countries))
-        line_mapping <- NULL
-        line_guide_override <- list()
-    }
-    
-    if (sum(!is.na(regdata$diff_mean)) >= length(unique(regdata$local_time))) {
-        p <- ggplot(regdata, aes(x = local_time, y = diff_mean, color = country)) +
-                geom_line(line_mapping) +
-                geom_point(size = 0.75) +
-                geom_hline(yintercept = 0, linetype = 3) +
-                scale_color_manual(values = country_colors,
-                                   guide = guide_legend(
-                                       override.aes = line_guide_override,
-                                       keywidth = 2
-                                   )) +
-                scale_y_continuous(limits = yminmax + c(-3, 3)) +
-                scale_linetype(guide = FALSE) +
-                ggtitle(reg) +
-                xlab(NULL) + ylab(NULL) +
-                theme_minimal()
-        regplots[[reg]] <- p
-    }
-}
-
-p <- wrap_plots(regplots, ncol = 1) +
-    plot_annotation(title = 'Mean difference in popularity score per region and country over time*',
-                    subtitle = paste0(plot_subtitle, '\n*Unfortunately, so far not enough data for African countries could be collected to plot it at this level.'),
-                    caption = plot_caption)
-ggsave('plots/region_countries_ts.png', p, width = 10, height = 30)
-p
-```
-
-
+- first observations; further research needed to better understand patterns
+- announce updates for next weeks/months
+- interactive dashboard?
+- link to GH repo
 
