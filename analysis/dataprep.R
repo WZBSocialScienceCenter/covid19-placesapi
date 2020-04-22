@@ -12,7 +12,10 @@ load_pop_data <- function() {
     stopifnot(sum(is.na(poi$category)) == 0)
     
     # move places with "park" in name to "parks" category
-    poi[poi$query == 'sights' & grepl('park', poi$name, ignore.case = TRUE), ]$category <- 'parks'
+    poi[poi$query %in% c('sights', 'tourist information')
+        & grepl('(park|garden|garten|reserve)',
+                poi$name,
+                ignore.case = TRUE), ]$category <- 'parks'
     
     poptime <- read.csv('../data/popularity.csv', stringsAsFactors = FALSE)
     
