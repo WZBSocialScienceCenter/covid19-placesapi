@@ -28,7 +28,8 @@ load_pop_data <- function() {
                   local_day = ymd(local_date),
                   local_time = ymd_h(paste(local_date, local_hour)),
                   local_weekday = wday(local_time, week_start = 1),
-                  local_weekend = !(local_weekday %in% 1:5))
+                  local_weekend = !(local_weekday %in% 1:5),
+                  category = as.factor(category))
     
     # reduced dataset:
     select(pop, local_time, local_day, local_hour, local_weekday, local_weekend,
