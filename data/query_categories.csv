@@ -1,14 +1,14 @@
 query,category
-bar,gastronomy & clubs
-fast food,gastronomy & clubs
-club,gastronomy & clubs
-gastro pub,gastronomy & clubs
+bar,gastronomy
+fast food,gastronomy
+club,gastronomy
+gastro pub,gastronomy
 hardware store,commerce
 main station,public transport
 mall,commerce
 shopping,commerce
 park,parks
-restaurant,gastronomy & clubs
+restaurant,gastronomy
 sights,tourism
 street market,commerce
 supermarket,commerce

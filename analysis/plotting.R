@@ -11,6 +11,7 @@ WZB_GREEN <- '#619933'
 WZB_PLUS <- '#272F35'
 
 DEFAULT_SUBTITLE <- 'Difference between current popularity score at local time and usual popularity at the same place.'
+SUBTITLE_RATIOS <- 'Geometric mean of ratio current popularity : usual popularity per place.'
 
 # common shortcut objects / functions
 
@@ -40,6 +41,23 @@ add_labels <- function(title, collection_time = NULL, subtitle = DEFAULT_SUBTITL
 
 
 # specific plotting functions
+
+plot_categ_means_ci <- function(meansdata, x, y, ymin, ymax, title, subtitle, collection_time) {
+    x <- enquo(x)
+    y <- enquo(y)
+    ymin <- enquo(ymin)
+    ymax <- enquo(ymax)
+    
+    ggplot(meansdata, aes(x = !!x, y = !!y)) +
+        geom_point() +
+        geom_linerange(aes(ymin = !!ymin, ymax = !!ymax)) +
+        one_intercept +
+        ylim(0, max(pull(meansdata, !!ymax))) +
+        scale_x_discrete(limits = rev(sort(unique(pull(meansdata, !!x))))) +
+        coord_flip() +
+        add_labels(title, collection_time, subtitle) +
+        wzb_theme
+}
 
 plot_means_errorbars <- function(meansdata, x, y, ymin, ymax, title, collection_time) {
     x <- enquo(x)
