@@ -185,8 +185,8 @@ plot_daily_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, titl
         scale_x_continuous(breaks = seq(xrange[1], xrange[2], 2)) +
         scale_color_brewer(palette = "Dark2", guide = guide_legend(NULL)) +
         scale_fill_brewer(palette = "Dark2", guide = FALSE) +
-        zero_intercept +
-        add_labels(title, collection_time) +
+        one_intercept +
+        add_labels(title, collection_time, SUBTITLE_RATIOS) +
         facet_wrap(~ local_weekend, ncol = 1,
                    labeller = as_labeller(c(`FALSE` = 'working day', `TRUE` = 'weekend'))) +
         wzb_theme
