@@ -11,7 +11,7 @@ WZB_GREEN <- '#619933'
 WZB_PLUS <- '#272F35'
 
 DEFAULT_SUBTITLE <- 'Difference between current popularity score at local time and usual popularity at the same place.'
-SUBTITLE_RATIOS <- 'Geometric mean of ratio current popularity : usual popularity per place.'
+SUBTITLE_RATIOS <- 'Geometric mean of ratio between current popularity and usual popularity per place.'
 
 # common shortcut objects / functions
 
@@ -55,6 +55,25 @@ plot_categ_means_ci <- function(meansdata, x, y, ymin, ymax, title, subtitle, co
         ylim(0, max(pull(meansdata, !!ymax))) +
         scale_x_discrete(limits = rev(sort(unique(pull(meansdata, !!x))))) +
         coord_flip() +
+        add_labels(title, collection_time, subtitle) +
+        wzb_theme
+}
+
+plot_categ_means_country_ci <- function(meansdata, x, y, ymin, ymax, facet, title, subtitle, collection_time) {
+    x <- enquo(x)
+    y <- enquo(y)
+    ymin <- enquo(ymin)
+    ymax <- enquo(ymax)
+    facet <- enquo(facet)
+    
+    ggplot(meansdata, aes(x = reorder(country, desc(!!x)), y = !!y)) +
+        geom_point() +
+        geom_linerange(aes(ymin = !!ymin, ymax = !!ymax)) +
+        one_intercept +
+        ylim(0, max(pull(meansdata, !!ymax))) +
+        #scale_x_discrete(limits = rev(sort(unique(pull(meansdata, !!x))))) +
+        coord_flip() +
+        facet_wrap(vars(!!facet), ncol = 2, scales = 'free_y') +
         add_labels(title, collection_time, subtitle) +
         wzb_theme
 }
@@ -192,7 +211,8 @@ plot_daily_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, face
         one_intercept +
         add_labels(title, collection_time, subtitle) +
         facet_wrap(vars(!!facet), ncol = 2, scales = 'free_y') +
-        wzb_theme
+        wzb_theme +
+        theme(legend.position = 'bottom')
 }
 
 

@@ -5,6 +5,9 @@ library(stringr)
 source('dataprep.R')
 source('plotting.R')
 
+
+QUANTILES_FOR_CI <- c(0.05, 0.50, 0.95)
+
 pop <- load_pop_data()
 collection_time <- range_collection_time(pop)
 cities <- distinct(pop, iso2, city, lat, lng)
@@ -63,13 +66,14 @@ popde_cat_boot <- readRDS('tmp/popde_cat_boot.RDS')
 # 
 # saveRDS(popde_cat_boot, 'tmp/popde_cat_boot.RDS')
 
-popde_cat_estim <- data.frame(t(apply(popde_cat_boot$t, 2, function(x, q) { exp(quantile(x, q)) }, c(0.025,0.50,0.975))))
+popde_cat_estim <- data.frame(t(apply(popde_cat_boot$t, 2, function(x, q) { exp(quantile(x, q)) }, QUANTILES_FOR_CI)))
 colnames(popde_cat_estim) <- c('mean_lwr', 'mean', 'mean_upr')
 popde_cat_estim$category <- catnames
 popde_cat_estim
 
 (p <- plot_categ_means_ci(popde_cat_estim, category, mean, mean_lwr, mean_upr,
-                         'Change in popularity by type of place in Germany', SUBTITLE_RATIOS, collection_time))
+                         'Change in popularity by type of place in Germany',
+                         SUBTITLE_RATIOS, collection_time))
 ggsave('plots/de_mobchange_categ.png', p)
 
 
@@ -114,7 +118,7 @@ de_daytrends_boot <- readRDS('tmp/de_daytrends_boot.RDS')
 
 de_daytrends_boot
 
-de_daytrends_estim <- data.frame(t(apply(de_daytrends_boot$t, 2, function(x, q) { exp(quantile(x, q)) }, c(0.025,0.50,0.975))))
+de_daytrends_estim <- data.frame(t(apply(de_daytrends_boot$t, 2, function(x, q) { exp(quantile(x, q)) }, QUANTILES_FOR_CI)))
 colnames(de_daytrends_estim) <- c('mean_lwr', 'mean', 'mean_upr')
 de_daytrends_estim <- bind_cols(de_daytrends_preddata, de_daytrends_estim)
 de_daytrends_estim$local_hour <- as.integer(levels(de_daytrends_estim$local_hour_fact))
@@ -127,3 +131,62 @@ de_daytrends_estim
 ggsave('plots/de_daily_mobchange_categ.png', p)
 
 
+
+eu_low_obs <- filter(pop, region == 'Europe') %>% count(country) %>% filter(n < 100)
+eu_low_obs
+
+popeu <- filter(pop, region == 'Europe', !(country %in% eu_low_obs$country))
+
+### estimates per country and category ###
+
+# linear mixed model 1
+
+eu_m1_ratio_cat <- lmer(log(pop_frac) ~ country:category + (1|city/place_id) + (1|country:local_weekday),
+                        control = lmerControl('Nelder_Mead'),
+                        data = popeu)
+plot(eu_m1_ratio_cat)
+qqnorm(resid(eu_m1_ratio_cat)); qqline(resid(eu_m1_ratio_cat))
+summary(eu_m1_ratio_cat)
+
+# linear mixed model 2: simpler
+
+eu_m2_ratio_cat <- lmer(log(pop_frac) ~ country:category + (1|city/place_id), data = popeu)
+plot(eu_m2_ratio_cat)
+qqnorm(resid(eu_m2_ratio_cat)); qqline(resid(eu_m2_ratio_cat))
+summary(eu_m2_ratio_cat)
+
+# linear mixed model 3: in between
+
+eu_m3_ratio_cat <- lmer(log(pop_frac) ~ country:category + (1|city/place_id) + (1|country:local_weekend),
+                        data = popeu)
+plot(eu_m3_ratio_cat)
+qqnorm(resid(eu_m3_ratio_cat)); qqline(resid(eu_m3_ratio_cat))
+summary(eu_m3_ratio_cat)
+
+
+anova(eu_m1_ratio_cat, eu_m2_ratio_cat, eu_m3_ratio_cat)
+
+eu_ratio_cat_preddata <- distinct(popeu, country, category) %>% arrange(country, category)
+eu_ratio_cat_preddata
+
+eu_ratio_cat_pred_func <- function(fit) {
+    predict(fit, eu_ratio_cat_preddata, re.form = NA)
+}
+
+eu_ratio_cat_boot <- readRDS('tmp/eu_ratio_cat_boot.RDS')
+# eu_ratio_cat_boot <- bootMer(eu_m3_ratio_cat, nsim = 200, FUN = eu_ratio_cat_pred_func,
+#                              use.u = FALSE, ncpus = 4, parallel = 'multicore')    # this is quite slow
+# saveRDS(eu_ratio_cat_boot, 'tmp/eu_ratio_cat_boot.RDS')
+
+eu_ratio_cat_estim <- data.frame(t(apply(eu_ratio_cat_boot$t, 2, function(x, q) { exp(quantile(x, q)) }, QUANTILES_FOR_CI)))
+colnames(eu_ratio_cat_estim) <- c('mean_lwr', 'mean', 'mean_upr')
+eu_ratio_cat_estim <- bind_cols(eu_ratio_cat_preddata, eu_ratio_cat_estim)
+eu_ratio_cat_estim
+
+eu_ratio_cat_estim$ci_range <- eu_ratio_cat_estim$mean_upr - eu_ratio_cat_estim$mean_lwr
+eu_ratio_cat_estim <- filter(eu_ratio_cat_estim, ci_range <= 1)    # too large CIs for some country/category combinations
+
+(p <- plot_categ_means_country_ci(eu_ratio_cat_estim, country, mean, mean_lwr, mean_upr, category,
+                                  'Change in popularity by type of place in Europe',
+                                  SUBTITLE_RATIOS, collection_time))
+ggsave('plots/eu_mobchange_categ.png', p, width = 8, height = 12)
