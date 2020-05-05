@@ -56,9 +56,12 @@ popde_cat_pred_func <- function(fit) {
     predict(fit, popde_cat_preddata, re.form = NA)
 }
 
-popde_cat_boot <- bootMer(m1_ratio_cat, nsim = 500, FUN = popde_cat_pred_func,
-                          use.u = TRUE, ncpus = 3, parallel = 'multicore')
 
+popde_cat_boot <- readRDS('tmp/popde_cat_boot.RDS')
+# popde_cat_boot <- bootMer(m1_ratio_cat, nsim = 500, FUN = popde_cat_pred_func,
+#                           use.u = FALSE, ncpus = 3, parallel = 'multicore')
+# 
+# saveRDS(popde_cat_boot, 'tmp/popde_cat_boot.RDS')
 
 popde_cat_estim <- data.frame(t(apply(popde_cat_boot$t, 2, function(x, q) { exp(quantile(x, q)) }, c(0.025,0.50,0.975))))
 colnames(popde_cat_estim) <- c('mean_lwr', 'mean', 'mean_upr')
@@ -78,19 +81,21 @@ popde_approx_daytime$local_hour_fact <- as.factor(popde_approx_daytime$local_hou
 
 m1_de_daytrends_cat <- lmer(log(pop_frac) ~ local_hour_fact + local_weekend + category + (1|city/place_id), data = popde_approx_daytime)
 plot(m1_de_daytrends_cat)
+qqnorm(resid(m1_de_daytrends_cat)); qqline(resid(m1_de_daytrends_cat))
 summary(m1_de_daytrends_cat)
 
 m2_de_daytrends_cat <- lmer(log(pop_frac) ~ local_weekend/local_hour_fact + category + (1|city/place_id), data = popde_approx_daytime)
 plot(m2_de_daytrends_cat)
+qqnorm(resid(m2_de_daytrends_cat)); qqline(resid(m2_de_daytrends_cat))
 summary(m2_de_daytrends_cat)
 
 m3_de_daytrends_cat <- lmer(log(pop_frac) ~ category/local_weekend/local_hour_fact + (1|city/place_id), data = popde_approx_daytime)
 plot(m3_de_daytrends_cat)
+qqnorm(resid(m3_de_daytrends_cat)); qqline(resid(m3_de_daytrends_cat))
 summary(m3_de_daytrends_cat)
 
+anova(m1_de_daytrends_cat, m2_de_daytrends_cat, m3_de_daytrends_cat)
 
-# confint(m1_daytrends_cat, c('local_hour_fact9', 'categoryparks'))
-# exp(predict(m1_daytrends_cat, data.frame(local_hour_fact = "13", local_weekend = TRUE, category = 'parks'), re.form = NA))
 
 de_daytrends_preddata <- expand.grid(local_hour_fact = levels(popde_approx_daytime$local_hour_fact),
                                      local_weekend = c(TRUE, FALSE),
@@ -102,8 +107,10 @@ de_daytrends_pred_func <- function(fit) {
     predict(fit, de_daytrends_preddata, re.form = NA)
 }
 
-de_daytrends_boot <- bootMer(m3_de_daytrends_cat, nsim = 500, FUN = de_daytrends_pred_func,
-                             use.u = TRUE, ncpus = 3, parallel = 'multicore')
+de_daytrends_boot <- readRDS('tmp/de_daytrends_boot.RDS')
+# de_daytrends_boot <- bootMer(m3_de_daytrends_cat, nsim = 500, FUN = de_daytrends_pred_func,
+#                              use.u = FALSE, ncpus = 3, parallel = 'multicore')
+# saveRDS(de_daytrends_boot, 'tmp/de_daytrends_boot.RDS')
 
 de_daytrends_boot
 
@@ -113,9 +120,10 @@ de_daytrends_estim <- bind_cols(de_daytrends_preddata, de_daytrends_estim)
 de_daytrends_estim$local_hour <- as.integer(levels(de_daytrends_estim$local_hour_fact))
 de_daytrends_estim
 
-plot_daily_cat_means_ribbon(de_daytrends_estim, local_hour, mean, mean_lwr, mean_upr, category, 'foo', 'bar')
+(p <- plot_daily_cat_means_ribbon(de_daytrends_estim, local_hour, mean, mean_lwr, mean_upr,
+                                  local_weekend, category, 'Daily patterns in popularity change in Germany',
+                                  SUBTITLE_RATIOS, collection_time))
 
-popde_daytrends_fe <- tidy(m1_daytrends_cat, effects = 'fixed', conf.int = TRUE)
-popde_daytrends_fe
+ggsave('plots/de_daily_mobchange_categ.png', p)
 
-popde_daytrends_constant <- filter(popde_daytrends_fe, term == '(Intercept)') %>% pull(estimate)
+

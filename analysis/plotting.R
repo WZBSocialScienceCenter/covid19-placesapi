@@ -165,12 +165,13 @@ plot_daily_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, title, c
 }
 
 
-plot_daily_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, title, collection_time, ribbon = TRUE) {
+plot_daily_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, facet, title, subtitle, collection_time, ribbon = TRUE) {
     x <- enquo(x)
     y <- enquo(y)
     ymin <- enquo(ymin)
     ymax <- enquo(ymax)
     color <- enquo(color)
+    facet <- enquo(facet)
     
     xrange = range(pull(meansdata, !!x))
     
@@ -180,15 +181,17 @@ plot_daily_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, titl
         p <- p + geom_ribbon(aes(ymin = !!ymin, ymax = !!ymax, fill = !!color), color = NA, alpha = 0.25)
     }
     
+    cmap <- c(WZB_BLUE, WZB_VIOL)
+    names(cmap) <- c(FALSE, TRUE)
+    
     p + geom_line() +
         geom_point() +
         scale_x_continuous(breaks = seq(xrange[1], xrange[2], 2)) +
-        scale_color_brewer(palette = "Dark2", guide = guide_legend(NULL)) +
-        scale_fill_brewer(palette = "Dark2", guide = FALSE) +
+        scale_color_manual(labels = c('working day', 'weekend'), values = cmap, guide = guide_legend(NULL)) +
+        scale_fill_manual(values = cmap, guide = FALSE) +
         one_intercept +
-        add_labels(title, collection_time, SUBTITLE_RATIOS) +
-        facet_wrap(~ local_weekend, ncol = 1,
-                   labeller = as_labeller(c(`FALSE` = 'working day', `TRUE` = 'weekend'))) +
+        add_labels(title, collection_time, subtitle) +
+        facet_wrap(vars(!!facet), ncol = 2, scales = 'free_y') +
         wzb_theme
 }
 
