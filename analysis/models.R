@@ -130,12 +130,60 @@ de_daytrends_estim
 
 ggsave('plots/de_daily_mobchange_categ.png', p)
 
+###############################
+### estimations for Germany ###
+###############################
 
 
 eu_low_obs <- filter(pop, region == 'Europe') %>% count(country) %>% filter(n < 100)
 eu_low_obs
 
 popeu <- filter(pop, region == 'Europe', !(country %in% eu_low_obs$country))
+
+### estimates per country ###
+
+# TODO: filter countries w/ low num obs. per category / not all categories
+
+eu_m1_ratio_cntry <- lmer(log(pop_frac) ~ country + (1|city/category/place_id) + (1|country:local_weekday),
+                          data = popeu)
+plot(eu_m1_ratio_cntry)
+qqnorm(resid(eu_m1_ratio_cntry)); qqline(resid(eu_m1_ratio_cntry))
+summary(eu_m1_ratio_cntry)
+
+# simpler
+
+eu_m2_ratio_cntry <- lmer(log(pop_frac) ~ country + (1|city/category/place_id) + (1|country:local_weekend),
+                          data = popeu)
+plot(eu_m2_ratio_cntry)
+qqnorm(resid(eu_m2_ratio_cntry)); qqline(resid(eu_m2_ratio_cntry))
+summary(eu_m2_ratio_cntry)
+
+# even simpler
+
+eu_m3_ratio_cntry <- lmer(log(pop_frac) ~ country + (1|city/place_id) + (1|country:local_weekend),
+                          data = popeu)
+plot(eu_m3_ratio_cntry)
+qqnorm(resid(eu_m3_ratio_cntry)); qqline(resid(eu_m3_ratio_cntry))
+summary(eu_m3_ratio_cntry)
+
+anova(eu_m1_ratio_cntry, eu_m2_ratio_cntry, eu_m3_ratio_cntry)
+
+eu_ratio_cntry_preddata <- data.frame(country = sort(unique(popeu$country)))
+eu_ratio_cntry_preddata
+
+eu_ratio_cntry_pred_func <- function(fit) {
+    predict(fit, eu_ratio_cntry_preddata, re.form = NA)
+}
+
+eu_ratio_cntry_boot <- bootMer(?, nsim = 10, FUN = eu_ratio_cat_pred_func,   # TODO
+                             use.u = FALSE, ncpus = 4, parallel = 'multicore')    # this is quite slow
+saveRDS(eu_ratio_cntry_boot, 'tmp/eu_ratio_cntry_boot.RDS')
+
+eu_ratio_cntry_estim <- data.frame(t(apply(eu_ratio_cntry_boot$t, 2, function(x, q) { exp(quantile(x, q)) }, QUANTILES_FOR_CI)))
+colnames(eu_ratio_cntry_estim) <- c('mean_lwr', 'mean', 'mean_upr')
+eu_ratio_cntry_estim <- bind_cols(eu_ratio_cat_preddata, eu_ratio_cntry_estim)
+eu_ratio_cntry_estim
+
 
 ### estimates per country and category ###
 
@@ -162,7 +210,6 @@ eu_m3_ratio_cat <- lmer(log(pop_frac) ~ country:category + (1|city/place_id) + (
 plot(eu_m3_ratio_cat)
 qqnorm(resid(eu_m3_ratio_cat)); qqline(resid(eu_m3_ratio_cat))
 summary(eu_m3_ratio_cat)
-
 
 anova(eu_m1_ratio_cat, eu_m2_ratio_cat, eu_m3_ratio_cat)
 
