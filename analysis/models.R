@@ -142,48 +142,82 @@ popeu <- filter(pop, region == 'Europe', !(country %in% eu_low_obs$country))
 
 ### estimates per country ###
 
-# TODO: filter countries w/ low num obs. per category / not all categories
+# only countries for which we have places in all categories
+countries_allcats <- distinct(popeu, country, category) %>% count(country) %>%
+    filter(n == length(catnames)) %>% pull(country)
 
-eu_m1_ratio_cntry <- lmer(log(pop_frac) ~ country + (1|city/category/place_id) + (1|country:local_weekday),
-                          data = popeu)
+popeu_allcats <- filter(popeu, country %in% countries_allcats)
+unique(popeu_allcats$country)
+
+# model 1
+
+eu_m1_ratio_cntry <- lmer(log(pop_frac) ~ country + (1|country:category) + (1|city/place_id) + (1|country:local_weekday),
+                          data = popeu_allcats)
 plot(eu_m1_ratio_cntry)
 qqnorm(resid(eu_m1_ratio_cntry)); qqline(resid(eu_m1_ratio_cntry))
 summary(eu_m1_ratio_cntry)
 
-# simpler
+# model 2: simpler
 
-eu_m2_ratio_cntry <- lmer(log(pop_frac) ~ country + (1|city/category/place_id) + (1|country:local_weekend),
-                          data = popeu)
+eu_m2_ratio_cntry <- lmer(log(pop_frac) ~ country + (1|country:category) + (1|city/place_id) + (1|country:local_weekend),
+                          data = popeu_allcats)
 plot(eu_m2_ratio_cntry)
 qqnorm(resid(eu_m2_ratio_cntry)); qqline(resid(eu_m2_ratio_cntry))
 summary(eu_m2_ratio_cntry)
 
-# even simpler
+# model 3: even simpler
 
-eu_m3_ratio_cntry <- lmer(log(pop_frac) ~ country + (1|city/place_id) + (1|country:local_weekend),
-                          data = popeu)
+eu_m3_ratio_cntry <- lmer(log(pop_frac) ~ country + (1|category) + (1|city/place_id) + (1|country:local_weekend),
+                          data = popeu_allcats)
 plot(eu_m3_ratio_cntry)
 qqnorm(resid(eu_m3_ratio_cntry)); qqline(resid(eu_m3_ratio_cntry))
 summary(eu_m3_ratio_cntry)
 
 anova(eu_m1_ratio_cntry, eu_m2_ratio_cntry, eu_m3_ratio_cntry)
 
-eu_ratio_cntry_preddata <- data.frame(country = sort(unique(popeu$country)))
+eu_ratio_cntry_preddata <- data.frame(country = sort(unique(popeu_allcats$country)), stringsAsFactors = FALSE)
 eu_ratio_cntry_preddata
 
 eu_ratio_cntry_pred_func <- function(fit) {
     predict(fit, eu_ratio_cntry_preddata, re.form = NA)
 }
 
-eu_ratio_cntry_boot <- bootMer(?, nsim = 10, FUN = eu_ratio_cat_pred_func,   # TODO
-                             use.u = FALSE, ncpus = 4, parallel = 'multicore')    # this is quite slow
-saveRDS(eu_ratio_cntry_boot, 'tmp/eu_ratio_cntry_boot.RDS')
+eu_ratio_cntry_boot <- readRDS('tmp/eu_ratio_cntry_boot.RDS')
+# eu_ratio_cntry_boot <- bootMer(eu_m3_ratio_cntry, nsim = 200, FUN = eu_ratio_cntry_pred_func,
+#                              use.u = FALSE, ncpus = 4, parallel = 'multicore')
+# saveRDS(eu_ratio_cntry_boot, 'tmp/eu_ratio_cntry_boot.RDS')
 
 eu_ratio_cntry_estim <- data.frame(t(apply(eu_ratio_cntry_boot$t, 2, function(x, q) { exp(quantile(x, q)) }, QUANTILES_FOR_CI)))
 colnames(eu_ratio_cntry_estim) <- c('mean_lwr', 'mean', 'mean_upr')
-eu_ratio_cntry_estim <- bind_cols(eu_ratio_cat_preddata, eu_ratio_cntry_estim)
+eu_ratio_cntry_estim <- bind_cols(eu_ratio_cntry_preddata, eu_ratio_cntry_estim)
 eu_ratio_cntry_estim
 
+(p <- plot_categ_means_ci(eu_ratio_cntry_estim, country, mean, mean_lwr, mean_upr,
+                          'Change in place popularity per country in Europe',
+                          SUBTITLE_RATIOS, collection_time))
+ggsave('plots/eu_mobchange.png', p)
+
+# prepare map
+
+mapdata <- ne_countries(type = 'map_units', returnclass = 'sf')
+mapdata_eu <- mapdata %>% select(name,  geometry)
+target_crs <-  3035 # '+proj=laea'
+mapdata_eu <- st_transform(mapdata_eu, crs = target_crs)
+cntry_means_plotdata <- eu_ratio_cntry_estim
+cntry_means_plotdata$mean_bins <- cut(cntry_means_plotdata$mean, 5)
+cntry_means_plotdata[cntry_means_plotdata$country == 'Czechia',]$country <- 'Czech Rep.'
+cntry_means_plotdata[cntry_means_plotdata$country == 'United Kingdom',]$country <- 'England'
+cntry_means_plotdata <- left_join(mapdata_eu, cntry_means_plotdata, by = c('name' = 'country'))
+cntry_means_plotdata <- mutate(cntry_means_plotdata,
+                               label = ifelse(is.na(mean), '', paste0(name, ': ', round(mean, 2))))
+cntry_means_plotdata <- bind_cols(cntry_means_plotdata, as.data.frame(st_coordinates(st_centroid(cntry_means_plotdata$geometry))))
+cntry_means_plotdata
+
+(p <- plot_choropleth(cntry_means_plotdata, st_point(c(-10, 31)), st_point(c(70, 61)), target_crs,
+                      'Change in place popularity per country in Europe',
+                      SUBTITLE_RATIOS, collection_time))
+
+ggsave('plots/eu_mobchange_map.png', p, width = 7, height = 7)
 
 ### estimates per country and category ###
 

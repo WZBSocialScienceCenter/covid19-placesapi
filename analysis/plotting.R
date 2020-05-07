@@ -285,3 +285,21 @@ plot_cities_map <- function(meansdata, title, collection_time, draw_labels = TRU
         add_labels(title, collection_time) +
         wzb_theme
 }
+
+plot_choropleth <- function(cntry_means_plotdata, disp_win_bottom_left, disp_win_top_right, target_crs,
+                            title, subtitle, collection_time) {
+    disp_win_wgs84 <- st_sfc(disp_win_bottom_left, disp_win_top_right, crs = 4326)
+    disp_win_trans <- st_transform(disp_win_wgs84, crs = target_crs)
+    disp_win_coord <- st_coordinates(disp_win_trans)
+    
+    
+    ggplot(cntry_means_plotdata) +
+        geom_sf(aes(geometry = geometry, fill = mean_bins)) +
+        scale_fill_brewer(palette = 'OrRd', na.value = "grey90",
+                          guide = NULL, direction = -1) +
+        geom_label_repel(aes(x = X, y = Y, label = label), size = 2.5) +
+        coord_sf(xlim = disp_win_coord[,'X'], ylim = disp_win_coord[,'Y'],
+                 datum = NA, expand = FALSE) +
+        add_labels(title, collection_time, subtitle) +
+        wzb_theme + theme(axis.title = element_blank())
+}
