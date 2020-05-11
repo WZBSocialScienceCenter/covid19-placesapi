@@ -189,7 +189,11 @@ eu_ratio_cntry_boot <- readRDS('tmp/eu_ratio_cntry_boot.RDS')
 
 eu_ratio_cntry_estim <- data.frame(t(apply(eu_ratio_cntry_boot$t, 2, function(x, q) { exp(quantile(x, q)) }, QUANTILES_FOR_CI)))
 colnames(eu_ratio_cntry_estim) <- c('mean_lwr', 'mean', 'mean_upr')
-eu_ratio_cntry_estim <- bind_cols(eu_ratio_cntry_preddata, eu_ratio_cntry_estim)
+eu_ratio_cntry_estim <- bind_cols(eu_ratio_cntry_preddata, eu_ratio_cntry_estim) %>%
+    mutate(country = case_when(
+        country == 'United Kingdom' ~ 'England',      # actually cities from England
+        country == 'Czechia' ~ 'Czech Rep.',          # unify with map output later
+        TRUE ~ country))
 eu_ratio_cntry_estim
 
 (p <- plot_categ_means_ci(eu_ratio_cntry_estim, country, mean, mean_lwr, mean_upr,
@@ -205,8 +209,6 @@ target_crs <-  3035 # '+proj=laea'
 mapdata_eu <- st_transform(mapdata_eu, crs = target_crs)
 cntry_means_plotdata <- eu_ratio_cntry_estim
 cntry_means_plotdata$mean_bins <- cut(cntry_means_plotdata$mean, 5)
-cntry_means_plotdata[cntry_means_plotdata$country == 'Czechia',]$country <- 'Czech Rep.'
-cntry_means_plotdata[cntry_means_plotdata$country == 'United Kingdom',]$country <- 'England'   # actually cities from England
 cntry_means_plotdata <- left_join(mapdata_eu, cntry_means_plotdata, by = c('name' = 'country'))
 cntry_means_plotdata <- mutate(cntry_means_plotdata,
                                label = ifelse(is.na(mean), '', paste0(name, ': ', round(mean, 2))))
@@ -261,7 +263,11 @@ eu_ratio_cat_boot <- readRDS('tmp/eu_ratio_cat_boot.RDS')
 
 eu_ratio_cat_estim <- data.frame(t(apply(eu_ratio_cat_boot$t, 2, function(x, q) { exp(quantile(x, q)) }, QUANTILES_FOR_CI)))
 colnames(eu_ratio_cat_estim) <- c('mean_lwr', 'mean', 'mean_upr')
-eu_ratio_cat_estim <- bind_cols(eu_ratio_cat_preddata, eu_ratio_cat_estim)
+eu_ratio_cat_estim <- bind_cols(eu_ratio_cat_preddata, eu_ratio_cat_estim) %>%
+    mutate(country = case_when(
+        country == 'United Kingdom' ~ 'England',      # actually cities from England
+        country == 'Czechia' ~ 'Czech Rep.',          # unify with map output later
+        TRUE ~ country))
 eu_ratio_cat_estim
 
 eu_ratio_cat_estim$ci_range <- eu_ratio_cat_estim$mean_upr - eu_ratio_cat_estim$mean_lwr
@@ -276,8 +282,6 @@ ggsave('plots/eu_mobchange_categ.png', p, width = 8, height = 12)
 
 cat_means_plotdata <- eu_ratio_cat_estim
 cat_means_plotdata$mean_bins <- cut(cat_means_plotdata$mean, 10)
-cat_means_plotdata[cat_means_plotdata$country == 'Czechia',]$country <- 'Czech Rep.'
-cat_means_plotdata[cat_means_plotdata$country == 'United Kingdom',]$country <- 'England'   # actually cities from England
 cat_means_plotdata <- left_join(mapdata_eu, cat_means_plotdata, by = c('name' = 'country'))
 cat_means_plotdata <- filter(cat_means_plotdata, !is.na(mean)) %>% mutate(label = paste0(name, ': ', round(mean, 2)))
 cat_means_plotdata <- bind_cols(cat_means_plotdata, as.data.frame(st_coordinates(st_centroid(cat_means_plotdata$geometry))))
@@ -296,4 +300,4 @@ for (cat in catnames) {
 (p <- plot_choropleth(cat_means_plotdata, st_point(c(-10, 31)), st_point(c(70, 61)), target_crs,
                       'Change in place popularity per country and place category in Europe',
                       SUBTITLE_RATIOS, collection_time, facets = TRUE))
-ggsave('plots/eu_mobchange_categ_map.png', p, width = 10, height = 8)
+ggsave('plots/eu_mobchange_categ_map.png', p, width = 10, height = 12)

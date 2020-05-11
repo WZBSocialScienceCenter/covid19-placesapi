@@ -307,7 +307,7 @@ plot_choropleth <- function(cntry_means_plotdata, disp_win_bottom_left, disp_win
                  datum = NA, expand = FALSE)
     
     if (facets) {
-        p <- p + facet_wrap(~ category, ncol = 3)
+        p <- p + facet_wrap(~ category, ncol = 2)
     }
     
     p + add_labels(title, collection_time, subtitle) +
