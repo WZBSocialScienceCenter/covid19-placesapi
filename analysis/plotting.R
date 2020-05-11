@@ -11,6 +11,7 @@ WZB_GREEN <- '#619933'
 WZB_PLUS <- '#272F35'
 
 DEFAULT_SUBTITLE <- 'Difference between current popularity score at local time and usual popularity at the same place.'
+SUBTITLE_RATIOS <- 'Geometric mean of ratio between current popularity and usual popularity per place.'
 
 # common shortcut objects / functions
 
@@ -40,6 +41,42 @@ add_labels <- function(title, collection_time = NULL, subtitle = DEFAULT_SUBTITL
 
 
 # specific plotting functions
+
+plot_categ_means_ci <- function(meansdata, x, y, ymin, ymax, title, subtitle, collection_time) {
+    x <- enquo(x)
+    y <- enquo(y)
+    ymin <- enquo(ymin)
+    ymax <- enquo(ymax)
+    
+    ggplot(meansdata, aes(x = !!x, y = !!y)) +
+        geom_point() +
+        geom_linerange(aes(ymin = !!ymin, ymax = !!ymax)) +
+        one_intercept +
+        ylim(0, max(pull(meansdata, !!ymax))) +
+        scale_x_discrete(limits = rev(sort(unique(pull(meansdata, !!x))))) +
+        coord_flip() +
+        add_labels(title, collection_time, subtitle) +
+        wzb_theme
+}
+
+plot_categ_means_country_ci <- function(meansdata, x, y, ymin, ymax, facet, title, subtitle, collection_time) {
+    x <- enquo(x)
+    y <- enquo(y)
+    ymin <- enquo(ymin)
+    ymax <- enquo(ymax)
+    facet <- enquo(facet)
+    
+    ggplot(meansdata, aes(x = reorder(country, desc(!!x)), y = !!y)) +
+        geom_point() +
+        geom_linerange(aes(ymin = !!ymin, ymax = !!ymax)) +
+        one_intercept +
+        ylim(0, max(pull(meansdata, !!ymax))) +
+        #scale_x_discrete(limits = rev(sort(unique(pull(meansdata, !!x))))) +
+        coord_flip() +
+        facet_wrap(vars(!!facet), ncol = 2, scales = 'free_y') +
+        add_labels(title, collection_time, subtitle) +
+        wzb_theme
+}
 
 plot_means_errorbars <- function(meansdata, x, y, ymin, ymax, title, collection_time) {
     x <- enquo(x)
@@ -147,12 +184,13 @@ plot_daily_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, title, c
 }
 
 
-plot_daily_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, title, collection_time, ribbon = TRUE) {
+plot_daily_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, facet, title, subtitle, collection_time, ribbon = TRUE) {
     x <- enquo(x)
     y <- enquo(y)
     ymin <- enquo(ymin)
     ymax <- enquo(ymax)
     color <- enquo(color)
+    facet <- enquo(facet)
     
     xrange = range(pull(meansdata, !!x))
     
@@ -162,16 +200,19 @@ plot_daily_cat_means_ribbon <- function(meansdata, x, y, ymin, ymax, color, titl
         p <- p + geom_ribbon(aes(ymin = !!ymin, ymax = !!ymax, fill = !!color), color = NA, alpha = 0.25)
     }
     
+    cmap <- c(WZB_BLUE, WZB_VIOL)
+    names(cmap) <- c(FALSE, TRUE)
+    
     p + geom_line() +
         geom_point() +
         scale_x_continuous(breaks = seq(xrange[1], xrange[2], 2)) +
-        scale_color_brewer(palette = "Dark2", guide = guide_legend(NULL)) +
-        scale_fill_brewer(palette = "Dark2", guide = FALSE) +
-        zero_intercept +
-        add_labels(title, collection_time) +
-        facet_wrap(~ local_weekend, ncol = 1,
-                   labeller = as_labeller(c(`FALSE` = 'working day', `TRUE` = 'weekend'))) +
-        wzb_theme
+        scale_color_manual(labels = c('working day', 'weekend'), values = cmap, guide = guide_legend(NULL)) +
+        scale_fill_manual(values = cmap, guide = FALSE) +
+        one_intercept +
+        add_labels(title, collection_time, subtitle) +
+        facet_wrap(vars(!!facet), ncol = 2, scales = 'free_y') +
+        wzb_theme +
+        theme(legend.position = 'bottom')
 }
 
 
@@ -243,4 +284,32 @@ plot_cities_map <- function(meansdata, title, collection_time, draw_labels = TRU
         labs(x = NULL, y = NULL) +
         add_labels(title, collection_time) +
         wzb_theme
+}
+
+plot_choropleth <- function(cntry_means_plotdata, disp_win_bottom_left, disp_win_top_right, target_crs,
+                            title, subtitle, collection_time, facets = FALSE) {
+    disp_win_wgs84 <- st_sfc(disp_win_bottom_left, disp_win_top_right, crs = 4326)
+    disp_win_trans <- st_transform(disp_win_wgs84, crs = target_crs)
+    disp_win_coord <- st_coordinates(disp_win_trans)
+    
+    if (facets) {
+        label_size <- 1.5
+    } else {
+        label_size <- 2.5
+    }
+    
+    p <- ggplot(cntry_means_plotdata) +
+        geom_sf(aes(geometry = geometry, fill = mean_bins)) +
+        scale_fill_brewer(palette = 'OrRd', na.value = "grey90",
+                          guide = NULL, direction = -1) +
+        geom_label_repel(aes(x = X, y = Y, label = label), size = label_size) +
+        coord_sf(xlim = disp_win_coord[,'X'], ylim = disp_win_coord[,'Y'],
+                 datum = NA, expand = FALSE)
+    
+    if (facets) {
+        p <- p + facet_wrap(~ category, ncol = 2)
+    }
+    
+    p + add_labels(title, collection_time, subtitle) +
+        wzb_theme + theme(axis.title = element_blank())
 }
