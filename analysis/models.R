@@ -130,9 +130,9 @@ de_daytrends_estim
 
 ggsave('plots/de_daily_mobchange_categ.png', p)
 
-###############################
-### estimations for Germany ###
-###############################
+##############################
+### estimations for Europe ###
+##############################
 
 
 eu_low_obs <- filter(pop, region == 'Europe') %>% count(country) %>% filter(n < 100)
@@ -142,9 +142,9 @@ popeu <- filter(pop, region == 'Europe', !(country %in% eu_low_obs$country))
 
 ### estimates per country ###
 
-# only countries for which we have places in all categories
+# only countries for which we have places in (almost) all categories
 countries_allcats <- distinct(popeu, country, category) %>% count(country) %>%
-    filter(n == length(catnames)) %>% pull(country)
+    filter(n >= length(catnames) - 1) %>% pull(country)
 
 popeu_allcats <- filter(popeu, country %in% countries_allcats)
 unique(popeu_allcats$country)
@@ -206,7 +206,7 @@ mapdata_eu <- st_transform(mapdata_eu, crs = target_crs)
 cntry_means_plotdata <- eu_ratio_cntry_estim
 cntry_means_plotdata$mean_bins <- cut(cntry_means_plotdata$mean, 5)
 cntry_means_plotdata[cntry_means_plotdata$country == 'Czechia',]$country <- 'Czech Rep.'
-cntry_means_plotdata[cntry_means_plotdata$country == 'United Kingdom',]$country <- 'England'
+cntry_means_plotdata[cntry_means_plotdata$country == 'United Kingdom',]$country <- 'England'   # actually cities from England
 cntry_means_plotdata <- left_join(mapdata_eu, cntry_means_plotdata, by = c('name' = 'country'))
 cntry_means_plotdata <- mutate(cntry_means_plotdata,
                                label = ifelse(is.na(mean), '', paste0(name, ': ', round(mean, 2))))
@@ -271,3 +271,29 @@ eu_ratio_cat_estim <- filter(eu_ratio_cat_estim, ci_range <= 1)    # too large C
                                   'Change in popularity by type of place in Europe',
                                   SUBTITLE_RATIOS, collection_time))
 ggsave('plots/eu_mobchange_categ.png', p, width = 8, height = 12)
+
+# prepare map
+
+cat_means_plotdata <- eu_ratio_cat_estim
+cat_means_plotdata$mean_bins <- cut(cat_means_plotdata$mean, 10)
+cat_means_plotdata[cat_means_plotdata$country == 'Czechia',]$country <- 'Czech Rep.'
+cat_means_plotdata[cat_means_plotdata$country == 'United Kingdom',]$country <- 'England'   # actually cities from England
+cat_means_plotdata <- left_join(mapdata_eu, cat_means_plotdata, by = c('name' = 'country'))
+cat_means_plotdata <- filter(cat_means_plotdata, !is.na(mean)) %>% mutate(label = paste0(name, ': ', round(mean, 2)))
+cat_means_plotdata <- bind_cols(cat_means_plotdata, as.data.frame(st_coordinates(st_centroid(cat_means_plotdata$geometry))))
+cat_means_plotdata
+
+for (cat in catnames) {
+    cat_cntr <- filter(cat_means_plotdata, category == cat) %>% distinct(name) %>% pull(name)
+    fill_cntr_geo <- filter(mapdata_eu, !(name %in% cat_cntr))
+    fill_cntr_geo$category <- cat
+    missing_cols <- setdiff(colnames(cat_means_plotdata), colnames(fill_cntr_geo))
+    fill_cntr_geo[, missing_cols] <- NA
+    fill_cntr_geo
+    cat_means_plotdata <- rbind(cat_means_plotdata, fill_cntr_geo)
+}
+    
+(p <- plot_choropleth(cat_means_plotdata, st_point(c(-10, 31)), st_point(c(70, 61)), target_crs,
+                      'Change in place popularity per country and place category in Europe',
+                      SUBTITLE_RATIOS, collection_time, facets = TRUE))
+ggsave('plots/eu_mobchange_categ_map.png', p, width = 10, height = 8)
