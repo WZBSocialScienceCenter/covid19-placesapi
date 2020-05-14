@@ -50,3 +50,8 @@ All datasets are located in `data/`. The main datasets are:
     - `local_hour`: local hour (according to place timezone) when popularity was fetched
     - `current_pop`: current popularity at this local date and time
     - `usual_pop`: usual popularity at local weekday and hour
+
+## License
+
+Apache License 2.0. See *LICENSE* file.
+
